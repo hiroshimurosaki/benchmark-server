@@ -7,8 +7,10 @@ medindo tempo, tempo/qualidade sob paralelismo, qualidade da resposta e resistê
 
 ## Decisões travadas
 
-1. **Runner**: `llama-server` (llama.cpp), endpoint OpenAI-compatível `/v1/chat/completions`.
-   Um modelo por vez → troca de modelo = reiniciar o processo apontando outro `.gguf`.
+1. **Runner**: ~~llama-server~~ → **Ollama** (revisado após descoberta: servidor não tem
+   llama-server; tem Ollama já rodando, com endpoint OpenAI `/v1/chat/completions` na :11434,
+   e gerencia carga/descarga de modelo na RAM sozinho). Os 13 GGUF do cache HF são registrados
+   com `ollama create bench-<x> -f Modelfile` (`FROM <caminho.gguf>`).
 2. **Juiz do b2**: Opus via API Anthropic, rodado **no PC do Fernando** depois de colher as
    saídas no servidor. b1 é 100% heurístico automático (sem API).
 3. **Aviso de término**: email (Gmail) para `nandomurosakii@gmail.com` com resumo + caminho
@@ -157,14 +159,46 @@ logado; lista pré-aprovada pelo Fernando.
 
 ---
 
+## Hardware e roster real (descoberta 2026-08-18, servidor ianode / 10.10.10.151)
+
+- **CPU-only, sem GPU.** 32 cores, 62 GiB RAM, disco 1.3T livre. Cache HF = 223 GB.
+- Runner: **Ollama** (`/usr/local/bin/ollama`), python3 e curl presentes. Sem llama-server/hf-cli.
+- Ollama já tinha: `qwen3.6:35b-a3b` (22GB), `gpt-oss:20b` (13GB).
+- **Modelos GGUF utilizáveis** (arquivo principal, ignorando `mmproj-*`):
+  - barato (≤9B): LFM2.5-2.6B · Qwen3-4B · Llama-2-7b-ft · LlamaForecaster-8B · Qwen3.8-9B ·
+    DeepSeek-V4-Pro-9B · Qwen3.5-9B-Defiant
+  - médio (20–35B): gpt-oss:20b · Qwen3.8-27B · Qwen3.6-27B-MTP · Qwen3.6-27B-Fable ·
+    Qwen3.6-35B-A3B (MoE) · qwen3.6:35b-a3b
+  - pesado: **KafkaLM-70B-Q4** (~40GB, cabe). **Qwen3.5-122B-A10B DESCARTADO** (~68GB > 62GB RAM).
+- Sem gguf usável (ignorados): MiniMax-H3, Qwen--3.5-122B (full), seedboxai-KafkaLM-70B (full),
+  unsloth-DeepSeek-V4-Flash (download incompleto).
+- Decisão: calibrar tok/s antes das 24h (CPU = vazão incerta).
+
+## Convenções de calendário resolvidas (b1)
+
+Âncoras: hoje = 2026-08-18 (**terça**), dataLastDay = 2026-08-15 (sábado), SMALL_SAMPLE_LIMIT = 30.
+Semana = **segunda a domingo**:
+- "semana passada" = 2026-08-10 .. 2026-08-16 (passa de dataLastDay → clamp p/ 15/08).
+- "esta semana" = 2026-08-17 .. 2026-08-18 (ambos > dataLastDay → sem dado).
+- "ontem" = 08-17 · "anteontem" = 08-16 · "este mês" = 08-01..08-18 · "julho" = 07-01..07-31.
+- "últimos N dias" = janela terminando **ontem** (08-17), pois hoje é dia incompleto:
+  últimos 3 = 08-15..08-17, 7 = 08-11..08-17, 15 = 08-03..08-17.
+- "de 01 a 15 de agosto" = 08-01..08-15 (sem clamp).
+
 ## Status
 
 - [x] Contexto lido (b1, b2/prompts, models, acesso).
 - [x] Decisões travadas (runner, juiz, aviso, gabarito b1).
 - [x] Plano canônico escrito.
-- [ ] Descoberta no servidor (aguarda aprovação do comando read-only).
-- [ ] Construir bancos de perguntas (b1: 50 / b2: 50).
-- [ ] Construir `run_bench.py` + KB OnCorretor.
-- [ ] Rodar 24h + juiz Opus.
+- [x] Banco b1 (50) + `b1/schema_b1.json` — validado, correção de semana aplicada.
+- [x] Banco b2 (50) + `b2/kb_oncorretor.md` — validado.
+- [ ] Descoberta no servidor (aguarda chave SSH instalada pelo Fernando).
+- [ ] Construir `run_bench.py` (orquestrador llama-server).
+- [ ] Corretor heurístico b1 + juiz Opus b2.
+- [ ] Rodar 24h + email de término.
 - [ ] Visualizadores b1.html / b2.html.
-- [ ] Email de término.
+
+### Pendências p/ Fernando (não bloqueiam)
+- b2: âncora "boleto" vs. fontes reais — boleto ficou escopado a **domínio** (mensalidade só por desconto SUSEP). Conferir.
+- b1: "últimos N dias" termina ontem (não inclui hoje). Confirmar convenção.
+- Chave da API Anthropic p/ juiz Opus (b2) + teto de custo.
