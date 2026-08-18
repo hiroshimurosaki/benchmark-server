@@ -1,0 +1,12 @@
+# Segredos — NUNCA versionar
+access/
+*.pass
+*.key
+.env
+.env.*
+
+# Resultados/artefatos gerados
+results_*.jsonl
+scored_*.json
+run.log
+*.tmp

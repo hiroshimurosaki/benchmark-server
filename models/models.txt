@@ -1,0 +1,38 @@
+modelo barato -> (50 perguntas) (50 respostas) / com e sem thinking
+{
+models--vishanoberoi--Llama-2-7b-chat-hf-finedtuned-to-GGUF
+
+models--unsloth--Qwen3-4B-GGUF
+
+models--mradermacher--LlamaForecaster-8B-i1-GGUF
+
+models--MiniMaxAI--MiniMax-H3
+
+models--LiquidAI--LFM2.5-2.6B-GGUF
+
+models--Jackrong--DeepSeek-V4-Pro-Qwen3.5-9B-MTP-GGUF
+
+models--empero-ai--Qwen3.8-9B-GGUF
+
+models--DavidAU--Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF
+}
+
+modelo médio -> (25 perguntas) (25 respostas) / com e sem thinking
+{
+models--DavidAU--Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF
+
+models--unsloth--Qwen3.8-27B-GGUF
+
+models--unsloth--Qwen3.6-27B-MTP-GGUF
+}
+
+modelo pesado -> (10 perguntas) (10 respostas) / com e sem thinking
+{
+models--unsloth--Qwen3.5-122B-A10B-GGUF
+
+models--seedboxai--KafkaLM-70B-German-V0.1
+
+models--TheBloke--KafkaLM-70B-German-V0.1-GGUF
+
+models--LuffyTheFox--Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V7-GGUF
+}
