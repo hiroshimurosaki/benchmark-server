@@ -115,10 +115,15 @@ B1_TOOLCALL_INSTR = (
 
 def run_b1_item(host, model, think, sys_prompt, q):
     gab = q["gabarito"]
+    # Orcamento maior quando thinking esta ligado: o raciocinio consome tokens antes
+    # de o modelo emitir o 'content' final; com budget curto o content sai vazio
+    # (bug pego no smoke: phaseA vazia com think=True). think None/False -> budget curto.
+    napA = 1024 if think else 256
+    napB = 1536 if think else 512
     # Turno A: pedir a tool-call
     msgs = [{"role": "system", "content": sys_prompt + B1_TOOLCALL_INSTR},
             {"role": "user", "content": q["user"]}]
-    rawA, ttftA, totA, ecA = ollama_chat(host, model, msgs, think=think, num_predict=256)
+    rawA, ttftA, totA, ecA = ollama_chat(host, model, msgs, think=think, num_predict=napA)
     # Turno B: devolver mock e pedir a resposta final
     mock = gab.get("mock_result") or {}
     msgs += [{"role": "assistant", "content": rawA},
@@ -126,7 +131,7 @@ def run_b1_item(host, model, think, sys_prompt, q):
               "Resultado da tool (JSON): " + json.dumps(mock, ensure_ascii=False) +
               "\nAgora produza a resposta final. Sua mensagem final deve ser APENAS um JSON: "
               '{\"answer\": \"<2 a 4 frases>\", \"highlights\": [\"<achado>\", \"<achado>\"]}'}]
-    rawB, ttftB, totB, ecB = ollama_chat(host, model, msgs, think=think, num_predict=512)
+    rawB, ttftB, totB, ecB = ollama_chat(host, model, msgs, think=think, num_predict=napB)
     return {
         "phaseA": {"raw": rawA, "ttft_s": ttftA, "latency_s": totA, "tokens_out": ecA},
         "phaseB": {"raw": rawB, "ttft_s": ttftB, "latency_s": totB, "tokens_out": ecB},
@@ -159,20 +164,29 @@ def main():
     ap.add_argument("--root", default=".")
     ap.add_argument("--host", default="http://localhost:11434")
     ap.add_argument("--bench", default="b1,b2")
+    ap.add_argument("--models", default="models.jsonl",
+                    help="arquivo de modelos (ex.: models_smoke.jsonl)")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="max perguntas por (modelo, thinking, bench); 0 = todas (smoke usa ex. 5)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     root = os.path.abspath(args.root)
     benches = args.bench.split(",")
     LOGF = open(os.path.join(root, "run.log"), "a", encoding="utf-8")
-    log(f"=== START run_bench root={root} host={args.host} bench={benches} dry={args.dry_run} ===")
+    log(f"=== START run_bench root={root} host={args.host} bench={benches} "
+        f"models={args.models} limit={args.limit} dry={args.dry_run} ===")
 
-    models = load_jsonl(os.path.join(root, "models.jsonl"))
-    schema = json.load(open(os.path.join(root, "..", "b1", "schema_b1.json"), encoding="utf-8"))
-    q_b1 = load_jsonl(os.path.join(root, "..", "b1", "questions_b1.jsonl"))
-    q_b2 = load_jsonl(os.path.join(root, "..", "b2", "questions_b2.jsonl"))
-    kb = read_text(os.path.join(root, "..", "b2", "kb_oncorretor.md"))
-    sysA = b1_system(root, schema)
-    sysB = b2_system(root, kb)
+    models = load_jsonl(os.path.join(root, args.models))
+    # Carrega so o que o(s) bench(es) selecionado(s) precisam.
+    schema = q_b1 = q_b2 = kb = sysA = sysB = None
+    if "b1" in benches:
+        schema = json.load(open(os.path.join(root, "..", "b1", "schema_b1.json"), encoding="utf-8"))
+        q_b1 = load_jsonl(os.path.join(root, "..", "b1", "questions_b1.jsonl"))
+        sysA = b1_system(root, schema)
+    if "b2" in benches:
+        q_b2 = load_jsonl(os.path.join(root, "..", "b2", "questions_b2.jsonl"))
+        kb = read_text(os.path.join(root, "..", "b2", "kb_oncorretor.md"))
+        sysB = b2_system(root, kb)
     res_b1 = os.path.join(root, "..", "results_b1.jsonl")
     res_b2 = os.path.join(root, "..", "results_b2.jsonl")
     done_b1 = done_keys(res_b1)
@@ -187,9 +201,10 @@ def main():
             tflag = bool(think)
             # b1
             if "b1" in benches:
-                for q in q_b1:
-                    if not tier_ok(q, tier):
-                        continue
+                sel = [q for q in q_b1 if tier_ok(q, tier)]
+                if args.limit:
+                    sel = sel[:args.limit]
+                for q in sel:
                     if (q["id"], name, tflag) in done_b1:
                         continue
                     total_calls += 1
@@ -207,9 +222,10 @@ def main():
                     log(f"  b1 {q['id']} {name} think={tflag} ok")
             # b2
             if "b2" in benches:
-                for q in q_b2:
-                    if not tier_ok(q, tier):
-                        continue
+                sel = [q for q in q_b2 if tier_ok(q, tier)]
+                if args.limit:
+                    sel = sel[:args.limit]
+                for q in sel:
                     if (q["id"], name, tflag) in done_b2:
                         continue
                     total_calls += 1

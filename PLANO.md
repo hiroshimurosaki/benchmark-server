@@ -161,7 +161,13 @@ logado; lista pré-aprovada pelo Fernando.
 
 ## Hardware e roster real (descoberta 2026-08-18, servidor ianode / 10.10.10.151)
 
-- **CPU-only, sem GPU.** 32 cores, 62 GiB RAM, disco 1.3T livre. Cache HF = 223 GB.
+- **CORREÇÃO 2026-08-19: NÃO é CPU-only.** É um GMKtec EVO-X2, APU **AMD Ryzen AI Max+ 395
+  (Strix Halo)** com **iGPU Radeon 8060S (RDNA 3.5, 40 CU)** + NPU XDNA, 64GB RAM unificada
+  (~62 usável). A descoberta original só checou `nvidia-smi` e concluiu "CPU-only" — errado.
+  O Ollama usa a iGPU via ROCm (62 tok/s num 4B, 40 num 20B = aceleração de GPU). A "VRAM" é
+  fatia da RAM unificada. Modelos ≤~22GB rodam na iGPU; o **70B (41GB) força CPU** (`num_gpu 0`
+  no Modelfile) porque um buffer ROCm único de 41GB estoura a fatia de VRAM.
+- 32 cores, 62 GiB RAM, disco 1.3T livre. Cache HF = 223 GB.
 - Runner: **Ollama** (`/usr/local/bin/ollama`), python3 e curl presentes. Sem llama-server/hf-cli.
 - Ollama já tinha: `qwen3.6:35b-a3b` (22GB), `gpt-oss:20b` (13GB).
 - **Modelos GGUF utilizáveis** (arquivo principal, ignorando `mmproj-*`):
@@ -192,13 +198,90 @@ Semana = **segunda a domingo**:
 - [x] Plano canônico escrito.
 - [x] Banco b1 (50) + `b1/schema_b1.json` — validado, correção de semana aplicada.
 - [x] Banco b2 (50) + `b2/kb_oncorretor.md` — validado.
-- [ ] Descoberta no servidor (aguarda chave SSH instalada pelo Fernando).
-- [ ] Construir `run_bench.py` (orquestrador llama-server).
-- [ ] Corretor heurístico b1 + juiz Opus b2.
-- [ ] Rodar 24h + email de término.
-- [ ] Visualizadores b1.html / b2.html.
+- [x] Descoberta no servidor (ver `server/command_log.md`: CPU-only, Ollama, calibração).
+- [x] `run_bench.py` (orquestrador Ollama) — feito; +`--models` +`--limit` (smoke).
+- [x] Corretor heurístico b1 (`score_b1.py`) — feito (selftest embutido).
+- [ ] Juiz Opus b2 — **ADIADO** (decisão 2026-08-19: entregar b1 primeiro).
+- [x] Smoke (2 rodadas) — pegou e corrigiu o bug de `num_predict` curto com thinking.
+- [~] **Run completo b1 RODANDO** (lançado 2026-08-19 16:24 em tmux `bench`, 860 itens,
+  ETA ~5-8h). Loop `dashboard_b1.py` regenera `dashboard_b1.json` a cada 120s.
+- [x] Visualizadores: `b1.html` (resultado final) + **`dashboard_b1.html` (ao vivo)** +
+  `dashboard_b1.py` (gerador) + `docs/*.png` (fluxogramas). `b2.html` adiado com o b2.
 
-### Pendências p/ Fernando (não bloqueiam)
-- b2: âncora "boleto" vs. fontes reais — boleto ficou escopado a **domínio** (mensalidade só por desconto SUSEP). Conferir.
-- b1: "últimos N dias" termina ontem (não inclui hoje). Confirmar convenção.
-- Chave da API Anthropic p/ juiz Opus (b2) + teto de custo.
+### Dashboard v3 — decisões de design (2026-08-19)
+- **Um dashboard só** (`dashboard_b1.html`) serve run parcial E resultado final —
+  `dashboard_b1.json` é superconjunto do `scored_b1.json`. **`b1.html` aposentado.**
+- **Metadados por modelo** puxados via `ollama show` (sem inferência, não atrapalha o run):
+  params, quant, context length, arch → cache em `model_meta.json`. Habilita eixo de custo
+  contínuo (não só tier) e eficiência = nota/GB.
+- **Telemetria** via `sysmon.py` (loop tmux `sysmon`, amostra a cada 20s → `sysmon.jsonl`):
+  RAM/VRAM/CPU + modelo carregado + GPU/CPU. Alimenta painel servidor + footprint por modelo.
+- **3 visualizações** do trade-off qualidade×custo (dispersão / ranking / quadrantes) +
+  progresso enriquecido (ficha técnica + pontuação parcial) + refino anti-slop (ícones SVG,
+  1 acento, fonte display). Conceitos no canvas /design: artifact e9736813.
+- Loops no servidor: tmux `bench` (run), `sysmon` (telemetria 20s), `dash` (dashboard 60s).
+- Auto-refresh no PC: `sync_dashboard.bat` (scp 15s) + File System Access API no HTML.
+
+### 2ª leva de modelos (2026-08-19) — comparação estendida
+- +16 modelos oficiais adicionados ao `models.jsonl` (mantidos os originais p/ comparar):
+  Qwen2.5 (3b/7b/14b/32b + coder-7b), Llama (3.2-3b/3.1-8b/3.3-70b), Gemma2 (9b/27b),
+  Mistral 7b + Nemo-12b, Granite3.1-8b, Hermes3-8b, Phi-4-14b, Command-R-35b (RAG→b2).
+  Todos `thinking:false` (não têm toggle de thinking). Total previsto: **1470 itens**.
+- Baixam via `ollama pull` (registro Ollama) em tmux `pull` (`pull_extra_models.sh`, ~30MB/s).
+- **Orquestração autônoma:** tmux `wave2` espera o run atual E o pull terminarem
+  (`tmux has-session bench`/`pull`), aí dispara `run_bench` de novo — resume pula os já feitos
+  e roda só os 16 novos. Sem corrida (um `run_bench` por vez). Roda de madrugada sozinho.
+- **Velocidade** virou métrica de 1ª classe: `tok_s` por modelo no gerador; a dispersão do
+  dashboard virou **2D configurável** (eixos X/Y à escolha + tamanho=velocidade + presets).
+
+### Operação do run (para retomar de outra conversa)
+- Acesso via chave: `ssh -i ~/.ssh/id_benchmark nicolas.benedetti@10.10.10.151` (senha
+  Mudar@123 continua válida; a chave privada está no PC do Fernando).
+- Acompanhar: `tmux attach -t bench` ou `tail -f ~/benchmark/run_console.log`.
+- Resultados: `~/benchmark/results_b1.jsonl` (append-only, resumível: matar e relançar
+  `python3 run_bench.py --root . --bench b1` retoma de onde parou).
+- Dashboard ao vivo: `scp` do `~/benchmark/dashboard_b1.json` pro PC e recarregar no
+  `dashboard_b1.html` (file:// não faz auto-poll).
+- Fim: `scp results_b1.jsonl` → `python3 score_b1.py` → `scored_b1.json` → abrir `b1.html`.
+
+## As-built / handoff (2026-08-19) — foco b1
+
+Decisões desta sessão (não estavam no plano):
+- **Escopo reduzido a b1** por ora (Fernando). b2 (prompt ANSWER, juiz Opus, `b2.html`)
+  fica para rodada futura. Motivo prático: o `ANSWER_PROMPT` real (`prompt.py`) não está no
+  repo — só a referência. b1 é autossuficiente.
+- **Smoke antes das 24h**: `models_smoke.jsonl` (3 modelos) + `--limit N` no `run_bench.py`
+  validam pipeline e medem tok/s real antes de comprometer 24h.
+- **Aviso de término por email caiu**; Claude reporta o leaderboard quando os resultados
+  voltarem por scp.
+
+Arquivos novos/alterados (b1):
+- `runner/prompts/b1_system.txt` — system do b1 (traduzido de `b1/b1.txt`; placeholders
+  `{today}`/`{dataLastDay}`/`{small_sample_limit}` interpolados pelo runner).
+- `runner/models.jsonl` — roster completo b1 (14 tags Ollama; `thinking` on nos Qwen3.x/gpt-oss).
+- `runner/models_smoke.jsonl` — subconjunto de 3 p/ smoke.
+- `runner/register_models.sh` — `ollama create bench-<x>` a partir dos GGUF do cache HF
+  (idempotente; `--smoke` registra só os do smoke). Roda NO servidor.
+- `runner/run_bench.py` — +flags `--models`, `--limit`; carga de dados guardada por bench
+  (com `--bench b1` não exige arquivos de b2).
+
+Verificação: edits conferidos por leitura. **Selftest/dry-run NÃO rodados localmente**
+(este PC não tem Python real, só o stub da Store) — rodam no servidor como 1º passo (dry-run
+antes do smoke). `score_b1.py --selftest` deve passar lá.
+
+Achados que contrariam expectativa:
+- **KafkaLM-70B (pesado): calibração deu 0 tok/s / load 0s** — provável falha de load.
+  Marcado em `models.jsonl`; verificar `ollama run bench-kafka70b` antes das 24h. Tier pesado
+  em risco (pode ficar sem modelo).
+- GGUFs experimentais (DeepSeek-V4-Pro-9B, Defiant-9B) podem falhar no load do Ollama; o
+  runner captura exceção por item e segue (não derruba o run).
+
+### Pendências
+**Decisão do Fernando:**
+- Chave da API Anthropic + teto de custo — só quando reabrir o **b2** (juiz Opus).
+- b2: âncora "boleto" escopada a domínio (mensalidade só desconto SUSEP). Conferir ao reabrir b2.
+- b1: convenção "últimos N dias termina ontem" — já aplicada no schema; confirmar.
+
+**Dívida técnica:**
+- Rodar `score_b1.py --selftest` e `run_bench --dry-run` no servidor (falta ambiente Python local).
+- Confirmar suporte real a `think` por modelo (flags em `models.jsonl` são estimativa).

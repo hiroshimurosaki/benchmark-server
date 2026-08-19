@@ -1,0 +1,16 @@
+flowchart TD
+    A[Início] --> B[Carrega roster, perguntas b1, prompts]
+    B --> C{Próximo modelo?}
+    C -->|sim| D[Ollama carrega o modelo]
+    D --> E{Variante thinking on/off}
+    E --> F{Próxima pergunta do tier?}
+    F -->|sim| G[Turno A - pede tool-call em JSON]
+    G --> H[Turno B - devolve mock, pede answer + highlights]
+    H --> I[Anexa em results_b1.jsonl - crash-safe]
+    I --> F
+    F -->|acabaram| E
+    E -->|variantes esgotadas| C
+    C -->|não| J[score_b1.py - nota heurística 0-100]
+    J --> K[scored_b1.json]
+    K --> L[b1.html - leaderboard + heatmap + drill-down]
+    L --> M[Fim]

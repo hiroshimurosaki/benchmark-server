@@ -1,0 +1,3 @@
+{"name":"bench-lfm25","tier":"barato","thinking":false,"note":"menor/mais rapido"}
+{"name":"bench-q4b","tier":"barato","thinking":true,"note":"Qwen3-4B, valida caminho thinking on/off"}
+{"name":"gpt-oss:20b","tier":"medio","thinking":true,"note":"ja carregado, valida tier medio"}

@@ -1,0 +1,34 @@
+
+    flowchart TD
+        subgraph PREP[1 - Preparação · FEITO]
+            P1[Bancos b1 + schema + KB] --> P2[run_bench.py + score_b1.py]
+            P2 --> P3[b1_system.txt, models.jsonl, register_models.sh]
+            P3 --> P4[b1.html]
+        end
+        subgraph ACESSO[2 - Acesso ao servidor · FEITO]
+            A1[Gera chave SSH ed25519] --> A2[Fernando instala pubkey - senha 1x]
+            A2 --> A3[Key auth OK - sem senha daqui pra frente]
+        end
+        subgraph DEPLOY[3 - Deploy + validação · FEITO]
+            D1[scp bundle p/ ~/benchmark] --> D2[selftest + dry-run - 860 chamadas]
+            D2 --> D3[register --smoke]
+            D3 --> D4[Smoke - 3 modelos x 5 perguntas]
+            D4 --> D5{Parse e notas ok?}
+            D5 -->|BUG - phaseA vazia com thinking| D6[Fix - num_predict maior no thinking]
+            D6 --> D4
+            D5 -->|OK - q4b 75 a 77| D7[Descoberta - GPU AMD Strix Halo, mem unificada]
+            D7 --> D8[Kafka 70B estoura VRAM - forçar num_gpu 0 = CPU]
+        end
+        subgraph RUN[4 - Run de 24h · PRÓXIMO]
+            R1[register roster completo] --> R2[Testa loads - 27B/35B na GPU, 70B na CPU]
+            R2 --> R3[Limpa results, nohup run_bench b1 em tmux]
+            R3 --> R4[860 itens x 2 turnos - resumível + self-log]
+            R4 --> R5{Terminou ou bateu 24h?}
+            R5 -->|caiu ou estourou| R3
+            R5 -->|concluído| R6[scp results_b1.jsonl de volta]
+        end
+        subgraph FIM[5 - Resultados]
+            E1[score_b1.py - scored_b1.json] --> E2[Abre b1.html no PC]
+            E2 --> E3[Claude reporta o melhor modelo]
+        end
+        PREP --> ACESSO --> DEPLOY --> RUN --> FIM
