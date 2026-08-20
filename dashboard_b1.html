@@ -248,6 +248,43 @@
   .legend{font-size:12.5px; color:var(--muted); display:flex; gap:18px; flex-wrap:wrap; align-items:center}
   .legend b{color:var(--text)}
 
+  /* checagens — onde os modelos perdem ponto */
+  .cx-block-head{font-family:var(--font-display); font-weight:700; font-size:15px; display:flex; align-items:center; gap:7px; margin-bottom:2px}
+  .cx-sub{font-size:12.5px; color:var(--muted); margin-bottom:14px; line-height:1.4}
+  .cx-matrix-panel{margin-top:14px}
+  /* resumo global — barras horizontais */
+  .cx-resumo{display:flex; flex-direction:column; gap:9px}
+  .cx-rrow{display:grid; grid-template-columns:210px 1fr auto; gap:12px; align-items:center}
+  .cx-rlab{font-weight:600; font-size:13px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .cx-rtrack{height:22px; background:var(--track); border-radius:8px; overflow:hidden}
+  .cx-rtrack>span{display:block; height:100%; border-radius:8px; min-width:2px; transition:width .3s}
+  .cx-rval{font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums; white-space:nowrap}
+  .cx-rval b{color:var(--text); font-family:var(--font-display)}
+  /* controles de ordenação das colunas */
+  .cx-ctrls{display:flex; gap:7px; flex-wrap:wrap; align-items:center; margin-bottom:12px}
+  .cx-ctrls .pl{font-size:11px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.04em}
+  .cx-ord{cursor:pointer; border:1px solid var(--line); background:var(--panel); color:var(--muted); padding:6px 11px; border-radius:999px; font-size:12px; font-weight:600}
+  .cx-ord:hover{border-color:var(--accent); color:var(--text)}
+  .cx-ord.on{background:var(--accent); border-color:var(--accent); color:#fff}
+  /* matriz modelo × checagem (heatmap) */
+  .cx-matrix table{border-collapse:separate; border-spacing:0; width:auto; min-width:100%; font-size:13px}
+  .cx-matrix th,.cx-matrix td{border-bottom:1px solid var(--line); padding:0}
+  .cx-matrix thead th{position:sticky; top:0; background:var(--panel); z-index:1}
+  .cx-matrix thead th.cx-col{height:172px; vertical-align:bottom; padding:0 0 8px; white-space:nowrap; font-weight:600}
+  .cx-matrix thead th.cx-col>div{writing-mode:vertical-rl; transform:rotate(180deg); margin:0 auto; max-height:158px; overflow:hidden; text-overflow:ellipsis; font-size:11.5px; color:var(--muted); text-align:left}
+  .cx-matrix th.cx-corner{left:0; z-index:3; text-align:left; padding:0 12px; font-size:12px; vertical-align:bottom; padding-bottom:9px}
+  .cx-matrix td.cx-model{position:sticky; left:0; z-index:2; background:var(--panel); text-align:left; padding:8px 12px; white-space:nowrap; max-width:200px; overflow:hidden; text-overflow:ellipsis}
+  .cx-matrix td.cx-model b{font-weight:600}
+  .cx-matrix .cx-note{color:var(--muted); font-size:11.5px; font-variant-numeric:tabular-nums; margin-left:5px}
+  .cx-matrix tbody tr:hover td.cx-model{background:var(--panel-2)}
+  .cx-matrix td.cx-cell{text-align:center; min-width:46px; color:var(--heat-text)}
+  .cx-matrix td.cx-cell .cell{display:block; padding:9px 6px; font-size:12px; font-weight:700; font-variant-numeric:tabular-nums}
+  .cx-matrix td.cx-cell.na{background:var(--track)}
+  .cx-matrix td.cx-cell.na .cell{color:var(--muted); font-weight:400}
+
+  @media (max-width:720px){
+    .cx-rrow{grid-template-columns:130px 1fr auto}
+  }
   @media (max-width:820px){
     .bv-grid{grid-template-columns:1fr}
     .tiercards{grid-template-columns:1fr}
@@ -370,6 +407,12 @@
       <div class="panel" id="qlist"></div>
     </section>
 
+    <!-- 8. ONDE OS MODELOS PERDEM PONTO -->
+    <section id="sec8">
+      <div class="sec-head"><h2>Onde os modelos perdem ponto</h2><span class="sub">análise por tipo de checagem — a fraqueza sistêmica do roster e o ponto fraco de cada modelo</span></div>
+      <div id="checkswrap"></div>
+    </section>
+
   </main>
 </div>
 
@@ -382,6 +425,7 @@
   var rankSortKey="eficiencia_nota_gb", rankSortDir=-1;
   var timeSortKey="time_share_pct", timeSortDir=-1;
   var catFilter="__all__";
+  var checksColSort="hard"; // "hard" = mais difícil à esquerda (default) | "group" = agrupado tool/args/leitura/adversarial
   var heroView="disp";
   try{ var hv=localStorage.getItem(HERO_KEY); if(hv==="disp"||hv==="rank"||hv==="quad") heroView=hv; }catch(e){}
 
@@ -571,6 +615,7 @@
     renderServer();
     renderFootprint();
     renderQuestions();
+    renderChecks();
   }
 
   // 1. PROGRESSO GERAL
@@ -1068,6 +1113,125 @@
         '<div class="qn">'+(num(q.n)?q.n+" resp.":"—")+'</div>'+
       '</div>';
     }).join("");
+  }
+
+  // 8. ONDE OS MODELOS PERDEM PONTO (checagens)
+  function checkGroupRank(code){
+    if(code==="tool") return 0;
+    if(code==="args") return 1;
+    if(code.indexOf("read:")===0) return 2;
+    if(code.indexOf("adv:")===0) return 3;
+    return 4;
+  }
+  function pctOf(c){
+    if(num(c.pct)) return c.pct;
+    if(num(c.pass)&&num(c.total)&&c.total>0) return c.pass/c.total*100;
+    return NaN;
+  }
+  function renderChecks(){
+    var host=$("checkswrap");
+    if(!host) return;
+    var resumo=(data.checks_resumo||[]).filter(function(c){return c&&c.code;});
+    var models=(data.models||[]).filter(function(m){return m&&m.checks&&m.checks.length;});
+    // retrocompat: dados antigos sem checks_resumo nem models[].checks
+    if(!resumo.length && !models.length){
+      host.innerHTML='<div class="panel pad">'+emptyBox("Este benchmark não traz dados de checagem. Rode uma versão mais recente para ver onde os modelos perdem ponto.")+'</div>';
+      return;
+    }
+
+    // rótulos e índice de dificuldade a partir do resumo (fonte canônica)
+    var labelOf={}, resumoIdx={};
+    resumo.forEach(function(c,i){ labelOf[c.code]=c.label||c.code; resumoIdx[c.code]=i; });
+
+    /* ---- 1. RESUMO GLOBAL (barras horizontais, mais difícil no topo) ---- */
+    var resHTML;
+    if(resumo.length){
+      resHTML='<div class="cx-resumo">'+resumo.map(function(c){
+        var pct=pctOf(c), w=num(pct)?Math.max(0,Math.min(100,pct)):0;
+        return '<div class="cx-rrow">'+
+          '<div class="cx-rlab" title="'+esc((c.label||c.code)+' ['+c.code+']')+'">'+esc(c.label||c.code)+'</div>'+
+          '<div class="cx-rtrack"><span style="width:'+w.toFixed(0)+'%;background:'+heat(pct)+'"></span></div>'+
+          '<div class="cx-rval"><b>'+(num(pct)?Math.round(pct)+"%":"—")+'</b> · '+(num(c.pass)?c.pass:"—")+'/'+(num(c.total)?c.total:"—")+'</div>'+
+        '</div>';
+      }).join("")+'</div>';
+    } else {
+      resHTML=emptyBox("Sem resumo global de checagens.");
+    }
+
+    /* ---- 2. MATRIZ MODELO × CHECAGEM (heatmap) ---- */
+    var matrixHTML;
+    if(models.length){
+      // colunas = união das checagens exercitadas por algum modelo (total>0)
+      var colSet={};
+      models.forEach(function(m){ m.checks.forEach(function(c){
+        if(c&&c.code&&num(c.total)&&c.total>0){ colSet[c.code]=true; if(!(c.code in labelOf)) labelOf[c.code]=c.label||c.code; }
+      }); });
+      var cols=Object.keys(colSet);
+      cols.sort(function(a,b){
+        if(checksColSort==="group"){
+          var ga=checkGroupRank(a), gb=checkGroupRank(b);
+          if(ga!==gb) return ga-gb;
+          return (labelOf[a]||a).localeCompare(labelOf[b]||b,"pt");
+        }
+        // "hard": ordem do resumo (mais difícil primeiro); ausentes ao fim, por grupo
+        var ia=(a in resumoIdx)?resumoIdx[a]:1e9, ib=(b in resumoIdx)?resumoIdx[b]:1e9;
+        if(ia!==ib) return ia-ib;
+        var gra=checkGroupRank(a), grb=checkGroupRank(b);
+        if(gra!==grb) return gra-grb;
+        return (labelOf[a]||a).localeCompare(labelOf[b]||b,"pt");
+      });
+      // linhas = modelos por nota_media desc
+      var rows=models.slice().sort(function(a,b){
+        var x=num(a.nota_media)?a.nota_media:-Infinity, y=num(b.nota_media)?b.nota_media:-Infinity;
+        return y-x;
+      });
+      if(!cols.length){
+        matrixHTML=emptyBox("Nenhuma checagem exercitada pelos modelos ainda.");
+      } else {
+        var head='<thead><tr><th class="cx-corner">Modelo</th>'+cols.map(function(code){
+          var lab=labelOf[code]||code;
+          return '<th class="cx-col" title="'+esc(lab+' ['+code+']')+'"><div>'+esc(lab)+'</div></th>';
+        }).join("")+'</tr></thead>';
+        var body='<tbody>'+rows.map(function(m){
+          var cmap={}; (m.checks||[]).forEach(function(c){ if(c&&c.code) cmap[c.code]=c; });
+          var tds=cols.map(function(code){
+            var c=cmap[code], pct=c?pctOf(c):NaN;
+            if(!c||!num(pct)||!num(c.total)||c.total<=0){
+              return '<td class="cx-cell na"><span class="cell">—</span></td>';
+            }
+            return '<td class="cx-cell" style="background:'+heat(pct)+'" title="'+esc((labelOf[code]||code)+': '+(num(c.pass)?c.pass:"—")+'/'+c.total+' ('+Math.round(pct)+'%)')+'"><span class="cell">'+Math.round(pct)+'</span></td>';
+          }).join("");
+          return '<tr><td class="cx-model" title="'+esc(m.label||m.model)+'"><b>'+esc(dash(m.label||m.model))+'</b>'+
+            (num(m.nota_media)?'<span class="cx-note">'+n1(m.nota_media)+'</span>':'')+'</td>'+tds+'</tr>';
+        }).join("")+'</tbody>';
+        var ctrls='<div class="cx-ctrls"><span class="pl">Ordenar colunas</span>'+
+          '<button class="cx-ord'+(checksColSort==="hard"?" on":"")+'" data-o="hard">Mais difícil primeiro</button>'+
+          '<button class="cx-ord'+(checksColSort==="group"?" on":"")+'" data-o="group">Agrupado</button></div>';
+        matrixHTML=ctrls+'<div class="tablewrap cx-matrix"><table>'+head+body+'</table></div>';
+      }
+    } else {
+      matrixHTML=emptyBox("Sem checagens por modelo ainda — o resumo global acima já mostra as fraquezas do roster.");
+    }
+
+    host.innerHTML=
+      '<div class="panel pad">'+
+        '<div class="cx-block-head">Resumo global por checagem '+infoIcon("Cada checagem é um critério avaliado nas respostas (escolha da tool, datas exatas, ressalvas obrigatórias, resistência a ataques). O % soma acertos de todos os modelos.")+'</div>'+
+        '<div class="cx-sub">% de vezes que os modelos acertaram cada checagem, somando todos. Vermelho = fraqueza geral do roster; as mais difíceis vêm no topo.</div>'+
+        resHTML+
+      '</div>'+
+      '<div class="panel pad cx-matrix-panel">'+
+        '<div class="cx-block-head">Matriz modelo × checagem</div>'+
+        '<div class="cx-sub">Cada célula = % de acerto do modelo naquela checagem (verde alto, vermelho baixo, cinza “—” = checagem não exercitada). Linhas ordenadas por pontuação; colunas por dificuldade. Coluna inteira vermelha = fraqueza de todos; célula vermelha isolada = ponto fraco daquele modelo. Role na horizontal para ver todas.</div>'+
+        matrixHTML+
+      '</div>';
+
+    Array.prototype.forEach.call(host.querySelectorAll(".cx-ord"),function(b){
+      b.addEventListener("click",function(){
+        var o=b.getAttribute("data-o");
+        if(o===checksColSort) return;
+        checksColSort=o; renderChecks();
+      });
+    });
   }
 
   /* ---------- auto-update (File System Access API) ---------- */

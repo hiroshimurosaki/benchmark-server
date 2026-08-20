@@ -26,6 +26,39 @@ import score_b1  # mesmo diretorio
 TIER_ORDER = ["barato", "medio", "pesado"]
 PASS_BOA = 70.0  # nota >= => "boa"
 
+# rotulos amigaveis por checagem (pra "onde cada modelo perde ponto")
+CODE_LABEL = {
+    "tool": "Escolha da tool",
+    "args": "Datas/args exatos",
+    "read:headline_uniquePeople": "Headline (nº pessoas)",
+    "read:clamp_datalastday": "Avisa corte (dataLastDay)",
+    "read:report_cancelled_split": "Split de cancelados",
+    "read:flag_small_sample": "Sinaliza amostra pequena",
+    "read:state_no_data": "Diz quando não há dado",
+    "read:multiple_people_flag": "Sinaliza múltiplas pessoas",
+    "read:older_events_not_checked": "Ressalva eventos antigos",
+    "read:valid_json": "JSON válido",
+    "read:no_retry": "Não repete a tool",
+    "adv:break_json": "Resiste a quebrar JSON",
+    "adv:leak_system_prompt": "Não vaza o prompt",
+    "adv:invent_numbers": "Não inventa números",
+    "adv:obey_injection": "Resiste a injection",
+}
+
+
+def flat_checks(bd):
+    """Achata o breakdown do score_b1 em {codigo: bool}."""
+    out = {}
+    if "tool_correct" in bd:
+        out["tool"] = bool(bd["tool_correct"])
+    if "args_correct" in bd:
+        out["args"] = bool(bd["args_correct"])
+    for k, v in (bd.get("reading") or {}).items():
+        out["read:" + k] = bool(v)
+    for k, v in (bd.get("forbidden_avoided") or {}).items():
+        out["adv:" + k] = bool(v)
+    return out
+
 
 def tier_ok(q, tier):
     return tier in q.get("tiers", []) or (q.get("tier") == tier)
@@ -137,7 +170,9 @@ def build(args):
     per_model = defaultdict(lambda: {"n": 0, "sum": 0.0, "perfeitas": 0, "boas": 0,
                                      "lats": [], "ttfts": [], "time": 0.0, "tokens": 0.0, "done": 0,
                                      "by_cat": defaultdict(lambda: {"n": 0, "sum": 0.0}),
+                                     "checks": defaultdict(lambda: {"pass": 0, "total": 0}),
                                      "tier": None})
+    check_global = defaultdict(lambda: {"pass": 0, "total": 0})  # resumo geral por checagem
     per_variant = defaultdict(lambda: {"n": 0, "sum": 0.0, "time": 0.0, "ttft": 0.0,
                                        "tier": None})
     per_q = defaultdict(lambda: {"n": 0, "sum": 0.0})
@@ -151,8 +186,10 @@ def build(args):
         if res.get("error"):
             n_error += 1
         nota = 0.0
+        checks = {}
         if q and not res.get("error"):
-            nota, _ = score_b1.score_one(res, q["gabarito"])
+            nota, bd = score_b1.score_one(res, q["gabarito"])
+            checks = flat_checks(bd)
         la = (res.get("phaseA", {}) or {}).get("latency_s") or 0
         lb = (res.get("phaseB", {}) or {}).get("latency_s") or 0
         item_lat = la + lb
@@ -166,6 +203,12 @@ def build(args):
         pm["done"] += 1
         pm["time"] += item_lat
         pm["tokens"] += toks
+        for code, ok in checks.items():
+            pm["checks"][code]["total"] += 1
+            check_global[code]["total"] += 1
+            if ok:
+                pm["checks"][code]["pass"] += 1
+                check_global[code]["pass"] += 1
         if item_lat:
             pm["lats"].append(item_lat)
         if ttft:
@@ -231,6 +274,10 @@ def build(args):
             "time_total_s": round(pm["time"], 1),
             "time_share_pct": round(100.0 * pm["time"] / total_time, 1) if total_time else None,
             "por_categoria": {c: round(v["sum"] / v["n"], 1) for c, v in pm["by_cat"].items() if v["n"]},
+            "checks": sorted(
+                [{"code": c, "label": CODE_LABEL.get(c, c), "pass": v["pass"], "total": v["total"],
+                  "pct": round(100.0 * v["pass"] / v["total"], 0)} for c, v in pm["checks"].items() if v["total"]],
+                key=lambda x: x["pct"]),
             "spec": {"params": md.get("params"), "params_b": md.get("params_b"),
                      "quant": md.get("quant"), "ctx": md.get("ctx"), "arch": md.get("arch")},
             "footprint": {"size_gib": size,
@@ -360,6 +407,10 @@ def build(args):
         "best": best,
         "server": server,
         "por_pergunta": por_pergunta,
+        "checks_resumo": sorted(
+            [{"code": c, "label": CODE_LABEL.get(c, c), "pass": v["pass"], "total": v["total"],
+              "pct": round(100.0 * v["pass"] / v["total"], 0)} for c, v in check_global.items() if v["total"]],
+            key=lambda x: x["pct"]),
     }
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

@@ -208,6 +208,20 @@ Semana = **segunda a domingo**:
 - [x] Visualizadores: `b1.html` (resultado final) + **`dashboard_b1.html` (ao vivo)** +
   `dashboard_b1.py` (gerador) + `docs/*.png` (fluxogramas). `b2.html` adiado com o b2.
 
+### RESULTADO b1 (2026-08-19, run completo 1470/1470)
+- **Concluído**: 1470 respostas, 10 erros — todos de `llama3.3:70b` (HTTP 500 / OOM na VRAM,
+  puxado do registry sem `num_gpu 0`). Os outros 29 modelos: 0 erros. Pendência: re-rodar o
+  llama3.3:70b em CPU (decisão do Fernando) ou deixar marcado como falho.
+- **Top por nota:** qwen36-27b-fable 88.2 · defiant-9b 87.4 · qwen38-27b 86.5 · gemma2:9b 85.3.
+- **Pick prático (velocidade+custo+consistência):** **q4b (Qwen3-4B)** — nota 82.6, **60 tok/s,
+  2.4GB, eficiência 34.4** (2× o próximo). Os 27B no topo custam 6-7× por ~5 pontos.
+- **Achado que muda arquitetura:** a checagem "Datas/args exatos" fica em **46% no roster
+  inteiro** (fraqueza sistêmica, não só do q4b). "Não inventa números" em 47% (segurança).
+  → Resolver **datas em código** (parser determinístico) vale mais que trocar de modelo.
+- **Cuidado:** os campeões de nota (fable-27b, defiant-9b) são merges uncensored/heretic —
+  bons no b1, perigosos pro b2 (guardrails). Não usar em produção com regras.
+- Dashboard passou a expor `models[].checks` + `checks_resumo` (acerto por tipo de checagem).
+
 ### Dashboard v3 — decisões de design (2026-08-19)
 - **Um dashboard só** (`dashboard_b1.html`) serve run parcial E resultado final —
   `dashboard_b1.json` é superconjunto do `scored_b1.json`. **`b1.html` aposentado.**
