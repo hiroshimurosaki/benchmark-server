@@ -1,0 +1,11 @@
+{"name":"qwen2.5:7b","tier":"barato","thinking":false,"note":"baseline barato; forte em PT e instrucao"}
+{"name":"llama3.1:8b","tier":"barato","thinking":false,"note":"baseline de mercado, 8B"}
+{"name":"gemma2:9b","tier":"barato","thinking":false,"note":"85.3 no b1; PT-BR forte"}
+{"name":"mistral-nemo:12b","tier":"medio","thinking":false,"note":"multilingue, contexto longo"}
+{"name":"qwen2.5:14b","tier":"medio","thinking":false,"note":"candidato principal do meio"}
+{"name":"phi4:14b","tier":"medio","thinking":false,"note":"raciocinio forte p/ os verificadores"}
+{"name":"gpt-oss:20b","tier":"medio","thinking":false,"note":"MESMA FAMILIA do modelo de producao (Groq openai/gpt-oss-120b) - comparacao direta"}
+{"name":"gemma2:27b","tier":"pesado","thinking":false,"note":"teto de qualidade em PT"}
+{"name":"qwen2.5:32b","tier":"pesado","thinking":false,"note":"teto de qualidade geral"}
+{"name":"command-r:35b","tier":"pesado","thinking":false,"note":"desenhado para RAG/grounded generation - o mais promissor para este fluxo"}
+{"name":"qwen3.6:35b-a3b","tier":"pesado","thinking":false,"note":"MoE 35B com 3B ativos: qualidade de 35B com latencia de 3B (hipotese a testar)"}
