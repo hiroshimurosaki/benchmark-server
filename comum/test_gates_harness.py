@@ -1,7 +1,7 @@
 """Testes do harness b4.3 (handoff B43_GATES, 7 obrigatorios + 1 extra).
 
 Rode da raiz do benchmark-server:
-    ..\\rag-chatbot\\env\\Scripts\\python.exe -m pytest runner/test_gates_harness.py -q
+    ..\\rag-chatbot\\env\\Scripts\\python.exe -m pytest comum/test_gates_harness.py -q
 """
 
 import copy
@@ -19,7 +19,7 @@ ORG = "oncorretor"
 FONES = ["test-gates-%d" % n for n in range(1, 9)]
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SETTINGS = os.path.join(ROOT, "b3", "data", "oncorretor", "settings.json")
+SETTINGS = os.path.join(ROOT, "projetos", "b3", "data", "oncorretor", "settings.json")
 
 
 def _settings_base() -> dict:

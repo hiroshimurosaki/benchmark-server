@@ -12,8 +12,8 @@ O DTQ entra como lista de TÓPICOS que a própria org marcou para atendimento
 humano — serve para o juiz não penalizar escalação legítima. (O DTQ não está
 ligado ao pipeline hoje; ver PLANO.md. Isso não muda o que é resposta certa.)
 
-    python3 runner/build_fonte_verdade.py --data b3/data/oncorretor \
-        --out b3/judge/fonte_verdade.md
+    python3 projetos/b3/runner/build_fonte_verdade.py --data projetos/b3/data/oncorretor \
+        --out projetos/b3/judge/fonte_verdade.md
 """
 
 from __future__ import annotations

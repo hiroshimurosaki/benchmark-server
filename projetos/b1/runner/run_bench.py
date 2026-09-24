@@ -15,12 +15,12 @@ FLUXO:
 
 ENTRADAS (mesma pasta, ver --root):
   models.jsonl   : {"name","tier","thinking"}  name = tag Ollama (ex.: bench-q4b)
-  ../b1/questions_b1.jsonl, ../b1/schema_b1.json
-  ../b2/questions_b2.jsonl, ../b2/kb_oncorretor.md
+  ../questions_b1.jsonl, ../schema_b1.json            (projetos/b1)
+  ../../b2/questions_b2.jsonl, ../../b2/kb_oncorretor.md  (projetos/b2)
   prompts/b1_system.txt   (system do b1, com {today} {dataLastDay} {small_sample_limit})
-  prompts/b2_system.txt   (system do b2, com {context})
+  ../../b2/prompts/b2_system.txt   (system do b2, com {context}) — ausente no repo
 
-SAÍDAS: ../results_b1.jsonl, ../results_b2.jsonl, run.log
+SAÍDAS: ../results_b1.jsonl (projetos/b1), ../../b2/results_b2.jsonl (projetos/b2), run.log
 
 Uso:
   python3 run_bench.py --root . --host http://localhost:11434 [--bench b1,b2] [--dry-run]
@@ -140,7 +140,7 @@ def run_b1_item(host, model, think, sys_prompt, q):
 # --------------------------------------------------------------- prompts b2
 
 def b2_system(root, kb):
-    tpl = read_text(os.path.join(root, "prompts", "b2_system.txt"))
+    tpl = read_text(os.path.join(root, "..", "..", "b2", "prompts", "b2_system.txt"))
     return tpl.replace("{context}", kb)
 
 def run_b2_item(host, model, think, sys_prompt, q):
@@ -180,15 +180,15 @@ def main():
     # Carrega so o que o(s) bench(es) selecionado(s) precisam.
     schema = q_b1 = q_b2 = kb = sysA = sysB = None
     if "b1" in benches:
-        schema = json.load(open(os.path.join(root, "..", "b1", "schema_b1.json"), encoding="utf-8"))
-        q_b1 = load_jsonl(os.path.join(root, "..", "b1", "questions_b1.jsonl"))
+        schema = json.load(open(os.path.join(root, "..", "schema_b1.json"), encoding="utf-8"))
+        q_b1 = load_jsonl(os.path.join(root, "..", "questions_b1.jsonl"))
         sysA = b1_system(root, schema)
     if "b2" in benches:
-        q_b2 = load_jsonl(os.path.join(root, "..", "b2", "questions_b2.jsonl"))
-        kb = read_text(os.path.join(root, "..", "b2", "kb_oncorretor.md"))
+        q_b2 = load_jsonl(os.path.join(root, "..", "..", "b2", "questions_b2.jsonl"))
+        kb = read_text(os.path.join(root, "..", "..", "b2", "kb_oncorretor.md"))
         sysB = b2_system(root, kb)
     res_b1 = os.path.join(root, "..", "results_b1.jsonl")
-    res_b2 = os.path.join(root, "..", "results_b2.jsonl")
+    res_b2 = os.path.join(root, "..", "..", "b2", "results_b2.jsonl")
     done_b1 = done_keys(res_b1)
     done_b2 = done_keys(res_b2)
 

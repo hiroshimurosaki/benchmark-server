@@ -6,7 +6,7 @@ b3 — leaderboard e respostas às 3 perguntas do benchmark.
 Roda no servidor (durante o run, para acompanhar) ou no PC (depois, junto com
 `scored_b3.json` do juiz Opus). Sem dependência externa.
 
-    python3 runner/report_b3.py --results results_b3.jsonl \
+    python3 projetos/b3/runner/report_b3.py --results results_b3.jsonl \
         [--scored scored_b3.json] [--index index_bench.json] [--json relatorio_b3.json]
 """
 

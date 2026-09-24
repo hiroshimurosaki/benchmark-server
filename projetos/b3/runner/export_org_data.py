@@ -4,7 +4,7 @@
 b3 — exporta os dados REAIS de uma org do Firebase para o bundle do benchmark.
 
 Roda NO PC do Fernando (precisa de firebase-admin + config/serviceAccountKey.json
-do repo rag-chatbot). Escreve tudo em benchmark-server/b3/data/{org_id}/.
+do repo rag-chatbot). Escreve tudo em benchmark-server/projetos/b3/data/{org_id}/.
 
 Saidas:
   corpus/<arquivos do Storage documents/{org}/>   -> vira raw_docs no servidor
@@ -15,8 +15,8 @@ Saidas:
   manifest.json   contagens + hash, pra conferir no servidor
 
 Uso (do diretorio do repo rag-chatbot, que tem o serviceAccountKey):
-  ./env/Scripts/python.exe ../benchmark-server/runner/export_org_data.py \
-      --org oncorretor --out ../benchmark-server/b3/data
+  ./env/Scripts/python.exe ../benchmark-server/projetos/b3/runner/export_org_data.py \
+      --org oncorretor --out ../benchmark-server/projetos/b3/data
 """
 import argparse, hashlib, json, os, sys
 
@@ -46,7 +46,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--org", default="oncorretor")
     ap.add_argument("--cred", default="config/serviceAccountKey.json")
-    ap.add_argument("--out", required=True, help="diretorio de saida (b3/data)")
+    ap.add_argument("--out", required=True, help="diretorio de saida (projetos/b3/data)")
     args = ap.parse_args()
 
     sa = json.load(open(args.cred, encoding="utf-8"))

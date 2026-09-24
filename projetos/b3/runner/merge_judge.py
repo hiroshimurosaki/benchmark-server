@@ -9,7 +9,7 @@ Desanonimiza pelo `_mapa.json` e valida: rótulo inexistente, veredicto faltando
 nota fora de 0-100 e pergunta sem cobertura viram aviso explícito — julgamento
 silenciosamente incompleto é pior que julgamento ausente.
 
-    python3 runner/merge_judge.py --dir b3/judge --out b3/scored_b3.json
+    python3 projetos/b3/runner/merge_judge.py --dir projetos/b3/judge --out projetos/b3/scored_b3.json
 """
 
 from __future__ import annotations
@@ -68,7 +68,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", required=True)
     ap.add_argument("--out", required=True)
-    ap.add_argument("--questions", default="b2/questions_b2.jsonl",
+    ap.add_argument("--questions", default="projetos/b2/questions_b2.jsonl",
                     help="para saber quantos objetivos cada pergunta tem")
     ap.add_argument("--juiz", default="claude-opus-5 (subagente)")
     args = ap.parse_args()

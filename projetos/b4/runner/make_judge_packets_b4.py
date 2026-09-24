@@ -11,8 +11,8 @@ import argparse, json, os, random
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--results", default="b4/results_b4.jsonl")
-    ap.add_argument("--out", default="b4/judge")
+    ap.add_argument("--results", default="projetos/b4/results_b4.jsonl")
+    ap.add_argument("--out", default="projetos/b4/judge")
     ap.add_argument("--lotes", type=int, default=3)
     ap.add_argument("--seed", type=int, default=20260917)
     args = ap.parse_args()

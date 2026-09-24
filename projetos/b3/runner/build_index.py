@@ -35,7 +35,14 @@ import sys
 import time
 from datetime import datetime
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Imports locais. No repo: esta pasta + comum/. No bundle do servidor
+# (~/benchmark/b3/runner) tudo fica achatado em runner/ e as outras pastas
+# simplesmente não existem — por isso o `isdir`.
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+_RAIZ = os.path.normpath(os.path.join(_AQUI, "..", "..", ".."))
+for _p in (os.path.join(_RAIZ, "comum"), _AQUI):
+    if os.path.isdir(_p) and _p not in sys.path:
+        sys.path.insert(0, _p)
 import b3_env  # noqa: E402
 
 

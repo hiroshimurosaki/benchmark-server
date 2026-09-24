@@ -26,10 +26,10 @@ que produz o mesmo `scored_b3.json`.
 
 Uso:
     set ANTHROPIC_API_KEY=...
-    python runner/build_fonte_verdade.py --data b3/data/oncorretor --out b3/judge/fonte_verdade.md
-    env/Scripts/python.exe runner/judge_b3.py \
-        --results results_b3.jsonl --questions b2/questions_b2.jsonl \
-        --corpus b3/judge/fonte_verdade.md --out scored_b3.json
+    python projetos/b3/runner/build_fonte_verdade.py --data projetos/b3/data/oncorretor --out projetos/b3/judge/fonte_verdade.md
+    env/Scripts/python.exe projetos/b3/runner/judge_b3.py \
+        --results results_b3.jsonl --questions projetos/b2/questions_b2.jsonl \
+        --corpus projetos/b3/judge/fonte_verdade.md --out scored_b3.json
 """
 
 from __future__ import annotations
@@ -186,11 +186,11 @@ def judge_question(client, corpus: str, q: dict, results: list[dict],
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", default="results_b3.jsonl")
-    ap.add_argument("--questions", default="b2/questions_b2.jsonl")
+    ap.add_argument("--questions", default="projetos/b2/questions_b2.jsonl")
     # Precisa ser a fonte de verdade COMPLETA (documento + FAQ + tópicos de
     # atendente), não só o documento: fatos que existem apenas no FAQ seriam
     # julgados como alucinação. Gere com `build_fonte_verdade.py`.
-    ap.add_argument("--corpus", default="b3/judge/fonte_verdade.md")
+    ap.add_argument("--corpus", default="projetos/b3/judge/fonte_verdade.md")
     ap.add_argument("--out", default="scored_b3.json")
     ap.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     ap.add_argument("--limit", type=int, default=0, help="julgar só as N primeiras perguntas")

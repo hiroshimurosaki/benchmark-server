@@ -12,9 +12,9 @@ O anonimato importa: sem ele o juiz ancora em nome de modelo. O embaralhamento
 importa: sem ele ancora em posição. O mapa rótulo→modelo fica só aqui, no
 `_mapa.json`, que o juiz não lê.
 
-    python3 runner/make_judge_packets.py --results results_b3.jsonl \
-        --extra b3/results_groq.jsonl b3/results_cohere.jsonl b3/results_prod_mix.jsonl \
-        --questions b2/questions_b2.jsonl --out b3/judge --lotes 5
+    python3 projetos/b3/runner/make_judge_packets.py --results results_b3.jsonl \
+        --extra projetos/b3/results_groq.jsonl projetos/b3/results_cohere.jsonl projetos/b3/results_prod_mix.jsonl \
+        --questions projetos/b2/questions_b2.jsonl --out projetos/b3/judge --lotes 5
 """
 
 from __future__ import annotations

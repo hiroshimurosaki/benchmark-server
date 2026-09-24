@@ -27,8 +27,10 @@ Saída (`results_b3.jsonl`, append-only e resumível), um registro por
     answer           texto entregue ao cliente
 
 Uso no servidor:
+    # no servidor, dentro do bundle ~/benchmark/b3 (montado por projetos/b3/runner/deploy_b3.sh):
     .venv/bin/python runner/run_b3.py --root . --models runner/models_b3.jsonl
     .venv/bin/python runner/run_b3.py --root . --models runner/models_b3.jsonl --limit 3   # smoke
+    # no PC, a partir de projetos/b3 (o bundle local): --questions ../b2/questions_b2.jsonl
 """
 
 from __future__ import annotations
@@ -41,7 +43,14 @@ import time
 import traceback
 from datetime import datetime
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Imports locais. No repo: esta pasta + comum/. No bundle do servidor
+# (~/benchmark/b3/runner) tudo fica achatado em runner/ e as outras pastas
+# simplesmente não existem — por isso o `isdir`.
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+_RAIZ = os.path.normpath(os.path.join(_AQUI, "..", "..", ".."))
+for _p in (os.path.join(_RAIZ, "comum"), _AQUI):
+    if os.path.isdir(_p) and _p not in sys.path:
+        sys.path.insert(0, _p)
 import b3_env  # noqa: E402
 
 

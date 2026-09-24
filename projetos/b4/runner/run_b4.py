@@ -12,8 +12,9 @@ Reaproveita run_b3.py inteiro (ambiente, warmup, StageRecorder, resume). O que
 muda é só o laço: `run_roteiro` em vez de `run_one`.
 
 Uso:
-    python runner/run_b4.py --repo /caminho/rag-chatbot --only qwen3.6:35b-a3b
-    python runner/run_b4.py --repo ... --dry-run
+    (da raiz do repo; --root aponta o bundle do b3: dados da org + índice FAISS)
+    python projetos/b4/runner/run_b4.py --root projetos/b3 --repo /caminho/rag-chatbot --only qwen3.6:35b-a3b
+    python projetos/b4/runner/run_b4.py --root projetos/b3 --repo ... --dry-run
 """
 
 from __future__ import annotations
@@ -25,7 +26,14 @@ import sys
 import time
 import traceback
 
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Imports locais. No repo: esta pasta + comum/ + projetos/b3/runner. No bundle do servidor
+# (~/benchmark/b3/runner) tudo fica achatado em runner/ e as outras pastas
+# simplesmente não existem — por isso o `isdir`.
+_AQUI = os.path.dirname(os.path.abspath(__file__))
+_RAIZ = os.path.normpath(os.path.join(_AQUI, "..", "..", ".."))
+for _p in (os.path.join(_RAIZ, "comum"), os.path.join(_RAIZ, "projetos", "b3", "runner"), _AQUI):
+    if os.path.isdir(_p) and _p not in sys.path:
+        sys.path.insert(0, _p)
 
 from run_b3 import (  # noqa: E402  — reuso deliberado, não duplicar
     StageRecorder,
@@ -167,10 +175,10 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".")
     ap.add_argument("--org", default="oncorretor")
-    ap.add_argument("--models", default="runner/models_b4.jsonl")
-    ap.add_argument("--roteiros", default="b4/roteiros_b4.jsonl")
+    ap.add_argument("--models", default="projetos/b4/runner/models_b4.jsonl")
+    ap.add_argument("--roteiros", default="projetos/b4/roteiros_b4.jsonl")
     ap.add_argument("--host", default="http://127.0.0.1:11434")
-    ap.add_argument("--out", default="results_b4.jsonl")
+    ap.add_argument("--out", default="projetos/b4/results_b4.jsonl")
     ap.add_argument("--only", default="", help="rodar só estes modelos (vírgula)")
     ap.add_argument("--limit", type=int, default=0, help="roteiros por modelo (0 = todos)")
     ap.add_argument("--num-ctx", type=int, default=8192)
@@ -184,7 +192,7 @@ def main() -> None:
     ap.add_argument("--gates", action="store_true",
                     help="b4.3: roda opening_question_gate e closure_gate antes do "
                          "pipeline, como o ai_subscriber faz em produção. Exige "
-                         "runner/gates_harness.py.")
+                         "comum/gates_harness.py.")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -192,7 +200,7 @@ def main() -> None:
 
     def resolver(caminho: str) -> str:
         """`--root` aponta para o bundle da org (dados + índice FAISS), que no b3
-        é `b3/`. Já roteiros e lista de modelos vivem fora dele. Aceita os dois:
+        é `projetos/b3/`. Já roteiros e lista de modelos vivem fora dele. Aceita os dois:
         usa o caminho como veio se existir, senão tenta dentro do root.
         """
         if os.path.exists(caminho):

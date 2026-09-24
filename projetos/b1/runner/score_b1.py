@@ -31,7 +31,7 @@ SAÍDA — scored_b1.json: notas por resposta + agregados por (modelo, thinking)
 por categoria. Também imprime um leaderboard.
 
 Uso:
-  python3 score_b1.py --questions ../b1/questions_b1.jsonl --schema ../b1/schema_b1.json \
+  python3 score_b1.py --questions ../questions_b1.jsonl --schema ../schema_b1.json \
                       --results ../results_b1.jsonl --out ../scored_b1.json
   python3 score_b1.py --selftest      # valida a lógica com casos sintéticos
 """
@@ -349,8 +349,8 @@ def selftest():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--questions", default="../b1/questions_b1.jsonl")
-    ap.add_argument("--schema", default="../b1/schema_b1.json")
+    ap.add_argument("--questions", default="../questions_b1.jsonl")
+    ap.add_argument("--schema", default="../schema_b1.json")
     ap.add_argument("--results", default="../results_b1.jsonl")
     ap.add_argument("--out", default="../scored_b1.json")
     ap.add_argument("--selftest", action="store_true")

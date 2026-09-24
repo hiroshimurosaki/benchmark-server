@@ -1,18 +1,20 @@
 #!/bin/bash
 # b3 — envia o bundle para o servidor. Roda no PC do Fernando (Git Bash).
 #
-#   bash runner/deploy_b3.sh
+#   bash projetos/b3/runner/deploy_b3.sh      (da raiz do repo)
 #
-# Envia: runner/, b2/questions_b2.jsonl, b3/data/ (corpus+FAQ+DTQ reais) e uma
+# Envia: projetos/b3/runner/ + comum/b3_env.py (achatados em runner/ no servidor),
+# projetos/b2/questions_b2.jsonl, projetos/b3/data/ (corpus+FAQ+DTQ reais) e uma
 # cópia enxuta do Answer_service/Document_service do repo rag-chatbot.
 # NÃO envia: serviceAccountKey.json, .env, nada de credencial — o harness usa
-# stub de Firebase (runner/b3_env.py).
+# stub de Firebase (comum/b3_env.py).
 set -euo pipefail
 
 HOST="${B3_HOST:-fernando.murusaki@10.10.10.151}"
 KEY="${B3_KEY:-$HOME/.ssh/id_benchmark}"
 DEST="${B3_DEST:-~/benchmark/b3}"
-BENCH_DIR="$(cd "$(dirname "$0")/.." && pwd)"
+BENCH_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"   # raiz do repo benchmark-server
+B3_DIR="$BENCH_DIR/projetos/b3"
 REPO_DIR="${B3_REPO:-$BENCH_DIR/../rag-chatbot}"
 
 SSH="ssh -i $KEY -o BatchMode=yes $HOST"
@@ -22,11 +24,11 @@ say "preparando destino"
 $SSH "mkdir -p $DEST/runner $DEST/b2 $DEST/data $DEST/repo"
 
 say "runner + perguntas"
-scp -q -i "$KEY" "$BENCH_DIR"/runner/{b3_env.py,run_b3.py,build_index.py,report_b3.py,models_b3.jsonl} "$HOST:$DEST/runner/"
-scp -q -i "$KEY" "$BENCH_DIR/b2/questions_b2.jsonl" "$HOST:$DEST/b2/"
+scp -q -i "$KEY" "$B3_DIR"/runner/{run_b3.py,build_index.py,report_b3.py,models_b3.jsonl} "$BENCH_DIR/comum/b3_env.py" "$HOST:$DEST/runner/"
+scp -q -i "$KEY" "$BENCH_DIR/projetos/b2/questions_b2.jsonl" "$HOST:$DEST/b2/"
 
 say "dados reais da org (corpus + FAQ + DTQ + settings)"
-scp -qr -i "$KEY" "$BENCH_DIR/b3/data/." "$HOST:$DEST/data/"
+scp -qr -i "$KEY" "$B3_DIR/data/." "$HOST:$DEST/data/"
 
 say "codigo do Answer_service / Document_service"
 TMP="$(mktemp -d)"

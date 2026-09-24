@@ -33,8 +33,8 @@ def recomputar(v: dict) -> tuple[int, bool]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dir", default="b4/judge")
-    ap.add_argument("--out", default="b4/veredictos_b4.json")
+    ap.add_argument("--dir", default="projetos/b4/judge")
+    ap.add_argument("--out", default="projetos/b4/veredictos_b4.json")
     args = ap.parse_args()
 
     mapa = json.load(open(os.path.join(args.dir, "_mapa.json"), encoding="utf-8"))
