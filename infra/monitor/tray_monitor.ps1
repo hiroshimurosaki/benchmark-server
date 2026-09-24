@@ -11,7 +11,7 @@
 param(
     [string]$Server   = $(if ($env:B3_HOST) { $env:B3_HOST } else { "fernando.murusaki@10.10.10.151" }),
     [string]$Key      = "$env:USERPROFILE\.ssh\id_benchmark",
-    [string]$Script   = "$PSScriptRoot\..\runner\live_top.py",
+    [string]$Script   = "$PSScriptRoot\live_top.py",
     [string]$Launcher = "$PSScriptRoot\monitor_servidor.bat",
     [int]$Interval    = 5
 )

@@ -3,7 +3,7 @@
   "profiles": [
     {
       "name": "Monitor Servidor",
-      "commandline": "cmd.exe /c \"%USERPROFILE%\\benchmark-server\\monitor\\monitor_servidor.bat\"",
+      "commandline": "cmd.exe /c \"%USERPROFILE%\\benchmark-server\\infra\\monitor\\monitor_servidor.bat\"",
       "startingDirectory": "%USERPROFILE%",
       "tabTitle": "Monitor Servidor",
       "suppressApplicationTitle": true,

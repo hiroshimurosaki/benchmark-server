@@ -30,7 +30,7 @@ if ($Desinstalar) {
 # 1. perfil do Windows Terminal (com o caminho real desta pasta)
 New-Item -ItemType Directory -Force -Path $frag | Out-Null
 $json = Get-Content "$root\monitor_terminal.json" -Raw -Encoding UTF8
-$json = $json.Replace('%USERPROFILE%\\benchmark-server\\monitor\\monitor_servidor.bat',
+$json = $json.Replace('%USERPROFILE%\\benchmark-server\\infra\\monitor\\monitor_servidor.bat',
                       ("$root\monitor_servidor.bat").Replace('\', '\\'))
 [IO.File]::WriteAllText("$frag\monitor.json", $json, (New-Object Text.UTF8Encoding $false))
 Write-Host "Perfil 'Monitor Servidor' instalado em $frag"

@@ -10,7 +10,7 @@ if not defined WT_SESSION mode con: cols=112 lines=32
 setlocal
 if defined B3_HOST (set HOST=%B3_HOST%) else (set HOST=fernando.murusaki@10.10.10.151)
 set KEY=%USERPROFILE%\.ssh\id_benchmark
-set SCRIPT=%~dp0..\runner\live_top.py
+set SCRIPT=%~dp0live_top.py
 set OPTS=-o StrictHostKeyChecking=no -o ConnectTimeout=10 -o BatchMode=yes -o ServerAliveInterval=15
 set INTERVAL=2
 

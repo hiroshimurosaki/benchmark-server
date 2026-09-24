@@ -4,12 +4,12 @@ REM Duplo-clique e deixe a janela aberta num canto enquanto o benchmark roda.
 REM Escreve em .tmp e renomeia (atomico) pro dashboard nunca ler arquivo pela metade.
 REM
 REM Depois de abrir: no dashboard_b3.html clique em "Acompanhar ao vivo" e
-REM escolha a pasta b3\live. A pagina passa a recarregar sozinha.
+REM escolha a pasta projetos\b3\live. A pagina passa a recarregar sozinha.
 setlocal
 if defined B3_HOST (set HOST=%B3_HOST%) else (set HOST=fernando.murusaki@10.10.10.151)
 set KEY=%USERPROFILE%\.ssh\id_benchmark
 set REMOTE=~/benchmark/b3
-set LIVE=%~dp0b3\live
+set LIVE=%~dp0live
 
 if not exist "%LIVE%" mkdir "%LIVE%"
 
