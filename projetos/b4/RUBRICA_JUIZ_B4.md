@@ -3,7 +3,7 @@
 Você julga **uma conversa inteira**, não uma resposta. É a diferença central em
 relação ao b3: lá a unidade era o turno; aqui o objeto é o atendimento.
 
-A base factual é `b3/judge/fonte_verdade.md`. Nada fora dela é fato. Se o bot
+A base factual é `projetos/b3/judge/fonte_verdade.md`. Nada fora dela é fato. Se o bot
 afirmou algo que a fonte não sustenta, é alucinação — mesmo que soe plausível,
 mesmo que seja verdade no mundo real.
 

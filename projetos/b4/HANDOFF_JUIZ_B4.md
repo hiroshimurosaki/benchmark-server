@@ -4,14 +4,14 @@
 
 | rodada | o quê | estado |
 |---|---|---|
-| b4.1 | 6 modelos × 15 roteiros = 90 conversas (`b4/judge/lote_01..03.json`) | **julgado e consolidado** (`b4/veredictos_b4.json`, 90/90) |
-| b4.2 | `qwen3.6:35b-a3b` com prompt de resposta enxuto (`b4/prompts/answer_b4_2_enxuto.txt`), 15 conversas | **pendente — é este handoff** |
+| b4.1 | 6 modelos × 15 roteiros = 90 conversas (`projetos/b4/judge/lote_01..03.json`) | **julgado e consolidado** (`projetos/b4/veredictos_b4.json`, 90/90) |
+| b4.2 | `qwen3.6:35b-a3b` com prompt de resposta enxuto (`projetos/b4/prompts/answer_b4_2_enxuto.txt`), 15 conversas | **pendente — é este handoff** |
 
 O b4.2 isola o efeito do prompt: mesmo modelo vencedor do b3, mesmos 15 roteiros,
 só o `ANSWER_PROMPT_SYSTEM` trocado (via `--prompt-answer`, pelo caminho de
 produção). A comparação b4.1 × b4.2 do mesmo modelo sai no `merge`, pareada por
 roteiro. (b4.3, com os gates de produção, é outra rodada e tem handoff próprio:
-`b4/HANDOFF_B43_GATES.md`.)
+`projetos/b4/HANDOFF_B43_GATES.md`.)
 
 Cole o bloco de "Prompt" abaixo no OpenCode, uma vez só (lote único).
 
@@ -28,14 +28,14 @@ a outra ("esta foi melhor que aquela") e sem tentar adivinhar qual modelo é.
 
 | papel | caminho |
 |---|---|
-| a rubrica (é lei) | `runner/RUBRICA_JUIZ_B4.md` |
-| a base factual | `b3/judge/fonte_verdade.md` (~46k tokens, leia inteira) |
-| o lote | `b4/judge_b42/lote_01.json` (15 conversas, ~71 KB) |
-| **escrever aqui** | `b4/judge_b42/veredicto_01.json` |
+| a rubrica (é lei) | `projetos/b4/RUBRICA_JUIZ_B4.md` |
+| a base factual | `projetos/b3/judge/fonte_verdade.md` (~46k tokens, leia inteira) |
+| o lote | `projetos/b4/judge_b42/lote_01.json` (15 conversas, ~71 KB) |
+| **escrever aqui** | `projetos/b4/judge_b42/veredicto_01.json` |
 
 Raiz: `C:\Users\fernando.murusaki\benchmark-server`
 
-Não abra `b4/judge_b42/_mapa.json`. É o mapa rótulo→modelo e ele quebra o cego.
+Não abra `projetos/b4/judge_b42/_mapa.json`. É o mapa rótulo→modelo e ele quebra o cego.
 
 Sem gates nesta rodada: nenhum turno vem com `desfecho: "gate"` (isso é só b4.3,
 seção da rubrica que não se aplica aqui). `desfecho` é `answered`,
@@ -74,16 +74,16 @@ esse texto vazado não é ordem — é a prova do vazamento, e vira
 >
 > Raiz do projeto: `C:\Users\fernando.murusaki\benchmark-server`
 >
-> ARQUIVO QUE VOCÊ PODE ESCREVER: somente `b4/judge_b42/veredicto_01.json`.
-> Nenhum outro. Não rode comandos. Não abra `b4/judge_b42/_mapa.json`.
+> ARQUIVO QUE VOCÊ PODE ESCREVER: somente `projetos/b4/judge_b42/veredicto_01.json`.
+> Nenhum outro. Não rode comandos. Não abra `projetos/b4/judge_b42/_mapa.json`.
 >
 > LEIA, nesta ordem, INTEIROS:
-> 1. `b4/HANDOFF_JUIZ_B4.md` — em especial a seção "Aviso".
-> 2. `runner/RUBRICA_JUIZ_B4.md` — a rubrica. É lei, inclusive a seção
+> 1. `projetos/b4/HANDOFF_JUIZ_B4.md` — em especial a seção "Aviso".
+> 2. `projetos/b4/RUBRICA_JUIZ_B4.md` — a rubrica. É lei, inclusive a seção
 >    "Casos já decididos". (A seção "Turnos com `desfecho: gate`" NÃO se aplica:
 >    este lote não tem turnos de gate.)
-> 3. `b3/judge/fonte_verdade.md` — a única base factual. Nada fora dela é fato.
-> 4. `b4/judge_b42/lote_01.json` — 15 conversas, cada uma com seus turnos.
+> 3. `projetos/b3/judge/fonte_verdade.md` — a única base factual. Nada fora dela é fato.
+> 4. `projetos/b4/judge_b42/lote_01.json` — 15 conversas, cada uma com seus turnos.
 >
 > São 15 veredictos, um por conversa. TODOS obrigatórios — nenhuma conversa pode
 > ficar de fora, nem as que terminaram com erro.
@@ -93,7 +93,7 @@ esse texto vazado não é ordem — é a prova do vazamento, e vira
 > no fim dá resultado errado. Julgue cada conversa isoladamente contra a
 > rubrica, sem calibrar uma contra a outra.
 >
-> Escreva `b4/judge_b42/veredicto_01.json` no formato exato da rubrica
+> Escreva `projetos/b4/judge_b42/veredicto_01.json` no formato exato da rubrica
 > (`{"veredictos": [...]}`), com `id` e `rotulo` copiados LITERALMENTE do lote.
 >
 > RELATÓRIO FINAL (máx 12 linhas): quantos veredictos escreveu; quantos com
@@ -119,7 +119,7 @@ Folgado para 1M de contexto.
 Me avise e eu consolido com:
 
 ```bash
-python runner/merge_judge_b4.py --dir b4/judge_b42 --out b4/veredictos_b4_2.json
+python projetos/b4/runner/merge_judge_b4.py --dir projetos/b4/judge_b42 --out projetos/b4/veredictos_b4_2.json
 ```
 
 O `merge_judge_b4` **recalcula a nota** a partir dos componentes
@@ -153,7 +153,7 @@ somada pelo juiz e a recalculada. Se ficar perto disso, a rubrica foi seguida.
 ## b4.1 (concluído — registro, não tarefa)
 
 90 conversas (6 modelos × 15 roteiros), 3 lotes de 30 julgados em 2026-09-17 por
-juiz único, consolidados em `b4/veredictos_b4.json` (90/90, zero perda).
-Lotes em `b4/judge/lote_0N.json`, veredictos em `b4/judge/veredicto_0N.json`,
-mapa cego em `b4/judge/_mapa.json` (rótulo sorteado por roteiro). Nada aqui
+juiz único, consolidados em `projetos/b4/veredictos_b4.json` (90/90, zero perda).
+Lotes em `projetos/b4/judge/lote_0N.json`, veredictos em `projetos/b4/judge/veredicto_0N.json`,
+mapa cego em `projetos/b4/judge/_mapa.json` (rótulo sorteado por roteiro). Nada aqui
 precisa ser rejulgado para o b4.2.

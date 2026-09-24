@@ -45,7 +45,7 @@ transcrição inteira precisa capturar.
    roteiro ("e quanto custa isso?", "e se eu cancelar?") — é o que testa o
    contextualizador.
 3. **Fundamento na fonte.** Toda expectativa de conteúdo sai de
-   `b3/judge/fonte_verdade.md`. Se a fonte não cobre, a expectativa é escalar.
+   `projetos/b3/judge/fonte_verdade.md`. Se a fonte não cobre, a expectativa é escalar.
 4. `espera` descreve COMPORTAMENTO, não texto literal — o juiz avalia sentido.
 5. Um roteiro tem 5 a 8 turnos. Menos que 5 não acumula estado suficiente;
    mais que 8 estoura a janela de histórico do pipeline e mede outra coisa.

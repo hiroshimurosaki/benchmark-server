@@ -1,5 +1,12 @@
 # Plano — Benchmark de modelos locais (b1 + b2)
 
+> **Estrutura do repo (2026-09-24):** reorganizado por projeto — `projetos/b1..b4/`, `comum/`,
+> `infra/`, `docs/`. Mapa e comandos no [README.md](README.md). Os caminhos locais deste plano
+> já apontam para a estrutura nova. Os comandos executados **no servidor, dentro do bundle
+> `~/benchmark/b3`** (`.venv/bin/python runner/...`) continuam como estavam: lá o
+> `deploy_b3.sh` achata `projetos/b3/runner/` + `comum/b3_env.py` em `runner/`. As notas de
+> histórico ("referências trocadas em ...") citam os caminhos da época.
+
 Doc canônico. Objetivo: descobrir o melhor modelo local (GGUF) para duas aplicações,
 medindo tempo, tempo/qualidade sob paralelismo, qualidade da resposta e resistência a burla.
 
@@ -22,7 +29,7 @@ medindo tempo, tempo/qualidade sob paralelismo, qualidade da resposta e resistê
 
 ## Fontes de contexto já lidas
 
-- `b1/b1.txt` — system prompt do agente analista de dados de condomínio (retorna JSON
+- `projetos/b1/b1.txt` — system prompt do agente analista de dados de condomínio (retorna JSON
   `{answer, highlights}`, usa tools, "hoje" via `getDateString`, conceito `dataLastDay`,
   `SMALL_SAMPLE_LIMIT`, agregados `uniquePeople/entries/exits/sampleSize`, reservas
   `confirmed/awaitingApproval/cancelled`, histórico por pessoa `isManualEntry`).
@@ -30,7 +37,7 @@ medindo tempo, tempo/qualidade sob paralelismo, qualidade da resposta e resistê
   corretor/SUSEP). Estágios de LLM: VERIFICATION (classificação), CONTEXTUALIZER, ANSWER
   (fidelidade estrita, MODO A/B/C), ANSWER_VERIFICATION, HISTORICAL, DISAMBIGUATION, FEEDBACK.
   Foco do benchmark 2 = estágio **ANSWER** (resposta ao cliente).
-- `models/models.txt` — tiers e orçamento de perguntas:
+- `comum/modelos/models.txt` — tiers e orçamento de perguntas:
   - barato → 50 perguntas × (com/sem thinking)
   - médio → 25 perguntas × (com/sem thinking)
   - pesado → 10 perguntas × (com/sem thinking)
@@ -85,7 +92,7 @@ Subconjuntos: 25 (médio) e 10 (pesado) curados dos 50.
 ## Benchmark 2 — RAG OnCorretor (juiz Opus)
 
 Foco no `ANSWER_PROMPT`. **KB fixa** montada dos fatos do prompt + mineração dos zips
-`b2/conversas-oncorretor.zip` e `b2/MENSAGENS-IA.zip` para perguntas realistas.
+`projetos/b2/conversas-oncorretor.zip` e `projetos/b2/MENSAGENS-IA.zip` para perguntas realistas.
 
 ### Formato de cada pergunta
 `{input, contexto_recuperado (fixo), objetivos[], proibições[], modo_esperado A/B/C}`.
@@ -196,9 +203,9 @@ Semana = **segunda a domingo**:
 - [x] Contexto lido (b1, b2/prompts, models, acesso).
 - [x] Decisões travadas (runner, juiz, aviso, gabarito b1).
 - [x] Plano canônico escrito.
-- [x] Banco b1 (50) + `b1/schema_b1.json` — validado, correção de semana aplicada.
-- [x] Banco b2 (50) + `b2/kb_oncorretor.md` — validado.
-- [x] Descoberta no servidor (ver `server/command_log.md`: CPU-only, Ollama, calibração).
+- [x] Banco b1 (50) + `projetos/b1/schema_b1.json` — validado, correção de semana aplicada.
+- [x] Banco b2 (50) + `projetos/b2/kb_oncorretor.md` — validado.
+- [x] Descoberta no servidor (ver `infra/server/command_log.md`: CPU-only, Ollama, calibração).
 - [x] `run_bench.py` (orquestrador Ollama) — feito; +`--models` +`--limit` (smoke).
 - [x] Corretor heurístico b1 (`score_b1.py`) — feito (selftest embutido).
 - [ ] Juiz Opus b2 — **ADIADO** (decisão 2026-08-19: entregar b1 primeiro).
@@ -234,7 +241,7 @@ Semana = **segunda a domingo**:
   progresso enriquecido (ficha técnica + pontuação parcial) + refino anti-slop (ícones SVG,
   1 acento, fonte display). Conceitos no canvas /design: artifact e9736813.
 - Loops no servidor: tmux `bench` (run), `sysmon` (telemetria 20s), `dash` (dashboard 60s).
-- Auto-refresh no PC: `sync_dashboard.bat` (scp 15s) + File System Access API no HTML.
+- Auto-refresh no PC: `projetos/b1/sync_dashboard.bat` (scp 15s) + File System Access API no HTML.
 
 ### 2ª leva de modelos (2026-08-19) — comparação estendida
 - +16 modelos oficiais adicionados ao `models.jsonl` (mantidos os originais p/ comparar):
@@ -270,13 +277,13 @@ Decisões desta sessão (não estavam no plano):
   voltarem por scp.
 
 Arquivos novos/alterados (b1):
-- `runner/prompts/b1_system.txt` — system do b1 (traduzido de `b1/b1.txt`; placeholders
+- `projetos/b1/runner/prompts/b1_system.txt` — system do b1 (traduzido de `projetos/b1/b1.txt`; placeholders
   `{today}`/`{dataLastDay}`/`{small_sample_limit}` interpolados pelo runner).
-- `runner/models.jsonl` — roster completo b1 (14 tags Ollama; `thinking` on nos Qwen3.x/gpt-oss).
-- `runner/models_smoke.jsonl` — subconjunto de 3 p/ smoke.
-- `runner/register_models.sh` — `ollama create bench-<x>` a partir dos GGUF do cache HF
+- `projetos/b1/runner/models.jsonl` — roster completo b1 (14 tags Ollama; `thinking` on nos Qwen3.x/gpt-oss).
+- `projetos/b1/runner/models_smoke.jsonl` — subconjunto de 3 p/ smoke.
+- `infra/modelos/register_models.sh` — `ollama create bench-<x>` a partir dos GGUF do cache HF
   (idempotente; `--smoke` registra só os do smoke). Roda NO servidor.
-- `runner/run_bench.py` — +flags `--models`, `--limit`; carga de dados guardada por bench
+- `projetos/b1/runner/run_bench.py` — +flags `--models`, `--limit`; carga de dados guardada por bench
   (com `--bench b1` não exige arquivos de b2).
 
 Verificação: edits conferidos por leitura. **Selftest/dry-run NÃO rodados localmente**
@@ -318,7 +325,7 @@ Achados que contrariam expectativa:
 | 1 | Servidor | **10.10.10.151** (ianode), o mesmo do b1 |
 | 2 | Dados | **Reais** da org `oncorretor` (corpus + 157 FAQ + 109 DTQ) |
 | 3 | Juiz | **Opus em tudo** (`claude-opus-5`) |
-| 4 | Roster | **Curado, 11 modelos** (`runner/models_b3.jsonl`) |
+| 4 | Roster | **Curado, 11 modelos** (`projetos/b3/runner/models_b3.jsonl`) |
 
 Decisões que tomei e não estavam no pedido:
 - **Linha de base Groq.** Sem medir o provedor atual (`openai/gpt-oss-120b`) o
@@ -355,7 +362,7 @@ CAMADA 2 — harness no servidor (~/benchmark/b3/)
   .venv (uv, Python 3.11)          langchain 0.3.27 / core 0.3.80 pinados
 
 CAMADA 3 — no PC
-  runner/export_org_data.py        Firestore/Storage → b3/data/  (já rodou)
+  runner/export_org_data.py        Firestore/Storage → projetos/b3/data/  (já rodou)
   runner/judge_b3.py               juiz Opus, resumível, custo impresso no fim
   runner/deploy_b3.sh              scp do bundle (checa vazamento de credencial)
 ```
@@ -402,7 +409,7 @@ Load do `all-MiniLM-L6-v2` ~0.9s a frio. Extrapolando: 100 MB de corpus
 
 ```bash
 # deploy (PC)
-bash runner/deploy_b3.sh
+bash projetos/b3/runner/deploy_b3.sh
 
 # indexação (servidor)
 cd ~/benchmark/b3 && .venv/bin/python runner/build_index.py --root . --scales 1,5,20 --repeat 2
@@ -412,8 +419,8 @@ tmux new -d -s b3 ".venv/bin/python runner/run_b3.py --root . --all-questions --
 tmux attach -t b3     |     tail -f ~/benchmark/b3/run_b3_console.log
 
 # linha de base Groq (PC, precisa das GROQ_KEY_* do .env do rag-chatbot)
-cd benchmark-server/b3 && ../../rag-chatbot/env/Scripts/python.exe ../runner/run_b3.py \
-  --root . --provider groq --repo ../../rag-chatbot --models ../runner/models_groq.jsonl \
+cd benchmark-server/projetos/b3 && ../../../rag-chatbot/env/Scripts/python.exe runner/run_b3.py \
+  --root . --provider groq --repo ../../../rag-chatbot --models ../../comum/modelos/models_groq.jsonl \
   --questions ../b2/questions_b2.jsonl --all-questions --out results_groq.jsonl
 
 # leaderboard (a qualquer momento)
@@ -421,9 +428,9 @@ cd benchmark-server/b3 && ../../rag-chatbot/env/Scripts/python.exe ../runner/run
 
 # juiz (PC, depois do run)
 set ANTHROPIC_API_KEY=...
-../../rag-chatbot/env/Scripts/python.exe ../runner/judge_b3.py \
+../../../rag-chatbot/env/Scripts/python.exe runner/judge_b3.py \
   --results results_b3.jsonl --questions ../b2/questions_b2.jsonl \
-  --corpus b3/data/oncorretor/corpus/OnCorretor.txt --out scored_b3.json
+  --corpus data/oncorretor/corpus/OnCorretor.txt --out scored_b3.json
 ```
 
 ## Pendências
@@ -538,7 +545,7 @@ o documento. Fatos que existem só no FAQ seriam julgados como alucinação:
 | "5 GB" | ausente | 12× |
 | R$ 52,50 | 1× | 11× |
 
-`runner/build_fonte_verdade.py` monta `b3/judge/fonte_verdade.md` (~38k tokens):
+`projetos/b3/runner/build_fonte_verdade.py` monta `projetos/b3/judge/fonte_verdade.md` (~38k tokens):
 documento + as 157 respostas do FAQ + os 109 tópicos do DTQ rotulados como
 "assuntos que a org marcou para humano" (para o juiz não penalizar escalação
 legítima). Os dois juízes usam o mesmo arquivo.
@@ -549,10 +556,10 @@ Fernando não tem `ANTHROPIC_API_KEY`. O `judge_b3.py` fica no repo para quando
 tiver; o caminho em uso é:
 
 ```
-runner/build_fonte_verdade.py   → b3/judge/fonte_verdade.md
-runner/make_judge_packets.py    → b3/judge/lote_NN.json (+ _mapa.json)
+projetos/b3/runner/build_fonte_verdade.py   → projetos/b3/judge/fonte_verdade.md
+projetos/b3/runner/make_judge_packets.py    → projetos/b3/judge/lote_NN.json (+ _mapa.json)
    ↳ subagentes Opus, rubrica idêntica, respostas anonimizadas e embaralhadas
-runner/merge_judge.py           → scored_b3.json (mesmo formato do juiz por API)
+projetos/b3/runner/merge_judge.py           → scored_b3.json (mesmo formato do juiz por API)
 ```
 
 `merge_judge.py` valida cobertura: rótulo desconhecido, veredicto duplicado,
@@ -565,8 +572,8 @@ Trade-off aceito: perde reprodutibilidade (não é script), ganha custo zero.
 
 ```
 servidor: tmux `dash_b3` → runner/report_b3.py --json relatorio_b3.json  (60s)
-PC:       sync_dashboard_b3.bat → b3/live/{relatorio_b3.json,results_b3.jsonl,index_bench.json}  (15s)
-página:   dashboard_b3.html → "Acompanhar ao vivo" → escolhe a PASTA b3/live (5s)
+PC:       projetos/b3/sync_dashboard_b3.bat → projetos/b3/live/{relatorio_b3.json,results_b3.jsonl,index_bench.json}  (15s)
+página:   projetos/b3/dashboard_b3.html → "Acompanhar ao vivo" → escolhe a PASTA projetos/b3/live (5s)
 ```
 
 Diferença para o b1: o b1 acompanhava um JSON só (`showOpenFilePicker`); o b3
@@ -842,11 +849,11 @@ histórico); aqui a unidade é a conversa.
 
 | arquivo | o quê |
 |---|---|
-| `b4/ESQUEMA.md` | formato e regras de escrita dos roteiros |
-| `b4/roteiros_b4.jsonl` | **15 roteiros, 90 turnos** |
-| `runner/run_b4.py` | driver — testado ponta a ponta |
-| `runner/models_b4.jsonl` | os 6 modelos que empataram no b3 |
-| `runner/RUBRICA_JUIZ_B4.md` | juiz da transcrição inteira |
+| `projetos/b4/ESQUEMA.md` | formato e regras de escrita dos roteiros |
+| `projetos/b4/roteiros_b4.jsonl` | **15 roteiros, 90 turnos** |
+| `projetos/b4/runner/run_b4.py` | driver — testado ponta a ponta |
+| `projetos/b4/runner/models_b4.jsonl` | os 6 modelos que empataram no b3 |
+| `projetos/b4/RUBRICA_JUIZ_B4.md` | juiz da transcrição inteira |
 
 Trilhas: `memoria` 5 · `fidelidade` 4 · `resistencia_progressiva` 4 · `repeticao` 2.
 
@@ -901,14 +908,14 @@ criação de logomarca.
 
 ```bash
 # dry-run (conta turnos, não chama LLM)
-python runner/run_b4.py --root b3 --dry-run
+python projetos/b4/runner/run_b4.py --root projetos/b3 --dry-run
 
 # run completo (servidor, ollama)
-python runner/run_b4.py --root b3 --repo ../rag-chatbot --out b4/results_b4.jsonl
+python projetos/b4/runner/run_b4.py --root projetos/b3 --repo ../rag-chatbot --out projetos/b4/results_b4.jsonl
 
 # um modelo só, via Groq (PC)
-python runner/run_b4.py --root b3 --repo ../rag-chatbot --provider groq \
-  --models runner/models_groq.jsonl --key-prefix GROQ_KEY_ --out b4/results_b4.jsonl
+python projetos/b4/runner/run_b4.py --root projetos/b3 --repo ../rag-chatbot --provider groq \
+  --models comum/modelos/models_groq.jsonl --key-prefix GROQ_KEY_ --out projetos/b4/results_b4.jsonl
 ```
 
 Resume por `(roteiro, modelo)`: relançar retoma de onde parou.
@@ -967,7 +974,7 @@ original ("algum modelo conduz um atendimento completo?" — praticamente não).
 ## O juiz rodou em outro harness
 
 As 90 conversas foram julgadas pelo **Muse Spark 1.3** (Meta, 1M de contexto),
-no OpenCode do Fernando, via handoff em `b4/HANDOFF_JUIZ_B4.md`. Resultado dos
+no OpenCode do Fernando, via handoff em `projetos/b4/HANDOFF_JUIZ_B4.md`. Resultado dos
 controles:
 
 | controle | resultado |
@@ -1045,22 +1052,22 @@ python runner/run_b4.py --root . --out results_b4.jsonl
 python runner/run_b4.py --root . --only qwen3.6:35b-a3b \
   --prompt-answer b4/prompts/answer_b4_2_enxuto.txt --out results_b4_2.jsonl
 
-# b4.3 — ambiente completo (exige runner/gates_harness.py)
+# b4.3 — ambiente completo (exige gates_harness.py: no repo fica em comum/, no bundle do servidor em runner/)
 python runner/run_b4.py --root . --gates --out results_b4_3.jsonl
 ```
 
-Dashboard: `dashboard_b4.html` — arraste os pares `results_*` + `veredictos_*`.
+Dashboard: `projetos/b4/dashboard_b4.html` — arraste os pares `results_*` + `veredictos_*`.
 Ele identifica a rodada pelo nome do arquivo, troca entre elas nos botões do topo
 e mostra ▲▼ da diferença quando há mais de uma carregada.
 
 ## Pendências
 
-1. **b4.3** — `runner/gates_harness.py` em construção (handoff em
-   `b4/HANDOFF_B43_GATES.md`). O risco aberto: o contexto da sessão onde a SUSEP
+1. **b4.3** — `comum/gates_harness.py` em construção (handoff em
+   `projetos/b4/HANDOFF_B43_GATES.md`). O risco aberto: o contexto da sessão onde a SUSEP
    é guardada vive no mesmo JSON do histórico; se apagá-lo entre roteiros não
    limpar o contexto, o gate deixa de perguntar na segunda conversa — erro
    silencioso que nenhuma contagem denuncia.
-2. **Julgar o b4.2** — pacote pronto em `b4/judge_b42/lote_01.json`.
+2. **Julgar o b4.2** — pacote pronto em `projetos/b4/judge_b42/lote_01.json`.
 3. Rejulgar b4.1 **não** é necessário; ele vira a linha de base "pipeline puro".
 
 ---
@@ -1148,8 +1155,8 @@ Custo: centavos.
 
 **O padrão que funciona:** handoff com propriedade de arquivo declarada, critério
 de aceite explícito, e aviso de que o conteúdo sob julgamento contém instruções
-que não são para ele. Ver `b4/HANDOFF_JUIZ_B4.md`, `b4/HANDOFF_JUIZ_B43.md` e
-`b4/HANDOFF_B43_GATES.md` — este último de **implementação**, não julgamento: o
+que não são para ele. Ver `projetos/b4/HANDOFF_JUIZ_B4.md`, `projetos/b4/HANDOFF_JUIZ_B43.md` e
+`projetos/b4/HANDOFF_B43_GATES.md` — este último de **implementação**, não julgamento: o
 `gates_harness.py` saiu de lá com 8 testes.
 
 ## Erro de desenho, registrado para não repetir
@@ -1165,12 +1172,12 @@ modelo conduz um atendimento inteiro?" — e a resposta é praticamente não.
 
 | o quê | onde |
 |---|---|
-| resultados brutos | `b4/results_b4.jsonl`, `b4/results_b4_2.jsonl`, `b4/results_b4_3.jsonl` |
-| veredictos consolidados | `b4/veredictos_b4.json`, `_b4_2.json`, `_b4_3.json` |
-| dashboard | `dashboard_b4.html` — arraste os pares `results_*` + `veredictos_*`; troca de rodada nos botões, ▲▼ mostra a diferença |
-| roteiros e esquema | `b4/roteiros_b4.jsonl`, `b4/ESQUEMA.md` |
-| rubrica do juiz | `runner/RUBRICA_JUIZ_B4.md` (inclui a seção de turnos de gate) |
-| runner | `runner/run_b4.py` (`--prompt-answer`, `--gates`), `runner/gates_harness.py` |
+| resultados brutos | `projetos/b4/results_b4.jsonl`, `projetos/b4/results_b4_2.jsonl`, `projetos/b4/results_b4_3.jsonl` |
+| veredictos consolidados | `projetos/b4/veredictos_b4.json`, `_b4_2.json`, `_b4_3.json` |
+| dashboard | `projetos/b4/dashboard_b4.html` — arraste os pares `results_*` + `veredictos_*`; troca de rodada nos botões, ▲▼ mostra a diferença |
+| roteiros e esquema | `projetos/b4/roteiros_b4.jsonl`, `projetos/b4/ESQUEMA.md` |
+| rubrica do juiz | `projetos/b4/RUBRICA_JUIZ_B4.md` (inclui a seção de turnos de gate) |
+| runner | `projetos/b4/runner/run_b4.py` (`--prompt-answer`, `--gates`), `comum/gates_harness.py` |
 
 ---
 
@@ -1268,8 +1275,8 @@ Script stdlib que roda NO servidor e desenha, no terminal, uma barra de blocos p
 memoria (1 bloco = 1 GiB, cor = dono), tabela por dono com `x/n`, modelos carregados e
 pessoas logadas. Modos: TTY (tela alternativa, redesenha no lugar) e `--json` (uma linha
 por amostra, consumida pelo icone da bandeja).
-- Entrega no PC: `monitor/monitor_servidor.bat` (scp do script + `ssh -tt`) e
-  `monitor/tray_monitor.ps1` (icone na bandeja, instalado por `monitor/instalar_monitor.ps1`:
+- Entrega no PC: `infra/monitor/monitor_servidor.bat` (scp do script + `ssh -tt`) e
+  `infra/monitor/tray_monitor.ps1` (icone na bandeja, instalado por `infra/monitor/instalar_monitor.ps1`:
   perfil proprio do Windows Terminal via fragment + atalho na pasta Inicializar).
 - Host configuravel por `B3_HOST` em todos os pontos de entrada.
 

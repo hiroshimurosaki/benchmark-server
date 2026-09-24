@@ -32,11 +32,11 @@ Sua tarefa é fechar esse buraco.
 
 ## ARQUIVOS QUE VOCÊ PODE CRIAR/EDITAR
 
-- `runner/gates_harness.py` — **novo, é o seu entregável**
-- `runner/test_gates_harness.py` — **novo, os testes**
+- `comum/gates_harness.py` — **novo, é o seu entregável**
+- `comum/test_gates_harness.py` — **novo, os testes**
 
-**RESERVADOS — não toque:** `runner/run_b4.py`, `runner/run_b3.py`,
-`runner/b3_env.py`, `runner/merge_judge*.py`, qualquer coisa em `b4/judge/`,
+**RESERVADOS — não toque:** `projetos/b4/runner/run_b4.py`, `projetos/b3/runner/run_b3.py`,
+`comum/b3_env.py`, `projetos/b3/runner/merge_judge.py e projetos/b4/runner/merge_judge_b4.py`, qualquer coisa em `projetos/b4/judge/`,
 e o repo `rag-chatbot` inteiro (leitura sim, escrita não).
 
 Eu faço a integração no `run_b4.py` depois, a partir do seu módulo.
@@ -46,7 +46,7 @@ Eu faço a integração no `run_b4.py` depois, a partir do seu módulo.
 ## O contrato — a API exata que eu vou chamar
 
 ```python
-# runner/gates_harness.py
+# comum/gates_harness.py
 
 @dataclass
 class ResultadoGates:
@@ -55,7 +55,7 @@ class ResultadoGates:
     quem: str                # "" | "opening_question" | "closure"
 
 def carregar_features_gates(settings: dict):
-    """Recebe o dict de `b3/data/oncorretor/settings.json` e devolve
+    """Recebe o dict de `projetos/b3/data/oncorretor/settings.json` e devolve
     (opening_question, auto_close) como objetos duck-type compatíveis com o que
     os gates esperam. Campo ausente = feature desligada, nunca exceção."""
 
@@ -80,7 +80,7 @@ síncrono e eu não quero async vazando para ele.
 | assinatura do opening gate | `Answer_service/src/services/opening_question_gate.py:241` |
 | assinatura do closure gate | `Answer_service/src/services/closure_gate.py:213` |
 | os dataclasses das features | `Answer_service/src/services/ai_subscriber.py` (`OpeningQuestionFeature`, `AutoCloseOnGratitudeFeature`) |
-| como o harness monta features hoje (o molde) | `runner/b3_env.py:141-170` (`_load_org_context`) |
+| como o harness monta features hoje (o molde) | `comum/b3_env.py:141-170` (`_load_org_context`) |
 
 Repare que o `_AiFeature` do `b3_env.py:90` tem **só** `enabled` e
 `confidence_threshold`. Os campos dos gates não existem lá — é por isso que você
@@ -93,7 +93,7 @@ precisa de `carregar_features_gates`.
 Três coisas podem quebrar, e eu quero sua leitura sobre elas ANTES do código
 final. Anote o que achou no relatório.
 
-1. **Firestore está stubado no benchmark** (`runner/b3_env.py:45`
+1. **Firestore está stubado no benchmark** (`comum/b3_env.py:45`
    `_install_firebase_stub`). Os dois gates chamam `_persist_bot_msg_firestore`.
    Isso estoura, loga e segue, ou trava? Se estourar, o gate precisa ser
    chamado de um jeito que absorva — mas **sem** engolir a decisão dele
@@ -114,9 +114,9 @@ não pergunta a SUSEP na segunda conversa e a medição fica errada em silêncio
 
 ---
 
-## Testes obrigatórios (`runner/test_gates_harness.py`)
+## Testes obrigatórios (`comum/test_gates_harness.py`)
 
-Rode com `..\rag-chatbot\env\Scripts\python.exe -m pytest runner/test_gates_harness.py -q`
+Rode com `..\rag-chatbot\env\Scripts\python.exe -m pytest comum/test_gates_harness.py -q`
 
 1. **Feature desligada não intercepta.** `opening_question.enabled = False` →
    `continuar=True`, `mensagens=[]`.

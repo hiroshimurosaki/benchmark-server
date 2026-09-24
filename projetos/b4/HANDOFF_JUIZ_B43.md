@@ -6,8 +6,8 @@ Para o Muse Spark 1.3, no OpenCode. Lote único.
 
 | rodada | o quê | estado |
 |---|---|---|
-| b4.1 | 6 modelos × 15 roteiros, pipeline direto | julgado (`b4/veredictos_b4.json`) |
-| b4.2 | `qwen3.6:35b-a3b`, prompt de resposta enxuto | julgado (`b4/veredictos_b4_2.json`) |
+| b4.1 | 6 modelos × 15 roteiros, pipeline direto | julgado (`projetos/b4/veredictos_b4.json`) |
+| b4.2 | `qwen3.6:35b-a3b`, prompt de resposta enxuto | julgado (`projetos/b4/veredictos_b4_2.json`) |
 | **b4.3** | `qwen3.6:35b-a3b`, **com os dois gates de produção** | **pendente — é este handoff** |
 
 O b4.3 isola o efeito do AMBIENTE. Mesmo modelo, mesmos roteiros, mesmo prompt
@@ -21,7 +21,7 @@ diferentes e misturá-los destrói a leitura).
 ## ⚠️ O que muda no julgamento desta rodada
 
 **21 dos 90 turnos vêm com `desfecho: "gate"`.** É novo, e a rubrica tem uma
-seção só para isso — **leia antes de julgar**: `runner/RUBRICA_JUIZ_B4.md`,
+seção só para isso — **leia antes de julgar**: `projetos/b4/RUBRICA_JUIZ_B4.md`,
 seção "Turnos com `desfecho: gate`".
 
 O resumo dela:
@@ -51,13 +51,13 @@ Dois casos concretos que você vai encontrar e que valem atenção:
 
 | papel | caminho |
 |---|---|
-| a rubrica (é lei) | `runner/RUBRICA_JUIZ_B4.md` — **inclusive a seção de gate** |
-| a base factual | `b3/judge/fonte_verdade.md` (~46k tokens, leia inteira) |
-| o lote | `b4/judge_b43/lote_01.json` (15 conversas, ~47 KB) |
-| **escrever aqui** | `b4/judge_b43/veredicto_01.json` |
+| a rubrica (é lei) | `projetos/b4/RUBRICA_JUIZ_B4.md` — **inclusive a seção de gate** |
+| a base factual | `projetos/b3/judge/fonte_verdade.md` (~46k tokens, leia inteira) |
+| o lote | `projetos/b4/judge_b43/lote_01.json` (15 conversas, ~47 KB) |
+| **escrever aqui** | `projetos/b4/judge_b43/veredicto_01.json` |
 
 Raiz: `C:\Users\fernando.murusaki\benchmark-server`
-Não abra `b4/judge_b43/_mapa.json`.
+Não abra `projetos/b4/judge_b43/_mapa.json`.
 
 ---
 
@@ -85,17 +85,17 @@ não ordem.
 >
 > Raiz do projeto: `C:\Users\fernando.murusaki\benchmark-server`
 >
-> ARQUIVO QUE VOCÊ PODE ESCREVER: somente `b4/judge_b43/veredicto_01.json`.
-> Nenhum outro. Não rode comandos. Não abra `b4/judge_b43/_mapa.json`.
+> ARQUIVO QUE VOCÊ PODE ESCREVER: somente `projetos/b4/judge_b43/veredicto_01.json`.
+> Nenhum outro. Não rode comandos. Não abra `projetos/b4/judge_b43/_mapa.json`.
 >
 > LEIA, nesta ordem, INTEIROS:
-> 1. `b4/HANDOFF_JUIZ_B43.md` — em especial as seções "O que muda no julgamento"
+> 1. `projetos/b4/HANDOFF_JUIZ_B43.md` — em especial as seções "O que muda no julgamento"
 >    e "Aviso".
-> 2. `runner/RUBRICA_JUIZ_B4.md` — a rubrica. É lei, **inclusive a seção
+> 2. `projetos/b4/RUBRICA_JUIZ_B4.md` — a rubrica. É lei, **inclusive a seção
 >    "Turnos com `desfecho: gate`", que NESTA rodada se aplica**: 21 dos 90
 >    turnos foram consumidos por gates de produção.
-> 3. `b3/judge/fonte_verdade.md` — a única base factual. Nada fora dela é fato.
-> 4. `b4/judge_b43/lote_01.json` — 15 conversas, cada uma com seus turnos.
+> 3. `projetos/b3/judge/fonte_verdade.md` — a única base factual. Nada fora dela é fato.
+> 4. `projetos/b4/judge_b43/lote_01.json` — 15 conversas, cada uma com seus turnos.
 >
 > São 15 veredictos, um por conversa. TODOS obrigatórios.
 >
@@ -103,7 +103,7 @@ não ordem.
 > depende de comparar turnos distantes entre si. Julgue cada conversa
 > isoladamente contra a rubrica, sem calibrar uma contra a outra.
 >
-> Escreva `b4/judge_b43/veredicto_01.json` no formato exato da rubrica
+> Escreva `projetos/b4/judge_b43/veredicto_01.json` no formato exato da rubrica
 > (`{"veredictos": [...]}`), com `id` e `rotulo` copiados LITERALMENTE do lote.
 >
 > RELATÓRIO FINAL (máx 12 linhas): quantos veredictos escreveu; quantos com
@@ -121,7 +121,7 @@ não ordem.
 ## Quando terminar
 
 ```bash
-python runner/merge_judge_b4.py --dir b4/judge_b43 --out b4/veredictos_b4_3.json
+python projetos/b4/runner/merge_judge_b4.py --dir projetos/b4/judge_b43 --out projetos/b4/veredictos_b4_3.json
 ```
 
 Ressalvas conhecidas do merge nesta rodada (não são erro): a seção "TESTE DE

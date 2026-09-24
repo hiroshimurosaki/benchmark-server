@@ -21,7 +21,7 @@ anônimos e embaralhados de propósito.
 
 ## Fonte de verdade
 
-`b3/judge/fonte_verdade.md` é a **única** base factual. Três partes:
+`projetos/b3/judge/fonte_verdade.md` é a **única** base factual. Três partes:
 
 1. **Documento indexado** — o que o RAG busca.
 2. **FAQ curado (157 entradas)** — respostas aprovadas pela org. O pipeline
