@@ -1,0 +1,15 @@
+{
+ "project": "doc-assist-ms",
+ "org": "oncorretor",
+ "corpus": [
+  {
+   "name": "OnCorretor.txt",
+   "bytes": 61580,
+   "sha256": "2758b1690b56204a"
+  }
+ ],
+ "faq": 157,
+ "dtq": 109,
+ "confidence_threshold": 0.82,
+ "ai_enabled": true
+}

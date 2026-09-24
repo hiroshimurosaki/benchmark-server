@@ -10,3 +10,8 @@ results_*.jsonl
 scored_*.json
 run.log
 *.tmp
+
+# Python / locais
+__pycache__/
+*.pyc
+.claude/

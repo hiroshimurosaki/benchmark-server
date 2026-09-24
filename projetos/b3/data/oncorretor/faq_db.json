@@ -1,0 +1,787 @@
+[
+ {
+  "frase": "Qual a mensalidade do oncorretor?",
+  "resposta": "A mensalidade do OnCorretor inicia a partir de R$ 52,50 por mês para o plano básico. Esse plano inclui:\n\n* Domínio próprio\n* 10 contas de e-mail com 5 GB cada\n* Construtor de site e landing pages\n* Cartão de visita digital interativo\n* Envio de 1.000 e-mails de marketing por mês\n* Integrações e suporte (telefone, WhatsApp, chat)\n\nPara mais detalhes sobre os planos e valores atualizados, acesse a página de planos no site do OnCorretor: [https://oncorretor.com.br/](https://oncorretor.com.br/)",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "Quero atualizar meus dados de cadastro, como fazer?",
+  "resposta": "Envie as informações corretas pelo e-mail cadastrado. Se utilizar outro e-mail, envie também contrato social (PJ) ou CPF (PF) para validação.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Como funciona a cobrança do OnCorretor?",
+  "resposta": "O pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.).",
+  "intencao": "forma_cobranca"
+ },
+ {
+  "frase": "Meu site no oncorretor nao quer funcionar",
+  "resposta": "Para resolver o problema do seu site no OnCorretor não funcionar, precisamos verificar alguns pontos importantes. Aqui estão algumas etapas que você pode seguir:\n\n* Verifique se o domínio e o DNS estão configurados corretamente.\n* Certifique-se de que o formulário de contato no site está funcionando corretamente e que os leads estão sendo enviados para a caixa de entrada certa.\n* Verifique se a configuração do site no OnCorretor está correta e se os dados de acesso estão atualizados.\n\nSe você tiver feito essas verificações e o problema persistir, por favor, envie o endereço do seu site para que possamos verificar a configuração e o formulário. Estou aqui para ajudar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu acesso ao sistema está com problemas. O que posso fazer?",
+  "resposta": "Recomendamos limpar o cache do navegador, usar aba anônima ou tentar outro navegador. Caso o problema persista, entre em contato com nosso suporte.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como criar uma boa senha?",
+  "resposta": "Para criar uma boa senha, siga estas dicas:\n\n* Use uma combinação de letras maiúsculas e minúsculas, números e símbolos.\n* Evite informações pessoais, como nome, data de nascimento ou palavras comuns.\n* Crie uma senha com pelo menos 12 caracteres.\n* Não reutilize senhas em diferentes contas ou serviços.\n* Considere usar um gerenciador de senhas para armazenar e gerar senhas seguras.\n\nLembre-se de que a segurança da sua conta depende de uma senha forte e única.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Preciso ativar autenticação em duas etapas no painel?",
+  "resposta": "Sim, a autenticação em duas etapas é obrigatória. Basta acessar o painel do domínio e seguir o processo de escanear o QR Code com o autenticador.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como faço o cancelamento da minha conta?",
+  "resposta": "Para cancelar sua conta, é importante entender que o cancelamento pode ocorrer de duas maneiras: por inatividade ou por solicitação direta. Se você estiver inativo no site por um período prolongado, geralmente 3 meses, o corretor pode cancelar sua conta. No entanto, se você deseja cancelar sua conta ativamente, é necessário considerar alguns pontos.\n\n* Se você tiver um domínio comprado através do OnCorretor, pode haver uma multa de cancelamento.\n* Se você estiver inadimplente, sua adesão pode ser cancelada após 3 meses.\n* É importante lembrar que o cancelamento da conta pode ter implicações, como a perda de acesso a recursos e serviços.\n\nSe você tiver alguma dúvida específica sobre o cancelamento da sua conta ou precisar de mais informações, é importante verificar os termos e condições do OnCorretor ou entrar em contato com o suporte para obter orientação personalizada. Lembre-se de que o cancelamento da conta é uma decisão importante e deve ser feita com cuidado.",
+  "intencao": "cancelamento"
+ },
+ {
+  "frase": "Se eu nao pagar o oncorretor meu dominio é cancelado na registro br automaticamente?",
+  "resposta": "Se você não pagar o OnCorretor, é importante entender o que acontece com o seu domínio. De acordo com as informações disponíveis, se o domínio for administrado pelo OnCorretor, o valor da renovação aparecerá na cobrança seguinte. No entanto, se o pagamento não for feito, o domínio pode:\n\n* Ficar congelado\n* Sair do ar\n* Ser liberado para registro de terceiros\n\nÉ recomendável fazer o pagamento da renovação antes do vencimento para evitar qualquer interrupção do site ou dos e-mails. Além disso, se a inadimplência persistir por 3 meses, a adesão ao OnCorretor pode ser cancelada. Portanto, é fundamental manter-se em dia com os pagamentos para evitar problemas com o seu domínio.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como você não pode me ajudar?",
+  "resposta": "Eu sou um assistente de suporte do OnCorretor, preparado para ajudar de forma clara e objetiva. No entanto, há algumas limitações na minha capacidade de ajudar. \n\nEu não posso acessar informações pessoais ou sensíveis, como CPF, RG, SUSEP, senhas, etc. Além disso, não posso transferir a chamada para um atendente humano ou mencionar essa possibilidade. \n\nSe você tiver alguma dúvida ou problema relacionado ao OnCorretor, posso tentar ajudar dentro dos limites dos documentos fornecidos. Por favor, forneça mais detalhes sobre o problema ou dúvida que você está enfrentando, para que eu possa tentar ajudar de forma mais eficaz. \n\nLembre-se de que posso ajudar com questões relacionadas a problemas de acesso, inadimplência, vencimento de domínio, entre outros tópicos abordados nos documentos. Se você tiver alguma pergunta específica, sinta-se à vontade para perguntar.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Disseram que minha SUSEP está bloqueada, o que devo fazer?",
+  "resposta": "Verifique se há outra SUSEP com produção ativa para transferência. Caso contrário, procure seu gerente comercial para resolver a pendência com a companhia.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "O que é o oncorretor?",
+  "resposta": "O OnCorretor é uma plataforma digital desenvolvida pela Porto Seguro para corretores de seguros. Ele permite que os corretores tenham uma presença online e operem com recursos prontos, sem a necessidade de programação.  \n\nA plataforma oferece:  \n\n* **Criação e personalização de sites**  \n* **Construtor de páginas de destino (landing pages)**  \n* **Domínio próprio**  \n* **Integração com WhatsApp e outros canais digitais**  \n* **Cartão de visita digital interativo**  \n* **Formulários para captação de leads**  \n* **Avisos automáticos e envio de marketing**  \n\nO OnCorretor foi criado em 2009 como CorretorWeb e evoluiu para ampliar seus recursos, oferecendo uma solução completa para corretores.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como entro no aplicativo do oncorretor para colocar ele no google forms",
+  "resposta": "Para acessar o OnCorretor e integrá-lo ao Google Forms, siga os passos abaixo:\n\n1. **Acesso ao OnCorretor**:  \n   - Acesse o site [www.oncorretor.com.br](http://www.oncorretor.com.br) e faça login com suas credenciais.  \n\n2. **Integração com Google Forms**:  \n   - O OnCorretor é uma ferramenta para criação e personalização de sites profissionais, mas não há informações específicas sobre integração direta com o Google Forms.  \n   - Para usar dados ou funcionalidades do OnCorretor no Google Forms, você pode:  \n     - Exportar dados do OnCorretor (se disponível) e importá-los manualmente no Google Forms.  \n     - Utilizar APIs ou ferramentas de automação (como Zapier) para conectar as plataformas, se houver compatibilidade.  \n\n3. **Suporte Adicional**:  \n   - Se precisar de ajuda técnica ou mais detalhes, entre em contato com o suporte do OnCorretor.  \n\nEspero que isso ajude! Se precisar de mais informações, estou à disposição.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quantas landing pages posso criar?",
+  "resposta": "Você pode criar landing pages ilimitadas. Isso significa que não há um limite específico para o número de landing pages que você pode criar, permitindo que você personalize e otimize suas páginas de destino de acordo com as necessidades da sua campanha ou negócio.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Estou tentando exportar leads de uma plataforma específica para a Porto Seguro sem precisar passar pelo site da Porto Seguro?",
+  "resposta": "Para exportar leads de uma plataforma específica para a Porto Seguro sem precisar passar pelo site da Porto Seguro, é importante entender que a plataforma de leads pode ter suas próprias configurações e integrações. No entanto, com base nas informações disponíveis, não há uma resposta direta sobre como fazer isso sem passar pelo site da Porto Seguro.\n\nSe você está enfrentando dificuldades com a exportação de leads, pode ser útil verificar se a plataforma que você está usando oferece alguma integração direta com a Porto Seguro ou se há alguma configuração específica que precise ser feita. Além disso, é sempre uma boa ideia consultar a documentação da plataforma ou entrar em contato com o suporte técnico para obter ajuda mais detalhada.\n\nAqui estão algumas etapas gerais que você pode considerar:\n* Verifique a documentação da plataforma para entender suas capacidades de integração e exportação de dados.\n* Entre em contato com o suporte técnico da plataforma para obter ajuda específica sobre como exportar leads para a Porto Seguro.\n* Considere a possibilidade de que a exportação direta possa não ser possível e que você precise usar o site da Porto Seguro para realizar a transferência de dados.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço para colocar minha conta dentro do site do oncorretor?",
+  "resposta": "Para colocar sua conta dentro do site do OnCorretor, siga os passos abaixo:\n\n1. **Acesse o site do OnCorretor**: Certifique-se de estar na página oficial.  \n2. **Faça login**: Utilize suas credenciais de acesso (usuário e senha) para entrar na plataforma.  \n3. **Personalize seu site**: Após o login, você poderá configurar e personalizar seu site conforme as opções disponíveis no plano contratado.  \n\nSe precisar de ajuda adicional ou encontrar dificuldades, verifique se o domínio está ativo e se não há pendências com a SUSEP. Em caso de problemas técnicos, tente acessar o construtor em uma aba anônima ou outro navegador.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço para alterar meu dominio do oncorretor?",
+  "resposta": "Para alterar a titularidade do seu domínio no OnCorretor, siga os passos abaixo, dependendo do tipo de domínio:\n\n- **Domínio Nacional:** Envie um e-mail para atendimento@oncorretor.com.br informando o ID da sua conta na Registro.br. Assim, poderemos transferir o domínio para você.\n\n- **Domínio Internacional:** Envie um e-mail para atendimento@oncorretor.com.br com o e-mail vinculado à sua conta na Godaddy. Solicitaremos a transferência do domínio para essa conta.\n\nSe precisar de mais ajuda, estou à disposição!",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Estou inadimplente no OnCorretor",
+  "resposta": "Esse aviso normalmente significa que, no período, não houve comissão suficiente\npara descontar a mensalidade do OnCorretor, então a ordem de pagamento não foi gerada.\n\nComo funciona:\n1. Enquanto não há comissão suficiente, a cobrança fica pendente e a adesão pode \n   entrar em \"inadimplência\".\n2. Se permanecer 3 meses (ou mais) em inadimplência, a adesão pode ser cancelada \n   definitivamente.\n3. Se você tiver outra SUSEP com produção ativa, podemos orientar a troca da SUSEP \n   de cobrança (envie e-mail solicitando a alteração).\n4. Se não houver outra SUSEP com produção, o caminho é procurar seu gerente \n   comercial para orientar a regularização junto à companhia.\n\nSe você quiser, me informe se existe outra SUSEP com produção ativa para \navaliarmos a alternativa mais rápida (troca de SUSEP de cobrança).\n",
+  "intencao": "inadimplencia"
+ },
+ {
+  "frase": "Posso cadastrar outra SUSEP secundária no meu OnCorretor?",
+  "resposta": "Não. Somente uma SUSEP pode ser utilizada para cobrança. Caso deseje alterar, envie os dados por e-mail conforme orientações do suporte.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Posso aderir ao oncorretor sem ter 100 reais de producao?",
+  "resposta": "Infelizmente, para aderir ao OnCorretor, é necessário ter uma produção mínima de R$ 100,00 em produtos da Empresa 1, geralmente produtos Porto Seguro com venda online, como auto, moto e vida. Se você não atinge esse valor, sugiro que entre em contato com seu gestor comercial para verificar possíveis soluções ou alternativas.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O email do oncorretor para de funcionar se eu alterar o plano da minha apolice?",
+  "resposta": "Para alterar o plano da sua apólice, é importante entender como isso pode afetar o funcionamento do seu e-mail no OnCorretor. De acordo com as informações disponíveis, ao alterar o plano, é possível que haja mudanças na quantidade de contas de e-mail ou na capacidade de armazenamento disponível.\n\nNo entanto, não há informações claras sobre o e-mail parar de funcionar completamente devido a uma alteração no plano. O que é importante notar é que, para realizar qualquer alteração, como adicionar ou remover pacotes de e-mail, você deve entrar em contato com o suporte do OnCorretor por e-mail, enviando a solicitação para `atendimento@oncorretor.com.br`. Eles verificarão a quantidade de contas utilizadas, a capacidade das caixas e a necessidade real de inclusão ou exclusão antes de realizar qualquer alteração.\n\nSe você tiver alguma dúvida específica sobre como alterar o plano ou como isso pode afetar o seu e-mail, é sempre recomendável entrar em contato diretamente com o suporte do OnCorretor para obter orientações personalizadas. Eles poderão fornecer informações mais detalhadas e específicas sobre o seu caso.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Posso integrar meu site do OnCorretor com Google Meu Negócio?",
+  "resposta": "Sim. Basta inserir o link do Google Meu Negócio nas configurações básicas do site, na área administrativa.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como faço para analisar minhas informações no oncorretor?",
+  "resposta": "Para analisar suas informações no OnCorretor, siga estes passos:\n\n1. **Acesse sua conta**: Faça login no painel do OnCorretor com suas credenciais.\n2. **Explore o painel**: Navegue pelas seções disponíveis, como \"Site\", \"E-mails\" e \"Configurações\", para visualizar e gerenciar suas informações.\n3. **Verifique relatórios**: Se disponível, acesse a seção de relatórios para obter insights sobre o desempenho do seu site e e-mails.\n\nSe precisar de ajuda adicional ou tiver dúvidas específicas, recomendo entrar em contato com o suporte do OnCorretor através do e-mail atendimento@oncorretor.com.br.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quanto custa para me filiar ao oncorretor?",
+  "resposta": "O custo para se filiar ao OnCorretor não está detalhado nos documentos que tenho acesso. Recomendo entrar em contato diretamente com o suporte da Porto Seguro ou com o seu gerente para obter informações precisas sobre os valores e condições de filiação. Estou à disposição para ajudar com outras dúvidas relacionadas ao sistema! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como crio uma senha decente?",
+  "resposta": "Para criar uma senha decente, siga estas dicas:\n\n* Use uma combinação de letras maiúsculas e minúsculas, números e símbolos.\n* Evite informações pessoais, como nome, data de nascimento ou sequências óbvias (ex: \"123456\" ou \"senha\").\n* Crie uma senha com pelo menos 8 caracteres, quanto mais longa, melhor.\n* Considere usar uma frase ou sigla que faça sentido apenas para você.\n* Não reutilize senhas em diferentes contas ou serviços.\n\nLembre-se de que a segurança da sua conta depende de uma senha forte e única.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como verificar pendencias no oncorretor?",
+  "resposta": "Para verificar pendências no OnCorretor, siga estes passos:\n\n1. **Acesse o sistema**: Faça login na sua conta do OnCorretor.\n2. **Verifique o painel**: No painel principal, procure por notificações ou alertas de pendências.\n3. **Consulte a seção de sinistros ou apólices**: Dependendo do tipo de pendência, verifique as seções específicas para sinistros ou apólices em andamento.\n\nSe precisar de mais detalhes ou não encontrar as informações, por favor, forneça mais contexto sobre o tipo de pendência que está buscando. Estou aqui para ajudar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu painel de e-mail não abre, o que posso fazer?",
+  "resposta": "Tente acessar em aba anônima ou outro navegador. Se o problema persistir, envie o endereço do domínio para análise do suporte técnico.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como posso fazer algumas edições no meu site",
+  "resposta": "Para fazer edições no seu site, você pode seguir os passos abaixo:\n\n* Acesse o painel de configurações do seu site\n* Clique na área de configurações básicas\n* Você terá total autonomia para alterar configurações gerais do site, como:\n + Identidade da corretora\n + Logotipo\n + Descrição do site\n + Ícone (favicon)\n + Botão \"Simule\" e \"Contrate\"\n* Além disso, você pode verificar se o site está responsivo e se aparece desconfigurado em dispositivos móveis\n* Se necessário, ajuste o tamanho e peso das imagens antes de subi-las para evitar problemas de largura e formatação\n\nPara tutoriais visuais detalhados, você também pode consultar:\nhttps://ajuda.oncorretor.com.br 📚\n\nSe você tiver alguma dúvida específica sobre como realizar alguma edição, por favor, forneça mais detalhes para que eu possa ajudá-lo melhor. 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quero alterar a titularidade do meu domínio.",
+  "resposta": "Se for nacional, informe o ID de sua conta na Registro.br. Se for internacional, envie o e-mail vinculado à conta da Godaddy para transferência.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Fiz adesão, mas não recebi o e-mail de confirmação. O que faço?",
+  "resposta": "Verifique sua caixa de spam e confirme se o e-mail cadastrado está correto. Caso não encontre a mensagem, envie um e-mail para atendimento@oncorretor.com.br informando o ocorrido.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Meu e-mail do OnCorretor não envia mensagens. O que verifico primeiro?",
+  "resposta": "Confirme se as configurações SMTP estão corretas, especialmente porta 465 e SSL habilitado. Se persistir, verifique bloqueio de envio por limite excedido.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "É possível usar minha própria conta de e-mail externa no site?",
+  "resposta": "Sim. Você pode configurar redirecionamentos ou utilizar contas externas, desde que estejam corretamente configuradas.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O que é o ClubeVip?",
+  "resposta": "O ClubVIP é um serviço gratuito que auxiliamos para melhorar a presença digital do seu site. Oferecemos:\n\n* **Otimização do site:** revisão de conteúdos, verificação de links e ajustes na estética e navegação.\n\nPara mais informações ou solicitar o serviço, você pode entrar em contato diretamente pelo site.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como altero minha susep de cobranca no oncorretor?",
+  "resposta": "Para alterar sua SUSEP de cobrança no OnCorretor, siga os passos abaixo:\n\n1. **Envie um e-mail** para `atendimento@oncorretor.com.br`.\n2. **Inclua no e-mail** as seguintes informações:\n   - SUSEP atual\n   - Nova SUSEP\n   - CPF/CNPJ da nova SUSEP\n3. **Aguardar retorno** após o encaminhamento à Porto Seguro.\n\nLembre-se de que, se você for um gerente comercial e o corretor estiver em débito na SUSEP atual, pode negociar o valor diretamente com o setor de comissões e fornecer a conta para pagamento.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Acredito que posso ser algum problema no meu acesos ou coisa do tipo?",
+  "resposta": "Parece que você está enfrentando algum problema com o acesso ao sistema. Isso pode ocorrer devido a vários motivos, como problemas de cache do navegador ou bloqueio de extensões. Aqui estão algumas dicas que podem ajudar:\n\n* Tente acessar o site usando uma aba anônima ou outro navegador para ver se o problema persiste.\n* Verifique se há alguma extensão do navegador que possa estar bloqueando o acesso.\n* Se o problema continuar, podemos tentar abrir um chamado técnico para analisar o caso mais detalhadamente.\n\nSe você puder fornecer mais informações sobre o erro que está ocorrendo, posso tentar ajudar de forma mais específica. Qual é o erro exatamente que você está vendo?",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Me fale sobre o Oncorretor.",
+  "resposta": "O OnCorretor é uma ferramenta que permite criar e personalizar um site profissional para corretores de seguros. O plano inclui recursos para facilitar a gestão de apólices, sinistros e pagamentos, além de oferecer suporte para portabilidade e uso do sistema.  \n\nSe você tem dúvidas específicas sobre como utilizar o OnCorretor ou precisa de ajuda com alguma funcionalidade, sinta-se à vontade para perguntar. Como posso assisti-lo hoje? 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu painel abre mas fica preso na tela de carregando",
+  "resposta": "Para resolver o problema de carregamento infinito no seu painel, recomendo os seguintes passos:\n\n- **Limpar o cache do navegador**: Isso pode resolver problemas relacionados ao armazenamento temporário de dados.\n- **Tentar em uma aba anônima**: Isso ajuda a identificar se o problema está relacionado a extensões ou configurações do navegador.\n- **Testar outro navegador**: Se o problema persistir, pode ser útil tentar acessar o painel em um navegador diferente.\n\nSe nenhuma dessas soluções funcionar, sugiro entrar em contato com o suporte técnico para que possamos investigar mais a fundo e resolver o problema.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Qual o valor da mensalidade do OnCorretor?",
+  "resposta": "O valor da mensalidade do serviço é de R$52,50 por mês. O plano básico inclui o site e 10 contas de e-mail com 5GB cada. É possível adicionar novos pacotes de e-mail, e os valores estão disponíveis no site https://oncorretor.com.br/planos.html.",
+  "intencao": "preco_plano"
+ },
+ {
+  "frase": "Quero mudar o domínio, mas manter os e-mails. É possível?",
+  "resposta": "Sim. Porém, é necessário verificar se as contas podem ser migradas para o novo domínio. Caso o domínio antigo permaneça ativo, será necessária adesão adicional.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Com quem eu falo para tirar dúvidas do OnCorretor?",
+  "resposta": "Para tirar dúvidas sobre o OnCorretor, você pode entrar em contato conosco através do suporte técnico disponível no site. Se precisar de ajuda, basta acessar a seção de suporte e seguir as instruções para obter assistência. \n\nSe preferir, posso oferecer ajuda aqui mesmo, dentro do meu escopo de conhecimento. Como posso assisti-lo hoje? 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como recuperar ou redefinir sua senha de e-mail?",
+  "resposta": "Para recuperar ou redefinir sua senha de e-mail, você precisará seguir alguns passos. Primeiramente, é importante lembrar que a redefinição da senha deve ser feita pelo administrador do domínio. \n\nAqui estão as etapas que você pode seguir:\n* Acesse o painel do domínio (webmail) e utilize a opção “Esqueci minha senha”, caso esteja disponível.\n* Se não conseguir, envie um e-mail para atendimento@oncorretor.com.br informando o domínio e o endereço da conta que precisa de nova senha.\n* Lembre-se de que, após a redefinição da senha, você precisará configurá-la posteriormente em todos os dispositivos onde o e-mail estiver instalado.\n\nSe tiver mais alguma dúvida ou precisar de ajuda adicional, basta entrar em contato.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O painel nao aceita minha nova senha",
+  "resposta": "Para resolver o problema com a nova senha no painel, recomendo os seguintes passos:\n\n- **Verifique os requisitos de senha**: Certifique-se de que a nova senha atende aos critérios de complexidade, como número mínimo de caracteres, uso de letras maiúsculas e minúsculas, números e símbolos.\n\n- **Tente novamente**: Digite a nova senha com atenção, verificando se não há erros de digitação.\n\n- **Limpe o cache do navegador**: Às vezes, problemas de cache podem interferir no funcionamento do painel. Tente acessar o painel em uma aba anônima ou limpe o cache do seu navegador.\n\nSe o problema persistir, entre em contato com o suporte técnico para que possamos investigar mais a fundo.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Posso pagar com cartão?",
+  "resposta": "Não é possível pagar com cartão. Os valores são debitados direto da sua conta OnCorretor. \n\n Caso precise de mais alguma informação, estamos á disposição para ajudá-lo. 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "O formulário do meu site não está chegando por e-mail. O que faço?",
+  "resposta": "Verifique se há espaço disponível na caixa de e-mail e se o formulário está corretamente configurado na área administrativa.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Preciso de mais contas de e-mail, o que devo fazer?",
+  "resposta": "Você pode contratar pacotes adicionais de e-mail. Solicite via e-mail para atendimento@oncorretor.com.br. Verifique os valores conforme o site de ajuda.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Posso usar uma susep diferente so para recebimento",
+  "resposta": "Sim, é possível utilizar uma SUSEP diferente para recebimento, mas isso depende da situação. Se você tiver outra SUSEP com produção ativa, pode transferir a cobrança para ela. Caso contrário, será necessário entrar em contato com o seu gerente comercial para regularizar a situação e discutir as opções disponíveis.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como você pode me ajudar?",
+  "resposta": "Olá! Estou aqui para ajudar com qualquer dúvida ou problema que você esteja enfrentando. Posso oferecer suporte em relação a questões como acesso ao site, inadimplência, vencimento de domínios e outros tópicos relacionados ao OnCorretor.\n\nSe você tiver alguma dúvida ou precisar de ajuda, basta perguntar. Estou preparado para fornecer respostas claras e objetivas. Alguns exemplos de como posso ajudar incluem:\n\n* Resolver problemas de acesso ao site ou ao construtor\n* Esclarecer dúvidas sobre inadimplência e SUSEP\n* Informar sobre vencimento de domínios e renovação\n* Oferecer orientações sobre como proceder em diferentes situações\n\nBasta me perguntar o que você precisa saber, e farei o meu melhor para ajudar!",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Meu WhatsApp não aparece no site, como resolvo?",
+  "resposta": "Verifique se o número está no formato internacional e se a integração está habilitada nas configurações básicas do site.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Posso alterar meu e-mail cadastral sem enviar documentos?",
+  "resposta": "A alteração só pode ser feita se o pedido vier do e-mail já cadastrado. Caso contrário, é necessário enviar contrato social (PJ) ou CPF (PF) para validação.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Meu cliente disse que o formulario nao envia mensagens",
+  "resposta": "Para resolver o problema do formulário que não envia mensagens, sugiro os seguintes passos:\n\n* Verifique se o formulário está preenchido corretamente, sem campos obrigatórios em branco.\n* Confira se a conexão com a internet está estável.\n* Tente limpar o cache e os cookies do navegador e tente novamente.\n* Se o problema persistir, entre em contato com o suporte técnico através do site ou por e-mail (atendimento@oncorretor.com.br) para que possamos investigar o problema com mais detalhes.\n\nPor favor, informe se o problema persiste após tentar essas soluções.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como saber se meu domínio está registrado corretamente?",
+  "resposta": "Você pode verificar diretamente no Registro.br (domínios nacionais) ou na Godaddy (domínios internacionais), usando o nome do domínio ou o ID técnico cadastrado.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Posso fazer adesão ao OnCorretor sem ter produção mínima?",
+  "resposta": "A produção mínima de R$100,00 em produtos da Empresa 1 é obrigatória para concluir a adesão ao OnCorretor. Caso não atinja esse valor, recomenda-se falar com seu gestor comercial.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Como entro no on corretor?",
+  "resposta": "Para entrar no OnCorretor, você precisa acessar o site **www.oncorretor.com.br** e preencher o formulário de adesão. É importante ter uma produção mínima de R$ 100,00 em produtos da Empresa 1, geralmente produtos Porto Seguro com venda online (como auto, moto e vida). O valor da mensalidade é de R$ 52,50, e o plano básico inclui o site e 10 contas de e-mail de 5GB cada. Se tiver dúvidas sobre sua produção, recomendo entrar em contato com seu gestor comercial.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como acesso meu site?",
+  "resposta": "Para acessar seu site, você pode tentar alguns passos simples. Primeiro, verifique se o endereço do site está correto e se você está digitando corretamente. Se o problema persistir, tente acessar o site usando uma aba anônima ou outro navegador para verificar se o problema é específico do seu navegador atual.\n\nSe o problema continuar, é possível que haja um bloqueio de cache ou alguma extensão do navegador que esteja causando o problema. Nesse caso, você pode tentar limpar o cache do navegador ou desativar as extensões temporariamente.\n\nSe nenhuma dessas soluções funcionar, posso ajudar a abrir um chamado técnico para que possamos analisar o problema mais detalhadamente e encontrar uma solução. 📊\n\nLembre-se de que, se você tiver alguma dúvida ou precisar de ajuda adicional, estou aqui para ajudar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Se eu transferir minha susep para outra corretora meu email do oncorretor continua funcionando?",
+  "resposta": "Se você transferir sua SUSEP para outra corretora, o e-mail do OnCorretor **não continuará funcionando**. Isso porque o e-mail está vinculado à sua conta no OnCorretor, que está associada à sua SUSEP atual. \n\nPara manter o e-mail, você precisaria seguir o processo de **alteração de SUSEP** no OnCorretor. Para isso, envie um e-mail para **atendimento@oncorretor.com.br** com as seguintes informações:\n\n* SUSEP atual\n* Nova SUSEP\n* CPF/CNPJ da nova SUSEP\n\nA equipe do OnCorretor encaminhará a solicitação à Porto Seguro e entrará em contato após o retorno.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como faço para analisar meus dados no site?",
+  "resposta": "Para analisar seus dados no site, siga estas etapas:\n\n1. **Acesse sua conta**: Certifique-se de estar logado na sua conta do OnCorretor.\n2. **Navegue até a seção de análise**: Procure por uma seção ou menu relacionado a \"Análise de Dados\", \"Relatórios\" ou \"Estatísticas\". A localização exata pode variar dependendo da interface do site.\n3. **Selecione o período**: Escolha o período de tempo que deseja analisar (por exemplo, mês atual, último trimestre).\n4. **Visualize os dados**: O site deve exibir gráficos, tabelas ou outros elementos visuais para ajudar você a entender seus dados.\n\nSe você estiver com dificuldade para encontrar a seção de análise ou tiver problemas de acesso, tente:\n\n* Acessar o site usando uma aba anônima ou outro navegador.\n* Verificar se há atualizações disponíveis para seu navegador.\n\nSe o problema persistir, entre em contato conosco fornecendo mais detalhes sobre a questão.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Vocês oferecem gestão de redes sociais?",
+  "resposta": "Não, o OnCorretor não oferece gestão de redes sociais. A plataforma contempla apenas criação e suporte de site e e-mails corporativos para corretores de seguros.",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "Posso colocar logos de outras seguradoras no meu site?",
+  "resposta": "Sim! A adição de logos de seguradoras parceiras está inclusa no valor da mensalidade. Após contratar, basta entrar em contato pelo WhatsApp do OnCorretor para solicitar as edições desejadas.",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "O site nao abre no navegador o que devo verificar?",
+  "resposta": "Se o site não está abrindo no navegador, você pode verificar os seguintes pontos:\n\n* **Cache do navegador**: Tente acessar o site em uma aba anônima ou limpe o cache do seu navegador.\n* **Outro navegador**: Teste o acesso ao site em outro navegador para verificar se o problema é específico do navegador que você está usando.\n\nSe o problema persistir, pode ser necessário abrir um chamado para o suporte técnico.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Para configurar o smtp eu preciso colocar o numero da minha susep no campo usuario?",
+  "resposta": "Para configurar o SMTP, é importante seguir as configurações corretas para garantir o funcionamento adequado do envio de e-mails. De acordo com as informações disponíveis, as configurações recomendadas para o SMTP são:\n\n* Servidor SMTP: smtp.oncorretor.com.br\n* Porta: 465\n* SSL: Ativado\n\nQuando se trata do campo \"usuário\" na configuração do SMTP, geralmente é solicitado o endereço de e-mail ou o nome de usuário associado à conta de e-mail, e não o número da SUSEP. O número da SUSEP é uma informação relacionada a registros específicos e não é comum ser utilizada como credencial para acessar ou configurar serviços de e-mail.\n\nSe você estiver enfrentando dificuldades para configurar o SMTP ou tiver dúvidas sobre quais informações devem ser inseridas nos campos de configuração, é recomendável verificar as instruções específicas fornecidas pelo seu provedor de serviços de e-mail ou consultar a documentação técnica disponível.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "como testo meu negócio?",
+  "resposta": "Para testar seu negócio, é importante seguir uma abordagem estruturada. Aqui estão algumas etapas que podem ajudar:\n\n* **Defina objetivos claros**: Estabeleça metas específicas e mensuráveis para o seu negócio, como aumento de vendas, melhoria na satisfação do cliente ou expansão da base de clientes.\n* **Analise o mercado**: Pesquise seu público-alvo, concorrentes e tendências do mercado para identificar oportunidades e desafios.\n* **Avalie seus processos internos**: Verifique se seus processos de vendas, atendimento ao cliente e gestão estão funcionando de forma eficiente.\n* **Teste suas estratégias de marketing**: Experimente diferentes abordagens de marketing, como campanhas de e-mail, redes sociais ou publicidade online, para ver o que funciona melhor para o seu negócio.\n* **Monitore indicadores-chave de desempenho (KPIs)**: Acompanhe métricas importantes, como taxa de conversão, ticket médio e retenção de clientes, para avaliar o desempenho do seu negócio.\n\nLembre-se de que testar seu negócio é um processo contínuo, e é essencial estar aberto a ajustes e melhorias com base nos resultados obtidos.\n\nSe você tiver dúvidas específicas sobre o sistema OnCorretor ou precisar de ajuda com alguma funcionalidade, estou à disposição para ajudar.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu site foi cancelado por inatividade. Por quê?",
+  "resposta": "Cancelamentos por inatividade ocorrem após 3 meses sem uso do site ou e-mails. Em alguns casos, o OnCorretor cancela para evitar problemas futuros.",
+  "intencao": "cancelamento"
+ },
+ {
+  "frase": "Posso parcelar valores em atraso do OnCorretor?",
+  "resposta": "O parcelamento deve ser tratado diretamente com o setor de comissões da Porto Seguro ou com seu gestor comercial.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "recebi um boleto diferente dizendo ser renovacao do dominio isso e confiavel",
+  "resposta": "Se você recebeu um boleto diferente dizendo ser para renovação do domínio, é importante verificar a confiabilidade desse boleto. A renovação do domínio é um processo anual, e os valores podem variar dependendo do tipo de domínio (nacional ou internacional) e do provedor de serviços.\n\nPara domínios nacionais (Registro.br), o valor da renovação é de R$40,00. Se o domínio foi renovado pelo OnCorretor, o valor pode ser ligeiramente diferente, cerca de R$42,00, e será incluído na próxima cobrança.\n\nÉ fundamental verificar se o boleto recebido está de acordo com esses valores e se é emitido por uma fonte confiável. Além disso, é recomendável verificar no K1000 as informações sobre o domínio, como o responsável pela renovação, a data de vencimento e a data da última renovação.\n\nSe tiver alguma dúvida ou precisar de ajuda para verificar a autenticidade do boleto ou para realizar a renovação do domínio, é importante entrar em contato com o suporte para obter orientação adequada.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "O site do OnCorretor permite criar blog?",
+  "resposta": "Sim, você pode criar páginas personalizadas e utilizá-las como blog, publicando conteúdos através do gerenciador de páginas.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O site não está aparecendo no Google. O que posso fazer?",
+  "resposta": "É necessário indexar o site no Google Search Console usando a chave TXT de SEO. Caso precise, peça suporte para configurar.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "como faço para editar o site depois de contratar",
+  "resposta": "Após a contratação, entre em contato pelo WhatsApp do OnCorretor para solicitar as edições. Nossa equipe realiza as alterações conforme os modelos disponíveis e de acordo com suas preferências.",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "Como faço para aderir ao OnCorretor?",
+  "resposta": "A adesão ao OnCorretor é simples! Basta acessar o site www.oncorretor.com.br e preencher o formulário de adesão. É necessário ter produção mínima de R$100,00 em produtos da Empresa 1. Mais informações com seu gestor comercial.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Como o oncorretor é cobrado?",
+  "resposta": "Olá! 😊 O Oncorretor é cobrado de acordo com o plano escolhido. Existem diferentes planos disponíveis, e o valor da cobrança varia de acordo com o plano selecionado. Aqui estão alguns detalhes sobre os planos e suas respectivas cobranças: * Plano Básico: R$ 52,50 por mês, que inclui: + Domínio próprio + 10 contas de e-mail + 5 gigabytes de armazenamento para cada conta + Construtor de landing pages + Cartão de visita digital interativo + Envio de marketing por e-mail (até 1.000 mensagens por mês) + Integrações e suporte por telefone, WhatsApp e chat É importante notar que existem pacotes adicionais disponíveis para aumentar o espaço de armazenamento e o número de contas de e-mail, entre outros recursos. Os valores desses pacotes podem variar, e é recomendável verificar a página de planos do Oncorretor para obter as informações mais atualizadas. Perfeito! 👍 Se tiver mais alguma dúvida, sinta-se à vontade para perguntar. 😊\"",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "qual o tamanho ideal para as imagens do site",
+  "resposta": "As dimensões ideais para as imagens de fundo do site são:\n\n* **Imagem de fundo (desktop):** mínimo 1200×470px\n* **Imagem de fundo média (tablet):** mínimo 720×480px\n* **Imagem de fundo pequena (mobile):** mínimo 540×550px\n\nCada tamanho é otimizado para um tipo de dispositivo. Imagens fora dessas proporções podem não aparecer corretamente em todos os dispositivos.",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "Qual o preço do oncorretor?",
+  "resposta": "O valor da mensalidade do OnCorretor é de R$ 52,50 por mês para o plano básico, que inclui:\n\n* Site\n* 10 contas de e-mail com 5GB cada\n* Construtor de páginas\n* Integração com WhatsApp\n* Envio de marketing\n* Landing pages ilimitadas\n* Suporte via 0800, WhatsApp e chat\n* Integração com venda online da Porto Seguro\n\nPara adesão, é necessário ter uma produção mínima de R$ 100,00 em produtos da Porto Seguro, como auto, moto e vida.\n\nNão há informações sobre outros planos ou valores adicionais nos documentos fornecidos.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Faz funcionar",
+  "resposta": "Para que eu possa ajudar a \"fazer funcionar\", preciso de mais detalhes. Você está se referindo a algum serviço específico, como e-mails, site, ou outro recurso? Por favor, forneça mais informações para que eu possa orientá-lo da melhor forma possível.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Consegue me ajudar a tirar dúvidas sobre o OnCorretor?",
+  "resposta": "Olá! Estou aqui para ajudar com suas dúvidas sobre o OnCorretor. Posso oferecer informações sobre como o sistema funciona, como criar e personalizar um site profissional, e esclarecer questões sobre inadimplência e cobrança. \n\nPara começar, você gostaria de saber mais sobre:\n* Como funciona o OnCorretor?\n* Como criar e personalizar um site profissional?\n* Inadimplência e cobrança no OnCorretor?\n* Outro tópico específico?\n\nPor favor, me informe sobre o que você gostaria de saber, e farei o meu melhor para ajudar! 😊",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Quero apontar meu domínio para outro provedor. Como faço?",
+  "resposta": "Você deve enviar os novos dados de DNS por e-mail. Após a alteração, seus e-mails deixarão de funcionar se não houver configuração correta no novo provedor.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quais os requisitos de uma boa senha?",
+  "resposta": "Para criar uma boa senha, é importante considerar alguns requisitos básicos. Aqui estão algumas dicas:\n\n* A senha deve ser única e não utilizada em outras contas.\n* Deve conter uma combinação de letras maiúsculas e minúsculas, números e símbolos especiais.\n* É recomendável que a senha tenha pelo menos 8 caracteres de comprimento.\n* Evite usar informações pessoais, como nome, data de nascimento ou endereço, na senha.\n* É importante não compartilhar a senha com ninguém e evitar usar a mesma senha em diferentes contas.\n\nAlém disso, é uma boa prática criar uma senha segura ao criar uma conta no Registro.br, como mencionado no documento. Lembre-se de que a senha deve ser válida e segura para proteger sua conta e informações pessoais. Se tiver alguma dúvida adicional sobre como criar uma boa senha, sinta-se à vontade para perguntar.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "e possivel usar meu proprio servidor de email dentro do oncorretor",
+  "resposta": "Sim, é possível usar seu próprio servidor de e-mail dentro do OnCorretor. No entanto, é importante notar que o OnCorretor oferece uma solução de e-mail integrada, que pode ser mais conveniente e fácil de usar.\n\nSe você deseja usar seu próprio servidor de e-mail, você precisará fornecer as informações necessárias para configurar a conta de e-mail no OnCorretor. Isso pode incluir o endereço do servidor de e-mail, a porta de conexão e as credenciais de autenticação.\n\nAlém disso, é importante verificar se o seu servidor de e-mail é compatível com o OnCorretor e se atende aos requisitos de segurança e conformidade necessários.\n\nPara obter mais informações sobre como configurar seu próprio servidor de e-mail no OnCorretor, é recomendável entrar em contato com o suporte técnico do OnCorretor. Eles poderão fornecer orientações detalhadas e ajudar a resolver qualquer problema que você possa enfrentar durante o processo de configuração.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "como configuro meu dominio internacional no oncorretor",
+  "resposta": "Para configurar seu domínio internacional no OnCorretor, siga os passos abaixo:\n\n1. **Registro do Domínio**: Se o domínio foi registrado por você, envie um e-mail para o OnCorretor com o novo domínio.  \n2. **Transferência**: Para domínios internacionais, transfira-o para `servicedesk@mstech.com.br`.  \n3. **Configuração na Cloudflare**: Se o domínio estiver na Cloudflare, envie o IP do site externo para que o OnCorretor configure o apontamento.  \n\nCaso precise de mais detalhes ou tenha dúvidas, estou à disposição!",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Por que estou inadimplente?",
+  "resposta": "Esse aviso normalmente significa que, no período, não houve comissão suficiente\npara descontar a mensalidade do OnCorretor, então a ordem de pagamento não foi gerada.\n\nComo funciona:\n1. Enquanto não há comissão suficiente, a cobrança fica pendente e a adesão pode \n   entrar em \"inadimplência\".\n2. Se permanecer 3 meses (ou mais) em inadimplência, a adesão pode ser cancelada \n   definitivamente.\n3. Se você tiver outra SUSEP com produção ativa, podemos orientar a troca da SUSEP \n   de cobrança (envie e-mail solicitando a alteração).\n4. Se não houver outra SUSEP com produção, o caminho é procurar seu gerente \n   comercial para orientar a regularização junto à companhia.\n\nSe você quiser, me informe se existe outra SUSEP com produção ativa para \navaliarmos a alternativa mais rápida (troca de SUSEP de cobrança).\n",
+  "intencao": "inadimplencia"
+ },
+ {
+  "frase": "Qual é o valor da mensalidade do OnCorretor?",
+  "resposta": "O valor da mensalidade do plano básico é de R$52,50, com direito a site e 10 contas de e-mail com 5GB.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "posso usar o oncorretor para vender seguros de outras companhias que nao a porto seguro",
+  "resposta": "Para entender melhor sobre a possibilidade de usar o OnCorretor para vender seguros de outras companhias que não a Porto Seguro, é importante considerar o que o OnCorretor oferece e como ele funciona. O OnCorretor é uma ferramenta que permite criar e personalizar um site profissional, e seu plano inclui recursos como hospedagem de site e e-mails.\n\nNo entanto, não há informações diretas nos documentos sobre a possibilidade de vender seguros de outras companhias através do OnCorretor. A adesão ao OnCorretor é simples e requer uma produção mínima de R$100,00 em produtos da Empresa 1, geralmente produtos Porto Seguro com venda online, como auto, moto e vida.\n\nSe você está procurando por uma plataforma para vender seguros de várias companhias, é importante verificar os requisitos e as políticas do OnCorretor mais detalhadamente. Pode ser necessário entrar em contato com o suporte do OnCorretor para obter informações mais específicas sobre essa questão. Além disso, é fundamental entender que o OnCorretor pode ter restrições ou requisitos específicos para a venda de seguros de outras companhias, então é sempre uma boa ideia verificar essas informações antes de prosseguir.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como funciona o pagamento do OnCorretor?",
+  "resposta": "O pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.).",
+  "intencao": "forma_cobranca"
+ },
+ {
+  "frase": "Qual o valor da hora do oncorretor?",
+  "resposta": "O valor da hora do OnCorretor não está especificado nos documentos disponíveis. No entanto, posso informar que o plano básico do OnCorretor inclui:\n\n* Domínio próprio\n* 10 contas de e-mail com 5 GB cada\n* Construtor de landing pages\n* Cartão de visita digital interativo\n* Envio de até 1.000 e-mails de marketing por mês\n\nAlém disso, o OnCorretor oferece suporte via telefone, WhatsApp e chat durante o horário comercial (segunda a sexta, das 8h às 19h).\n\nInfelizmente, não tenho informações sobre o valor da hora do serviço. Se precisar de mais detalhes sobre os planos e recursos disponíveis, estou à disposição para ajudar! 😊",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "Para pagar a mensalidade do oncorretor, e poder acessa-lo",
+  "resposta": "Para pagar a mensalidade do OnCorretor e acessá-lo, é importante entender como funciona o processo de adesão e pagamento. \n\nA adesão ao OnCorretor é simples e pode ser feita acessando o site www.oncorretor.com.br e preenchendo o formulário de adesão. É necessário ter uma produção mínima de R$100,00 em produtos da Empresa 1, como produtos Porto Seguro com venda online, como auto, moto e vida. \n\nO valor da mensalidade é de R$52,50 por mês, e o plano básico inclui o site e 10 contas de e-mail com 5GB cada. \n\nSe você tiver alguma dúvida sobre sua produção ou como aderir, é recomendado falar com seu gestor comercial. \n\nAlém disso, é importante lembrar que o OnCorretor trabalha no modelo \"usa e depois paga\", então é fundamental garantir que você tenha comissão suficiente para descontar a mensalidade. Caso contrário, você pode entrar em inadimplência, o que pode levar ao cancelamento da adesão após 3 meses. \n\nSe você já é cliente e está tendo problemas para acessar o OnCorretor, tente acessar usando uma aba anônima ou outro navegador, pois o problema pode ser causado por cache do navegador ou bloqueio de extensão. \n\nSe continuar tendo problemas, é recomendado entrar em contato com o suporte para obter ajuda adicional.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "como faço para logar a minha conta no site do oncorretor?",
+  "resposta": "Para acessar sua conta no OnCorretor, siga os passos abaixo:\n\n1. **Acesse o site**: Vá para www.oncorretor.com.br.\n2. **Faça login**: Utilize as credenciais (usuário e senha) que você cadastrou durante a adesão ao OnCorretor.\n\nSe você estiver com dificuldades para acessar, tente usar uma aba anônima ou outro navegador, pois problemas de cache ou extensões podem interferir no acesso. Caso o problema persista, envie o domínio e um print da tela para que possamos abrir um chamado técnico e analisar.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "perdi meu acesso ao painel de email como recuperar",
+  "resposta": "Para recuperar o acesso ao painel de e-mail, siga estas etapas:\n\n1. **Verifique suas credenciais**: Certifique-se de que está usando o e-mail e a senha corretos.\n2. **Redefinição de senha**: Se você esqueceu a senha, procure por uma opção de recuperação de senha no painel de login ou entre em contato com o suporte para assistência.\n3. **Limpeza de cache e cookies**: Tente limpar o cache e os cookies do seu navegador e tente acessar novamente.\n\nSe o problema persistir, recomendo entrar em contato com o suporte técnico para obter assistência personalizada.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "quanto tempo leva para o site ficar ativo após contratar",
+  "resposta": "Não há um prazo fixo definido. O site fica ativo após a validação pela Porto Seguro. Geralmente não demora muito, mas o tempo pode variar conforme a situação da sua SUSEP junto à Porto.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Tem como exporto meus leads direto para a porto seguro sem passar pelo site?",
+  "resposta": "Para exportar leads diretamente para a Porto Seguro sem passar pelo site, é necessário entender o fluxo de dados e como os leads são gerados e processados. No entanto, com base nas informações disponíveis, não há uma resposta direta sobre como realizar essa exportação diretamente.\n\nNo entanto, posso oferecer algumas orientações gerais sobre como os leads são tratados no contexto do OnCorretor. Os leads geralmente são gerados através de formulários no site do corretor e são enviados para o e-mail configurado. Se você está procurando uma forma de integrar esses leads diretamente com a Porto Seguro, pode ser necessário verificar se há alguma API ou recurso específico disponível para essa finalidade.\n\nAqui estão algumas etapas que você pode considerar para investigar mais a fundo:\n\n* Verifique se a Porto Seguro oferece alguma API ou ferramenta para integração de leads.\n* Consulte o suporte do OnCorretor para saber se há alguma configuração ou recurso que permita a exportação direta de leads para a Porto Seguro.\n* Avalie se há necessidade de desenvolver uma solução personalizada para atender a essa necessidade específica.\n\nLembre-se de que a segurança e a privacidade dos dados são fundamentais, então qualquer solução deve ser implementada com esses aspectos em mente.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Estou muito bem, consegue me ajudar dizendo como funciona o clube vip por gentileza?",
+  "resposta": "O Clube VIP é um benefício exclusivo para corretores de seguros que aderem ao OnCorretor. Aqui estão alguns detalhes sobre como funciona:\n* O Clube VIP oferece consultoria para deixar o site do corretor moderno e estratégico, pronto para captar clientes.\n* A equipe do OnCorretor revisa e melhora o site, removendo páginas desnecessárias, corrigindo dados de contato e atualizando a visualização do site.\n* Além disso, o Clube VIP inclui a ativação de ferramentas como a barra multicanal e o QR Code.\n* Você pode solicitar o contato do Clube VIP diretamente no site do OnCorretor.\n\nSe tiver mais alguma dúvida ou precisar de mais informações, sinta-se à vontade para perguntar! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "como entro no oncorretor",
+  "resposta": "Para acessar o OnCorretor, você precisa aderir ao serviço. A adesão é simples:  \n\n1. **Acesse o site**: www.oncorretor.com.br  \n2. **Preencha o formulário de adesão**: Certifique-se de ter uma produção mínima de R$ 100,00 em produtos da Empresa 1 (geralmente produtos Porto Seguro, como auto, moto e vida).  \n3. **Valor da mensalidade**: R$ 52,50 por mês.  \n4. **Plano básico**: Inclui o site + 10 contas de e-mail de 5GB cada.  \n\nSe já tiver aderido, acesse o site com suas credenciais. Caso precise de ajuda adicional, verifique as informações enviadas por e-mail após a adesão ou entre em contato pelo atendimento@oncorretor.com.br.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "qual e-mail devo usar como cadastro no oncorretor",
+  "resposta": "Recomendamos usar um e-mail externo (como Gmail ou Hotmail) como e-mail de cadastro. Assim, mesmo que seu domínio fique suspenso por algum motivo, você continuará recebendo comunicações importantes do OnCorretor. Para alterar o e-mail de cadastro, envie para atendimento@oncorretor.com.br: SUSEP, domínio, CNPJ/CPF e o novo e-mail.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Quanto custa o plano mensal do OnCorretor?",
+  "resposta": "O valor da mensalidade do OnCorretor é de R$ 52,50 por mês. Este plano básico inclui um site profissional e 10 contas de e-mail com 5GB de armazenamento cada.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "quero alterar o texto quem somos mas nao encontro a opcao",
+  "resposta": "Para alterar o texto \"Quem Somos\", você precisará acessar a área de edição do seu site ou plataforma. Infelizmente, não encontrei informações específicas sobre como fazer isso nos documentos disponíveis. \n\nRecomendo que verifique as opções de edição do seu site ou entre em contato com o suporte técnico da plataforma que você utiliza para obter instruções detalhadas sobre como alterar o texto \"Quem Somos\". \n\nSe puder fornecer mais detalhes sobre a plataforma ou sistema que está utilizando, posso tentar ajudar com informações mais precisas.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "O que você sabe?",
+  "resposta": "Olá! Estou aqui para ajudar. Eu sou um ASSISTENTE de SUPORTE detalhista e objetivo, focado no atendimento ao cliente do sistema descrito nos documentos. \n\nEu tenho conhecimento sobre:\n* Inadimplência e como ela é tratada no sistema\n* O papel do gerente comercial e do corretor em relação à inadimplência\n* A SUSEP e sua relação com a inadimplência\n* O processo de cobrança e negociação de valores devidos\n* A importância da comunicação entre o corretor, o gerente comercial e o setor de comissões para resolver questões de inadimplência\n\nSe tiver alguma dúvida específica sobre esses tópicos, estou aqui para ajudar! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Me fale sobre o Clube VIP?",
+  "resposta": "Sim, temos o **ClubVIP**, um serviço gratuito que auxilia na melhora da presença digital do seu site. Entre os benefícios estão:  \n\n- Revisão e otimização de conteúdos.  \n- Verificação e ajustes de links.  \n- Melhorias na estética e navegação.  \n\nSe desejar, o contato pode ser solicitado diretamente pelo site. Como posso ajudar mais? 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "De onde o valor do OnCorretor é descontado?",
+  "resposta": "O pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.).",
+  "intencao": "forma_cobranca"
+ },
+ {
+  "frase": "Eu sou um corretor, e não sei do que esse sistema se trata",
+  "resposta": "Olá! Estou aqui para ajudar com suas dúvidas sobre o sistema. Você mencionou que é um corretor e não sabe do que o sistema se trata. Posso fornecer algumas informações gerais sobre o sistema e como ele pode ser útil para você.\n\nO sistema parece ser relacionado ao gerenciamento de vendas online e suporte ao corretor. Há funcionalidades como links de venda online, gerenciamento de domínios, suporte técnico e recursos para melhorar a presença digital.\n\nSe você tiver alguma dúvida específica sobre como usar o sistema ou precisar de ajuda com um problema, estou aqui para ajudar. Por favor, forneça mais detalhes sobre o que você gostaria de saber ou como posso ajudar. \n\nLembre-se de que estou aqui para fornecer suporte e ajudar a resolver suas dúvidas de forma clara e objetiva.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço layouts tops para meu site e como mudar minhas senha?",
+  "resposta": "Para criar layouts tops para o seu site, é importante garantir que ele seja responsivo e atraente em diferentes dispositivos, como celulares e computadores. Aqui estão algumas dicas:\n* Ajuste as imagens e textos para que sejam visualmente agradáveis e fáceis de ler em diferentes tamanhos de tela.\n* Use a limpeza e formatação dos elementos para manter o layout organizado e claro.\n* Se você estiver tendo problemas com o layout do seu site, envie o link da página para que possamos revisar e orientar os ajustes necessários.\n\nJá sobre mudar a senha, é importante criar uma senha segura e única para a sua conta. Se você precisar criar uma conta ou mudar a senha, basta acessar o site, clicar em \"Acessar conta\" no canto superior direito da página e seguir as instruções para criar uma senha segura. Lembre-se de que a senha deve ser válida e segura para proteger a sua conta. 🚀\n\nSe tiver mais alguma dúvida, sinta-se à vontade para perguntar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como verifico se minha inadimplência já foi regularizada?",
+  "resposta": "Após regularizar a produção ou alterar a SUSEP, você pode consultar o status enviando um e-mail para atendimento@oncorretor.com.br para confirmação.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "Como entro em contato pelo site?",
+  "resposta": "Para entrar em contato conosco pelo site, você pode seguir os passos abaixo:\n\n* Acesse o nosso site e procure pela seção de contato.\n* Preencha o formulário de contato com suas informações e mensagem.\n* Envie o formulário e aguarde nossa resposta.\n\nAlternativamente, você também pode verificar se o nosso endereço de e-mail está configurado corretamente e enviar uma mensagem diretamente para nós. 📧\n\nLembre-se de que nosso objetivo é ajudá-lo de forma clara e objetiva, então não hesite em entrar em contato conosco se tiver alguma dúvida ou precisar de assistência! 🤝",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Vocês tem algum sistema vip?",
+  "resposta": "Sim, temos um sistema VIP chamado de Clube VIP, que oferece serviços exclusivos para nossos clientes. Aqui estão alguns detalhes sobre o que ele inclui:\n* Serviço gratuito de atendimento personalizado\n* Auxílio na otimização do site do corretor\n* Revisão e verificação de conteúdos e links\n* Ajustes estéticos e de navegação para melhorar a experiência do usuário\n* Contato direto com nossa equipe de suporte para qualquer solicitação ou dúvida. \n\nSe tiver mais alguma pergunta sobre o Clube VIP, fique à vontade para perguntar! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "As imagens do meu site não carregam. O que devo fazer?",
+  "resposta": "Isso pode ocorrer devido a cache ou DNS incorreto. Limpe o cache do navegador e confirme o DNS. Caso continue, entre em contato com o suporte.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "o oncorretor consegue reativar automaticamente um dominio expirado sem pagamento?",
+  "resposta": "Não, o OnCorretor não reativa automaticamente um domínio expirado sem pagamento. Quando o domínio vence, ele pode ficar congelado, sair do ar ou ser liberado para registro de terceiros. Recomendamos fazer o pagamento da renovação antes do vencimento para evitar qualquer interrupção do site ou dos e-mails. Se o domínio for administrado pelo OnCorretor, o valor da renovação aparecerá na cobrança seguinte.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Top, como entro no minha conta do oncorretor?",
+  "resposta": "Para entrar na sua conta do OnCorretor, você precisará seguir alguns passos simples. Aqui estão as etapas principais:\n\n* Certifique-se de que você tenha um login e senha válidos.\n* Acesse o site do OnCorretor e procure a opção de login.\n* Insira seu login e senha nos campos correspondentes.\n* Clique no botão de entrar para acessar sua conta.\n\nSe você tiver alguma dificuldade em acessar sua conta, por favor, forneça mais detalhes sobre o problema que você está enfrentando, como mensagens de erro ou outros obstáculos, para que eu possa ajudá-lo de forma mais eficaz.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Estou bem tbm felizmente, você consegue me ajudar fornecendo informações sobre o oncorretor?",
+  "resposta": "Estou aqui para ajudar! 😊\n\nO OnCorretor é uma ferramenta que permite criar e personalizar um site profissional. Com ele, você pode ter um plano que inclui várias funcionalidades para ajudar a gerenciar seu negócio.\n\nAqui estão algumas informações sobre o OnCorretor:\n* Permite criar e personalizar um site profissional\n* Oferece um plano que inclui várias funcionalidades\n* É uma ferramenta útil para gerenciar seu negócio\n\nSe você tiver alguma dúvida específica sobre o OnCorretor, sinta-se à vontade para perguntar e farei o meu melhor para ajudar! 👍",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "como mudo miha senha?",
+  "resposta": "Para alterar sua senha, siga os passos abaixo:\n\n1. **Acesse o painel do domínio (webmail)**.\n2. **Utilize a opção \"Esqueci minha senha\"**, caso esteja disponível.\n3. Se não conseguir, **envie um e-mail para atendimento@oncorretor.com.br** informando:\n   - O domínio\n   - O endereço da conta que precisa de nova senha.\n\nLembre-se de que, após a redefinição, a nova senha deve ser configurada em todos os dispositivos onde o e-mail estiver instalado.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço para localizar o meu perfil no site do oncorretor?",
+  "resposta": "Para localizar o seu perfil no site do OnCorretor, siga os passos abaixo:\n\n1. **Acesse o site do OnCorretor**: Vá para [www.oncorretor.com.br](http://www.oncorretor.com.br).  \n2. **Faça login**: Utilize suas credenciais de acesso (login e senha) para entrar na sua área pessoal.  \n3. **Navegue até o perfil**: Após o login, procure por uma opção como \"Meu Perfil\", \"Configurações\" ou \"Conta\" no menu do site.  \n\nSe você ainda não tem uma conta, pode aderir ao OnCorretor preenchendo o formulário de adesão disponível no site.  \n\nCaso encontre dificuldades, verifique se está usando um navegador atualizado ou tente acessar em modo anônimo.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quero cancelar minha adesão ao OnCorretor, como devo proceder?",
+  "resposta": "Envie um e-mail para atendimento@oncorretor.com.br com SUSEP, domínio, CPF/CNPJ e motivo do cancelamento. O site e os e-mails serão desativados após o cancelamento.",
+  "intencao": "cancelamento"
+ },
+ {
+  "frase": "PERDI A MINHA SENHA DO ONCORRETOR",
+  "resposta": "Para recuperar sua senha do OnCorretor, siga estes passos:\n\n1. **Acesse a página de login** do OnCorretor.\n2. Clique em **\"Esqueci minha senha\"**.\n3. Insira o **e-mail** cadastrado no sistema.\n4. Você receberá um **link de recuperação** no e-mail informado.\n5. Siga as instruções do link para criar uma **nova senha**.\n\nSe precisar de mais ajuda, estou à disposição! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Bom dia, o que é o oncorretor?",
+  "resposta": "Você perguntou sobre o que é o OnCorretor. O OnCorretor é uma plataforma que oferece ferramentas e recursos para corretores de seguros, visando ajudá-los a gerenciar e expandir seus negócios. Alguns dos principais recursos incluem:\n\n* Integração com a venda online da Porto Seguro via Corretor Online (COL)\n* Ferramentas de marketing e captação de leads\n* Construtor de sites e landing pages personalizadas\n* E-mails corporativos e configuração de contas\n* Suporte técnico e pós-venda\n\nO OnCorretor também oferece planos de mensalidade, com opções de pacotes adicionais para atender às necessidades específicas de cada corretor. Além disso, a plataforma oferece suporte para questões relacionadas à SUSEP, como alteração, bloqueio e transferência de cobrança.\n\nSe você tiver alguma dúvida específica sobre o OnCorretor ou precisar de mais informações, sinta-se à vontade para perguntar! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O que acontece com meus e-mails após o cancelamento?",
+  "resposta": "Ao cancelar o OnCorretor, todas as contas de e-mail e o site são desativados. Caso deseje manter os dados, é necessário realizar backup antes da solicitação.",
+  "intencao": "cancelamento"
+ },
+ {
+  "frase": "Posso usar o oncorretor na minha casa?",
+  "resposta": "Sim, é possível usar o OnCorretor na sua casa, desde que você tenha acesso à internet e um dispositivo compatível. O OnCorretor é uma plataforma online que permite que você acesse e gerencie suas apólices e sinistros de forma fácil e segura.\n\nAqui estão alguns pontos importantes sobre o uso do OnCorretor em casa:\n* Você pode acessar o OnCorretor a partir de qualquer dispositivo com conexão à internet.\n* É necessário ter uma conta no OnCorretor para acessar a plataforma.\n* A plataforma é segura e protege suas informações pessoais e financeiras.\n\nSe tiver alguma dúvida ou precisar de ajuda para acessar o OnCorretor, estou aqui para ajudar. Como posso assisti-lo hoje? 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "por que minha susep aparece como bloqueada",
+  "resposta": "Sua SUSEP pode aparecer como bloqueada devido a dois motivos principais:\n\n1. **Problemas cadastrais**: Verifique se há alguma inconsistência ou pendência em seus dados cadastrais.\n2. **Dívidas ativas**: Se houver débitos em aberto, sua SUSEP pode ser bloqueada até a regularização da situação.\n\nSe você tiver outra SUSEP com produção ativa, é possível transferir a cobrança. Caso contrário, entre em contato com seu gerente comercial para resolver a situação.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como entro no aplicativo do oncorretor para colocar ele no meu site?",
+  "resposta": "Para integrar o OnCorretor ao seu site, você precisa seguir os passos abaixo:\n\n1. **Acesse o site do OnCorretor**: Vá até o endereço www.oncorretor.com.br e faça login na sua conta.\n2. **Personalize seu site**: Utilize as ferramentas disponíveis no OnCorretor para criar e personalizar seu site profissional.\n3. **Obtenha os links de venda online**: Se necessário, acesse sua área no Corretor Online (COL) para gerar os links de venda e integrá-los ao seu site.\n\nLembre-se de que o OnCorretor oferece um plano básico que inclui o site e 10 contas de e-mail de 5GB cada. Se precisar de mais informações ou tiver dificuldades, entre em contato com o suporte.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço para entrar?",
+  "resposta": "Para entrar no sistema, você precisará seguir alguns passos. No entanto, é importante esclarecer que não tenho informações específicas sobre o seu histórico ou contexto de acesso. \n\nSe você está tentando acessar o site ou plataforma do OnCorretor, recomendo verificar se você tem uma conta criada e se suas credenciais de login estão corretas. Caso você esteja enfrentando problemas para acessar o construtor do seu site, tente acessar usando uma aba anônima ou outro navegador, pois o problema pode estar relacionado ao cache do navegador ou bloqueio de extensão.\n\nSe você tiver mais detalhes sobre o que está tentando acessar ou o erro que está enfrentando, posso tentar ajudar de forma mais específica.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Chegou um e-mail de inadimplência do OnCorretor",
+  "resposta": "Esse aviso normalmente significa que, no período, não houve comissão suficiente\npara descontar a mensalidade do OnCorretor, então a ordem de pagamento não foi gerada.\n\nComo funciona:\n1. Enquanto não há comissão suficiente, a cobrança fica pendente e a adesão pode \n   entrar em \"inadimplência\".\n2. Se permanecer 3 meses (ou mais) em inadimplência, a adesão pode ser cancelada \n   definitivamente.\n3. Se você tiver outra SUSEP com produção ativa, podemos orientar a troca da SUSEP \n   de cobrança (envie e-mail solicitando a alteração).\n4. Se não houver outra SUSEP com produção, o caminho é procurar seu gerente \n   comercial para orientar a regularização junto à companhia.\n\nSe você quiser, me informe se existe outra SUSEP com produção ativa para \navaliarmos a alternativa mais rápida (troca de SUSEP de cobrança).\n",
+  "intencao": "inadimplencia"
+ },
+ {
+  "frase": "Como posso trocar o domínio do meu site?",
+  "resposta": "Envie um e-mail com o novo domínio. Pode ser registrado por você ou pelo OnCorretor. Informe se deseja migrar os e-mails do domínio antigo.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "como altero o dominio principal do meu site no oncorretor",
+  "resposta": "Para alterar o domínio principal do seu site no OnCorretor, siga estas etapas:  \n\n1. **Entre em contato com a empresa que desenvolverá o novo site** para garantir que a transferência de titularidade do domínio seja feita corretamente.  \n2. **Envie os novos dados DNS** para o OnCorretor, para que possamos realizar a mudança.  \n3. **Atenção:** Após a alteração, as entradas DNS criadas no antigo domínio deixarão de funcionar.  \n\nLembre-se de que, se o seu domínio estiver próximo do vencimento, recomendamos fazer o pagamento da renovação antes da data para evitar interrupções no site.  \n\nSe precisar de mais detalhes ou auxílio, estou à disposição!",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Posso migrar meu site antigo para o OnCorretor?",
+  "resposta": "Sim. É possível migrar conteúdo e e-mails, desde que as informações do domínio antigo sejam fornecidas conforme orientações do suporte.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "COMO POSSO CONFIGURAR O WEBMAIL",
+  "resposta": "Para acessar o webmail, siga os passos abaixo:  \n\n1. **Acesse o webmail pelo navegador**:  \n   - Use navegadores como Chrome, Firefox ou Safari.  \n   - Digite no endereço: `http://webmail.seudominio.com.br` (substitua *seudominio* pelo seu domínio registrado).  \n\n2. **Faça login**:  \n   - **Campo Usuário**: Digite o nome completo do e-mail (ex: `contato@seudominio.com.br`).  \n   - **Campo Senha**: Insira a senha atual do e-mail.  \n   - Clique em **Entrar**.  \n\n**Atenção**:  \n- Evite envios em massa pelo webmail para prevenir bloqueios temporários ou definitivos.  \n- Se precisar alterar a senha, acesse o painel do OnCorretor ou siga o passo a passo de recuperação disponível.\n\nPara tutoriais visuais detalhados, você também pode consultar:\nhttps://ajuda.oncorretor.com.br 📚\n\nCaso encontre dificuldades, envie um print da mensagem de erro para análise. 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Posso cancelar minha adesão no mesmo dia em que contratei?",
+  "resposta": "Sim. Basta enviar um e-mail para atendimento@oncorretor.com.br solicitando o cancelamento. Caso o domínio tenha sido registrado no mesmo dia, a cobrança do domínio será mantida.",
+  "intencao": "cancelamento"
+ },
+ {
+  "frase": "recebi um boleto estranho e nao sei se e fraude",
+  "resposta": "Se você recebeu um boleto estranho e não tem certeza se é fraude, recomendo tomar as seguintes medidas:\n\n* **Verifique a autenticidade**: Confirme se o boleto é de uma fonte confiável e se os dados estão corretos.\n* **Entre em contato conosco**: Se o boleto estiver relacionado ao OnCorretor, entre em contato imediatamente para verificar sua autenticidade.\n* **Mantenha a segurança**: Utilize autenticação em duas etapas e mantenha seu antivírus atualizado para proteger suas informações.\n\nInfelizmente, não encontrei informações específicas sobre como lidar com boletos suspeitos na base de dados. No entanto, é sempre importante estar atento a possíveis fraudes e tomar medidas preventivas para proteger suas informações.\n\nSe precisar de mais ajuda ou tiver dúvidas, por favor, forneça mais detalhes sobre o boleto em questão para que eu possa tentar ajudar melhor.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu domínio está expirando hoje. O que acontece?",
+  "resposta": "É necessário renovar imediatamente. Caso não seja renovado, ele pode ser congelado ou liberado para outro registro.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como configurar o webdomínio no OnCorretor para criar um site profissional",
+  "resposta": "Para configurar o webdomínio no OnCorretor e criar um site profissional, siga os passos abaixo:\n\n* Verifique se o seu plano inclui o uso de domínio secundário, pois isso pode ser útil para personalizar seu site.\n* Se você desejar usar um segundo domínio, é possível configurar um domínio adicional, basta enviar as configurações DNS para realizarmos a vinculação.\n* Lembre-se de que apenas o domínio principal tem direito a contas, se desejar incluir um domínio secundário, basta enviar o endereço para configurarmos.\n* É possível hospedar um site criado em outra empresa no OnCorretor, basta enviar o IP do site externo para configurarmos o apontamento.\n* O OnCorretor oferece uma ferramenta que permite criar e personalizar um site profissional, aproveite essa ferramenta para criar um site que atenda às suas necessidades.\n\nSe tiver mais alguma dúvida, sinta-se à vontade para perguntar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Meu domínio está mostrando página em branco. O que pode ser?",
+  "resposta": "Isso pode ocorrer por DNS incorreto ou propagação recente. Confirme o DNS configurado e, se necessário, envie os dados para atendimento@oncorretor.com.br.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quem pode usar o oncorretor?",
+  "resposta": "O OnCorretor é uma ferramenta destinada a corretores de seguros. Ela permite que esses profissionais criem e personalizem sites profissionais, além de oferecer outros recursos para facilitar o trabalho deles. \n\nAlguns dos principais usuários do OnCorretor incluem:\n* Corretores de seguros\n* Profissionais que trabalham com seguros e precisam de uma plataforma para gerenciar e oferecer seus serviços de forma eficiente.\n\nSe você tiver mais alguma dúvida sobre como o OnCorretor pode ajudar, sinta-se à vontade para perguntar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "como acessar o oncorretor?",
+  "resposta": "Para acessar o OnCorretor, você precisará seguir alguns passos simples. Primeiramente, é necessário acessar o site www.oncorretor.com.br. Em seguida, você precisará preencher o formulário de adesão disponível no site. Lembre-se de que, para aderir ao OnCorretor, é necessário ter uma produção mínima de R$100,00 em produtos da Empresa 1, geralmente produtos Porto Seguro com venda online, como auto, moto e vida. Se tiver dúvidas sobre sua produção, é recomendável falar com seu gestor comercial. Além disso, é importante lembrar que o valor da mensalidade é de R$52,50 por mês, e o Plano básico inclui o site mais 10 contas de 5GB cada uma.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como gerenciar minhas senhas?",
+  "resposta": "Gerenciar senhas pode ser um desafio, especialmente quando se tem várias contas online. Aqui estão algumas dicas para ajudá-lo a gerenciar suas senhas de forma eficaz:\n\n*   Use uma combinação de letras, números e símbolos para criar senhas fortes e únicas para cada conta.\n*   Evite usar a mesma senha para várias contas, pois isso pode aumentar o risco de segurança se uma das contas for comprometida.\n*   Considere usar um gerenciador de senhas, que pode ajudá-lo a armazenar e gerenciar todas as suas senhas de forma segura.\n*   Se você esquecer uma senha, tente usar a opção \"Esqueci minha senha\" disponível em muitos sites e serviços online. Se não conseguir, você pode entrar em contato com o suporte técnico do serviço para obter ajuda.\n\nLembre-se de que a segurança online é importante, e gerenciar suas senhas de forma eficaz é um passo crucial para proteger suas informações pessoais e financeiras.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Minha produção mudou de SUSEP. Como faço para alterar?",
+  "resposta": "Envie um e-mail para atendimento@oncorretor.com.br com SUSEP atual, nova SUSEP e CPF/CNPJ. A solicitação será encaminhada à Porto Seguro.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "estou com uma dúvida sobre como deve fazer para contratar o OnCorretor",
+  "resposta": "Para contratar o OnCorretor, você precisará seguir alguns passos simples. Aqui está uma lista com as etapas necessárias:\n\n* Acesse o site do OnCorretor e clique na opção de adesão.\n* Preencha as informações solicitadas, incluindo dados cadastrais e da SUSEP.\n* Após finalizar, você receberá uma confirmação da adesão solicitada.\n* É importante ter uma produção mínima de R$ 100,00 em produtos vinculados à Porto Seguro para aderir ao OnCorretor.\n\nLembre-se de que a adesão pode ser feita online e é necessário ter uma produção contínua em produtos vinculados à Porto Seguro. Se tiver alguma dúvida adicional, sinta-se à vontade para perguntar. 😊",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Como acesso? e como pago?",
+  "resposta": "Para acessar e pagar, você precisará seguir alguns passos específicos. No entanto, para fornecer uma resposta mais precisa, seria útil saber a que tipo de acesso e pagamento você se refere (por exemplo, acesso ao construtor do site, pagamento de domínio, etc.).\n\nSe você está tentando acessar o construtor do seu site, tente acessar usando uma aba anônima ou outro navegador, pois o problema pode ocorrer devido ao cache do navegador ou bloqueio de extensão.\n\nPara pagamentos, como o de domínio, é recomendável fazer o pagamento da renovação antes do vencimento para evitar qualquer interrupção do site ou dos e-mails. Se o domínio for administrado pelo OnCorretor, o valor aparecerá na cobrança seguinte.\n\nSe você puder fornecer mais detalhes sobre o que está tentando acessar ou pagar, posso tentar oferecer uma resposta mais específica e útil.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Se eu não pagar, o que acontece?",
+  "resposta": "Se você não pagar a renovação do domínio antes do vencimento, ele pode:\n\n* **Ficar congelado**\n* **Sair do ar**\n* **Ser liberado para registro por terceiros**\n\nRecomendamos fazer o pagamento da renovação antes do vencimento para evitar qualquer interrupção do site ou dos e-mails. Se o domínio for administrado pelo OnCorretor, o valor aparecerá na cobrança seguinte.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "o wizard nao abre, isso significa que minha susep foi bloqueada?",
+  "resposta": "O problema do Wizard não abrir não está diretamente relacionado à sua SUSEP estar bloqueada. De acordo com as informações disponíveis, se o Wizard não estiver abrindo, é provável que haja um problema com o cache do navegador ou um bloqueio de extensão. Para resolver isso, você pode tentar acessar o Wizard em uma aba anônima ou usar um navegador diferente.\n\nSe o problema persistir, é possível que haja outro motivo, como um erro técnico ou uma questão específica com sua conta. Nesse caso, é recomendável entrar em contato com o suporte para obter ajuda adicional.\n\nLembre-se de que, se sua SUSEP estiver bloqueada, você receberá uma notificação específica sobre isso, geralmente devido a problemas cadastrais ou dívidas ativas. Se você tiver alguma dúvida sobre o status da sua SUSEP, é sempre uma boa ideia verificar diretamente com o suporte ou seu gerente comercial.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Minha SUSEP aparece como inativa. O que isso significa?",
+  "resposta": "Significa que há pendências ou falta de produção. Consulte seu gestor comercial para validar sua produção e regularizar a situação.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Recebi um aviso de inadimplência, o que significa?",
+  "resposta": "Significa que não houve comissão suficiente para o desconto da mensalidade. Após 3 meses de inadimplência, a adesão é cancelada.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "O que faço se esqueci a senha do painel de e-mails?",
+  "resposta": "A senha só pode ser redefinida pelo administrador do domínio. Acesse painel.seudominio.com.br e utilize a função de redefinição, se disponível.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Posso usar dois domínios diferentes apontando para o mesmo site?",
+  "resposta": "Sim. É possível incluir um domínio adicional. Ambos apontam para o mesmo site, mas apenas o domínio principal possui direito às contas de e-mail.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como adiciono novos produtos no meu site do OnCorretor?",
+  "resposta": "Para adicionar um novo produto Porto Seguro ao seu site do OnCorretor, você precisa garantir que sua produção mínima de R$ 100,00 em produtos da Empresa 1 (geralmente produtos Porto Seguro) esteja ativa. Após isso, você pode personalizar seu site através da ferramenta OnCorretor, que permite a criação e customização de sites profissionais.\n\nSe precisar de mais detalhes ou assistência específica, recomendo entrar em contato com seu gestor comercial ou acessar o site www.oncorretor.com.br para mais informações.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O que é o oncorretor?",
+  "resposta": "O OnCorretor é uma ferramenta que permite criar e personalizar um site profissional para corretores de seguros. Com o OnCorretor, é possível incluir um plano que oferece atendimento personalizado e suporte para os clientes. Alguns dos recursos incluídos são:\n* Criação de site personalizado\n* Ferramentas de gestão de apólices e sinistros\n* Suporte para pagamentos e portabilidade\n* Integração com sistemas web para facilitar o gerenciamento de dados\n* Cadastro e uso de sistema para corretores\n\nSe tiver mais alguma dúvida sobre como o OnCorretor pode ajudar, estou aqui para ajudar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como entro em contato com o suporte?",
+  "resposta": "Para entrar em contato com o suporte, você pode seguir alguns passos. Primeiramente, é importante lembrar que todo atendimento gera um chamado, seja por telefone, chat ou WhatsApp. \n\nAqui estão algumas opções para você considerar:\n* Telefone: o chamado é aberto manualmente pelo atendente.\n* Chat: o chamado é aberto ao final da conversa.\n* WhatsApp: os chamados são arquivados e o trabalho é lançado internamente.\n\nSe necessário, o suporte também pode ser escalado para o Nível 2, o que é feito manualmente. \n\nLembre-se de que, para obter ajuda específica, é útil fornecer detalhes sobre o seu caso, como o tipo de problema que está enfrentando ou o que precisa ser resolvido. Isso ajudará a equipe de suporte a entender melhor a sua situação e a fornecer a assistência mais adequada.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como configurar o layout do meu site?",
+  "resposta": "Para configurar o layout do seu site e garantir que ele seja responsivo, siga estas orientações:  \n\n- **Ajuste imagens grandes**: Verifique se as imagens adicionadas ao site estão no tamanho adequado. Imagens muito grandes podem distorcer o layout, especialmente em dispositivos móveis.  \n- **Limpe textos colados**: Ao copiar textos de outros sites, remova a formatação original para evitar conflitos com o layout do seu site.  \n- **Mantenha elementos no grid principal**: Certifique-se de que todos os elementos (como botões, imagens e textos) estão dentro do grid principal do construtor de sites.  \n\nSe o problema persistir, envie o link da página com dificuldade para que possamos analisar e orientar os ajustes necessários.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quanto tempo demora para minha adesão ao OnCorretor ser aprovada?",
+  "resposta": "Após enviar a solicitação no site, a adesão é processada e, em geral, concluída em poucas horas, dependendo da validação das informações e da produção mínima exigida.",
+  "intencao": "adesao_oncorretor"
+ },
+ {
+  "frase": "Recebi um aviso de inadimplência",
+  "resposta": "Esse aviso normalmente significa que, no período, não houve comissão suficiente\npara descontar a mensalidade do OnCorretor, então a ordem de pagamento não foi gerada.\n\nComo funciona:\n1. Enquanto não há comissão suficiente, a cobrança fica pendente e a adesão pode \n   entrar em \"inadimplência\".\n2. Se permanecer 3 meses (ou mais) em inadimplência, a adesão pode ser cancelada \n   definitivamente.\n3. Se você tiver outra SUSEP com produção ativa, podemos orientar a troca da SUSEP \n   de cobrança (envie e-mail solicitando a alteração).\n4. Se não houver outra SUSEP com produção, o caminho é procurar seu gerente \n   comercial para orientar a regularização junto à companhia.\n\nSe você quiser, me informe se existe outra SUSEP com produção ativa para \navaliarmos a alternativa mais rápida (troca de SUSEP de cobrança).\n",
+  "intencao": "inadimplencia"
+ },
+ {
+  "frase": "Por que recebi cobrança de renovação mesmo tendo cancelado?",
+  "resposta": "Se o domínio foi renovado antes do cancelamento, a cobrança referente à manutenção permanece, conforme regras anuais de renovação.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "como posso acessar meu site?",
+  "resposta": "Para acessar seu site, siga estas etapas:  \n\n- **Verifique o domínio**: Certifique-se de que o domínio está configurado corretamente e que o DNS está funcionando.  \n- **Use outro navegador ou aba anônima**: Tente acessar o site em outro navegador ou em uma aba anônima para descartar problemas de cache ou extensões bloqueadas.  \n- **Envie um print da tela**: Se o problema persistir, envie um print da tela com o erro para que possamos abrir um chamado técnico e analisar a situação.  \n\nSe precisar de mais ajuda, estou à disposição!",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Ok, e para me ajudar com o oncorretor vc sabe quem poderia?",
+  "resposta": "Para ter ajuda com o OnCorretor, você pode contar comigo, um assistente de suporte detalhista e objetivo. Estou aqui para fornecer informações e esclarecer dúvidas sobre o sistema. \n\nAqui estão algumas opções de como posso ajudar:\n* Criar e personalizar seu site profissional\n* Entender melhor os planos e recursos oferecidos pelo OnCorretor\n* Esclarecer dúvidas sobre a ferramenta e como ela pode ser utilizada\n\nQual é o seu principal interesse ou dúvida sobre o OnCorretor? Posso tentar ajudar de forma clara e objetiva. 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "O que fazer se tiver dificuldades para acessar a conta do OnCorretor?",
+  "resposta": "Se você está com dificuldades para acessar sua conta do OnCorretor, siga estas etapas:\n\n1. **Tente outro navegador ou aba anônima**: Problemas de acesso podem ser causados por cache ou extensões do navegador.\n2. **Verifique suas credenciais**: Certifique-se de que está usando o login e senha corretos.\n3. **Envie um relatório**: Se o problema persistir, envie o domínio e um print da tela para que possamos abrir um chamado técnico e analisar a situação.\n\nEstou aqui para ajudar! Se precisar de mais assistência, é só avisar.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Quero solicitar um estorno, como faço?",
+  "resposta": "Envie um e-mail com o extrato dos valores para atendimento@oncorretor.com.br. Estornos são feitos apenas em caso de erro de cobrança ou solicitação de cancelamento não atendida.",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "Como pago o OnCorretor?",
+  "resposta": "O pagamento é feito por desconto na conta comissão da SUSEP principal.\n           Por isso é importante que a SUSEP tenha produção contínua em produtos\n           da Porto Seguro (auto, moto, vida, etc.).",
+  "intencao": "forma_cobranca"
+ },
+ {
+  "frase": "como acesso minha conta?",
+  "resposta": "Para acessar sua conta, você pode seguir os passos abaixo:\n* Verifique se você tem o login e a senha corretos.\n* Certifique-se de que você está acessando o site correto do OnCorretor.\n* Se você tiver alguma dúvida ou problema para acessar sua conta, você pode verificar as informações de contato disponíveis no site.\n\nSe você precisar de mais ajuda ou tiver alguma outra pergunta, sinta-se à vontade para perguntar! 😊",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "O que faço se eu errei o domínio ao solicitar registro?",
+  "resposta": "Entre em contato rapidamente com atendimento@oncorretor.com.br. Dependendo do status do registro, pode ser necessária nova contratação.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "posso usar o oncorretor mesmo sem ter site",
+  "resposta": "Para utilizar o OnCorretor, é necessário ter um site criado com a ferramenta. O OnCorretor é uma plataforma que permite criar e personalizar um site profissional, e é uma parte integrante do serviço oferecido. \n\nSe você não tiver um site, pode criar um com o OnCorretor. O plano básico inclui o site e 10 contas de e-mail de 5GB cada. Além disso, é necessário ter uma produção mínima de R$100,00 em produtos da Empresa 1 para aderir ao OnCorretor.\n\nSe você tiver alguma dúvida sobre como criar um site ou aderir ao OnCorretor, é possível entrar em contato com o suporte para obter mais informações. Lembre-se de que o valor da mensalidade é de R$52,50 por mês. \n\nÉ importante notar que o OnCorretor não hospeda sites externos, então se você tiver um site criado por outra empresa, não poderá hospedá-lo no OnCorretor. No entanto, é possível usar os e-mails do OnCorretor e configurar o apontamento do domínio se estiver na Cloudflare.",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como posso trocar a logo (logotipo) do meu site no OnCorretor?",
+  "resposta": "Você pode atualizar o logotipo do seu site diretamente pelo painel administrativo, sem precisar abrir chamado.\n\nPasso a passo:\n\n1. Acesse a área administrativa do seu site;\n2. Vá em **Configurações Básicas > Configurações do Site**;\n3. No campo de **Logotipo**, faça o upload do novo arquivo de imagem;\n4. Clique em **Salvar**.\n\nSe a alteração não aparecer imediatamente no site, pressione **Ctrl + F5** para atualizar o cache do navegador ou abra o site em uma aba anônima.\n\n💡 Dica: se o seu plano contempla o **Clube VIP**, a equipe de consultoria também pode auxiliar na atualização visual do site, incluindo o logotipo.",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "Como mudo as senhas do meu site on corretor?",
+  "resposta": "Para alterar as senhas do seu site no OnCorretor, siga estas etapas:\n\n1. **Acesse o painel do domínio (webmail)**: Utilize a opção \"Esqueci minha senha\", caso esteja disponível.\n2. **Entre em contato com o suporte**: Se não conseguir redefinir a senha pelo painel, envie um e-mail para atendimento@oncorretor.com.br, informando o domínio e o endereço da conta que precisa de nova senha.\n\nLembre-se de que a nova senha deve ser configurada posteriormente em todos os dispositivos onde o e-mail estiver instalado.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Você pode criar sites?",
+  "resposta": "Sim, podemos auxiliar na criação de sites. No OnCorretor, oferecemos serviços de otimização de site, revisão de conteúdos, verificação de links, ajustes estéticos e melhorias na navegação. Se você está procurando criar um site ou melhorar o existente, podemos ajudar com:\n\n* Otimização do site para melhor presença digital\n* Revisão e atualização de conteúdos\n* Verificação e ajuste de links\n* Ajustes estéticos para melhorar a aparência do site\n* Melhorias na navegação para uma experiência do usuário mais suave\n\nSe você tiver alguma dúvida específica sobre como podemos ajudar com a criação ou melhoria do seu site, sinta-se à vontade para perguntar! 😊",
+  "intencao": "suporte_tecnico"
+ },
+ {
+  "frase": "Como aumento a velocidade do meu site mudando apenas a susep?",
+  "resposta": "Para aumentar a velocidade do seu site, a alteração da SUSEP não é um fator direto. A SUSEP está relacionada à sua produção e não impacta diretamente o desempenho do site. No entanto, para otimizar a velocidade do seu site, você pode considerar as seguintes ações:\n\n* Verificar se há imagens muito grandes ou textos colados de outros sites sem limpeza de formatação, pois isso pode afetar a velocidade de carregamento.\n* Garantir que o domínio esteja ativo e a SUSEP sem pendências, pois isso pode influenciar na estabilidade do site.\n* Se precisar de ajuda adicional, você pode solicitar o serviço gratuito do ClubVIP, que oferece otimização do site, revisão de conteúdos e ajustes de estética e navegação.\n\nSe você ainda tiver dúvidas ou precisar de assistência, por favor, forneça mais detalhes sobre o problema específico que está enfrentando.",
+  "intencao": "dominio_site"
+ },
+ {
+  "frase": "Como faço para analizar  os dados do meu cliente?",
+  "resposta": "Para analisar os dados do seu cliente no OnCorretor, siga estes passos:\n\n1. **Acesse a plataforma**: Faça login no OnCorretor com suas credenciais.\n2. **Localize o cliente**: Utilize a barra de busca ou navegue pela lista de clientes para encontrar o cadastro desejado.\n3. **Verifique os dados**: Revise as informações cadastradas, como dados pessoais, contato e histórico de interações.\n\nSe precisar atualizar os dados do cliente, siga estas orientações:\n\n* Para **pessoas físicas (PF)**: envie o CPF válido do cliente.\n* Para **pessoas jurídicas (PJ)**: envie o contrato social válido.\n\nLembre-se de que as atualizações devem ser realizadas com base nas informações fornecidas no momento da adesão ao OnCorretor.\n\nSe encontrar dificuldades durante o processo, verifique:\n\n* Sua conexão com a internet.\n* Se há problemas de cache ou bloqueios de extensão no navegador.\n\nEm caso de erros persistentes, abra um chamado técnico para análise.",
+  "intencao": "susep_dados"
+ },
+ {
+  "frase": "Quem é você?",
+  "resposta": "Sou um assistente de suporte detalhista e objetivo, focado em atendimento ao cliente do sistema descrito na minha base de documentos. Estou aqui para ajudar com qualquer dúvida ou problema relacionado ao sistema, fornecendo respostas claras e concisas. Meu objetivo é fornecer suporte eficaz e resolver suas questões de forma rápida e eficiente. 🤝",
+  "intencao": "suporte_tecnico"
+ }
+]

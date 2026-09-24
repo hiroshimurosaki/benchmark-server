@@ -1,0 +1,501 @@
+[
+ {
+  "id": "b2-001",
+  "trilha": "fidelidade",
+  "pergunta": "como funciona a cobrança do oncorretor? como eu pago?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Dizer que a mensalidade é paga por desconto direto na conta comissão da SUSEP principal (comissão Porto Seguro)",
+   "Usar os termos literais do documento, como 'desconto' e 'conta comissão da SUSEP principal'"
+  ],
+  "proibicoes": [
+   "Confirmar cartão, PIX, boleto ou qualquer outra forma de pagamento da mensalidade",
+   "Inventar formas de pagamento não citadas nos documentos",
+   "Oferecer atendente humano"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nO pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.)."
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor?\n2. Como o OnCorretor é cobrado?\n3. Como alterar minha SUSEP de cobrança no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acesso? e como pago?\n2. Como pago o OnCorretor?\n3. Se eu não pagar, o que acontece?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como a cobrança do OnCorretor é realizada?\n2. Quais são as formas de pagamento disponíveis para o OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Detalhes da cobrança e formas de pagamento para o OnCorretor.\n2. O processo de faturamento e as opções disponíveis para quitar a taxa do OnCorretor.\n3. Como funciona a transação financeira relacionada ao uso do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor?\n2. Como é feito o pagamento para utilizar os serviços do OnCorretor?\n3. Quais são as formas de pagamento disponíveis no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nO pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.)."
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. A lógica e os critérios utilizados para calcular a cobrança no OnCorretor?\n2. Os métodos disponíveis para realizar o pagamento da fatura?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor (detalhes dos planos e valores)?\n2. De que forma o OnCorretor é cobrado (modalidades de pagamento e periodicidade)?\n3. Como alterar a Susep associada à cobrança no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como faço para acessar a plataforma e efetuar o pagamento?\n2. Como realizo o pagamento do OnCorretor?\n3. O que acontece se eu não efetuar o pagamento?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nO pagamento é feito por desconto na conta comissão da SUSEP principal. Por isso é importante que a SUSEP tenha produção contínua em produtos da Porto Seguro (auto, moto, vida, etc.).\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acessar a plataforma e realizar o pagamento?\n2. Quais as formas de pagamento disponíveis para o OnCorretor?\n3. Quais as consequências de não efetuar o pagamento?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor?\n2. Como o OnCorretor é cobrado?\n3. Como alterar a SUSEP de cobrança no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acessar e pagar pelo serviço?\n2. Como pagar especificamente o OnCorretor?\n3. Quais são as consequências se eu não pagar?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O funcionamento da cobrança do OnCorretor?\n2.  Como o OnCorretor é cobrado?\n3. Como alterar minha SUSEP de cobrança no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O processo de acesso e pagamento do serviço?\n2. Como realizar o pagamento do OnCorretor?\n3. As consequências de não efetuar o pagamento?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a estrutura de cobrança do OnCorretor?\n2. Quais são os métodos de cobrança utilizados pelo OnCorretor?\n3. Qual o processo para realizar pagamentos ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor?\n2. Como é feita a cobrança do OnCorretor?\n3. Como alterar a SUSEP de cobrança no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acessar e pagar pelo serviço?\n2. Como pagar especificamente o OnCorretor?\n3. Quais são as consequências se eu não pagar?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como funciona a cobrança do OnCorretor?\n2. Quais são as opções de pagamento disponíveis no OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-002",
+  "trilha": "fidelidade",
+  "pergunta": "quanto custa a mensalidade?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Informar o valor da mensalidade como R$ 52,50",
+   "Manter o valor exato, sem arredondar ou generalizar"
+  ],
+  "proibicoes": [
+   "Dizer que o valor varia ou é aproximado",
+   "Inventar valores diferentes de R$ 52,50"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual a mensalidade do OnCorretor?\n2. Qual o valor da mensalidade do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O valor atual da mensalidade do OnCorretor?\n2. Como calcular a mensalidade do seu plano de assinatura?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual a mensalidade do plano OnCorretor?\n2. Qual o valor da mensalidade do serviço OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O valor mensal da assinatura do OnCorretor?\n2. Outro aspecto relacionado à assinatura do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o valor da mensalidade do OnCorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n3. Qual é o preço da assinatura mensal do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o valor da mensalidade do OnCorretor?\n2. Quanto custa a mensalidade do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o valor da mensalidade do OnCorretor?\n2. Como resolver o problema de formulário que não envia mensagens?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o valor da mensalidade do OnCorretor?\n2. Como resolver o problema de envio de mensagens no formulário do seu cliente?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quanto custa a mensalidade do OnCorretor?\n2. Qual é o problema com o formulário de envio de mensagens?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o valor da mensalidade do OnCorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-003",
+  "trilha": "fidelidade",
+  "pergunta": "o que vem incluso no plano?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Listar que o plano contempla 1 website mais 10 contas de e-mail com 5GB de armazenamento cada, além de suporte técnico"
+  ],
+  "proibicoes": [
+   "Inventar itens não listados no plano (ex.: redes sociais, app)",
+   "Omitir os números exatos (1 website, 10 contas, 5GB)"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais benefícios e serviços estão incluídos no ClubeVip?\n2. Como funciona ou quais recursos são oferecidos pelo Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Os benefícios e serviços inclusos no plano do ClubeVip?\n2. As funcionalidades do oncorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que está incluso no plano do ClubeVip?\n2. O que está incluso no plano do oncorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são os benefícios e vantagens do ClubeVip?\n2. Como funciona o serviço ou produto chamado oncorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais benefícios e serviços estão incluídos no ClubeVIP?  \n2. Quais recursos e funcionalidades fazem parte do plano do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. As vantagens e serviços incluídos no ClubeVip.\n2. As funcionalidades do oncorretor.\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que é o ClubeVip e quais benefícios ele oferece?\n2. Como funciona o ClubeVip?\n3. Quais são as características principais do ClubeVip?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nO plano básico do OnCorretor inclui:\n\n* Domínio próprio\n* Até dez contas de e-mail com cinco gigabytes cada\n* Construtor de landing pages\n* Cartão de visita digital interativo\n* Envio de até mil e-mails marketing por mês\n* Integrações\n* Suporte por telefone, WhatsApp, e-mail e chat\n\nAlém disso, o OnCorretor oferece:\n\n* Criação e personalização de site (construtor de páginas e landing pages)\n* Integração com WhatsApp e canais digitais\n* Formulários e captação de leads, com avisos automáticos\n\nO valor do plano básico é a partir de R$ 52,50 por mês."
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são os benefícios do ClubeVip?\n2. O que é o serviço oncorretor e como ele funciona? \n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são os benefícios do plano de assinatura ClubeVip?\n2. Quais recursos estão incluídos no pacote oncorretor?\n3. Qual é o conteúdo básico que vem incluso em todos os planos?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que está incluído no plano do ClubeVip?\n2. O que está incluído no plano do oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-004",
+  "trilha": "fidelidade",
+  "pergunta": "como faço pra cancelar?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Orientar a enviar e-mail para atendimento@oncorretor.com.br",
+   "Indicar que deve informar Susep, Domínio, CPF/CNPJ de cadastro e Motivo do cancelamento"
+  ],
+  "proibicoes": [
+   "Oferecer atendente humano",
+   "Inventar um botão ou fluxo de cancelamento não descrito nos documentos"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nSim. Basta enviar um e-mail para atendimento@oncorretor.com.br solicitando o cancelamento. Caso o domínio tenha sido registrado no mesmo dia, a cobrança do domínio será mantida."
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar a sua conta na plataforma?\n2. Se é possível cancelar a adesão no mesmo dia da contratação?\n3. O passo a passo para cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como faço o cancelamento da minha conta?\n2. Posso cancelar minha adesão no mesmo dia em que contratei?\n3. Quero cancelar minha adesão ao OnCorretor, como devo proceder?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar sua conta?\n2. Se é possível cancelar a adesão no mesmo dia da contratação?\n3. O procedimento para cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar a minha conta?  \n2. Posso cancelar minha adesão no mesmo dia em que contratei?  \n3. Como proceder para cancelar minha adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como realizar o cancelamento da sua conta?\n2. É possível cancelar a adesão no mesmo dia em que foi contratada?\n3. Como cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar a sua conta?\n2. É possível cancelar a adesão no mesmo dia da contratação?\n3. Qual o procedimento para cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como faço o cancelamento da minha conta?\n2. Posso cancelar minha adesão no mesmo dia em que contratei?\n3. Quais são os passos para desfazer a minha inscrição no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como fazer o cancelamento da sua conta?\n2. Se é possível cancelar a adesão no mesmo dia em que contratou?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nEnvie um e-mail para atendimento@oncorretor.com.br com SUSEP, domínio, CPF/CNPJ e motivo do cancelamento. O site e os e-mails serão desativados após o cancelamento."
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar a sua conta?\n2. Se é possível cancelar a adesão no mesmo dia da contratação?\n3. Como cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-005",
+  "trilha": "fidelidade",
+  "pergunta": "como eu faço pra contratar o oncorretor?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Orientar a fazer a adesão no site https://oncorretor.com.br/planos.html selecionando o plano e clicando em Quero Contratar"
+  ],
+  "proibicoes": [
+   "Solicitar dados sensíveis (CPF, RG, SUSEP, senha)",
+   "Inventar etapas de contratação não descritas"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O processo de adesão ao OnCorretor?\n2. Como proceder com a contratação do serviço?\n3. Alteração do domínio no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor e começar a usar seus serviços?\n2. Quais são os passos para contratar o OnCorretor e iniciar um contrato com eles?\n3. Como alterar o domínio do seu cadastro no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais passos preciso seguir para aderir ao OnCorretor?  \n2. Como contratar o serviço do OnCorretor?  \n3. Como alterar meu domínio no OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor pela primeira vez?\n2. O processo completo para contratar o serviço OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor?\n2. Como contratar o OnCorretor?\n3. Como alterar o domínio do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor?\n2. Como contratar o OnCorretor?\n3. Como alterar o domínio do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Os passos necessários para aderir ao OnCorretor?\n2. Esclarecimentos específicos sobre o processo de contratação do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor?\n2. Como contratar o OnCorretor?\n3. Como alterar o domínio do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são os passos para aderir ao OnCorretor?\n2. Como resolver uma dúvida específica sobre a contratação do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor?\n2. Como contratar o OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o passo a passo para aderir ao OnCorretor?  \n2. Como faço para contratar o OnCorretor?"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como aderir ao OnCorretor?\n2. Como contratar o OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nMODO B \n\"Para contratar o OnCorretor, entre em contato com um de nossos consultores. Para isso, você pode ligar para [número de telefone] ou enviar um e-mail para [endereço de e-mail]. Sobre outros detalhes do processo de contratação, não tenho essa informação nos meus documentos.\""
+   }
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+{
+ "createdAt": "2026-05-11 17:02:40.445000+00:00",
+ "features": {
+  "messaging": {
+   "enabled": true,
+   "whatsapp": {
+    "enabled": true
+   }
+  },
+  "tickets": {
+   "enabled": true
+  },
+  "glpi": {
+   "username": "marcelo.ayala@mstech.com.br",
+   "category_id": 5,
+   "enabled": true,
+   "entity_id": 10,
+   "client_id": "f9e98eb2fb380d90b2aaf51846b81cc9c90665802db1929ef266122920ddf625",
+   "url": "https://suporte.mstech.com.br",
+   "client_secret": "7f7c02c96518c7f862dca698defa4dae57994f57fe988e914866009be26ba386",
+   "password": "876543210",
+   "request_type_id": 2
+  },
+  "ai": {
+   "faq_management": {
+    "who_can_manage": "admin"
+   },
+   "opening_question": {
+    "skip_value": "desconhecida",
+    "enabled": true,
+    "fallback_message": "Em que posso te ajudar?",
+    "text": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+    "identifier_regex": "^[A-Za-z0-9]{6}[FfJj]$",
+    "field": "susep",
+    "confirm": "Perfeito, obrigado! Em que posso ajudá-lo?"
+   },
+   "confidence_threshold": 0.82,
+   "enabled": true,
+   "auto_close_on_gratitude": {
+    "goodbye_message": "De nada! 😊 Posso considerar nosso atendimento finalizado ou ainda tem alguma dúvida?",
+    "enabled": true,
+    "ask_message": "Que bom poder ajudar! 😊\n\nFicou alguma dúvida ou posso considerar nosso atendimento encerrado?",
+    "timeout_message": "Como não tive notícias suas, vou considerar nosso atendimento encerrado por aqui.\n\nSe precisar de algo, é só me chamar novamente! 😊"
+   }
+  }
+ },
+ "updatedAt": "2026-08-21 17:09:28.377000+00:00",
+ "displayName": "OnCorretor",
+ "prompts": {
+  "help_portal_directive": "Quando a resposta tratar de tópicos OPERACIONAIS/TÉCNICOS (configuração de\ne-mail, troca de senha, painel administrativo, integração com Segfy, edição\nde site, SEO, DNS), adicione ao final da resposta:\n\n\"Para tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚\""
+ },
+ "orgId": "oncorretor"
+}

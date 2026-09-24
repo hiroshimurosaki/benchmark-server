@@ -392,7 +392,7 @@ def build(args):
                   "current_processor": s.get("processor"), "sampled_at": s.get("t")}
 
     anchors = {}
-    sp = os.path.join(root, "..", "b1", "schema_b1.json")
+    sp = os.path.join(root, "..", "schema_b1.json")
     if os.path.exists(sp):
         anchors = json.load(open(sp, encoding="utf-8")).get("anchors", {})
 
@@ -422,7 +422,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".")
     ap.add_argument("--results", default="../results_b1.jsonl")
-    ap.add_argument("--questions", default="../b1/questions_b1.jsonl")
+    ap.add_argument("--questions", default="../questions_b1.jsonl")
     ap.add_argument("--models", default="models.jsonl")
     ap.add_argument("--out", default="../dashboard_b1.json")
     build(ap.parse_args())

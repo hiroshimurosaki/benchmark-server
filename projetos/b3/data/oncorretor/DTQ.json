@@ -1,0 +1,547 @@
+[
+ {
+  "frase": "tenho um e-mail ativo, é possível recuperar e mudar o nome?",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como usar o painel para gerenciar contas de e-mail do meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "como acesso o histórico de cobranças e pagamentos do meu plano",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "quero excluir uma conta de e-mail que não uso mais",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como solicitar desbloqueio de conta de e-mail bloqueada por excesso de envio",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "posso colocar um vídeo na página inicial do meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "existe como integrar o oncorretor com facebook ads automaticamente",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "posso integrar o site do oncorretor com google meu negócio",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "como ativo notificações por sms para os leads capturados pelo site",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "preciso alterar um texto na página do meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "quero mudar o nome que aparece no cabeçalho do meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "não consigo pagar pela comissão porto seguro, tem outra forma de pagamento",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "quero adicionar o logo de outras seguradoras no meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "posso usar meu domínio oncorretor em outro serviço de hospedagem",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "qual o tamanho ideal para a imagem de fundo do site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "meus e-mails enviados não estão chegando ao destinatário",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "meu domínio está congelado e não consigo acessar o site",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "já escolhi o modelo do site, quando ele fica ativo",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "vocês têm serviço de design gráfico ou criação de logomarca",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "como configurar técnicas de seo no meu site oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "quero transferir a titularidade do meu domínio para outra pessoa",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "estou sem acesso ao meu e-mail pelo webmail",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "posso instalar um plugin ou extensão no meu site oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "como atualizo a minha foto de perfil que aparece no site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "qual o link e usuário para acessar o painel do webmail",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "preciso de um sistema de gestão para minha corretora, vocês oferecem",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "não lembro a senha do meu e-mail corporativo, como recupero",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "o oncorretor permite configurar automações de marketing como nutrição de leads",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "quero solicitar estorno de uma cobrança indevida",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "qual a diferença entre pop e imap para configurar o e-mail",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "quero solicitar nota fiscal das minhas mensalidades",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "é possível criar múltiplos sites independentes dentro da mesma conta do oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "como configurar o meu e-mail no outlook ou no celular",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "minha susep foi cancelada, o que acontece com o meu site",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "o webmail abre mas fica carregando infinitamente",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "minha caixa de entrada está lotada de spam, o que fazer",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como coloco meu endereço comercial no site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "meu site sumiu, aparece página em branco ou erro de servidor",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "posso ter mais de um domínio no oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "quero adicionar uma nova seção ou página ao meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "esqueci o usuário do painel gerenciador do meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "como faço backup dos meus e-mails antes de migrar",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "preciso trocar a senha do meu e-mail do domínio",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como acesso o webmail pelo celular",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "meu plano está suspendido por inadimplência, como reativo o site",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "como saber se meu domínio está registrado corretamente",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "tem como exportar todos os dados do site para outro servidor",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "preciso renovar meu domínio, como faço o pagamento",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "existe api no oncorretor para integração com ferramentas externas",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "quero criar uma landing page para uma campanha de seguro específica",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "preciso que meu site seja ativado com urgência",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "já paguei a mensalidade mas o site ainda não está funcionando",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "minha susep está em análise, tem algum prazo para ativação do site",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "como incluir título e descrição nas páginas para seo",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "como configuro uma resposta automática de férias no meu e-mail",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como faço para criar uma conta de e-mail pelo painel",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "meu e-mail está caindo na caixa de spam dos destinatários",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "quero fazer uma campanha de e-mail marketing para captação de clientes",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "quais são os e-mails criados atualmente no meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "preciso acessar o painel gerenciador do meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "posso usar o oncorretor para hospedar um sistema próprio de crm",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "posso ter o site no oncorretor e os e-mails em outro provedor separado",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "como atualizo meu número de telefone e whatsapp no site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "meu domínio está expirando, o que acontece se não renovar",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "o ssl do meu domínio venceu, como renovo",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "o que fazer se recebi um boleto fraudulento em nome do registro.br",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "meu domínio está propagando há mais de 24 horas, isso é normal",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "como criar um redirecionamento ou apelido para minha conta de e-mail",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "quero criar uma conta na registro.br, o que é necessário",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "quero renomear um e-mail existente no meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como integrar o site do oncorretor com o rd station",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "consigo alterar o layout avançado do site via html ou css direto no oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "posso integrar o google analytics ou tag manager no meu site",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "contratei o oncorretor mas o site ainda não foi criado",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "quero remover uma página ou seção que não uso mais no site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "quero informações sobre financiamento ou crédito para minha corretora",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "como integrar o meu crm com o oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "minha adesão foi recusada ou negada, por quê",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "vocês fazem gerenciamento de anúncios pagos como google ads",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "quero mudar as cores do tema do meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "qual a diferença entre o oncorretor e o wix ou outras plataformas de site",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "como adiciono o pixel do facebook no meu site",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "finalizei a escolha do site mas ainda não está no ar",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "como faço para editar o site depois de contratar",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "quero criar um e-mail compartilhado para a equipe da corretora",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "não consigo acessar o webmail, está dando erro",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "quero registrar um novo domínio para a minha corretora",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "o site está mostrando aviso de segurança no navegador, o certificado venceu",
+  "resposta": "call_attendant",
+  "intencao": "domain_renewal"
+ },
+ {
+  "frase": "o oncorretor oferece relatórios de venda detalhados com funil completo",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "quais são os próximos passos após escolher o site",
+  "resposta": "call_attendant",
+  "intencao": "susep_status"
+ },
+ {
+  "frase": "posso colocar um formulário personalizado para captura de leads no site",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "vocês fazem algum tipo de trabalho com redes sociais",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "o webmail não está abrindo, o que fazer",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "quero alterar o e-mail de cadastro do oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "existe como adicionar chatbot inteligente no site do oncorretor",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "podem me ajudar a crescer no instagram ou facebook",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "como faço para o google indexar meu site mais rápido",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "o painel gerenciador está abrindo mas não consigo logar",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "o oncorretor permite criar um aplicativo mobile para minha corretora",
+  "resposta": "call_attendant",
+  "intencao": "tecnico_avancado"
+ },
+ {
+  "frase": "não estou recebendo e-mails, o que pode estar acontecendo",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "meu e-mail está cheio, como aumento o espaço de armazenamento",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "quero trocar a imagem do banner do meu site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "não recebi o e-mail de confirmação de adesão, como verifico",
+  "resposta": "call_attendant",
+  "intencao": "financeiro"
+ },
+ {
+  "frase": "preciso criar um novo e-mail no meu domínio",
+  "resposta": "call_attendant",
+  "intencao": "email_management"
+ },
+ {
+  "frase": "como adiciono um botão de whatsapp flutuante no site",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ },
+ {
+  "frase": "a senha do painel gerenciador não está funcionando",
+  "resposta": "call_attendant",
+  "intencao": "webmail_access"
+ },
+ {
+  "frase": "como migrar o meu site do oncorretor para wordpress",
+  "resposta": "call_attendant",
+  "intencao": "produto_externo"
+ },
+ {
+  "frase": "preciso de informação sobre capital de giro para corretores",
+  "resposta": "call_attendant",
+  "intencao": "fora_escopo"
+ },
+ {
+  "frase": "tem alguma imagem relacionada a corretora de seguros disponível para usar no banner",
+  "resposta": "call_attendant",
+  "intencao": "site_editing"
+ }
+]

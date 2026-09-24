@@ -1,0 +1,498 @@
+[
+ {
+  "id": "b2-016",
+  "trilha": "fidelidade",
+  "pergunta": "posso pagar com cartão de crédito?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar que aceita cartão de crédito",
+   "Inferir que cartão funciona por analogia com outras formas de pagamento",
+   "Sugerir que talvez seja possível pagar com cartão"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE:\n\nPara poder pagar com o cartão de crédito, você precisa verificar as configurações do seu cartão e garantir que a forma de pagamento está ativada para uso de cartão de crédito. Se precisar de mais assistência nessa etapa, por favor, forneça detalhes sobre qualquer restrição ou passo a seguir no processo."
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\n- Se a resposta sobre o nome do cartão de crédito.-lo, se não é uma das informações sobre o pagamento.\n\n- Se a parte da pergunta:\n- Se o usuário mencionou o nome do cartão de crédito.\n- Se a resposta para o trecho que você precisa de um cartão de crédito?"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-017",
+  "trilha": "fidelidade",
+  "pergunta": "vocês aceitam pix?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar que aceita PIX",
+   "Inferir disponibilidade de PIX a partir de outras formas de pagamento"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\n- Se a parte da pergunta for o nome de um produto, sem a resposta, se a conta.\n- Responda com a respeito à pergunta.\n- O usuário mencionou a parte da pergunta.\n- A/BEM>-O que a pergunta para o contexto do produto.\n- Resposta sobre a forma de pagamento."
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPERGUNTA: vocês aceitam pix? \nRELEVANTE."
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nSim, aceitamos pagamentos via Pix.\n\nSe você tiver alguma dúvida adicional ou informação necessária, por favor, entre em contato com o suporte ao cliente para detalhes adicionais. \n\nPara quaisquer outras perguntas específicas sobre como configurar e-mail, siga as instruções deles; caso contrário (entre as tags só houver espaços) IGNORE este passo por completo.\n\nSe a resposta for uma pergunta específica ou informação não é necessária para obter detalhes adicionados, escreva: \"Como configurar um e-mail?\"  (MISTURO TÓPICOS — PROIBIDO)\n  \nExemplo de como a parte da pergunta é diferente do tópico de CONTEXTO_ANTERIOR:\n- Responda à parte específica com extração literal.\n- Se a resposta não for cobertura, escreva uma linha: \"Sobre [parte específica], não tenho essa informação nos meus documentos.\"\n\nDECISÃO DE RESPOSTA (apenas após o PASSO 1-6):\n\nResposta finalizada de acordo com os tópicos específicos:\n- Responder a parte específica da pergunta.\n- Não há partes adicionais para extrair, escreva uma linha: \"Como parte específica?\"  (MISTURO TÓPICOS — PROIBIDO)\n  \nDECISÃO DE RESPOSTA (apenas após o PASSO):\n\nNão foram encontrados trechos específicos relacionados à resposta. NEM por sinônimos:\n- Responda a parte não é coberta com extração literal.\n- Não há partes adicionais para extrair, escreva uma linha: \"Como parte específica?\"  (MISTURO TÓPICOS — PROIBIDO)\n  \nDECISÃO DE RESPOSTA FINAL: \n\nNão foram encontrados trechos específicos relacionados à resposta."
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-018",
+  "trilha": "fidelidade",
+  "pergunta": "tem um aplicativo do oncorretor pra eu baixar?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar que existe um aplicativo do OnCorretor",
+   "Inventar loja de aplicativos ou link de download"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o preço do oncorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n3. posso usar o oncorretor mesmo sem ter site\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se existe um aplicativo do OnCorretor para download?\n2. Qual o preço do OnCorretor?\n3. Se é possível usar o OnCorretor sem ter um site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o preço do OnCorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n3. Posso usar o OnCorretor mesmo sem ter um site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o preço do serviço do OnCorretor?\n2. O valor mensal que devo pagar pelo plano do OnCorretor?\n3. É possível usar o OnCorretor mesmo sem ter um site próprio?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Existe um aplicativo do OnCorretor para download?\n2. Como funciona o uso do OnCorretor sem ter um site?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quanto custa o plano mensal do OnCorretor?\n2. Posso usar o OnCorretor sem ter um site?\n3. Qual é o preço do plano de assinatura do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o preço do OnCorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n3. É possível usar o OnCorretor mesmo sem ter um site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como baixar o aplicativo oficial do OnCorretor?\n2. Se existe um aplicativo do OnCorretor disponível para download.\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o preço do OnCorretor?\n2. Quanto custa o plano mensal do OnCorretor?\n3. Se posso usar o OnCorretor mesmo sem ter um site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O valor e os planos de assinatura do OnCorretor?\n2. Se é possível utilizar a ferramenta sem possuir um site próprio?\n3. Informações sobre o aplicativo móvel do OnCorretor.\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-019",
+  "trilha": "fidelidade",
+  "pergunta": "dá pra pagar em cripto ou bitcoin?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar pagamento em cripto ou bitcoin",
+   "Sugerir que talvez seja possível"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são as formas de pagamento aceitas pelo nosso serviço?\n2. O que acontece se eu não pagar a minha fatura?\n3. Como configurar o método de pagamento padrão para minhas compras?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que acontece se eu não efetuar o pagamento?\n2. Como resolver problemas de acesso ao sistema?\n3. Como editar o site depois de contratar?\n\nMe diga o número"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como realizar pagamentos utilizando Bitcoin ou outras moedas digitais?\n2. As opções de pagamento disponíveis no nosso serviço?\n\nMe diga o número da opção (1, 2) ou explique melhor o que você precisa 😊\n\n\"Para tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚\""
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são as consequências se eu não realizar o pagamento?\n2. Como resolver problemas de acesso ao sistema?\n3. Como posso fazer alterações no site após a contratação?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que acontece se eu não efetuar o pagamento?\n2. Como resolver problemas de acesso ao sistema?\n3. Como editar o site depois de contratar?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais as consequências de não realizar o pagamento?\n2. Como solucionar problemas de acesso ao sistema?\n\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se é possível pagar pelos serviços utilizando criptomoedas ou bitcoin?\n2. Quais são as opções de pagamento disponíveis além do dinheiro e cartão de crédito?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPara pagar usando criptomoedas como Bitcoin (também conhecido como) você precisa consultar:\nhttps://ajuda.oncorretor.com/pt-br/bitcoin/how-to-buy-bitcoins/\n\nResumo: Para realizar pagamentos com Bitcoin, você precisaria seguir as instruções específicas sobre a forma de pagamento nos detalhes do site ou a página de integração.\n\nMODO C — Encontre os tópicos que cobrem a resposta:\n- Responder com extração literal.\n- NÃO adicione quando a resposta for o atendimento humano resolve melhor.\n- Não menciona qualquer sufixo quando a resposta é sobre cancelamento/inadimplência (assuntos comerciais → atendimento humano).\n- NÃO adicione quando a resposta for de saudação ou agradecimento.\n- NÃO adicione quando a resposta for MODO C (\"Desculpe, não tenho essa informação...\").\n\nDECISÃO DE RESPOSTA: Responder apenas com o que é cobrado."
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-020",
+  "trilha": "fidelidade",
+  "pergunta": "vocês integram com o salesforce ou com o meu crm?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar integração com Salesforce ou CRM",
+   "Inferir integração a partir de menções genéricas de site ou e-mail"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver problemas de acesso ao sistema?\n2. Como trocar o domínio do seu site?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver problemas de acesso ao sistema?\n2. Como trocar o domínio do seu site?\n3. Como alterar o domínio principal no Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE:\n\n1. Como integrar minha conta ao Salesforce?\n2. Como integrar seu CRM atual?\n\nSobre a integração específica com Salesforce, por favor forneça mais detalhes sobre sua configuração e setup. Sobre a integração com o seu CRM atual, não tenho informações específicas disponíveis nos meus documentos.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚\""
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver problemas de acesso ao sistema?\n2. Se existe um sistema VIP disponível?\n3. Como acessar o seu site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar integração com sistemas de gestão de relacionamento com clientes (CRM)?\n2. Como trocar o endereço (domínio) do seu site?\n3. Como alterar as configurações do seu sistema de gerenciamento de conteúdo?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais problemas de acesso ao sistema são comuns e como resolvê-los?\n2. Se existe um programa de fidelidade ou benefícios especiais para clientes VIP?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊\n\nRELEVANTE \n\n\nPergunta: vocês integram com o meu crm?"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE(SQLException: Document Kı Stanfor\n\"user\" ATendimento atento, você quer verificar a integração com CRM atualmente está configurado. Vamos through your CRM system or our Salesforce instance for syncing updates? If you have the it already set up between <PERIODO>, could you please confirm with a 'Yes' or 'No'? If not, could you guide me on how to set it up?\"\n\nAMAZING_BREESE吩谢性翻译一下楼上内容到 )* Aç Assassino sobre:\n\n\"Você quer verificar a integração com o CRM ou no meu CRM? Você pode confirmar se está configurado na sua atual configuração. Se não, poderosas me orientando ontem no mesmo caso, qual seria necessário seguir estes passos:\n\n1. **Log in** to your Salesforce instance if you have not already done so','');\n| Step 2. Navigate to the Configuring Data驺conditionally include mention of CRM integration steps if not explicitly stated.Onlysbinarios\naylight\nuser\n📌 Atenda atento! Você quer verificar a integração com o Salesforce ou no meu CRM? Se sim, pode confirm that it's already set up in your current setup? If not, could you guide me through the?\""
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver problemas de acesso ao sistema?\n2. Como trocar o domínio do seu site?\n3. Como alterar o domínio principal do seu site no Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1.  Problemas de acesso ao sistema e como resolvê-los?\n2.  Integração do OnCorretor com o Google Meu Negócio?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como integrar seu sistema com o Salesforce?\n2. Como integrar seu CRM atual?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ }
+]

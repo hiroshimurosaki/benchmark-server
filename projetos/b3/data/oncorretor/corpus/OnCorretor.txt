@@ -1,0 +1,1150 @@
+1. – Adesão ao OnCorretor
+
+Cliente: Como faço para aderir ao OnCorretor?
+
+Atendente: A adesão ao OnCorretor é simples e pode ser feita online. Você vai precisar apenas dos seus dados cadastrais e da sua SUSEP. O passo a passo é este:
+
+1. Acesse o site `www.oncorretor.com.br` e clique na opção para contratar/aderir.
+2. Preencha as informações solicitadas (dados pessoais/da corretora, dados de contato e SUSEP). Após finalizar, você receberá um e-mail confirmando que a adesão foi solicitada e ela será confirmada após validarmos a produção na sua SUSEP.
+3. Requisito de produção: para aderir ao OnCorretor é necessário ter uma produção mínima de R$ 100,00 (cem reais) em produtos vinculados à “Empresa um” (Porto Seguro). Em geral, são produtos Porto Seguro com venda online (como auto/carro, moto e vida), mas, caso tenha dúvida sobre sua produção, o ideal é confirmar com seu gestor comercial. 
+4. Forma de cobrança: o pagamento é feito por desconto na conta comissão da SUSEP principal, por isso é importante que a SUSEP tenha produção contínua nos produtos vinculados à Empresa um (Porto Seguro).
+5. Mensalidade e plano: os planos são “a partir de” R$ 52,50 (cinquenta e dois reais e cinquenta centavos) por mês. O plano básico inclui domínio próprio, até dez contas de e-mail com cinco gigabytes cada, construtor de landing pages, cartão de visita digital interativo, envio de até mil e-mails marketing por mês, integrações e suporte por telefone, WhatsApp, e-mail e chat.
+6. Valores e pacotes: caso você queira pacotes adicionais (mais contas/mais espaço de e-mail, ou mais e-mail marketing), os valores atualizados ficam na página de planos: `https://oncorretor.com.br/planos.html`.
+
+Se você me disser se já tem um domínio (endereçodoSeuSite) ou se ainda vai registrar um, eu te explico exatamente qual opção selecionar no momento da adesão.
+
+2. – Cancelamento do OnCorretor
+
+Cliente: Quero cancelar minha adesão ao OnCorretor.
+
+Atendente: Sem problemas. Para solicitar o cancelamento, precisamos que você formalize por e-mail, para mantermos tudo registrado e evitarmos qualquer dúvida depois.
+
+1. Envie um e-mail para `atendimento@oncorretor.com.br` informando:
+
+* SUSEP
+* Domínio (endereço do site)
+* CPF/CNPJ
+* Motivo do cancelamento 
+
+2. Ponto de atenção (muito importante): ao efetivar o cancelamento, o site e os e-mails vinculados ao OnCorretor serão desativados e sairão do ar. Se você ainda usa esse e-mail para receber contatos/leads, recomendamos planejar a troca antes de cancelar. 
+
+3. Sobre cobrança e data de corte (dia vinte):
+
+* Se o cancelamento for solicitado após o dia vinte, ainda poderá haver uma última cobrança referente ao mês do cancelamento, porque o modelo é “usa e depois paga”. 
+* Se o cancelamento for solicitado até o dia vinte (dia vinte incluso), não haverá novas cobranças de mensalidade do OnCorretor.
+
+4. Domínio: se no mês do cancelamento houver renovação de domínio paga/lançada, essa renovação ainda poderá aparecer na cobrança seguinte, pois é uma despesa anual do domínio. Isso pode ser verificado no K1000 no campo de “data da última renovação do domínio”. 
+
+3. – Alteração de SUSEP
+
+Cliente: Minha produção mudou de SUSEP. Como altero isso no OnCorretor?
+
+Atendente: Perfeito. A troca da SUSEP de cobrança precisa ser solicitada por e-mail, para encaminharmos à Porto Seguro e acompanharmos o retorno.
+
+Envie um e-mail para `atendimento@oncorretor.com.br` com:
+
+* SUSEP atual (a que está hoje vinculada ao desconto)
+* Nova SUSEP (para onde a produção foi)
+* CPF/CNPJ da nova SUSEP 
+
+Após o envio, nós encaminhamos a solicitação para a Porto Seguro e, assim que tivermos o retorno, você será comunicado por e-mail informando se a alteração foi concluída com sucesso. 
+
+4. – Substituição de Domínio
+
+Cliente: Quero trocar o endereço do meu site.
+
+Atendente: É possível, sim. O ponto principal é entender que domínio é o endereço do seu site e também define o “@” dos seus e-mails. Por isso, a troca precisa ser feita com cuidado para não perder acesso a mensagens e para não interromper o funcionamento do site.
+
+1. Para iniciar, envie um e-mail para `atendimento@oncorretor.com.br` informando qual será o novo domínio (exemplo: `minhacorretora.com.br`). 
+
+2. Você tem duas opções para o domínio:
+
+* Domínio registrado por você: você faz o registro/compra do domínio e depois realizamos/ajudamos com o apontamento e vinculação.
+* Domínio adquirido/renovado via OnCorretor: neste caso, as cobranças relacionadas ao domínio (por exemplo, renovação anual) seguem a tabela vigente. Hoje, a página de planos indica renovação anual de domínio nacional por R$ 44,23 (quarenta e quatro reais e vinte e três centavos) e internacional por R$ 54,77 (cinquenta e quatro reais e setenta e sete centavos).
+
+3. Se o domínio for nacional (.br) e estiver no Registro.br, normalmente será necessário associar o ID técnico MSPOR4 para que o domínio fique corretamente vinculado ao ambiente. 
+
+4. Se o domínio for internacional, o procedimento é por transferência para o e-mail `servicedesk@mstech.com.br` (conta administradora). 
+
+5. E-mails no domínio antigo: caso existam contas de e-mail no domínio atual, você precisa nos informar se deseja:
+
+* migrar/copiar as caixas para o novo domínio, ou
+* descartar as caixas antigas (ciente de que elas deixarão de existir quando o domínio antigo sair do ar). 
+
+6. Observação importante sobre regras e impacto: uma vez que um domínio é cadastrado no processo de adesão, a troca não é algo “automático”; ela normalmente envolve a compra/uso de um novo domínio. Se a intenção é trocar, o caminho é justamente adquirir outro domínio e fazer a substituição conforme orientação do suporte.
+
+Se você me confirmar se o seu domínio é nacional (.br) ou internacional (.com, .net etc.), eu te passo o passo a passo mais direcionado.
+
+5. – Alteração de Dados Cadastrais
+
+Cliente: Quero atualizar meus dados de cadastro.
+
+Atendente: Claro. Para atualizar dados cadastrais (como telefone, e-mail de contato, endereço, razão social/nome, etc.), precisamos que a solicitação venha formalizada por e-mail.
+
+1. Envie as informações corretas por e-mail, preferencialmente usando o mesmo e-mail cadastrado no momento da adesão. 
+2. Se você estiver enviando de um e-mail diferente do que consta no cadastro, precisamos validar a titularidade. Nesse caso, envie também:
+
+* contrato social (se for pessoa jurídica), ou
+* documento/CPF (se for pessoa física). 
+
+3. Após a validação, atualizamos os dados nos sistemas necessários (inclusive no ambiente de vendas/construtor), para manter tudo alinhado. 
+
+6. – Inadimplência
+
+Cliente: Recebi um aviso de inadimplência.
+
+Atendente: Esse aviso normalmente significa que, no período, não houve comissão suficiente para descontar a mensalidade do OnCorretor, então a ordem de pagamento não foi gerada pelo sistema de comissões. 
+
+Como funciona na prática:
+
+1. Enquanto não há comissão suficiente, a cobrança fica pendente e a adesão pode entrar em “inadimplência”. 
+2. Se o corretor permanecer com três meses (ou mais) em inadimplência, a adesão pode ser cancelada definitivamente por inadimplência. 
+3. Se você tiver outra SUSEP com produção ativa, podemos orientar a troca da SUSEP de cobrança (você envia e-mail solicitando a alteração). 
+4. Se não houver outra SUSEP com produção, o caminho é procurar seu gerente comercial para orientar a regularização junto à companhia. 
+
+Se você quiser, você pode me informar se existe outra SUSEP com produção ativa para avaliarmos a alternativa mais rápida (troca de SUSEP de cobrança).
+
+7. – SUSEP Bloqueada
+
+Cliente: Disseram que minha SUSEP está bloqueada.
+
+Atendente: Quando a SUSEP está bloqueada, normalmente é por algum problema cadastral ou por existir uma dívida alta/pendência que impede o lançamento automático de cobranças. Em alguns casos, até é possível lançamento manual, mas depende da situação. 
+
+O que você pode fazer:
+
+1. Verificar se você possui outra SUSEP com produção ativa e sem bloqueio. Se tiver, podemos orientar a troca da SUSEP de cobrança do OnCorretor. 
+2. Se não tiver outra SUSEP, será necessário procurar seu gerente comercial para regularizar a situação do bloqueio junto à companhia. 
+
+Assim que a situação da SUSEP for normalizada, o fluxo de cobrança volta ao padrão.
+
+8. – Cancelamento por Inatividade
+
+Cliente: Meu site foi cancelado por inatividade.
+
+Atendente: O cancelamento por inatividade pode acontecer quando o corretor não utiliza nem o site nem os e-mails por um período prolongado. Em geral, esse período costuma ser de cerca de três meses (três meses), mas não é uma regra fixa. 
+
+É importante reforçar dois pontos:
+
+1. A responsabilidade de solicitar cancelamento é do corretor, conforme o termo de adesão. 
+2. Em alguns casos, para evitar problemas futuros (principalmente solicitações de estorno por falta de uso), o cancelamento pode ser realizado por iniciativa do OnCorretor, registrando o motivo como “INATIVIDADE” e gerando chamado interno. 
+
+Se a sua intenção é reativar e voltar a usar, nós conseguimos orientar qual o melhor caminho (nova adesão ou regularização, conforme o status do cadastro).
+
+9. – Alteração de DNS
+
+Cliente: Quero apontar meu domínio para outro provedor.
+
+Atendente: É possível, mas aqui o ponto crítico é: ao mudar o DNS (apontamento) para outro provedor, o site pode passar a ser hospedado fora do OnCorretor e, se as entradas do e-mail não forem recriadas no novo DNS, os e-mails deixam de funcionar. 
+
+Por isso, nossa recomendação é:
+
+1. A alteração de DNS seja feita pela empresa que vai desenvolver/hospedar seu novo site e, idealmente, junto com a transferência de titularidade do domínio. 
+2. Se, mesmo assim, você quiser que a gente faça a mudança, você precisa nos enviar por e-mail os novos servidores/entradas de DNS (os dados completos). Nós faremos a alteração, mas reforçando: o funcionamento do e-mail dependerá das entradas corretas estarem configuradas no novo DNS. 
+
+Antes de confirmar a alteração, sempre orientamos que você valide com o seu novo provedor quais registros devem ser criados para manter o e-mail ativo.
+
+10. – Titularidade de Domínio
+
+Cliente: Preciso alterar a titularidade do meu domínio e trazer para minha conta.
+
+Atendente: Perfeito. O procedimento muda conforme o tipo de domínio.
+
+Domínio nacional (.br):
+
+* Você precisa ter uma conta própria no Registro.br.
+* Envie um e-mail para `atendimento@oncorretor.com.br` informando qual é o ID da sua conta no Registro.br para que possamos orientar/realizar a transferência para a sua titularidade. (O objetivo é que o domínio fique “na sua conta”, e não preso a uma conta técnica.) 
+
+Domínio internacional (.com, .net etc.):
+
+* Em domínio internacional, normalmente falamos em “transferência” (para outra conta/registrador), e não “titularidade” como no Registro.br.
+* Envie um e-mail para `atendimento@oncorretor.com.br` informando o e-mail da sua conta na GoDaddy (ou no registrador aplicável), para que possamos solicitar/encaminhar a transferência. 
+
+Se você me disser qual é a extensão do seu domínio (termina com “.br” ou não), eu te passo o caminho exato.
+
+11. – Renovação de Domínio
+
+Cliente: Tenho dúvidas sobre a renovação do meu domínio.
+
+Atendente: A renovação do domínio é anual, ou seja, acontece uma vez por ano para manter o endereço do seu site ativo.
+
+Valores de referência:
+
+1. Domínio nacional (.br) renovado diretamente no Registro.br: o custo informado publicamente é de R$ 40,00 (quarenta reais) por ano.
+2. Domínio renovado pelo OnCorretor: na página de planos, a renovação anual aparece como R$ 44,23 (quarenta e quatro reais e vinte e três centavos) para domínio nacional e R$ 54,77 (cinquenta e quatro reais e setenta e sete centavos) para domínio internacional.
+
+Como verificar “quem renova” e quando vence:
+
+* No K1000, consulte o domínio e verifique o campo “Domínio Próprio” (isso indica quem é responsável pela renovação) e o campo de vencimento. 
+* O domínio só é renovado se a SUSEP estiver sem bloqueios e sem inadimplência. 
+* No campo “data da última renovação” você vê quando foi a última renovação; e, se o OnCorretor renovou, a cobrança normalmente aparece na cobrança seguinte ao mês da renovação. 
+
+Ponto de atenção contra boleto falso: às vezes o corretor recebe boleto de empresas com nomes parecidos com Registro.br (por exemplo, “BR.Registro”) com valores muito acima do padrão. Em caso de dúvida, sempre valide a origem antes de pagar. 
+
+Se você me disser se o domínio é nacional ou internacional e se ele está como “domínio próprio” no K1000, eu te explico exatamente onde deve ser feito o pagamento e como evitar interrupções.
+
+12. – Solicitação de Estorno
+
+Cliente: Quero pedir estorno de um valor cobrado.
+
+Atendente: Entendi. O estorno pode ser analisado, mas precisa seguir critérios bem objetivos e precisa de evidências.
+
+1. Envie um e-mail para `atendimento@oncorretor.com.br` anexando:
+
+* extrato onde aparece a cobrança
+* comprovante/detalhe do desconto/cobrança 
+
+2. Quando o estorno é possível:
+
+* quando houve erro real na cobrança, ou
+* quando o cliente solicitou cancelamento e o cancelamento não foi realizado. 
+
+3. Data de corte (dia vinte): se o cancelamento foi feito após o dia vinte e o valor cobrado no mês seguinte estiver correto pelo modelo “usa e depois paga”, não há estorno. 
+
+4. Observação importante: “não utilizei” não é, por si só, critério de estorno, porque o serviço permaneceu disponível e ativo durante o período. 
+
+13. – Dúvidas sobre Inadimplência (Gerente Comercial)
+
+Cliente: Sou gerente comercial e preciso entender a inadimplência de uma SUSEP.
+
+Atendente: Para gerente comercial, normalmente trabalhamos com dois cenários bem definidos:
+
+Cenário um: produção em outra SUSEP (precisa transferir débitos)
+
+1. Para débitos anteriores em aberto: enviar e-mail para `operacao.comissoes@portoseguro.com.br` solicitando transferência do saldo negativo do OnCorretor para a nova SUSEP. 
+2. Para as próximas cobranças: o corretor (não o gerente) deve enviar e-mail para `atendimento@oncorretor.com.br` solicitando troca da SUSEP de cobrança (com SUSEP atual, SUSEP nova e CPF/CNPJ). 
+   Observação: solicitação de troca de SUSEP não pode ser feita pelo gerente; apenas pelo corretor. 
+
+Cenário dois: corretor devedor na SUSEP atual (negociação da dívida)
+
+* O gerente pode negociar o valor diretamente com o setor de comissões, verificar o total devedor e orientar o pagamento/depósito em conta indicada pela Porto Seguro; após o pagamento, o setor de comissões dá baixa. 
+
+14. – Pacotes Adicionais de E-mail
+
+Cliente: Quero comprar ou remover pacotes adicionais de e-mail.
+
+Atendente: Perfeito. A contratação ou remoção de pacotes adicionais é feita mediante solicitação por e-mail, para formalizarmos e garantirmos que a mudança não cause bloqueio ou perda de dados.
+
+1. Envie a solicitação para `atendimento@oncorretor.com.br`. 
+2. Antes de efetivar, nós validamos:
+
+* quantas contas estão em uso (para não remover pacote deixando contas “sem espaço/sem cota”),
+* quanto de espaço cada caixa está ocupando,
+* se a necessidade é criar novas contas ou aumentar capacidade das caixas existentes. 
+
+3. Depois da alteração, atualizamos os ambientes necessários (K1000, construtor e provedor de e-mail). 
+
+Se você me disser o que precisa (mais contas ou mais espaço) e quantas caixas já usa hoje, eu te indico o pacote mais adequado.
+
+15. – Dúvidas sobre Estórios e Capacidade de Caixa Postal
+
+Cliente: Minha caixa de e-mail encheu. Quais opções eu tenho?
+
+Atendente: Quando a caixa enche, o e-mail pode parar de receber mensagens novas, então vale resolver o quanto antes. Você tem duas opções principais:
+
+Opção um: contratar pacote adicional (aumentar capacidade/quantidade)
+
+* Você pode contratar um pacote adicional de e-mail para ampliar espaço e/ou quantidade de contas, conforme sua necessidade. 
+
+Opção dois: limpeza e organização (sem contratar pacote)
+
+* Excluir mensagens antigas com anexos grandes,
+* Limpar “itens enviados”, “lixeira” e “spam”,
+* Arquivar mensagens importantes em pastas,
+* Baixar anexos para o computador e remover do e-mail (quando aplicável).
+
+Importante: não realizamos “cópia de conteúdo de uma caixa para outra” como serviço automático. Se você precisar dividir conteúdo em outra caixa, você mesmo pode criar uma nova conta e mover/copiar as mensagens manualmente pelo painel/cliente de e-mail. 
+
+Para referência de pacotes e orientações, também existe material de ajuda em `http://ajuda.oncorretor.com.br/` (se preferir, posso te direcionar ao artigo correto). 
+
+16. – Dúvidas sobre o OnCorretor
+
+Cliente: Quero entender melhor o que o OnCorretor oferece.
+
+Atendente: O OnCorretor é uma plataforma para o corretor ter presença digital e operar com recursos prontos, sem necessidade de programação. Ele foi criado em dois mil e nove (2009) como “CorretorWeb” e evoluiu para o OnCorretor, ampliando os recursos além do site.
+
+De forma bem objetiva, o OnCorretor oferece:
+
+* Criação e personalização de site (construtor de páginas e landing pages)
+* Domínio próprio e até dez contas de e-mail com cinco gigabytes cada no plano básico
+* Integração com WhatsApp e canais digitais
+* Cartão de visita digital interativo
+* Formulários e captação de leads, com avisos automáticos
+* Envio de e-mail marketing (com limite mensal no plano básico e possibilidade de pacotes adicionais)
+* Suporte humano e personalizado via 0800, WhatsApp, e-mail e chat, em horário comercial (segunda a sexta, das oito às dezenove horas).
+
+A cobrança é feita por desconto na conta comissão da SUSEP principal.
+
+17. – Não Consigo Finalizar a Adesão
+
+Cliente: Tentei aderir pelo site, mas aparece erro na hora de finalizar.
+
+Atendente: Isso pode acontecer em alguns casos (instabilidade, cache, falha no fluxo de pagamento/validação). Se você não consegue concluir pelo site, nós conseguimos seguir com a adesão manual.
+
+1. Envie um e-mail para `atendimento@oncorretor.com.br` relatando o erro e, se possível, anexando um print da tela.
+2. Nós vamos encaminhar para você:
+
+* o formulário de adesão manual, e
+* o termo para leitura e aceite. 
+
+3. Após o retorno com o termo aceito e os dados preenchidos, nossa equipe entra em contato para auxiliar nos próximos passos. 
+
+18. – Dúvidas no Wizard
+
+Cliente: O Wizard não avança ou trava. Como resolver?
+
+Atendente: Esse tipo de travamento geralmente está ligado a cache do navegador, cookies ou alguma extensão bloqueando scripts.
+
+Recomendações práticas:
+
+1. Tente abrir em aba anônima/privativa. 
+2. Teste em outro navegador (por exemplo, alternar entre Chrome e Firefox).
+3. Se persistir, nos envie um print do erro e informaremos o time técnico, abrindo chamado para o Nível três (desenvolvimento) para análise. 
+
+19. – Pós-Venda
+
+Cliente: Recebi contato do pós-venda.
+
+Atendente: Sim. O pós-venda faz parte do nosso processo de implantação. Ele ocorre após aproximadamente setenta e duas horas (72h) da venda concluída, que é um tempo comum de propagação/configuração. 
+
+O que é feito no pós-venda:
+
+* tentamos contato pelo menos três vezes, em dias diferentes; se não conseguirmos, enviamos um e-mail com orientações. 
+* revisamos dúvidas iniciais de site e e-mails,
+* orientamos ajustes básicos (como “quem somos”, títulos e descrições de páginas),
+* conferimos logotipo e informações principais,
+* falamos sobre venda online e boas práticas iniciais,
+* e podemos orientar indexação/SEO quando necessário. 
+
+20. – Sobre Chamados
+
+Cliente: Como funciona a abertura de chamados no suporte?
+
+Atendente: Todo atendimento gera um chamado para registro e acompanhamento.
+
+Funciona assim:
+
+* Telefone: o atendente abre o chamado manualmente e informa o número durante o atendimento. 
+* Chat: o chamado é registrado ao final do atendimento (ou pelo atendente ao concluir). 
+* WhatsApp: os atendimentos são arquivados e o trabalho é lançado internamente; quando precisamos escalar para Nível dois, abrimos manualmente no K1000. 
+
+21. – Hospedar Site Externo
+
+Cliente: Posso hospedar um site criado por outra empresa no OnCorretor?
+
+Atendente: O OnCorretor não hospeda sites externos (site feito por outra empresa precisa ficar hospedado no provedor escolhido por essa empresa). 
+
+O que é possível fazer:
+
+* Usar somente os e-mails do OnCorretor, mantendo o site externo em outro provedor. 
+* Importante: não existe mensalidade menor para usar “apenas e-mail” ou “apenas site”; a adesão continua sendo a mesma. 
+* Se o DNS estiver apontando para Cloudflare (provedor de DNS), você pode nos enviar por e-mail o IP de apontamento do site externo para configurarmos o apontamento. 
+
+22. – Links de Venda Online
+
+Cliente: Como altero os links de venda online?
+
+Atendente: Os links de venda online são gerados a partir do Corretor Online (COL). Então a atualização não é feita diretamente no OnCorretor: você precisa acessar sua área no COL, gerar os novos links e depois inserir/atualizar no seu site. 
+
+Se o problema for no link em si (link não abre, erro de cotação, etc.), o suporte é do COL, pelo telefone `11 4004-2300`. 
+
+23. – Migração de E-mails para o OnCorretor
+
+Cliente: Posso migrar meus e-mails do meu provedor atual para o OnCorretor?
+
+Atendente: Sim, é possível. A migração é uma cópia do conteúdo das caixas para o OnCorretor, e seguimos algumas regras para dar certo.
+
+Como funciona:
+
+1. Nós copiamos o conteúdo quando se trata do mesmo domínio (mesmo “@dominio”). 
+2. A migração ocorre preferencialmente às sextas-feiras. 
+3. Para executar, você precisa nos enviar:
+
+* lista das contas,
+* senhas de cada conta (para acesso IMAP),
+* IP/servidor IMAP do provedor atual. 
+
+4. Atenção: não cancele o provedor antigo antes de confirmarmos a migração e você conferir que está tudo correto. Se o provedor for cancelado antes, não conseguimos copiar o conteúdo. 
+
+24. – Criar Conta no Registro.br
+
+Cliente: Preciso criar uma conta no Registro.br.
+
+Atendente: Claro. Criar sua conta no Registro.br é importante para você ter controle do seu domínio (e não depender de contas técnicas). O passo a passo é:
+
+1. Acesse `www.registro.br` e clique em “Acessar conta”. 
+2. Clique em “Criar conta”. 
+3. Preencha o formulário com seus dados (nome/razão social, CPF/CNPJ, e-mail, endereço) e crie usuário e senha. 
+4. Validação do e-mail: o Registro.br envia um link de confirmação para o e-mail cadastrado. Esse link deve ser acessado em até vinte e quatro horas (24h), senão o pedido é inativado e você precisa refazer o processo. 
+5. Observação de segurança: por padrão, não compartilhamos senha de contas técnicas (por exemplo, MSPOR4) porque essas contas concentram domínios de clientes. 
+
+25. – Configuração de E-mail (POP/IMAP)
+
+Cliente: Qual configuração usar no meu e-mail?
+
+Atendente: Recomendamos escolher conforme sua forma de uso:
+
+IMAP: recomendado para usar em vários dispositivos (computador e celular), porque mantém tudo sincronizado (se você lê, apaga ou move uma mensagem em um lugar, aparece igual nos demais). 
+
+POP: indicado apenas para uso em um único computador. Ele baixa as mensagens e, por padrão, pode apagar do servidor após alguns dias. Por isso, não é recomendado para celular e pode causar perda de histórico no webmail se o computador tiver problema. 
+
+Configurações (com SSL): 
+
+* IMAP: `imap.oncorretor.com.br` / porta novecentos e noventa e três (993) / SSL
+* POP: `pop.oncorretor.com.br` / porta novecentos e noventa e cinco (995) / SSL
+* SMTP (envio): `smtp.oncorretor.com.br` / porta quatrocentos e sessenta e cinco (465) / SSL
+
+Se você me disser qual aplicativo vai usar (Outlook, Android, iPhone), eu te guio na ordem das telas.
+
+26. – ClubeVIP
+
+Cliente: O que é o Clube VIP?
+
+Atendente: O Clube VIP é um benefício gratuito e exclusivo para corretores com adesão ativa ao OnCorretor. A ideia é uma consultoria para deixar o site mais moderno, estratégico e pronto para captar clientes.
+
+O que normalmente revisamos e melhoramos:
+
+* remoção de páginas desnecessárias,
+* correção de dados de contato,
+* atualização visual do site,
+* verificação de links de venda online,
+* ajustes de textos institucionais,
+* ativação de ferramentas (como barra multicanal e QRCode).
+
+Você pode solicitar o contato do Clube VIP diretamente pelo site do OnCorretor, e a equipe entra em contato com você.
+
+27. – Backup de E-mails
+
+Cliente: O OnCorretor faz backup automático dos e-mails?
+
+Atendente: Sim. Existe um processo de retenção/backup por janela de trinta dias (30 dias). Funciona assim: todos os dias, às vinte e três horas (23h), é feita uma “fotografia” da caixa postal e essa cópia fica armazenada por trinta dias. Depois desse período, as cópias vão sendo substituídas pelas mais recentes. 
+
+Isso ajuda em casos de exclusão acidental, mas ainda assim é importante manter boas práticas (senha forte, cuidado com phishing e limpeza periódica).
+
+28. – Segurança e E-mails Suspeitos
+
+Cliente: Recebi um e-mail estranho.
+
+Atendente: Nesse caso, o ideal é agir com cautela, porque tentativas de golpe por e-mail são comuns. As recomendações principais são:
+
+1. Confirme a veracidade: verifique remetente real, domínio do remetente e desconfie de anexos/links inesperados. 
+2. Ative autenticação em dois fatores (quando disponível), pois adiciona uma camada extra de segurança. 
+3. Troque senhas periodicamente (por exemplo, a cada seis meses) e use senhas fortes (misturando maiúsculas, minúsculas, números e símbolos). 
+4. Mantenha antivírus atualizado e evite abrir anexos suspeitos. 
+
+Se esse e-mail suspeito envolver acesso às contas do OnCorretor, nos avise imediatamente para orientarmos os próximos passos. 
+
+29. – Pacotes de E-mail e Valores
+
+Cliente: Quais são os pacotes adicionais disponíveis?
+
+Atendente: Temos pacotes adicionais para aumentar a quantidade de contas e/ou o espaço das caixas postais. Esses pacotes são adicionados à mensalidade do plano.
+
+Na página de planos constam as opções e valores atualizados. Hoje, as opções para “mais espaço para os seus e-mails” aparecem assim:
+
+* Mais cinco contas de cinco gigabytes: R$ 17,59 (dezessete reais e cinquenta e nove centavos)
+
+* Mais dez contas de cinco gigabytes: R$ 25,75 (vinte e cinco reais e setenta e cinco centavos)
+
+* Mais quinze contas de cinco gigabytes: R$ 35,41 (trinta e cinco reais e quarenta e um centavos)
+
+* Mais vinte contas de cinco gigabytes: R$ 51,50 (cinquenta e um reais e cinquenta centavos)
+
+* Mais cinco contas de vinte e cinco gigabytes: R$ 40,46 (quarenta reais e quarenta e seis centavos)
+
+* Mais dez contas de vinte e cinco gigabytes: R$ 80,94 (oitenta reais e noventa e quatro centavos)
+
+* Mais quinze contas de vinte e cinco gigabytes: R$ 121,38 (cento e vinte e um reais e trinta e oito centavos)
+
+* Mais vinte contas de vinte e cinco gigabytes: R$ 161,14 (cento e sessenta e um reais e quatorze centavos)
+
+* Mais cinco contas de cinquenta gigabytes: R$ 80,46 (oitenta reais e quarenta e seis centavos)
+
+* Mais dez contas de cinquenta gigabytes: R$ 157,59 (cento e cinquenta e sete reais e cinquenta e nove centavos)
+
+* Mais quinze contas de cinquenta gigabytes: R$ 220,20 (duzentos e vinte reais e vinte centavos)
+
+* Mais vinte contas de cinquenta gigabytes: R$ 273,60 (duzentos e setenta e três reais e sessenta centavos)
+
+* Mais cinco contas de cem gigabytes: R$ 121,38 (cento e vinte e um reais e trinta e oito centavos)
+
+* Mais dez contas de cem gigabytes: R$ 242,39 (duzentos e quarenta e dois reais e trinta e nove centavos)
+
+* Mais quinze contas de cem gigabytes: R$ 390,00 (trezentos e noventa reais)
+
+* Mais vinte contas de cem gigabytes: R$ 520,00 (quinhentos e vinte reais)
+
+* Mais duas contas de duzentos gigabytes: R$ 121,38 (cento e vinte e um reais e trinta e oito centavos)
+
+* Mais cinco contas de duzentos gigabytes: R$ 303,43 (trezentos e três reais e quarenta e três centavos)
+
+* Mais dez contas de duzentos gigabytes: R$ 605,59 (seiscentos e cinco reais e cinquenta e nove centavos)
+
+* Mais quinze contas de duzentos gigabytes: R$ 840,00 (oitocentos e quarenta reais)
+
+* Mais vinte contas de duzentos gigabytes: R$ 1.100,00 (um mil e cem reais)
+
+* Mais duas contas de quinhentos gigabytes: R$ 236,97 (duzentos e trinta e seis reais e noventa e sete centavos)
+
+* Mais cinco contas de quinhentos gigabytes: R$ 579,26 (quinhentos e setenta e nove reais e vinte e seis centavos)
+
+Também existem pacotes para ampliar o envio de e-mail marketing (acima do padrão do plano):
+
+* Mais cinco mil e-mails marketing: R$ 33,60 (trinta e três reais e sessenta centavos)
+* Mais quinze mil: R$ 70,69 (setenta reais e sessenta e nove centavos)
+* Mais trinta mil: R$ 118,51 (cento e dezoito reais e cinquenta e um centavos)
+* Mais cinquenta mil: R$ 182,15 (cento e oitenta e dois reais e quinze centavos)
+* Mais setenta mil: R$ 254,98 (duzentos e cinquenta e quatro reais e noventa e oito centavos)
+* Mais cem mil: R$ 290,79 (duzentos e noventa reais e setenta e nove centavos)
+* Mais duzentos mil: R$ 552,93 (quinhentos e cinquenta e dois reais e noventa e três centavos)
+* Mais trezentos mil: R$ 796,22 (setecentos e noventa e seis reais e vinte e dois centavos)
+* Mais quinhentos mil: R$ 1.271,74 (um mil duzentos e setenta e um reais e setenta e quatro centavos)
+
+Se você me disser se precisa de “mais contas” ou “mais espaço em caixas específicas”, eu te ajudo a escolher o pacote mais adequado.
+
+30. – Multa por Cancelamento
+
+Cliente: Existe alguma multa ao cancelar o OnCorretor?
+
+Atendente: Não há multa de cancelamento. 
+
+O ponto de atenção é: se o domínio foi comprado/registrado pelo OnCorretor, o custo do domínio é uma despesa que pode ser cobrada mesmo que o serviço tenha ficado ativo por pouco tempo, porque é um custo de registro/renovação do endereço na internet. 
+
+31. – Recuperação de Senha do E-mail
+
+Cliente: Esqueci a senha do meu e-mail. Como posso recuperar?
+
+Atendente: A redefinição de senha deve ser feita pelo administrador do domínio (por segurança, o suporte não altera senha diretamente sem o acesso do administrador). 
+
+Caminhos possíveis:
+
+1. Se você tem acesso ao painel do domínio, faça a redefinição por lá (painel do domínio / painel de e-mails) com um usuário que tenha permissão de administrador. 
+2. Pelo webmail, em alguns casos, você consegue alterar a senha quando ainda sabe a senha atual (opção “Modificar senha”). 
+3. Se você não tem mais acesso e precisa de orientação, envie um e-mail para `atendimento@oncorretor.com.br` informando o domínio e o endereço da conta que precisa de nova senha, e nós orientamos o procedimento correto com o responsável pelo domínio.
+
+Importante: depois de alterar a senha, ela precisa ser atualizada em todos os dispositivos (celular, Outlook, etc.) para o e-mail voltar a funcionar.
+
+32. – Ajuste de Site Não Responsivo
+
+Cliente: Meu site aparece desconfigurado no celular.
+
+Atendente: Isso normalmente acontece quando algum conteúdo foi inserido fora do padrão do construtor (principalmente imagens muito grandes, textos colados com formatação “pesada” ou elementos arrastados para fora do alinhamento principal).
+
+O que recomendo verificar, na prática:
+
+1. Imagens: reduza o tamanho e o “peso” do arquivo antes de subir (imagens muito largas podem estourar a largura no celular).
+2. Texto: se você colou texto de outro site/Word, cole primeiro em um bloco de notas e depois copie para o construtor (isso evita estilos ocultos).
+3. Seções/linhas: verifique se algum elemento ficou fora do grid/coluna principal ou com largura fixa.
+4. Teste: após salvar, teste em mais de um celular/navegador para confirmar.
+
+Se você preferir, me envie o link da página exata que está com problema (e, se possível, um print do celular). Assim conseguimos orientar o ajuste com mais precisão.
+
+33. – Verificação de Recebimento de Leads
+
+Cliente: Os leads enviados pelo meu site não estão chegando no meu e-mail.
+
+Atendente: Vamos por partes, porque isso pode acontecer por configuração, por bloqueio de caixa ou por filtros de spam.
+
+Checklist rápido:
+
+1. Caixa cheia: confirme se sua caixa postal não está com armazenamento lotado (quando lota, pode parar de receber).
+2. Endereço do formulário: confirme se o e-mail configurado no formulário está correto (sem erro de digitação).
+3. Spam/lixeira: verifique spam, lixeira e abas de “promoções/atualizações”, dependendo do provedor/cliente.
+4. DNS do domínio: se o DNS do domínio foi alterado recentemente e as entradas do e-mail não estão corretas, o e-mail pode falhar. 
+5. Teste controlado: faça um envio de teste pelo formulário e acompanhe se aparece algum aviso/erro.
+
+Se após essas verificações ainda não chegar, me envie o domínio do seu site para verificarmos a configuração do formulário e orientar o próximo passo.
+
+34. – Problema no Acesso ao Construtor
+
+Cliente: Não consigo acessar o construtor do meu site.
+
+Atendente: Esse problema é comum quando há cache, cookies corrompidos ou extensão do navegador bloqueando scripts.
+
+Tente nesta ordem:
+
+1. Acessar em aba anônima/privativa. 
+2. Testar outro navegador. 
+3. Desativar extensões (principalmente bloqueadores) e tentar novamente.
+4. Limpar cache e cookies do navegador.
+
+Se continuar, envie o domínio e um print da tela do erro para abrirmos chamado técnico e analisarmos com o time responsável.
+
+35. – Atualização de Links do WhatsApp
+
+Cliente: Troquei meu número de WhatsApp.
+
+Atendente: Certo. Você consegue atualizar diretamente na área administrativa do seu site.
+
+Passo a passo recomendado:
+
+1. Acesse a área administrativa do site e entre em “Configurações Básicas”.
+2. Localize o campo de WhatsApp e substitua pelo novo número.
+3. Se você usa botão flutuante (WhatsApp fixo na tela), confirme se o link está no formato internacional correto: país “cinquenta e cinco” (55) + DDD + número.
+
+Depois de salvar, teste no celular clicando no botão do WhatsApp no site para confirmar se abre a conversa no número novo.
+
+36. – Vencimento Próximo do Domínio
+
+Cliente: Meu domínio vence esta semana. Se eu não pagar, o que acontece?
+
+Atendente: Quando um domínio vence e não é renovado, existe risco real de interrupção do site e dos e-mails e, com o tempo, o domínio pode até ser removido e voltar a ficar disponível para registro por terceiros (o Registro.br inclusive possui processos de liberação para domínios removidos por não renovação).
+
+Na prática, o que pode acontecer:
+
+1. O domínio pode ficar congelado e o site pode sair do ar.
+2. O e-mail do domínio pode parar de funcionar (porque depende do domínio ativo e apontado corretamente).
+3. Se permanecer sem renovação, o domínio pode ser removido e liberado novamente.
+
+Recomendação: faça o pagamento/renovação antes do vencimento, para evitar qualquer interrupção.
+
+Se o seu domínio é administrado pelo OnCorretor, a renovação anual indicada na página de planos é de R$ 44,23 (domínio nacional) ou R$ 54,77 (domínio internacional), e normalmente aparece na cobrança seguinte.
+E lembrete: a renovação via OnCorretor depende da SUSEP estar sem bloqueio e sem inadimplência. 
+
+37. – Erros ao Enviar E-mails
+
+Cliente: Meus e-mails estão retornando com erro.
+
+Atendente: Vamos identificar a causa mais provável. Para retorno de e-mail (bounce), as causas mais comuns são:
+
+1. Caixa postal cheia (sua ou do destinatário).
+2. Senha incorreta no aplicativo (Outlook/celular) ou conta bloqueada.
+3. Configuração SMTP incorreta (servidor/porta/SSL). As configurações corretas incluem SMTP `smtp.oncorretor.com.br` na porta quatrocentos e sessenta e cinco (465) com SSL. 
+4. Problema de DNS: se o DNS foi alterado e as entradas do e-mail não existem no novo DNS, o envio pode falhar. 
+5. Limite de envio/bloqueio: existe política de limites para evitar envio em massa pelo webmail. Se uma conta excede, pode sofrer bloqueios (primeiro bloqueio: uma hora; segundo: vinte e quatro horas; terceiro: definitivo). 
+6. Envio em massa: para e-mail marketing/alto volume, o ideal é usar a ferramenta de envio do site, não o webmail do dia a dia. 
+
+Para eu te ajudar com precisão, me envie o print da mensagem de retorno (o texto do erro) e, se possível, informe se o envio é via webmail ou via Outlook/celular.
+
+38. – Uso de Dominío Secundário
+
+Cliente: Posso usar um segundo domínio para o mesmo site do OnCorretor?
+
+Atendente: Sim, é possível incluir um domínio adicional apontando para o mesmo cadastro do OnCorretor. 
+
+O ponto mais importante é:
+
+* Apenas o domínio principal (o que está cadastrado como principal no K1000) tem direito às dez contas de e-mail do plano básico e é o domínio considerado para renovação/gestão principal. 
+
+Se você quiser, envie o domínio secundário e as informações de DNS por e-mail para realizarmos a vinculação com segurança.
+
+39. – Certificado SSL
+
+Cliente: Meu site aparece como “não seguro”.
+
+Atendente: Isso geralmente acontece por um destes motivos:
+
+1. O SSL ainda está em propagação (pode levar até vinte e quatro horas após o domínio estar corretamente apontado).
+2. O domínio está com DNS incorreto (apontando para outro lugar), então o SSL automático não conclui.
+
+O que fazer:
+
+1. Confirme se o DNS do domínio está apontando para o OnCorretor corretamente.
+2. Aguarde até vinte e quatro horas após a correção do DNS.
+3. Se após esse prazo ainda aparecer “não seguro”, envie o domínio para verificarmos manualmente e orientar o ajuste.
+
+40. – Limite de Landing Pages
+
+Cliente: Quantas landing pages posso criar no meu site?
+
+Atendente: Não há limite fixo de landing pages. O OnCorretor permite criar landing pages de forma ilimitada, conforme a necessidade do corretor.
+
+O que precisa estar em dia para evitar interrupções:
+
+* domínio ativo e renovado,
+* SUSEP sem bloqueio e sem inadimplência (porque isso impacta cobrança e manutenção do serviço). 
+
+Se você me contar qual campanha/produto você quer divulgar, eu posso te sugerir uma estrutura de landing page (seções e informações essenciais) para melhorar conversão.
+
+41. – Troca de Senha do E-mail no Webmail
+
+Cliente: Como altero a senha do meu e-mail do OnCorretor?
+
+Atendente: Você consegue alterar a senha diretamente pelo Webmail, desde que saiba a senha atual. Siga o passo a passo abaixo com atenção, porque muitos erros acontecem quando a senha não atende os requisitos mínimos.
+
+Etapa um: Acesse o Webmail pelo navegador
+
+* No navegador (Chrome, Firefox, Safari, etc.), digite: `http://webmail.SEUDOMINIO` (substitua “SEUDOMINIO” pelo endereço do seu site, sem o “www”). 
+
+Etapa dois: Faça login corretamente
+
+* No campo Usuário, digite o nome do e-mail sem o “@domínio”.
+  Exemplo: se o e-mail for `contato@suaempresa.com.br`, no campo usuário você digita apenas `contato`. 
+* No campo Senha, digite a senha atual do e-mail e clique em Entrar. 
+
+Etapa três: Acesse a função de alteração de senha
+
+* Dentro do Webmail, clique nos “três pontos” (menu) e selecione a opção “Modificar senha”. 
+
+Etapa quatro: Defina a nova senha e salve
+
+* Preencha: Senha atual, Nova senha e Confirmar nova senha. 
+* Clique em Salvar. Se aparecer a mensagem “Salvo com sucesso”, a senha foi alterada. 
+  Observação importante: quando a senha não atende a política, o sistema pode recusar a alteração e exibir um aviso (geralmente em vermelho). Por isso, sempre confira se realmente salvou. 
+
+Etapa cinco: Atualize a senha em todos os dispositivos
+
+* Depois da troca, será necessário atualizar a senha no celular, Outlook e qualquer outro aplicativo onde esse e-mail esteja configurado, senão o e-mail vai começar a falhar (erro de autenticação).
+
+42. – Política de Senha e Boas Práticas de Segurança
+
+Cliente: Qual é a regra de senha do e-mail? E como mantenho minha conta segura?
+
+Atendente: Para proteger sua conta e reduzir risco de invasão, existem regras mínimas de senha e algumas boas práticas recomendadas.
+
+Regras mínimas para criação de senha
+
+* A senha deve ter no mínimo seis dígitos. 
+* Além disso, ela precisa atender pelo menos três dos quatro requisitos abaixo:
+
+  1. conter letra maiúscula; 
+  2. conter letra minúscula; 
+  3. conter número; 
+  4. conter caractere especial (símbolo). 
+
+Boas práticas recomendadas
+
+* Trocar senha periodicamente (por exemplo, a cada seis meses) ajuda a manter a conta mais segura. 
+* Ativar o duplo fator de autenticação aumenta muito a segurança do acesso ao painel e aos recursos administrativos. 
+* Manter antivírus atualizado e desconfiar de links/anexos suspeitos reduz risco de golpes. 
+
+Ponto de atenção importante (segurança de domínio)
+
+* Para domínios e contas técnicas, é importante que o corretor tenha seu próprio usuário no Registro.br. A senha da conta técnica (por exemplo, MSPOR4) não é compartilhada, pois essa conta concentra domínios de vários clientes. 
+
+43. – Ativação de Autenticação em Duas Etapas no Painel de Controle
+
+Cliente: Disseram que preciso ativar autenticação em duas etapas. Como faço?
+
+Atendente: A autenticação em duas etapas é obrigatória após vinte de fevereiro de dois mil e vinte e quatro (20/02/2024) para acesso ao painel.  O processo é simples, mas exige atenção aos “códigos de recuperação”.
+
+Etapa um: Acesse o painel do seu domínio
+
+* Acesse `painel.seudominio.com.br` e entre com seu usuário e senha. 
+
+Etapa dois: Instale o aplicativo autenticador no celular
+
+* Instale o Google Authenticator ou Microsoft Authenticator no celular. 
+
+Etapa três: Leia o QR Code no aplicativo
+
+* No Google Authenticator: toque no “+” e selecione “Ler código QR”. 
+* No Microsoft Authenticator: toque no “+” e selecione “Outro (Google, Facebook, etc.)”, depois leia o QR. 
+
+Etapa quatro: Valide o token e ative
+
+* O aplicativo vai gerar um código (token). Informe o token no painel, clique em “Validar Token” e depois em “Ativar”. 
+
+Etapa cinco: Guarde os códigos de recuperação
+
+* Durante a ativação, o painel gera códigos de recuperação. Guarde em local seguro e de fácil acesso, porque depois não será possível consultá-los novamente. 
+
+Etapa seis: Confirmação
+
+* Após concluir, a autenticação em duas etapas ficará ativa no seu usuário de acesso ao painel de controle. 
+
+44. – Painel Gerenciador de E-mails: Criação de Nova Conta
+
+Cliente: Quero criar um novo e-mail no meu domínio. Como faço?
+
+Atendente: A criação de novas contas é feita no painel gerenciador de e-mails. O acesso padrão do corretor é pelo painel do próprio domínio.
+
+Onde acessar
+
+* O corretor acessa em `painel.seudominio.com.br`. 
+* Internamente, o suporte acessa por `painel.oncorretor.com.br`. 
+
+Passo a passo para criar a conta (caixa postal)
+Etapa um: Acessar o painel e entrar com usuário com permissão
+
+* Acesse `painel.seudominio.com.br` e faça login com e-mail e senha do usuário que possui permissão administrativa. 
+
+Etapa dois: Iniciar a criação
+
+* Clique no botão “Criar” do lado esquerdo. 
+* Clique em “Caixa Postal”. 
+
+Etapa três: Preencher os dados e concluir
+
+* Preencha os campos solicitados:
+
+  * Email (apenas o nome antes do “@”); 
+  * Domínio (selecionar o domínio correto); 
+  * Nome completo; 
+  * Tipo de conta (tamanho suportado conforme plano/pacote); 
+  * Senha (conforme regra mínima). 
+* Clique em “Criar” para finalizar. 
+
+Observação importante: se o corretor não conseguir criar por “cota excedida” (quantidade de contas), normalmente é necessário contratar pacote adicional. 
+
+45. – Painel Gerenciador de E-mails: Exclusão, Renomear, Apelido e Redirecionamento
+
+Cliente: Quero excluir uma conta, renomear, criar apelido, ou redirecionar mensagens. Como faço?
+
+Atendente: Todas essas ações são feitas no painel gerenciador. Abaixo organizei cada cenário, com o passo a passo.
+
+A) Exclusão de caixa postal
+Etapa um: Acesse `painel.seudominio.com.br` e faça login com usuário com permissão. 
+Etapa dois: Selecione a conta e clique em “Excluir” no canto superior direito. 
+Etapa três: Confirme em “Sim” para finalizar. 
+Ponto de atenção: antes de excluir, confirme com o cliente se não há e-mails importantes naquela conta, pois a exclusão pode gerar perda de histórico.
+
+B) Renomear conta de e-mail
+Etapa um: Acesse o painel e faça login. 
+Etapa dois: Selecione a conta e clique em “Renomear”. 
+Etapa três: No campo “E-mail”, informe o novo nome e clique em “Salvar modificações”. 
+Ponto de atenção: renomear altera o endereço de e-mail. Verifique impactos em assinatura, cartões, formulários e divulgação.
+
+C) Criação de apelido (alias)
+Etapa um: Acesse o painel e faça login. 
+Etapa dois: Selecione a conta e vá em “Apelido/Redirecionamento”. 
+Etapa três: No campo “Adicionar”, informe o nome do apelido e clique em adicionar; depois salve. 
+
+D) Redirecionamento de mensagens
+Etapa um: Acesse o painel e faça login. 
+Etapa dois: Selecione a conta e acesse “Apelido/Redirecionamento”. 
+Etapa três: Em “Adicionar”, informe o e-mail que receberá as mensagens, clique em adicionar e salve. 
+
+E) Alteração de senha de uma caixa postal pelo painel
+
+* Por segurança, a equipe de suporte não realiza alteração de senha de caixa postal. A troca deve ser feita pelo corretor/administrador no painel. 
+
+46. – Limites de Envio no Webmail e Política de Bloqueio
+
+Cliente: Meu e-mail travou, foi bloqueado ou não consigo enviar para muitos destinatários. O que aconteceu?
+
+Atendente: Para manter qualidade e evitar que o serviço entre em listas de bloqueio (blacklists), existem limites de envio no webmail. Quando uma conta ultrapassa esses limites, ela pode ser bloqueada temporariamente (ou definitivamente em caso de recorrência). 
+
+Principais limites do webmail (resumo do que mais impacta no dia a dia)
+
+* Até cem destinatários por mensagem (somando Para, Cc e Cco). 
+* Até duzentos e cinquenta destinatários em cinco minutos. 
+* Até quatrocentos em quinze minutos. 
+* Até seiscentos em trinta minutos. 
+* Até setecentos e cinquenta em uma hora. 
+* Até mil e quinhentos em um dia. 
+* Tamanho máximo de envio: cinquenta megabytes em cliente de e-mail e quarenta megabytes no webmail. 
+
+Regra importante: webmail não é para envio em massa
+
+* Envio em massa deve ser feito pelo recurso de envio do próprio site (Configurações Básicas -> Envio de e-mail). O webmail deve ser usado apenas para trocas do dia a dia. 
+
+Política de bloqueio (Skymail)
+
+* Primeiro bloqueio: libera automaticamente após uma hora. 
+* Segundo bloqueio: libera automaticamente após vinte e quatro horas. 
+* Terceiro bloqueio: definitivo. 
+
+Se o cliente disser “não enviei em massa”, a orientação é pedir detalhes do que foi feito (quantos destinatários, em quanto tempo, se foi via webmail ou Outlook) e explicar que, mesmo sem intenção, responder campanhas ou encaminhar para muitas pessoas pode disparar o limite.
+
+47. – Envio de Comunicado para Base de Clientes
+
+Cliente: Quero enviar um comunicado para toda a minha base. Posso usar o webmail?
+
+Atendente: Não recomendamos usar o webmail para disparos em massa. O webmail é destinado às trocas do dia a dia, e o envio em massa pode ativar limites e causar bloqueios. 
+
+O que recomendamos (forma correta)
+
+1. Utilizar o recurso de envio do próprio site, em “Configurações Básicas -> Envio de e-mail”. 
+2. Realizar envio de teste para uma conta do próprio corretor, antes de enviar para a lista toda.
+3. Organizar a base em listas menores (quando possível), para reduzir risco de bloqueio e melhorar entrega.
+
+Se o corretor insistir no webmail, oriente sobre os limites e explique que o bloqueio pode ocorrer ao ultrapassar a cota de destinatários por período. 
+
+48. – Ajuda para Perguntas Complexas: Diagnóstico e Abertura de Chamado
+
+Cliente: Estou com um problema que não sei explicar direito. Meu Wizard trava, não acesso o construtor, ou o e-mail não funciona. Como o suporte pode me ajudar?
+
+Atendente: Quando o problema é “complexo” (ou envolve muitas variáveis), o melhor caminho é seguir um diagnóstico padrão e, se necessário, abrir chamado com informações completas. Isso acelera muito a resolução.
+
+Etapa um: Coletar informações essenciais (antes de qualquer ação)
+
+* Domínio do site (endereçodosite).
+* SUSEP (quando envolver cobrança, adesão, status ou acesso).
+* Qual canal está com problema: site, construtor, webmail, painel, formulário/leads, envio de e-mail.
+* Descrição do erro e, se possível, print da tela.
+* Data e horário aproximado do erro e qual dispositivo (computador/celular) e navegador.
+
+Etapa dois: Aplicar tentativas rápidas (quando o caso permitir)
+A) Para travas no Wizard
+
+* Pode ocorrer por cache do navegador. Oriente o corretor a tentar em aba anônima e testar outro navegador. Se persistir, deve ser aberto chamado para o Nível três (desenvolvimento). 
+
+B) Para problemas em cliente de e-mail (Outlook/celular)
+
+* Nós auxiliamos na configuração da conta. Porém, em caso de erros e dúvidas de uso do aplicativo, o cliente deve acionar o suporte da plataforma (Outlook, Android, iPhone, etc.). 
+* Se a necessidade for tutorial, existe página de apoio com guias. 
+
+Etapa três: Abertura de chamado (quando precisa de análise técnica)
+
+* Todo atendimento deve gerar um chamado. 
+
+  * Telefone: chamado aberto manualmente e o número deve ser informado durante a ligação. 
+  * Chat: chamado aberto manualmente após a finalização. 
+  * WhatsApp: conversas arquivadas e trabalho lançado; se for escalar para Nível dois, abrir manualmente no K1000. 
+
+Etapa quatro: “O que anexar no chamado” para evitar ida e volta
+
+* Print do erro.
+* Passos já realizados (exemplo: “testei aba anônima e outro navegador”).
+* Se for e-mail: mensagem de retorno/erro completa (texto do erro), e se está em webmail ou aplicativo.
+* Se for site/formulário: URL exata da página e qual formulário (nome/onde está).
+
+49. – SEO: Ajuste de Título, Descrição e Palavras-chave das Páginas
+
+Cliente: Quero melhorar meu SEO no OnCorretor. Como configuro?
+
+Atendente: O OnCorretor permite configurar SEO por página, preenchendo título, descrição e palavras-chave. Isso ajuda buscadores a entenderem seu conteúdo e melhora a qualidade da indexação.
+
+Etapa um: Acesse a área de SEO da página
+
+* Vá em “Configurações Avançadas > Gerenciador de Página”. 
+
+Etapa dois: Escolha a página
+
+* Você pode criar uma página nova ou editar uma página existente. 
+
+Etapa três: Preencha as informações de SEO e salve
+
+* Título SEO: usado para indexação. Recomendação de padrão: “Nome da sua Corretora | Cidade e Estado | Nome da página”. 
+* Descrição: resumo que aparece nas buscas; descreva de forma objetiva o que a página oferece. 
+* Palavras-chave: termos relacionados ao conteúdo da página e aos produtos principais. 
+* Clique em “Salvar”. 
+
+Observação prática: após alterações de SEO, a atualização nos buscadores não é imediata. Em processos de pós-venda, existe a orientação de solicitar indexação no ambiente de indexação, usando chave TXT (quando aplicável). 
+
+50. – Integração Segfy: Inserir Cotação Online no Site
+
+Cliente: Quero colocar a cotação da Segfy no meu site do OnCorretor. Como faço?
+
+Atendente: Existe integração para inserir os links de cotação da Segfy no site, diretamente pela área administrativa.
+
+Etapa um: Acessar a área administrativa
+
+* Acesse `www.enderecosite.com.br/adm` e vá em “Configurações Básicas -> SegFy”. 
+
+Etapa dois: Definir o nome do menu
+
+* No campo “Nome do menu” (obrigatório), informe o texto que aparecerá no menu do site para acesso às cotações. 
+
+Etapa três: Inserir os códigos dos produtos
+
+* O corretor deve obter os códigos na Segfy em `https://app.segfy.com/configuracao/paginaPublica`. 
+* Depois, copiar o código e colar no campo do produto correspondente. 
+* Produtos listados para cotação: Auto, Residencial, Vida, Empresarial e Condomínio. 
+
+Etapa quatro: Habilitar e salvar
+
+* Ative a opção “Habilitar a cotação online”. 
+* Clique em “Salvar” para gravar as alterações. 
+
+Etapa cinco: Voltar para o site e validar
+
+* Para voltar à página inicial do site, clique no ícone de casa no canto superior esquerdo. 
+* Depois, valide se o item de menu aparece e se a cotação abre corretamente.
+
+Se quiser, eu também posso sugerir mais dez tópicos avançados focados em: restauração por backup, migração completa com validação, prevenção de boleto fraudado, checklist de DNS para e-mail, e padrões de atendimento (o que perguntar e o que registrar) para reduzir reabertura de chamados.
+
+52. – Configurações Básicas do Site
+
+Cliente: O que eu consigo alterar nas configurações gerais do site?
+
+Atendente: Na área de Configurações Básicas > Configurações do Site, você tem total autonomia para atualizar a identidade da sua corretora. 
+Lá é possível alterar:  
+
+*Nome da corretora e logotipo;   
+
+*Descrição do site e ícone (favicon);   
+
+*Botão “Simule e Contrate” e consulta de apólice;   
+
+*Pop-ups de captação de leads e de saída.
+
+53. – Atualização de Dados de Contato (Informações Úteis)
+
+Cliente: Preciso trocar meu telefone e endereço que aparecem no site.
+
+Atendente: Perfeito. Para atualizar essas informações, basta acessar:
+
+
+*Configurações Básicas > Informações Úteis.   
+
+*Lá você altera endereço, telefones, WhatsApp, e-mail e redes sociais.   
+
+*Após realizar as alterações, clique em salvar.
+
+
+54. – Edição do Texto "Quem Somos"
+
+Cliente: Como eu mudo o texto institucional da minha corretora?
+
+Atendente: O texto "Quem Somos" também é editado dentro de:
+
+
+Configurações Básicas > Informações Úteis. Basta editar o conteúdo desejado no campo específico e clicar em salvar.
+
+55. – Gerenciador de Páginas
+
+Cliente: Quero criar novas páginas ou editar as que já existem.
+
+Atendente: Você pode fazer isso através do:
+
+
+Configurações Avançadas > Gerenciador de Página. Nessa área, além de criar e editar páginas, você ajusta o menu, insere descrições e altera as palavras-chave para os buscadores.   
+
+56. – Configuração de SEO das Páginas
+
+Cliente: Como eu configuro o SEO para o Google encontrar minhas páginas?
+
+Atendente: Dentro do Gerenciador de Página, você encontrará os campos Título SEO, Descrição e Palavras-chave. 
+Nossa recomendação para o título é seguir o padrão: Nome da Corretora | Cidade - Estado | Nome da Página.   
+
+57. – Personalização do Menu Principal
+
+Cliente: Como mudo a ordem ou as opções do meu menu?
+
+Atendente: Para configurar o menu principal (horizontal ou vertical), acesse:
+
+
+Configurações Avançadas > Editar Página > Editar.   
+
+Selecione o componente “Menu Principal” e escolha as páginas que deseja exibir.   
+
+58. – Habilitação de Produtos Porto Seguro
+
+Cliente: Como escolho quais produtos da Porto Seguro vão aparecer no meu site?
+
+Atendente: Você seleciona os produtos em:
+
+
+Configurações Básicas > Produtos. Lá você habilita as categorias desejadas e insere os seus links de venda online.   
+
+59. – Inserção de Links de Venda Online (VDO)
+
+Cliente: Onde eu coloco os links de venda que gerei no COL?
+
+Atendente: Após gerar seus links no Corretor Online da Porto, acesse:
+
+
+Configurações Básicas > Produtos. Basta colar os links nos campos dos produtos correspondentes.   
+
+60. – Criação de Landing Pages
+
+Cliente: Posso criar páginas específicas para campanhas?
+
+Atendente: Sim, o OnCorretor permite que você crie Landing Pages ilimitadas. Acesse a área de páginas no seu painel administrativo para criar uma página específica para sua divulgação.   
+
+61. – Configuração da Barra Multicanal
+
+Cliente: Como ativo aquele botão flutuante com WhatsApp e redes sociais?
+
+Atendente: A barra multicanal pode ser configurada em:
+
+
+Configurações Básicas > Informações Úteis. É só habilitar os canais que você deseja que apareçam (WhatsApp, telefone, formulários, etc.).   
+
+62. – Utilização do E-mail Marketing
+
+Cliente: Quero enviar uma campanha de e-mail marketing.
+
+Atendente: Você pode fazer isso em:
+
+
+Configurações Básicas > Envio de E-mail. Lá você pode criar novos conteúdos, salvar templates e gerenciar o disparo das suas campanhas.   
+
+63. – Gerenciamento de Contatos (Leads)
+
+Cliente: Onde ficam salvos os contatos de quem preenche os formulários no meu site?
+
+Atendente: Todos os contatos captados pelo site ficam centralizados e disponíveis na área de Contatos do seu painel administrativo.   
+
+64. – Cartão de Visita Digital
+
+Cliente: Como configuro o meu cartão de visita digital?
+
+Atendente: O cartão de visita digital interativo pode ser configurado diretamente no seu painel administrativo. Ele reúne seus telefones, WhatsApp, site e redes sociais em um único link clicável.   
+
+65. – Funcionalidade de Blog
+
+Cliente: O site tem área para notícias ou blog?
+
+Atendente: Sim! O blog está disponível para você publicar conteúdos e dicas, o que ajuda muito na presença digital e no SEO do seu site.   
+
+66. – Acesso ao Webmail
+
+Cliente: Qual o endereço para eu ler meus e-mails pelo navegador?
+
+Atendente: Para acessar seu webmail, utilize o endereço:
+
+
+webmail.seudominio.com.br Basta informar seu usuário e senha de e-mail.   
+
+67. – Painel de Gerenciamento de E-mails
+
+Cliente: Onde eu crio ou excluo contas de e-mail da minha equipe?
+
+Atendente: O gerenciamento completo das suas contas de e-mail é feito pelo endereço:
+
+
+painel.seudominio.com.br Lá você cria, exclui, altera nomes, configura redirecionamentos e filtros anti-spam.   
+
+68. – Regras para Alteração de Senha de E-mail
+
+Cliente: Minha senha de e-mail não está sendo aceita. Quais são as regras?
+
+Atendente: A senha precisa ter no mínimo 6 caracteres e atender a pelo menos 3 destes critérios:   
+
+Letra maiúscula;   
+
+Letra minúscula;   
+
+Número;   
+
+Caractere especial.   
+
+69. – Autenticação em Duas Etapas (2FA)
+
+Cliente: Posso usar autenticação em duas etapas nos meus e-mails?
+
+Atendente: Sim, a autenticação em duas etapas pode ser ativada no painel de e-mails. Você pode utilizar aplicativos como Google Authenticator ou Microsoft Authenticator.   
+
+70. – Suporte para Erros na Edição do Site
+
+Cliente: Estou com um erro ao tentar editar meu site. O que eu faço?
+
+Atendente: Para que possamos analisar, por favor, envie para atendimento@oncorretor.com.br:   
+
+Seu domínio;   
+
+Um print da mensagem de erro;   
+
+O navegador que você está usando e em qual etapa o erro ocorreu.   
+
+71. – Alteração Realizada não Aparece no Site
+
+Cliente: Eu salvei uma alteração no painel, mas quando abro o site ela não aparece.
+
+Atendente: Isso geralmente é causado pelo cache do seu navegador. Tente o seguinte:   
+
+Atualize a página com Ctrl + F5;   
+
+Tente acessar por uma aba anônima;   
+
+Teste em um navegador diferente.   
+
+72. – Dúvidas Gerais sobre Adesão
+
+Cliente: Como faço para contratar o OnCorretor agora?
+
+Atendente: Para realizar sua adesão, basta acessar www.oncorretor.com.br e seguir o processo de contratação diretamente pelo site.   
+
+73. – Canais Oficiais de Suporte
+
+Cliente: Quais são os contatos do suporte caso eu precise de ajuda técnica?
+
+Atendente: Nossos canais oficiais de atendimento são:   
+
+Telefone: 0800-771-5505   
+
+WhatsApp: (11) 99714-9631   
+
+E-mail: atendimento@oncorretor.com.br

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Registra os GGUF do cache HF como tags Ollama bench-<x> (idempotente: ollama create sobrescreve).
-# Roda NO SERVIDOR (ianode / 10.10.10.151), usuario nicolas.benedetti.
+# Roda NO SERVIDOR (ianode / 10.10.10.151), usuario fernando.murusaki.
 # NAO registra gpt-oss:20b nem qwen3.6:35b-a3b (ja existem no ollama).
 # Uso:  bash register_models.sh [--smoke]
 #   --smoke: registra so os 3 modelos do smoke (bench-lfm25, bench-q4b; gpt-oss ja existe).

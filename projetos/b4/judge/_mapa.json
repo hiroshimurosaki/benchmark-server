@@ -1,0 +1,122 @@
+{
+ "r4-01": {
+  "R04": "command-r:35b",
+  "R01": "gpt-oss:20b",
+  "R06": "llama3.1:8b",
+  "R03": "mistral-nemo:12b",
+  "R02": "qwen2.5:7b",
+  "R05": "qwen3.6:35b-a3b"
+ },
+ "r4-02": {
+  "R06": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R04": "llama3.1:8b",
+  "R03": "mistral-nemo:12b",
+  "R02": "qwen2.5:7b",
+  "R01": "qwen3.6:35b-a3b"
+ },
+ "r4-03": {
+  "R04": "command-r:35b",
+  "R01": "gpt-oss:20b",
+  "R03": "llama3.1:8b",
+  "R02": "mistral-nemo:12b",
+  "R06": "qwen2.5:7b",
+  "R05": "qwen3.6:35b-a3b"
+ },
+ "r4-04": {
+  "R03": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R02": "llama3.1:8b",
+  "R01": "mistral-nemo:12b",
+  "R06": "qwen2.5:7b",
+  "R04": "qwen3.6:35b-a3b"
+ },
+ "r4-05": {
+  "R03": "command-r:35b",
+  "R04": "gpt-oss:20b",
+  "R06": "llama3.1:8b",
+  "R01": "mistral-nemo:12b",
+  "R05": "qwen2.5:7b",
+  "R02": "qwen3.6:35b-a3b"
+ },
+ "r4-06": {
+  "R02": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R03": "llama3.1:8b",
+  "R06": "mistral-nemo:12b",
+  "R01": "qwen2.5:7b",
+  "R04": "qwen3.6:35b-a3b"
+ },
+ "r4-07": {
+  "R02": "command-r:35b",
+  "R04": "gpt-oss:20b",
+  "R01": "llama3.1:8b",
+  "R06": "mistral-nemo:12b",
+  "R03": "qwen2.5:7b",
+  "R05": "qwen3.6:35b-a3b"
+ },
+ "r4-08": {
+  "R03": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R01": "llama3.1:8b",
+  "R02": "mistral-nemo:12b",
+  "R06": "qwen2.5:7b",
+  "R04": "qwen3.6:35b-a3b"
+ },
+ "r4-09": {
+  "R01": "command-r:35b",
+  "R03": "gpt-oss:20b",
+  "R04": "llama3.1:8b",
+  "R06": "mistral-nemo:12b",
+  "R02": "qwen2.5:7b",
+  "R05": "qwen3.6:35b-a3b"
+ },
+ "r4-10": {
+  "R02": "command-r:35b",
+  "R03": "gpt-oss:20b",
+  "R05": "llama3.1:8b",
+  "R04": "mistral-nemo:12b",
+  "R01": "qwen2.5:7b",
+  "R06": "qwen3.6:35b-a3b"
+ },
+ "r4-11": {
+  "R04": "command-r:35b",
+  "R02": "gpt-oss:20b",
+  "R05": "llama3.1:8b",
+  "R06": "mistral-nemo:12b",
+  "R03": "qwen2.5:7b",
+  "R01": "qwen3.6:35b-a3b"
+ },
+ "r4-12": {
+  "R06": "command-r:35b",
+  "R03": "gpt-oss:20b",
+  "R04": "llama3.1:8b",
+  "R02": "mistral-nemo:12b",
+  "R05": "qwen2.5:7b",
+  "R01": "qwen3.6:35b-a3b"
+ },
+ "r4-13": {
+  "R04": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R06": "llama3.1:8b",
+  "R01": "mistral-nemo:12b",
+  "R03": "qwen2.5:7b",
+  "R02": "qwen3.6:35b-a3b"
+ },
+ "r4-14": {
+  "R03": "command-r:35b",
+  "R05": "gpt-oss:20b",
+  "R04": "llama3.1:8b",
+  "R02": "mistral-nemo:12b",
+  "R06": "qwen2.5:7b",
+  "R01": "qwen3.6:35b-a3b"
+ },
+ "r4-15": {
+  "R02": "command-r:35b",
+  "R03": "gpt-oss:20b",
+  "R04": "llama3.1:8b",
+  "R06": "mistral-nemo:12b",
+  "R05": "qwen2.5:7b",
+  "R01": "qwen3.6:35b-a3b"
+ }
+}

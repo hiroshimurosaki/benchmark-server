@@ -3,7 +3,7 @@ REM Sincronizador do dashboard: puxa dashboard_b1.json do servidor pro PC a cada
 REM Abra este arquivo (duplo-clique) e deixe a janela aberta num canto enquanto o benchmark roda.
 REM Escreve em arquivo temporario e renomeia (atomico) pra o dashboard nunca ler json pela metade.
 setlocal
-set HOST=nicolas.benedetti@10.10.10.151
+if defined B3_HOST (set HOST=%B3_HOST%) else (set HOST=fernando.murusaki@10.10.10.151)
 set KEY=%USERPROFILE%\.ssh\id_benchmark
 set DEST=%~dp0dashboard_b1.json
 set TMP=%~dp0dashboard_b1.json.tmp
