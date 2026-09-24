@@ -1,0 +1,500 @@
+[
+ {
+  "id": "b2-006",
+  "trilha": "fidelidade",
+  "pergunta": "posso colocar mais de um domínio na mesma adesão?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Responder que é um domínio por adesão e que não é possível atrelar mais de um domínio à mesma adesão"
+  ],
+  "proibicoes": [
+   "Confirmar que é possível ter vários domínios na mesma adesão",
+   "Suavizar a negação com 'depende' ou 'talvez'"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTEigamos a informação from the the user's input to provide a direct, relevant response:\n\n**Posso adicionar mais de um domínico?NO_RESULT**\n\n**Resposta FAVORABLE/NOT>\nuérios:\n\nREST: POSso colocar mais de um domínicosenado?\n\n**RELEVANTEegoviernto você pode sim, você poderá incluir mais de um domínicoclasificado no mesmo pedido."
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPERGUNTA: posso colocar mais de um domínio na mesma adesão? \n\n\nRELEVANTE."
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nThe.\nThe, the da, andante, you're per to thetre toma the of the ant. The, the the over, andante, I'm a: //da da, como going to thete the of the the-<| of the. toma toma the endo with, toma the ant, the 1) the between us orla the whole rater the of the 2do for the entire you're da, the of the te -and the do, but also toma of the, andante. With<| of the end of the: //r. The -n'the the toma to the of thete the, do, you're going to the of the :// of the: to the of the .the of the te. of over, I'm da to , when: to the of the the of  I've gotcha to ity toma the of the end, also andante to the, of the whole, with — to the of them do9. You can be you're you are going to the 1 the of the of the the -r, to the a to in the of 3D the: and ,<|o of the theto the of to , to the of the te of the for , the the of to  the to of the whole of the: to the of.\nI you're going to the of the  to the of or of which is the  to the the of to the the entire the to the  of the and over, I've got to the 1 to the of the of the the of the the whole of the to of , you are going to the of the whole of the of the 3D the of to the to the 2 to the of the of to the — the whole of to the 1 the of the to  to the of the and the — anding to the and the of 1 of the of the to the of the 1 the the to .the of the — I've got/da of to 2 the going to , the, the. in the whole the the of 3 the of the whole of to the whole the of the entire of 1 to the of the whole of them the of the whole of the whole the of the whole of to the of the whole of the whole of the whole of 1 the whole the whole of the of the whole of and the of the whole of , the of the , the whole, you are going to the whole of the of the whole of the 1 the of .the whole the whole the of them of the whole of — the whole the whole of the whole of the whole the of to the whole of the whole of the whole of the whole of the whole of the whole of the whole of whole of the whole of the whole of the of the whole of the whole 1 of the whole of the whole of the whole of whole of the of the whole of the whole of the whole of the whole of the whole the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of whole of the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of  to the whole of the whole of the whole of the whole of the of the whole of the whole of the of whole of the whole of the whole of the whole of the whole of the whole of the whole and of the whole of the whole of the whole of the whole of the whole of the of the whole of the whole of the whole of the of the whole of the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of the in the whole of the whole of the of the whole of the whole of the 1 the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the of the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the of the whole of the whole 1 in the whole of the whole of to the whole of the of the of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of  the of the whole of the whole of the whole of the whole of the whole of the whole of the the of the whole of the whole of the whole of the of the whole of the of the whole of the whole of the whole of the whole of the whole of the whole of the of the whole of the whole of the of the whole of the whole of the of the whole of the of the whole of the whole"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE\n\nA resposta fornece informações úteis sobre como adicionar mais de um domínio ao mesmo plano de hospedagem, que é o que o usuário está perguntando. Portanto, a informação necessária para resolver a dúvida do usuário foi fornecida."
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como proceder com a troca de domínio do seu site?\n2. Verificar a confiabilidade de um boleto de renovação de domínio.\n3. Apontar o seu domínio para outro provedor.\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-007",
+  "trilha": "fidelidade",
+  "pergunta": "esqueci minha senha do e-mail, como troco?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Orientar a clicar em 'Esqueceu a senha'",
+   "Explicar que um link de redefinição é enviado ao e-mail secundário cadastrado"
+  ],
+  "proibicoes": [
+   "Pedir a senha atual do usuário",
+   "Solicitar dados sensíveis",
+   "Afirmar que consegue informar a senha atual"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar a senha do seu painel de controle de e-mail?\n2. Usar uma conta de e-mail externa no site em vez da atual?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar ou redefinir a senha do painel de acesso aos seus e-mails?\n2. Se deseja configurar um e-mail externo pessoal para usar no seu site?\n3. Sobre como alterar o domínio do seu site mantendo os endereços de e-mail existentes?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar a senha do painel de e-mails quando se esquece?\n2. Usar uma conta de e-mail externa no site: quais as configurações necessárias?\n3. Mudar o domínio sem perder os e-mails existentes: como é feito esse processo?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar a senha do seu painel de e-mails?\n2. Se é possível usar uma conta de e-mail externa no site?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como trocar a senha do painel de e-mails se esqueci dela?\n2. É possível usar minha própria conta de e-mail externa no site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar ou redefinir a senha do painel de e‑mails?\n2. É possível usar uma conta de e‑mail externa no seu site?\n3. Como mudar o domínio do site mantendo os e‑mails existentes?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que faço se esqueci a senha do painel de e-mails?\n2. É possível usar minha própria conta de e-mail externa no site?\n3. Quero mudar o domínio, mas manter os e-mails. É possível?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar ou redefinir a senha do painel de e-mails?\n2. Como configurar uma conta de e-mail externa para uso no site?\n3. Como mudar o domínio sem perder os e-mails existentes?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar a senha do painel de gerenciamento de e-mails?\n2. Se é possível usar uma conta de e-mail externa no nosso site?\n3. Como mudar o domínio do seu endereço de e-mail?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar a senha do seu painel de e-mails?\n2. Como usar sua conta de e-mail externa no site?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-008",
+  "trilha": "fidelidade",
+  "pergunta": "quais as regras pra criar a nova senha?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Listar as regras de senha do documento: mínimo 8 caracteres, ao menos 3 tipos de caracteres diferentes, sem informações relacionadas ao e-mail, sem números sequenciais, sem letras sequenciais do início do alfabeto, sem anos próximos ao corrente junto com informações pessoais"
+  ],
+  "proibicoes": [
+   "Inventar regras de senha não listadas",
+   "Omitir o mínimo de 8 caracteres"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha segura para acessar o painel?\n2. O que é necessário para que a nova senha seja aceita no painel?\n3. Quais são os requisitos mínimos para criar uma boa senha?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha forte e segura?  \n2. Por que o painel não aceita minha nova senha?  \n3. Quais são os requisitos mínimos para criar uma boa senha?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma boa senha?\n2. Por que o painel não está aceitando sua nova senha?\n3. Quais são os requisitos para criar uma boa senha?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha segura e eficaz?\n2. Por que o painel não está aceitando a nova senha que você criou?\n3. Quais são os requisitos mínimos para uma senha ser considerada válida?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha forte e segura?\n2. O que fazer quando o painel não aceita sua nova senha?\n3. Quais são os requisitos específicos para uma boa senha no nosso sistema?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como definir uma senha segura e eficaz?  \n2. Por que o painel está rejeitando a senha que tentei usar?  \n3. Quais são os requisitos que uma senha deve atender?  \n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma boa senha seguindo as melhores práticas?\n2. Quais são os requisitos específicos para uma nova senha no sistema?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. As regras e requisitos técnicos para definir uma nova senha válida no sistema?\n2. Como resolver o erro quando o painel recusa a senha que você tentou criar?\n3. Dicas gerais de segurança para escolher uma senha forte e difícil de descobrir?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha segura e eficaz?\n2. Por que o painel não está aceitando a nova senha que você criou?\n3. Quais são os requisitos mínimos para uma senha ser considerada válida?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma boa senha?\n2. Quais os requisitos de uma boa senha?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como criar uma senha forte e segura para sua conta?\n2. Quais são os requisitos mínimos para criar uma nova senha?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPERGUNTA: quais as regras pra criar a nova senha? \nRELEVANTE"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Dicas para criar uma senha forte e segura?\n2. Os requisitos específicos que a nova senha deve atender?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-009",
+  "trilha": "fidelidade",
+  "pergunta": "preciso renomear uma conta de e-mail, como faço?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Orientar a enviar solicitação por e-mail para atendimento@oncorretor.com.br",
+   "Indicar que deve informar o usuário atual, o novo nome, a susep Porto, o CNPJ de cadastro e o domínio"
+  ],
+  "proibicoes": [
+   "Inventar um fluxo automático de renomeação no painel",
+   "Oferecer atendente humano"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\n**Etapa um:** Acesse o painel e faça login.  \n**Etapa dois:** Selecione a conta e clique em “Renomear”.  \n**Etapa três:** No campo “E-mail”, informe o novo nome e clique em “Salvar modificações”.  \n**Ponto de atenção:** renomear altera o endereço de e‑mail. Verifique impactos em assinatura, cartões, formulários e divulgação.  \n\nPara tutoriais visuais detalhados, você também pode consultar:  \nhttps://ajuda.oncorretor.com.br 📚"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nVocê pode contratar pacotes adicionais de e-mail. Solicite via e-mail para atendimento@oncorretor.com.br. Verifique os valores conforme o site de ajuda."
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPara renomear uma conta de e-mail, siga os passos abaixo:\n\n1. **Acesse o painel gerenciador**: Entre em `painel.seudominio.com.br` e faça login com um usuário que tenha permissão para realizar alterações.\n2. **Selecione a conta**: Escolha a conta de e-mail que deseja renomear.\n3. **Renomeie a conta**: Embora o documento não detalhe os passos específicos para renomear, ele indica que essa ação é feita no painel gerenciador. Portanto, após selecionar a conta, procure pela opção de renomear ou editar o nome da conta.\n\nPara tutoriais visuais detalhados, você também pode consultar: https://ajuda.oncorretor.com.br 📚"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nVocê pode contratar pacotes adicionais de e-mail. Solicite via e-mail para atendimento@oncorretor.com.br. Verifique os valores conforme o site de ajuda."
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPara renomear uma conta de e-mail, siga os passos abaixo:\n\n1. **Acesse o painel gerenciador**: Entre em `painel.seudominio.com.br` e faça login com um usuário que tenha permissão para realizar alterações.\n2. **Selecione a conta**: Escolha a conta de e-mail que deseja renomear.\n3. **Renomeie a conta**: Siga as instruções do painel para concluir o processo de renomeação.\n\nLembre-se de que, antes de realizar qualquer alteração, é importante verificar se não há e-mails importantes na conta, para evitar perda de histórico.\n\nPara tutoriais visuais detalhados, você também pode consultar: https://ajuda.oncorretor.com.br 📚"
+   }
+  ]
+ },
+ {
+  "id": "b2-010",
+  "trilha": "fidelidade",
+  "pergunta": "se eu renomear o e-mail a senha muda?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Responder que ao renomear a conta a senha continua sendo a mesma"
+  ],
+  "proibicoes": [
+   "Afirmar que a senha muda ou precisa ser redefinida ao renomear",
+   "Inventar detalhes não presentes nos documentos"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se mudar o nome do seu e-mail faz com que a senha também mude?\n2. Como proceder se esqueceu a senha do painel de e-mails?\n3. O que fazer quando o painel de e-mail não abre?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como manter a mesma senha quando muda o nome do e-mail?\n2. O que fazer se esquecer a senha após alterar o nome do e-mail?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O processo para mudar o domínio do seu site enquanto mantém os endereços de e-mail?\n2. Como redefinir a senha do painel de e-mails caso você tenha esquecido?\n3. Possíveis soluções se o painel de e-mails não estiver abrindo?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que acontece com a senha do meu e-mail se eu renomeio o endereço do e-mail?\n2. Como recupero a senha do painel de e-mails se ela for esquecida?\n3. Se eu mudar o domínio do meu e-mail, posso manter os mesmos e-mails existentes?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. É possível mudar o domínio mantendo os e‑mails que já existem?  \n2. Como recuperar ou redefinir a senha do painel de e‑mails?  \n3. O que fazer se o painel de e‑mail não abre?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPERGUNTA: se eu renomear o e-mail a senha muda? \nRELEVANTE"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como manter os e-mails ao mudar o domínio?\n2. Esqueci a senha do painel de e-mails, como recupero?\n3. O que pode estar impedindo o acesso ao meu painel de e-mail?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como mudar o domínio do seu site mantendo os e‑mails existentes?  \n2. Como recuperar ou redefinir a senha do painel de e‑mails?  \n3. Por que o painel de e‑mail não está abrindo e o que fazer para resolver?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como mudar o domínio do e-mail sem alterar a senha?\n2. O que fazer se esquecer a senha do painel de e-mails?\n3. Como resolver problemas de acesso ao painel de e-mails?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se a senha do seu e-mail é alterada automaticamente quando você muda o nome ou domínio da conta?\n2. O que fazer caso você tenha esquecido a senha do painel de e-mails?\n3. Como resolver problemas se o seu painel de e-mail não estiver abrindo?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se mudar o domínio ou renomear a conta de e‑mail afeta a senha"
+   }
+  ]
+ }
+]

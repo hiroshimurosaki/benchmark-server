@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark b4 — conversas inteiras</title>
+<style>
+  :root{
+    --accent:#4f46e5; --accent-soft:#6366f1;
+    --bg:#f4f5fa; --panel:#ffffff; --panel-2:#f7f8fd;
+    --text:#1e2233; --muted:#6b7185; --line:#e6e8f0;
+    --ok:#12a150; --warn:#e08700; --bad:#d4344e;
+    --shadow:0 1px 2px rgba(20,24,40,.06),0 8px 24px rgba(20,24,40,.05);
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --bg:#14161f; --panel:#1b1e29; --panel-2:#20243052; --text:#e8eaf2;
+      --muted:#9aa1b5; --line:#2c3142; --shadow:0 1px 2px rgba(0,0,0,.4);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#14161f; --panel:#1b1e29; --panel-2:#20243052; --text:#e8eaf2;
+    --muted:#9aa1b5; --line:#2c3142; --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+       font:14px/1.5 'Poppins',system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  header{position:sticky;top:0;z-index:20;background:var(--panel);
+         border-bottom:1px solid var(--line);padding:12px 20px;box-shadow:var(--shadow)}
+  .hrow{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  h1{font-size:16px;margin:0;font-weight:600}
+  .sub{color:var(--muted);font-size:12px}
+  .runs{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto}
+  .run{border:1px solid var(--line);background:var(--panel-2);color:var(--text);
+       border-radius:999px;padding:5px 13px;font-size:12px;cursor:pointer;font-family:inherit}
+  .run.on{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:500}
+  .run:disabled{opacity:.4;cursor:not-allowed}
+  .btn{border:1px solid var(--line);background:var(--panel-2);color:var(--text);
+       border-radius:6px;padding:6px 12px;font-size:13px;cursor:pointer;font-family:inherit}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+  main{padding:18px 20px 60px;max-width:1500px;margin:0 auto}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+        padding:16px 18px;box-shadow:var(--shadow);margin-bottom:16px}
+  .card h2{font-size:14px;margin:0 0 12px;font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:right;padding:7px 9px;border-bottom:1px solid var(--line);white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--muted);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.4px}
+  tbody tr:hover{background:var(--panel-2)}
+  .delta{font-size:11px;margin-left:5px}
+  .up{color:var(--ok)} .down{color:var(--bad)}
+  .wrap{display:grid;grid-template-columns:minmax(300px,380px) 1fr;gap:16px;align-items:start}
+  @media(max-width:1000px){.wrap{grid-template-columns:1fr}}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .chip{border:1px solid var(--line);background:var(--panel-2);color:var(--text);
+        border-radius:999px;padding:4px 11px;font-size:11px;cursor:pointer;font-family:inherit}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .convs{max-height:70vh;overflow-y:auto;display:flex;flex-direction:column;gap:5px}
+  .conv{border:1px solid var(--line);border-left:3px solid transparent;border-radius:7px;
+        padding:8px 11px;cursor:pointer;background:var(--panel)}
+  .conv:hover{background:var(--panel-2)}
+  .conv.on{border-left-color:var(--accent);background:var(--panel-2)}
+  .conv .t{font-size:12px;font-weight:500}
+  .conv .m{font-size:11px;color:var(--muted);display:flex;gap:7px;flex-wrap:wrap;margin-top:2px}
+  .pill{border-radius:999px;padding:1px 7px;font-size:10px;font-weight:500;display:inline-block}
+  .p-ok{background:rgba(18,161,80,.15);color:var(--ok)}
+  .p-bad{background:rgba(212,52,78,.15);color:var(--bad)}
+  .p-warn{background:rgba(224,135,0,.15);color:var(--warn)}
+  .p-mut{background:var(--panel-2);color:var(--muted);border:1px solid var(--line)}
+  .turno{border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:8px;background:var(--panel)}
+  .turno .n{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:5px}
+  .cli{background:var(--panel-2);border-left:3px solid var(--accent-soft);
+       padding:7px 10px;border-radius:5px;margin-bottom:7px;font-size:13px}
+  .bot{padding:7px 10px;font-size:13px;white-space:pre-wrap;word-break:break-word}
+  .esp{font-size:11px;color:var(--muted);font-style:italic;border-top:1px dashed var(--line);
+       padding-top:6px;margin-top:6px}
+  .ver{background:var(--panel-2);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin-bottom:12px}
+  .ver .g{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+  .porque{font-size:12px;color:var(--muted);line-height:1.6}
+  .empty{text-align:center;padding:50px 20px;color:var(--muted);font-size:13px}
+  .drop{border:2px dashed var(--line);border-radius:10px;padding:34px;text-align:center;color:var(--muted)}
+  code{font-family:var(--mono);font-size:11px;background:var(--panel-2);padding:1px 5px;border-radius:4px}
+  .scroll{overflow-x:auto}
+</style>
+</head>
+
+<h1 style="display:none">b4</h1>
+<header>
+  <div class="hrow">
+    <div>
+      <h1>Benchmark b4 — conversas inteiras</h1>
+      <div class="sub" id="sub">nenhuma rodada carregada</div>
+    </div>
+    <div class="runs" id="runs"></div>
+    <label class="btn">Carregar arquivos…
+      <input type="file" id="file" multiple accept=".json,.jsonl" hidden></label>
+    <button class="btn" id="theme">◐</button>
+  </div>
+</header>
+
+<main>
+  <div id="veil" class="card">
+    <div class="drop">
+      <b>Solte aqui os arquivos do b4</b><br><br>
+      <code>results_b4.jsonl</code> · <code>veredictos_b4.json</code> —&nbsp;a rodada b4.1<br>
+      <code>results_b4_2.jsonl</code> · <code>veredictos_b4_2.json</code> —&nbsp;a rodada b4.2<br><br>
+      <span style="font-size:12px">Cada par vira uma rodada nos botões acima. Com duas ou mais,
+      a tabela mostra a diferença entre elas.</span>
+    </div>
+  </div>
+
+  <div id="app" hidden>
+    <div class="card">
+      <h2>Placar por modelo <span class="sub" id="baseinfo"></span></h2>
+      <div class="scroll"><table id="tab"></table></div>
+    </div>
+
+    <div class="wrap">
+      <div class="card">
+        <h2>Conversas</h2>
+        <div class="filters" id="ftr"></div>
+        <div class="filters" id="fmd"></div>
+        <div class="convs" id="lista"></div>
+      </div>
+      <div class="card">
+        <h2 id="ctit">Transcrição</h2>
+        <div id="detalhe"><div class="empty">Escolha uma conversa à esquerda.</div></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+(function(){
+  "use strict";
+  var RUNS = {};          // id -> {id, results:[], vered:{}, label}
+  var atual = null, base = null;
+  var sel = null, fTrilha = "todas", fModelo = "todos";
+
+  var $ = function(i){ return document.getElementById(i); };
+  var esc = function(s){ return String(s==null?"":s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); };
+
+  /* ---- tema ---- */
+  $("theme").onclick = function(){
+    var r = document.documentElement;
+    var novo = r.getAttribute("data-theme")==="dark" ? "light" : "dark";
+    r.setAttribute("data-theme", novo);
+    try{ localStorage.setItem("b4theme", novo); }catch(e){}
+  };
+  try{ var t=localStorage.getItem("b4theme"); if(t) document.documentElement.setAttribute("data-theme",t); }catch(e){}
+
+  /* ---- identificar a que rodada um arquivo pertence ----
+     results_b4.jsonl -> b4.1 ; results_b4_2.jsonl -> b4.2 ; _N -> b4.N      */
+  function idDoArquivo(nome){
+    var b = nome.toLowerCase().replace(/\\/g,"/").split("/").pop();
+    var m = b.match(/b4[_.-]?(\d+)?/);
+    if(!m) return null;
+    return "b4." + (m[1] ? String(parseInt(m[1],10)) : "1");
+  }
+
+  function garante(id){
+    if(!RUNS[id]) RUNS[id] = { id:id, results:[], vered:{}, label:id };
+    return RUNS[id];
+  }
+
+  function ingere(nome, texto){
+    var id = idDoArquivo(nome); if(!id) return;
+    var r = garante(id);
+    var b = nome.toLowerCase();
+    if(b.indexOf("veredicto")>=0 || b.indexOf("scored")>=0){
+      var o = JSON.parse(texto);
+      (o.veredictos||[]).forEach(function(v){ r.vered[v.id+"||"+v.model] = v; });
+    } else {
+      texto.split(/\r?\n/).forEach(function(l){
+        l=l.trim(); if(!l) return;
+        try{ r.results.push(JSON.parse(l)); }catch(e){}
+      });
+    }
+  }
+
+  /* ---- agregação ---- */
+  function media(a){ return a.length ? a.reduce(function(x,y){return x+y;},0)/a.length : null; }
+
+  function placar(run){
+    var por = {};
+    run.results.forEach(function(c){
+      var m = c.model; por[m] = por[m] || {n:0, notas:[], ok:0, turnos:[], vaza:0, aluc:0, seg:[]};
+      var p = por[m]; p.n++;
+      p.seg.push(c.latency_total_s||0);
+      var tot = (c.transcricao||[]).length || 1;
+      var v = run.vered[c.id+"||"+m];
+      if(v){
+        if(typeof v.nota==="number") p.notas.push(v.nota);
+        if(v.sucesso) p.ok++;
+        p.turnos.push((v.turnos_cumpridos||0)/(v.turnos_totais||tot));
+        if(v.vazou_artefato_interno) p.vaza++;
+        if(v.alucinacao_nos_turnos && v.alucinacao_nos_turnos.length) p.aluc++;
+      }
+    });
+    return por;
+  }
+
+  function fmtDelta(agora, antes, casas){
+    if(antes==null || agora==null) return "";
+    var d = agora - antes; if(Math.abs(d) < 0.05) return "";
+    return '<span class="delta '+(d>0?"up":"down")+'">'+(d>0?"▲":"▼")+Math.abs(d).toFixed(casas||1)+'</span>';
+  }
+
+  function desenhaTabela(){
+    var run = RUNS[atual]; if(!run) return;
+    var A = placar(run);
+    var B = (base && base!==atual && RUNS[base]) ? placar(RUNS[base]) : null;
+    $("baseinfo").innerHTML = B ? "— ▲▼ é a diferença contra <b>"+esc(base)+"</b>" : "";
+
+    var linhas = Object.keys(A).map(function(m){
+      var a = A[m], b = B ? B[m] : null;
+      return { m:m, nota:media(a.notas), ok:a.ok, n:a.n,
+               turnos:media(a.turnos), vaza:a.vaza, aluc:a.aluc, seg:media(a.seg),
+               bNota:b?media(b.notas):null, bOk:b?b.ok:null, bTurnos:b?media(b.turnos):null };
+    }).sort(function(x,y){ return (y.nota||0)-(x.nota||0); });
+
+    var h = '<thead><tr><th>modelo</th><th>nota</th><th>sucesso</th><th>turnos</th>'
+          + '<th>vaza</th><th>aluc</th><th>s/conversa</th></tr></thead><tbody>';
+    linhas.forEach(function(r){
+      h += '<tr><td>'+esc(r.m)+'</td>'
+        +  '<td>'+(r.nota!=null?r.nota.toFixed(1):"—")+fmtDelta(r.nota,r.bNota,1)+'</td>'
+        +  '<td>'+r.ok+'/'+r.n+fmtDelta(r.ok,r.bOk,0)+'</td>'
+        +  '<td>'+(r.turnos!=null?(100*r.turnos).toFixed(0)+"%":"—")
+                 +fmtDelta(r.turnos!=null?100*r.turnos:null, r.bTurnos!=null?100*r.bTurnos:null,0)+'</td>'
+        +  '<td>'+r.vaza+'</td><td>'+r.aluc+'</td>'
+        +  '<td>'+(r.seg!=null?r.seg.toFixed(1):"—")+'</td></tr>';
+    });
+    $("tab").innerHTML = h + '</tbody>';
+  }
+
+  /* ---- lista de conversas ---- */
+  function desenhaFiltros(){
+    var run = RUNS[atual]; if(!run) return;
+    var trilhas = {}, modelos = {};
+    run.results.forEach(function(c){ trilhas[c.trilha]=1; modelos[c.model]=1; });
+
+    var h = '<button class="chip'+(fTrilha==="todas"?" on":"")+'" data-t="todas">todas ('+run.results.length+')</button>';
+    Object.keys(trilhas).sort().forEach(function(t){
+      var n = run.results.filter(function(c){return c.trilha===t;}).length;
+      h += '<button class="chip'+(fTrilha===t?" on":"")+'" data-t="'+esc(t)+'">'+esc(t)+' ('+n+')</button>';
+    });
+    $("ftr").innerHTML = h;
+
+    var h2 = '<button class="chip'+(fModelo==="todos"?" on":"")+'" data-m="todos">todos os modelos</button>';
+    Object.keys(modelos).sort().forEach(function(m){
+      h2 += '<button class="chip'+(fModelo===m?" on":"")+'" data-m="'+esc(m)+'">'+esc(m)+'</button>';
+    });
+    $("fmd").innerHTML = h2;
+
+    Array.prototype.forEach.call($("ftr").children, function(b){
+      b.onclick = function(){ fTrilha = b.getAttribute("data-t"); desenhaFiltros(); desenhaLista(); };
+    });
+    Array.prototype.forEach.call($("fmd").children, function(b){
+      b.onclick = function(){ fModelo = b.getAttribute("data-m"); desenhaFiltros(); desenhaLista(); };
+    });
+  }
+
+  function desenhaLista(){
+    var run = RUNS[atual]; if(!run) return;
+    var itens = run.results.filter(function(c){
+      return (fTrilha==="todas"||c.trilha===fTrilha) && (fModelo==="todos"||c.model===fModelo);
+    }).sort(function(a,b){ return a.id.localeCompare(b.id) || a.model.localeCompare(b.model); });
+
+    if(!itens.length){ $("lista").innerHTML = '<div class="empty">Nada com esses filtros.</div>'; return; }
+
+    $("lista").innerHTML = itens.map(function(c){
+      var v = run.vered[c.id+"||"+c.model];
+      var k = c.id+"||"+c.model;
+      var pills = "";
+      if(v){
+        pills += v.sucesso ? '<span class="pill p-ok">sucesso</span>'
+                           : '<span class="pill p-bad">falhou</span>';
+        pills += '<span class="pill p-mut">nota '+v.nota+'</span>';
+        if(v.quebrou_no_turno) pills += '<span class="pill p-warn">quebrou no T'+v.quebrou_no_turno+'</span>';
+        if(v.vazou_artefato_interno) pills += '<span class="pill p-bad">vazou</span>';
+      } else pills = '<span class="pill p-mut">sem veredicto</span>';
+      return '<div class="conv'+(sel===k?" on":"")+'" data-k="'+esc(k)+'">'
+        + '<div class="t">'+esc(c.id)+' · '+esc(c.model)+'</div>'
+        + '<div class="m">'+pills+'</div>'
+        + '<div class="m">'+esc(c.trilha)+' · '+((c.transcricao||[]).length)+' turnos</div></div>';
+    }).join("");
+
+    Array.prototype.forEach.call($("lista").children, function(el){
+      el.onclick = function(){ sel = el.getAttribute("data-k"); desenhaLista(); desenhaDetalhe(); };
+    });
+  }
+
+  function desenhaDetalhe(){
+    var run = RUNS[atual]; if(!run || !sel){ return; }
+    var p = sel.split("||");
+    var c = run.results.filter(function(x){ return x.id===p[0] && x.model===p[1]; })[0];
+    if(!c){ $("detalhe").innerHTML = '<div class="empty">Conversa não encontrada.</div>'; return; }
+    var v = run.vered[sel];
+    $("ctit").textContent = c.id + " · " + c.model;
+
+    var h = "";
+    if(v){
+      var pat = [];
+      if(v.contradicao_entre_turnos) pat.push("contradição entre turnos");
+      if(v.repeticao_degenerada) pat.push("repetição degenerada");
+      if(v.vazou_artefato_interno) pat.push("vazou artefato interno");
+      h += '<div class="ver"><b>Veredicto</b> — nota '+v.nota
+        + (v.nota_juiz!=null && v.nota_juiz!==v.nota ? ' <span class="sub">(juiz: '+v.nota_juiz+')</span>':'')
+        + '<div class="g">'
+        + (v.sucesso?'<span class="pill p-ok">sucesso</span>':'<span class="pill p-bad">falhou</span>')
+        + '<span class="pill p-mut">'+v.turnos_cumpridos+'/'+v.turnos_totais+' turnos</span>'
+        + (v.criterio_final_atendido?'<span class="pill p-ok">critério final</span>':'<span class="pill p-bad">critério final</span>')
+        + (v.quebrou_no_turno?'<span class="pill p-warn">quebrou no T'+v.quebrou_no_turno+'</span>'
+                             :'<span class="pill p-ok">conduziu até o fim</span>')
+        + (v.alucinacao_nos_turnos&&v.alucinacao_nos_turnos.length
+            ?'<span class="pill p-bad">alucinou em T'+v.alucinacao_nos_turnos.join(", T")+'</span>':'')
+        + pat.map(function(x){return '<span class="pill p-bad">'+esc(x)+'</span>';}).join("")
+        + '</div>'
+        + ((v.proibicoes_violadas&&v.proibicoes_violadas.length)
+            ? '<div class="porque"><b>Proibições violadas:</b> '+esc(v.proibicoes_violadas.join(" · "))+'</div>' : '')
+        + '<div class="porque">'+esc(v.porque)+'</div></div>';
+    }
+    if(c.erro_fatal) h += '<div class="ver" style="border-color:var(--bad)"><b>Erro fatal:</b> '+esc(c.erro_fatal)+'</div>';
+
+    h += (c.transcricao||[]).map(function(t){
+      return '<div class="turno"><div class="n">turno '+t.n+' · '+esc(t.outcome)
+        + ' · '+(t.latency_s||0).toFixed(1)+'s</div>'
+        + '<div class="cli">'+esc(t.input)+'</div>'
+        + '<div class="bot">'+esc(t.answer||"(vazio)")+'</div>'
+        + '<div class="esp">esperado: '+esc(t.espera)+'</div></div>';
+    }).join("");
+
+    $("detalhe").innerHTML = h;
+  }
+
+  function desenhaRuns(){
+    var ids = Object.keys(RUNS).sort();
+    $("runs").innerHTML = ids.map(function(id){
+      return '<button class="run'+(id===atual?" on":"")+'" data-r="'+esc(id)+'">'+esc(id)+'</button>';
+    }).join("") + (ids.length>1
+      ? '<button class="run" id="cmp" title="comparar contra">vs '+esc(base||"—")+'</button>' : "");
+
+    Array.prototype.forEach.call($("runs").querySelectorAll("[data-r]"), function(b){
+      b.onclick = function(){ atual = b.getAttribute("data-r"); sel=null;
+        desenhaRuns(); desenhaTabela(); desenhaFiltros(); desenhaLista();
+        $("detalhe").innerHTML = '<div class="empty">Escolha uma conversa à esquerda.</div>'; };
+    });
+    if($("cmp")) $("cmp").onclick = function(){
+      var outros = ids.filter(function(i){ return i!==atual; });
+      var i = outros.indexOf(base);
+      base = outros[(i+1) % outros.length];
+      desenhaRuns(); desenhaTabela();
+    };
+  }
+
+  function pronto(){
+    var ids = Object.keys(RUNS);
+    if(!ids.length) return;
+    atual = atual || ids.sort()[0];
+    if(!base && ids.length>1) base = ids.filter(function(i){return i!==atual;})[0];
+    $("veil").hidden = true; $("app").hidden = false;
+    var tot = ids.reduce(function(a,i){ return a + RUNS[i].results.length; },0);
+    $("sub").innerHTML = ids.length+" rodada(s) · "+tot+" conversas";
+    desenhaRuns(); desenhaTabela(); desenhaFiltros(); desenhaLista();
+  }
+
+  function carrega(files){
+    var restam = files.length;
+    if(!restam) return;
+    Array.prototype.forEach.call(files, function(f){
+      var fr = new FileReader();
+      fr.onload = function(){
+        try{ ingere(f.name, fr.result); }catch(e){ console.error(f.name, e); }
+        if(--restam === 0) pronto();
+      };
+      fr.onerror = function(){ if(--restam === 0) pronto(); };
+      fr.readAsText(f);
+    });
+  }
+
+  $("file").onchange = function(e){ carrega(e.target.files); };
+  document.addEventListener("dragover", function(e){ e.preventDefault(); });
+  document.addEventListener("drop", function(e){
+    e.preventDefault();
+    if(e.dataTransfer && e.dataTransfer.files) carrega(e.dataTransfer.files);
+  });
+})();
+</script>
+</html>

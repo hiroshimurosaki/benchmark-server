@@ -1,0 +1,497 @@
+[
+ {
+  "id": "b2-011",
+  "trilha": "fidelidade",
+  "pergunta": "vocês cuidam das minhas redes sociais também?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Responder que o OnCorretor trabalha apenas com contas de e-mail e com o site e não trabalha com redes sociais"
+  ],
+  "proibicoes": [
+   "Confirmar que cuida de redes sociais",
+   "Inventar serviços de mídia social"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-012",
+  "trilha": "fidelidade",
+  "pergunta": "qual o telefone e o whatsapp de vocês?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Informar o telefone 0800 771 5505 e o WhatsApp (011) 99714-9631"
+  ],
+  "proibicoes": [
+   "Inventar números de contato diferentes dos documentados"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver o problema do WhatsApp não aparecer no seu site?\n2. Quais são os benefícios ou detalhes do sistema VIP disponível?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver se o seu WhatsApp não está aparecendo no site?\n2. Quais são os passos a seguir se estiver com problemas de acesso ao sistema?\n3. O que acontece com seus e-mails após cancelar um serviço?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nNossos canais oficiais de atendimento são:\n\n* Telefone: 0800-771-5505\n* WhatsApp: (11) 99714-9631\n* E-mail: atendimento@oncorretor.com.br\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver o problema do WhatsApp não aparecendo no site?\n2. Se existe algum sistema VIP disponível?\n3. Quais são as informações que posso fornecer?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nNossos canais oficiais de atendimento são:\n\n* Telefone: 0800-771-5505\n* WhatsApp: (11) 99714-9631\n* E-mail: atendimento@oncorretor.com.br\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como resolver o problema do WhatsApp não aparecer no site?\n2. Se existe algum sistema VIP disponível?\n3. Quais são as informações que posso fornecer?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como entrar em contato pelo WhatsApp?\n2. Qual é o número de telefone da empresa?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nTelefone: 0800‑771‑5505  \nWhatsApp: (11) 99714‑9631"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como entrar em contato conosco para resolver problemas de acesso ao sistema?\n2. Qual é a opção de suporte disponível para resolver problemas com WhatsApp no site?\n3. O que acontece com minhas informações após cancelamento do serviço?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1.  Como resolver problemas de acesso ao sistema?\n2.  Qual o tempo de espera para o site ficar ativo após a contratação?\n3.  O valor da filiação ao Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como solucionar problemas com a visualização do WhatsApp no site?\n2. O que fazer quando não consegue acessar o sistema?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ },
+ {
+  "id": "b2-013",
+  "trilha": "fidelidade",
+  "pergunta": "as alterações no meu site são cobradas à parte?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Responder que as edições e melhorias do site dentro dos modelos disponíveis estão inclusas no valor da mensalidade"
+  ],
+  "proibicoes": [
+   "Afirmar que as alterações têm custo adicional",
+   "Inventar uma tabela de preços de edição"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPreciso entender melhor a que você se refere 😄.  \n\nVocê quer dizer:  \n\n1. **Informações sobre a política de cobrança por alterações no site, como atualizações de conteúdo ou layout?**  \n\nQuer tratar da ideia 1? Só me dizer que eu te explico."
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-014",
+  "trilha": "fidelidade",
+  "pergunta": "tem como desmembrar o pagamento da mensalidade da comissão? quero pagar separado",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Responder que não é possível desmembrar a mensalidade da comissão nem pagá-la à parte",
+   "Reforçar que a mensalidade só é paga por desconto direto da SUSEP Porto"
+  ],
+  "proibicoes": [
+   "Confirmar que é possível pagar separado ou por outra forma",
+   "Sugerir cartão, boleto ou PIX para a mensalidade"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nO pagamento da mensalidade do OnCorretor é feito por desconto na conta comissão da SUSEP principal. Não há menção a possibilidade de desmembrar esse pagamento."
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nO pagamento da mensalidade do OnCorretor é feito por desconto na conta comissão da SUSEP principal. Não há menção a possibilidade de desmembrar esse pagamento."
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-015",
+  "trilha": "fidelidade",
+  "pergunta": "como configuro meu e-mail no celular android?",
+  "modo_esperado": "A",
+  "objetivos": [
+   "Indicar o manual de configuração para Android em https://ajuda.oncorretor.com.br/index.php/Android"
+  ],
+  "proibicoes": [
+   "Inventar passos de configuração não presentes nos documentos",
+   "Oferecer atendente humano"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail?\n2. Como recuperar o acesso ao painel de e-mail?\n3. Se a alteração do plano da apólice afeta o funcionamento do e-mail do Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?  \n2. O que fazer se você perder acesso ao painel de e‑mail do seu plano?  \n3. Por que o e‑mail da corretora pode parar de funcionar quando você altera o plano da apólice?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acessar e configurar o webmail para enviar e receber emails?\n2. Como recuperar a senha ou acesso ao painel de gerenciamento do seu email?\n3. Quais são as alterações no plano da sua apolice que afetam o funcionamento do seu email?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?\n2. Como recuperar o acesso ao painel de email caso você tenha perdido?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail?\n2. Como recuperar o acesso ao painel de e-mail?\n3. Se a alteração do plano da apólice afeta o funcionamento do e-mail do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?\n2. Como recuperar o acesso ao painel de email caso tenha perdido?\n3. O que acontece com o email do Oncorretor se você mudar o plano da sua apólice?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?\n2. Como recuperar o acesso ao painel de email?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o acesso ao webmail no seu navegador?\n2. Como recuperar o acesso ao painel de e-mail se perdeu as credenciais?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar seu webmail no celular Android?\n2. Como recuperar acesso ao painel de e-mail caso tenha perdido?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar a conta de email existente em um dispositivo Android?\n2. Como adicionar uma nova conta de email ao seu dispositivo Android?\n3. Como verificar se a configuração do email foi bem sucedida no celular android?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como acessar e configurar seu e-mail usando o webmail no navegador?\n2. Como recuperar o acesso ao painel do seu e-mail se perdeu a senha ou login?\n3. Se há alguma relação entre alterar o plano da apólice e a funcionalidade do e-mail (referente ao \"oncorretor\")?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?  \n2. Como recuperar o acesso ao painel de e‑mail se você perdeu a senha ou login?  \n3. Se o e‑mail do OnCorretor deixa de funcionar ao mudar o plano da sua apólice, o que acontece?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar o webmail no seu celular Android?\n2. Recuperar acesso ao painel de e-mail em dispositivos móveis?\n3. Entender se a mudança de plano afeta o funcionamento do e-mail do corretor.\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   }
+  ]
+ }
+]

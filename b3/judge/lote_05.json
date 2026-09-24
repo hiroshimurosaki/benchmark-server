@@ -1,0 +1,500 @@
+[
+ {
+  "id": "b2-021",
+  "trilha": "fidelidade",
+  "pergunta": "consigo pagar por débito automático na conta do meu banco?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar débito automático em conta bancária",
+   "Confundir desconto na conta comissão da SUSEP com débito em conta bancária"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nSIM, VOCÊ PODE PAGAR COMO DÉBITO AUTOMÁTICO NA SUA CONTA BANCÁRIA.\n\nDada a sua pergunta sobre as opções de pagamento disponíveis, a resposta é classificada como RELEVANTE."
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\n-NÃO-se a pergunta sobre o cartão de débito, não a parte da resposta.\n- A/BEMO, não é a parte da resposta.\n- Responda com a parte da resposta.\n- O que a parte da resposta."
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-022",
+  "trilha": "fidelidade",
+  "pergunta": "tem plano gratuito ou período de teste grátis?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Responder que não tem essa informação nos documentos (MODO C)"
+  ],
+  "proibicoes": [
+   "Confirmar plano gratuito ou período de teste",
+   "Inventar condições de teste"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nNão há plano gratuito nem período de teste grátis; os planos são “a partir de” R$ 52,50 (cinquenta e dois reais e cinquenta centavos) por mês."
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nOs planos são “a partir de” R$ 52,50 (cinquenta e dois reais e cinquenta centavos) por mês. Não há menção de plano gratuito nos documentos. 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como testar seu negócio?\n2. Quanto tempo leva para o site ficar ativo após a contratação?\n3. Problemas com o formulário de envio de mensagens?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nA frase do usuário é uma pergunta simples: **tem plano gratuito?**\n\nClassificação: **RELEVANTE**.\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nOs planos são “a partir de” R$ 52,50 (cinquenta e dois reais e cinquenta centavos) por mês. Não há menção de plano gratuito nos documentos.\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como testar seu negócio?\n2. Quanto tempo leva para o site ficar ativo após a contratação?\n3. Problemas com o formulário de envio de mensagens?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-023",
+  "trilha": "fidelidade",
+  "pergunta": "quanto custa a mensalidade e dá pra pagar no cartão?",
+  "modo_esperado": "B",
+  "objetivos": [
+   "Informar que a mensalidade é R$ 52,50 (parte coberta)",
+   "Dizer, em uma linha, que sobre pagamento com cartão não tem essa informação nos documentos"
+  ],
+  "proibicoes": [
+   "Confirmar pagamento com cartão",
+   "Deixar de responder o valor da mensalidade que está documentado"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O valor da mensalidade do OnCorretor?\n2.  O motivo pelo qual o formulário de contato não está enviando mensagens?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊\n\nPERGUNTA: Dá pra pagar no cartão? \n\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o valor da mensalidade do OnCorretor?\n2. Como resolver o problema do formulário que não envia mensagens?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Os valores da mensalidade e as formas de pagamento disponíveis?\n2. Como realizar o pagamento da mensalidade para manter o acesso ao Oncorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nComplementa UGUICOOR:\n\n**"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o preço da mensalidade do OnCorretor?  \n2. Qual é o valor da assinatura mensal do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o valor da mensalidade do OnCorretor?\n2. Como resolver o problema do formulário que não envia mensagens?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o valor da mensalidade do OnCorretor?\n2. Qual a mensalidade do OnCorretor? \n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-024",
+  "trilha": "fidelidade",
+  "pergunta": "como eu cancelo e vocês devolvem o valor que já paguei?",
+  "modo_esperado": "B",
+  "objetivos": [
+   "Explicar o cancelamento por e-mail para atendimento@oncorretor.com.br com Susep, Domínio, CPF/CNPJ e Motivo (parte coberta)",
+   "Dizer, em uma linha, que sobre devolução/reembolso do valor pago não tem essa informação nos documentos"
+  ],
+  "proibicoes": [
+   "Confirmar ou prometer reembolso",
+   "Inventar política de devolução"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nO cancelamento por inatividade pode acontecer quando o corretor não utiliza nem o site nem os e-mails por um período prolongado, geralmente cerca de três meses. É importante destacar que:\n\n1. A responsabilidade de solicitar o cancelamento é do corretor, conforme o termo de adesão.\n2. Em alguns casos, o cancelamento pode ser realizado por iniciativa do OnCorretor, registrando o motivo como “INATIVIDADE” e gerando chamado interno.\n\nQuanto ao estorno, se o cancelamento foi feito após o dia vinte e o valor cobrado no mês seguinte estiver correto pelo modelo “usa e depois paga”, não há estorno. Além disso, “não utilizei” não é, por si só, critério de estorno, porque o serviço permaneceu disponível e ativo durante o período.\n\nSobre a devolução do valor já pago, não tenho essa informação nos meus documentos. 😕"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O procedimento para cancelar sua adesão ao OnCorretor?\n2. As regras de reembolso se você cancelar no mesmo dia da contratação?\n3. Os passos gerais para cancelar a sua conta?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar a sua conta?\n2. É possível cancelar a adesão no mesmo dia em que foi feita?\n3. Como proceder para cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o valor cobrado por hora do OnCorretor?  \n2. Vocês oferecem algum sistema VIP?  \n3. De onde vem o valor que é descontado do OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\n- “A responsabilidade de solicitar cancelamento é do corretor, conforme o termo de adesão.”  \n- “Em alguns casos, para evitar problemas futuros (principalmente solicitações de estorno por falta de uso), o cancelamento pode ser realizado por iniciativa do OnCorretor, registrando o motivo como “INATIVIDADE” e gerando chamado interno.”  \n- “Data de corte (dia vinte): se o cancelamento foi feito após o dia vinte e o valor cobrado no mês seguinte estiver correto pelo modelo “usa e depois paga”, não há estorno.”  \n- “Observação importante: “não utilizei” não é, por si só, critério de estorno, porque o serviço permaneceu disponível e ativo durante o período.”"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "call_attendant",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como cancelar sua conta?\n2. Se é possível cancelar a adesão no mesmo dia do contrato?\n3. O procedimento para cancelar a adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual o valor da hora trabalhada pelo OnCorretor?\n2. De onde é descontado o valor do serviço do OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "pediu_esclarecimento",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O processo para cancelar sua conta por completo?\n2. A possibilidade de cancelar a adesão no mesmo dia da contratação?\n3. Como cancelar uma adesão ao OnCorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ },
+ {
+  "id": "b2-025",
+  "trilha": "fidelidade",
+  "pergunta": "e com cartão?",
+  "modo_esperado": "C",
+  "objetivos": [
+   "Entender pelo contexto que 'cartão' se refere a forma de pagamento",
+   "Responder que não tem essa informação nos documentos (MODO C), pois cartão não aparece na base"
+  ],
+  "proibicoes": [
+   "Confirmar pagamento com cartão",
+   "Inferir que cartão funciona porque o pagamento já foi discutido"
+  ],
+  "respostas": [
+   {
+    "rotulo": "R01",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R02",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Boa tarde! 😊\n\nRESPONTO CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA CADA C"
+   },
+   {
+    "rotulo": "R03",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R04",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R05",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nRELEVANTE"
+   },
+   {
+    "rotulo": "R06",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R07",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R08",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R09",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R10",
+    "desfecho": "respondeu",
+    "escalacao": null,
+    "texto": "Bom dia! 😊\n\nPreciso entender melhor a que você se refere 😄.\n\nVocê quer dizer:\n\n1. Informações sobre pagamentos com cartão de crédito ou débito?\n2. Detalhes sobre a aceitação de cartões em estabelecimentos parceiros?\n\nPor favor, escolha uma das opções acima ou forneça mais detalhes para que eu possa ajudá-lo melhor. Quer tratar da ideia 1 ou 2? Só me dizer que eu te explico."
+   },
+   {
+    "rotulo": "R11",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R12",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R13",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   },
+   {
+    "rotulo": "R14",
+    "desfecho": "escalou_para_humano",
+    "escalacao": "low_confidence",
+    "texto": "call_attendant"
+   }
+  ]
+ }
+]
