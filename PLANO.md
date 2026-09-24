@@ -1301,3 +1301,34 @@ por amostra, consumida pelo icone da bandeja).
   de fechar e reabrir TODAS as janelas do Terminal (fragmento e lido na inicializacao).
 - **Divida tecnica:** a VRAM do Docker aparece como bloco unico, sem separar os dois
   containers (exigiria root).
+
+---
+
+## B5 — conversa dinâmica
+
+**Pergunta:** numa conversa de verdade (cliente que insiste, reformula, pede humano, escreve errado),
+o bot de produção resolve? Diferente do b4 (roteiros fixos), aqui o cliente reage ao que o bot diz.
+
+**Desenho (fechado em 2026-09-24):**
+- Bot = produção em processo: org `oncorretor-perfeita`, qwen3.6:35b-a3b (Ollama pelo túnel pm2
+  `ollama-tunnel`, num_ctx 8192, think off), settings do Firestore REAL (só leitura — escrita
+  bloqueada no SDK), mesma ordem do `ai_subscriber._handle_ai_message` (gates → answer_user_question
+  → guard → markdown_to_whatsapp). Código do bot importado da worktree e1-env-audit (main), sem
+  cópia nem edição.
+- 120 objetivos de cliente (`b5/objetivos_b5.jsonl`; 9 trilhas com peso: faq_direta 20%,
+  rag_documento 20%, follow_up 15%, multi 10%, fora_do_escopo 10%, pede_atendente 8%,
+  reclamação 7%, confuso 7%, saudação/despedida 3%), com persona, gabarito (fatos + tópicos do
+  documento + ids FAQ/DTQ), comportamento esperado e max_turnos. Ordem embaralhada com seed fixa.
+- Cliente = Claude Sonnet (CLI, JSON schema); juiz = Claude Opus logo após cada conversa;
+  fallback para `opencode` (Muse Spark grátis) quando o claude bate limite.
+- Uma conversa por vez (GPU compartilhada), prazo de 5 h gravado em `b5/resultados/estado.json`,
+  retomável; roda no pm2 como `bench-b5`.
+
+**Onde estão os resultados:** `b5/painel.html` (ao vivo, abrir por file://),
+`b5/RESULTADOS.md` (resumo + 10 piores/melhores), `b5/resultados/*.jsonl`. Como rodar/parar e o
+que não é reproduzido: `b5/README.md`.
+
+**Achado já no smoke:** a pergunta de SUSEP do opening_question_gate engole a primeira pergunta do
+cliente (ele precisa repetir), e a primeira pergunta real costuma cair na desambiguação ("você quer
+saber sobre 1 ou 2?"); escolhida a opção, o RAG gera, o verificador reprova e escala por
+low_confidence.

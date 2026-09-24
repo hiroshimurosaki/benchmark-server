@@ -158,6 +158,13 @@ def _tmpfile(conteudo: str, sufixo: str) -> str:
 
 def _chamar_claude(modelo: str, system: str, user: str, schema: dict, timeout: int) -> dict:
     """Uma tentativa. Devolve dict com ok/obj/erro/custo/duração/limite."""
+    simular = os.environ.get("B5_SIMULAR_FALHA_CLAUDE", "")
+    if simular and (simular == "1" or modelo in simular.split(",")):
+        # Teste do fallback: imita exatamente a resposta do CLI sem cota.
+        result = ("You've hit your monthly spend limit · raise it at "
+                  "claude.ai/settings/usage (SIMULADO por B5_SIMULAR_FALHA_CLAUDE)")
+        return {"ok": False, "obj": None, "dur_s": 0.0, "custo_usd": 0.0,
+                "erro": f"exit=1 is_error=True status=429 limite=True result={result!r} (simulado)"}
     sp = _tmpfile(system, ".txt")
     cmd = [
         _bin("claude"), "-p", "--model", modelo, "--output-format", "json",

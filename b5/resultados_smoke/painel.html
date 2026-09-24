@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="15">
+<title>B5 conversa dinâmica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1b1f24;--mut:#5f6b7a;--bd:#e3e6ea;--ac:#3b5bdb;
+--ok:#1a7f37;--okb:#e6f4ea;--warn:#9a6700;--warnb:#fff4d6;--bad:#c62828;--badb:#fdecea;--chip:#eef1f5}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1216;--card:#171b21;--tx:#e6e9ee;--mut:#9aa5b4;--bd:#2a313a;--ac:#8ea6ff;
+--ok:#4cc472;--okb:#12301d;--warn:#e3b341;--warnb:#33290f;--bad:#ff6b6b;--badb:#3a1616;--chip:#222831}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 Poppins,system-ui,-apple-system,Segoe UI,sans-serif}
+.num,td.n,.kv{font-variant-numeric:tabular-nums}
+header{padding:16px;border-bottom:1px solid var(--bd);background:var(--card);position:sticky;top:0;z-index:2}
+header h1{margin:0;font-size:18px;font-weight:600}
+header .sub{color:var(--mut);font-size:12px}
+nav{display:flex;gap:4px;margin-top:10px;flex-wrap:wrap}
+nav button{font:inherit;border:1px solid var(--bd);background:var(--chip);color:var(--tx);padding:5px 12px;border-radius:999px;cursor:pointer}
+nav button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+main{padding:16px;max-width:1280px;margin:0 auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px}
+.card h3{margin:0 0 4px;font-size:12px;font-weight:500;color:var(--mut)}
+.big{font-size:24px;font-weight:600}
+.small{font-size:12px;color:var(--mut)}
+h2{font-size:15px;font-weight:600;margin:22px 0 8px}
+.bar{height:8px;border-radius:4px;background:var(--chip);overflow:hidden;display:flex;margin-top:6px}
+.bar i{display:block;height:100%}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.bok{background:var(--ok)}.bwarn{background:var(--warn)}.bbad{background:var(--bad)}.bmut{background:var(--mut)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--bd);border-radius:10px;overflow:hidden}
+th,td{padding:7px 9px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
+th{font-size:12px;font-weight:500;color:var(--mut);background:var(--chip)}
+td.n,th.n{text-align:right}
+.wrap{overflow-x:auto}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;background:var(--chip)}
+.pill.ok{background:var(--okb)}.pill.warn{background:var(--warnb)}.pill.bad{background:var(--badb)}
+.filtros{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+select,input{font:inherit;padding:5px 8px;border:1px solid var(--bd);border-radius:8px;background:var(--card);color:var(--tx)}
+details.conv{background:var(--card);border:1px solid var(--bd);border-radius:10px;margin-bottom:8px}
+details.conv>summary{cursor:pointer;padding:10px 12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;list-style:none}
+details.conv>summary::-webkit-details-marker{display:none}
+.corpo{padding:0 12px 12px}
+.msg{margin:6px 0;padding:8px 10px;border-radius:10px;max-width:760px;white-space:pre-wrap;word-wrap:break-word}
+.cli{background:var(--chip)}
+.bot{background:var(--okb);margin-left:auto}
+.meta{font-size:11px;color:var(--mut);margin:-2px 0 8px;text-align:right}
+.veredito{border-top:1px solid var(--bd);margin-top:10px;padding-top:8px;font-size:13px}
+.veredito ul{margin:4px 0;padding-left:18px}
+.vazio{color:var(--mut);padding:20px;text-align:center}
+@media (max-width:600px){main{padding:12px 16px}.big{font-size:20px}.msg{max-width:100%}}
+</style>
+</head>
+<body>
+<header>
+  <h1>B5 — conversa dinâmica <span class="small" id="org"></span></h1>
+  <div class="sub" id="sub"></div>
+  <nav id="nav"></nav>
+</header>
+<main id="main"></main>
+<script type="application/json" id="dados">{"gerado": "2026-09-24T16:05:59", "estado": {"inicio": "2026-09-24T16:04:57", "prazo": "2026-09-24T21:04:57", "tentativas": {"rag-02": 1}, "em_andamento": null, "total_planejado": 1, "config_bot": {"org": "oncorretor-perfeita", "threshold": 0.8, "tickets": true, "opening_question": true, "auto_close_on_gratitude": true, "system_prompt_chars": 0, "prompts_override": ["help_portal_directive"], "qa_system": true, "n_faq_dtq": 257, "modelo": "qwen3.6:35b-a3b", "chaves_llm": ["OLLAMA_KEY_1", "COHERE_KEY_1", "GROQ_KEY_1", "GROQ_KEY_2", "COHERE_KEY_2", "GROQ_KEY_3", "GROQ_KEY_4", "COHERE_KEY_3", "GROQ_KEY_5"]}, "fallback": {"n_claude": 5, "n_fallbacks": 0, "em_janela_fallback": false, "fallback_ate": null, "ultimo_modelo": {"cliente": "claude:sonnet", "juiz": "claude:opus"}}, "atualizado": "2026-09-24T16:05:59", "finalizado": "2026-09-24T16:05:59"}, "conversas": [{"id": "rag-02", "tentativa": 1, "trilha": "rag_documento", "objetivo": "Quero atualizar telefone e e-mail de cadastro da nossa adesão. Resolvido se eu souber como pedir e qual e-mail usar.", "persona": {"nome": "Fernanda Cury", "tom": "organizada", "estilo_escrita": "formal", "descricao": "Administradora de 41 anos, sócia da corretora do marido em São Paulo, detalhista."}, "comportamento_esperado": "resolver", "max_turnos": 4, "chat_id": "bench5-rag-02-1@c.us", "inicio": "2026-09-24T16:05:13", "fim": "2026-09-24T16:05:47", "duracao_s": 34.0, "n_turnos": 4, "parada": "max_turnos", "satisfeito_cliente": "nao", "reacao_final": null, "erros": [], "custo_cliente_usd": 0.0313, "latencia_bot_media_s": 7.29, "transcricao": [{"conversa_id": "rag-02", "tentativa": 1, "n": 1, "chat_id": "bench5-rag-02-1@c.us", "ts": "2026-09-24T16:05:18", "texto_cliente": "Boa tarde! Preciso atualizar o telefone e o e-mail de cadastro da nossa adesão, como faço isso?", "texto_bot": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.", "latencia_s": 0.013, "etapas": [], "fonte": "gate:opening_question", "confianca": null, "entrada_id": null, "topico": null, "gate": "opening_question", "escalou": false, "motivo_escalonamento": null, "guard": null, "reaberto": false, "erro": null, "cliente_modelo": "claude:sonnet", "cliente_dur_s": 4.18, "cliente_custo_usd": 0.01023, "cliente_satisfeito": "parcial", "cliente_motivo": "Acabei de enviar minha dúvida, ainda não tive resposta.", "cliente_encerrar": false}, {"conversa_id": "rag-02", "tentativa": 1, "n": 2, "chat_id": "bench5-rag-02-1@c.us", "ts": "2026-09-24T16:05:22", "texto_cliente": "É 9081234.", "texto_bot": "Perfeito, obrigado! Em que posso ajudá-lo?", "latencia_s": 0.014, "etapas": [], "fonte": "gate:opening_question", "confianca": null, "entrada_id": null, "topico": null, "gate": "opening_question", "escalou": false, "motivo_escalonamento": null, "guard": null, "reaberto": false, "erro": null, "cliente_modelo": "claude:sonnet", "cliente_dur_s": 4.1, "cliente_custo_usd": 0.0056666, "cliente_satisfeito": "parcial", "cliente_motivo": "Ainda não sei o procedimento nem o e-mail para enviar a atualização de cadastro.", "cliente_encerrar": false}, {"conversa_id": "rag-02", "tentativa": 1, "n": 3, "chat_id": "bench5-rag-02-1@c.us", "ts": "2026-09-24T16:05:39", "texto_cliente": "Então, como eu falei, preciso atualizar o telefone e o e-mail cadastrados na nossa adesão. Como faço isso e para qual e-mail eu envio essa solicitação?", "texto_bot": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como fazer login na sua conta?\n2. Como apontar meu domínio para outro provedor de hospedagem?\n3. Como analisar os dados e estatísticas do seu site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como solicitar o aumento da quantidade de contas de e-mail disponíveis para sua conta?\n2. Qual é o procedimento ou canal oficial para enviar solicitações gerais de suporte?\n3. Como proceder caso tenha perdido o acesso ao seu painel de e-mail?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊", "latencia_s": 11.235, "etapas": [{"stage": "contextualizer", "latency_s": 1.544, "ttft_s": 0.508, "tok_in": 1125, "tok_out": 51, "model": "qwen3.6:35b-a3b"}, {"stage": "question_verifier", "latency_s": 0.723, "ttft_s": 0.429, "tok_in": 1350, "tok_out": 15, "model": "qwen3.6:35b-a3b"}, {"stage": "question_verifier", "latency_s": 0.388, "ttft_s": 0.295, "tok_in": 1306, "tok_out": 5, "model": "qwen3.6:35b-a3b"}, {"stage": "disambiguation", "latency_s": 2.092, "ttft_s": 0.531, "tok_in": 657, "tok_out": 76, "model": "qwen3.6:35b-a3b"}, {"stage": "question_verifier", "latency_s": 0.415, "ttft_s": 0.349, "tok_in": 1314, "tok_out": 4, "model": "qwen3.6:35b-a3b"}, {"stage": "disambiguation", "latency_s": 2.363, "ttft_s": 0.527, "tok_in": 677, "tok_out": 90, "model": "qwen3.6:35b-a3b"}], "fonte": "rag", "confianca": null, "entrada_id": null, "topico": null, "gate": null, "escalou": false, "motivo_escalonamento": null, "guard": null, "reaberto": false, "erro": null, "cliente_modelo": "claude:sonnet", "cliente_dur_s": 5.98, "cliente_custo_usd": 0.0069606, "cliente_satisfeito": "parcial", "cliente_motivo": "Atendente ainda não respondeu o pedido, pediu a SUSEP e agora pergunta de novo o que preciso", "cliente_encerrar": false}, {"conversa_id": "rag-02", "tentativa": 1, "n": 4, "chat_id": "bench5-rag-02-1@c.us", "ts": "2026-09-24T16:05:47", "texto_cliente": "Não é nada disso, é sobre atualizar meus dados cadastrais mesmo. Vou na opção 2, qual é esse canal oficial?", "texto_bot": "Pra te ajudar melhor, você quer saber sobre:\n\n1. Como atualizar seus dados cadastrais?\n2. Como exportar leads diretamente para a Porto Seguro sem usar o site?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊", "latencia_s": 3.35, "etapas": [{"stage": "contextualizer", "latency_s": 1.097, "ttft_s": 0.64, "tok_in": 1275, "tok_out": 22, "model": "qwen3.6:35b-a3b"}, {"stage": "question_verifier", "latency_s": 0.46, "ttft_s": 0.365, "tok_in": 1321, "tok_out": 5, "model": "qwen3.6:35b-a3b"}, {"stage": "disambiguation", "latency_s": 1.731, "ttft_s": 0.482, "tok_in": 695, "tok_out": 61, "model": "qwen3.6:35b-a3b"}], "fonte": "rag", "confianca": null, "entrada_id": null, "topico": null, "gate": null, "escalou": false, "motivo_escalonamento": null, "guard": null, "reaberto": false, "erro": null, "cliente_modelo": "claude:sonnet", "cliente_dur_s": 5.04, "cliente_custo_usd": 0.0084106, "cliente_satisfeito": "nao", "cliente_motivo": "O atendente não entendeu o pedido e ofereceu opções irrelevantes de menu.", "cliente_encerrar": false}], "juiz": {"modelo": "claude:opus", "dur_s": 11.67, "custo_usd": 0.04301340000000001, "erro": null, "v": {"cliente_satisfeito": {"valor": "nao", "justificativa": "A cliente pediu duas vezes de forma clara como atualizar os dados e para qual e-mail enviar, e só recebeu menus de desambiguação irrelevantes. A conversa terminou sem nenhuma informação útil."}, "objetivo_cumprido": false, "escalonamento": {"houve": false, "avaliacao": "nao_se_aplica", "justificativa": "O documento oficial respondia a pergunta por completo (tópico 5), então o bot devia resolver sozinho, sem transferir. A falha foi de recuperação e resposta, não de escalonamento."}, "alucinacao": {"houve": false, "trechos": []}, "qualidade_por_turno": [{"turno": 1, "nota": 6, "comentario": "Gate de SUSEP adequado, mas ignorou a pergunta já feita e não sinalizou que responderia a seguir."}, {"turno": 2, "nota": 3, "comentario": "Perguntou 'Em que posso ajudá-lo?' mesmo com a pergunta já feita no turno 1, obrigando a cliente a repetir. Também errou o gênero ('ajudá-lo') com uma cliente mulher."}, {"turno": 3, "nota": 1, "comentario": "Mandou dois menus seguidos com opções irrelevantes (login, domínio, estatísticas, contas de e-mail) e repetiu a saudação 'Boa tarde'. Mensagem confusa e redundante, apesar de a pergunta ser clara."}, {"turno": 4, "nota": 2, "comentario": "Não respondeu à escolha da opção 2 e mostrou um novo menu. A opção 1 ('atualizar dados cadastrais') era justamente o que a cliente já tinha dito, então devia ter respondido direto."}], "nota_qualidade": 2.5, "nota_geral": 1, "problemas": ["Não informou em nenhum momento o e-mail atendimento@oncorretor.com.br nem o procedimento de alteração cadastral", "Mandou dois menus de desambiguação duplicados e irrelevantes na mesma mensagem", "Ignorou a escolha explícita da opção 2 feita pela cliente", "Mostrou mais um menu em vez de responder quando a intenção já era inequívoca", "Fez a cliente repetir a pergunta depois do gate de SUSEP", "Errou o gênero ao tratar a cliente ('ajudá-lo')", "Repetiu a saudação no meio da conversa"], "destaques": ["Não houve alucinação", "Gate de SUSEP feito de forma breve"]}}}], "n_objetivos": 120}</script>
+<script>
+const D = JSON.parse(document.getElementById('dados').textContent);
+const E = D.estado || {};
+const CS = D.conversas || [];
+const ls = {get(k,d){try{const v=localStorage.getItem('b5.'+k);return v===null?d:JSON.parse(v)}catch(e){return d}},
+            set(k,v){try{localStorage.setItem('b5.'+k,JSON.stringify(v))}catch(e){}}};
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const q = (a,p) => {a=a.filter(x=>x!=null).sort((x,y)=>x-y); if(!a.length) return null; const k=(a.length-1)*p, lo=Math.floor(k), hi=Math.min(lo+1,a.length-1); return a[lo]+(a[hi]-a[lo])*(k-lo)};
+const f1 = x => x==null?'—':(+x).toFixed(1);
+const pct = (n,d) => d? Math.round(100*n/d)+'%':'—';
+const mean = a => a.length? a.reduce((s,x)=>s+x,0)/a.length : null;
+const hms = s => {if(s==null||s<0) s=0; s=Math.round(s); const h=Math.floor(s/3600), m=Math.floor(s%3600/60); return h? h+'h'+String(m).padStart(2,'0') : m+'min'+String(s%60).padStart(2,'0')+'s'};
+const cor = (v,bom,ruim,maiorMelhor=true) => v==null?'':(maiorMelhor?(v>=bom?'ok':v<=ruim?'bad':'warn'):(v<=bom?'ok':v>=ruim?'bad':'warn'));
+const V = c => (c.juiz||{}).v;
+const JV = CS.filter(V);
+const TURNOS = CS.flatMap(c=>c.transcricao||[]);
+function categoriaFonte(t){ if(t.erro) return 'erro'; if(t.escalou) return 'escalou'; if(t.gate) return 'gate'; const f=(t.fonte||'?'); if(/sauda/i.test(f)) return 'saudação'; return f; }
+
+const agora = new Date(), ini = new Date(E.inicio), prazo = new Date(E.prazo);
+const decorrido = (agora-ini)/1000, restante = (prazo-agora)/1000;
+const durMed = mean(CS.map(c=>c.duracao_s).filter(x=>x));
+const estim = CS.length + (durMed && restante>0 ? Math.floor(restante/durMed) : 0);
+document.getElementById('org').textContent = E.config_bot ? `· ${E.config_bot.org} · ${E.config_bot.modelo}` : '';
+document.getElementById('sub').textContent = `atualizado ${D.gerado.replace('T',' ')} · recarrega a cada 15 s` + (E.finalizado?' · RODADA FINALIZADA':'');
+
+const ABAS = [['geral','Visão geral'],['vivo','Ao vivo'],['trilhas','Por trilha'],['conversas','Conversas']];
+let aba = ls.get('aba','geral');
+const nav = document.getElementById('nav');
+ABAS.forEach(([k,t])=>{const b=document.createElement('button'); b.textContent=t; b.onclick=()=>{aba=k; ls.set('aba',k); render(); window.scrollTo(0,0)}; b.dataset.k=k; nav.appendChild(b)});
+
+function card(t, big, sub, cls){return `<div class="card"><h3>${t}</h3><div class="big num ${cls||''}">${big}</div>${sub?`<div class="small">${sub}</div>`:''}</div>`}
+function barra(partes){const tot=partes.reduce((s,p)=>s+p[0],0)||1; return `<div class="bar">${partes.map(p=>`<i class="${p[1]}" style="width:${100*p[0]/tot}%" title="${p[2]}: ${p[0]}"></i>`).join('')}</div>`}
+
+function geral(){
+  const fb = E.fallback||{}, um = fb.ultimo_modelo||{};
+  const sat = {sim:0,parcial:0,nao:0}; JV.forEach(c=>sat[V(c).cliente_satisfeito.valor]++);
+  const cumpr = JV.filter(c=>V(c).objetivo_cumprido).length;
+  const ng = mean(JV.map(c=>V(c).nota_geral)), nq = mean(JV.map(c=>V(c).nota_qualidade));
+  const escA = {adequado:0,desnecessario:0,faltou:0,nao_se_aplica:0}; JV.forEach(c=>escA[V(c).escalonamento.avaliacao]++);
+  const alu = JV.filter(c=>V(c).alucinacao.houve).length;
+  const lat = TURNOS.filter(t=>!t.gate && t.latencia_s!=null).map(t=>t.latencia_s);
+  const fontes = {}; TURNOS.forEach(t=>{const k=categoriaFonte(t); fontes[k]=(fontes[k]||0)+1});
+  const etapas = {}; TURNOS.forEach(t=>(t.etapas||[]).forEach(s=>{(etapas[s.stage]=etapas[s.stage]||{l:[],ti:0,to:0}); etapas[s.stage].l.push(s.latency_s); etapas[s.stage].ti+=s.tok_in||0; etapas[s.stage].to+=s.tok_out||0}));
+  const tpc = CS.map(c=>c.n_turnos);
+  const paradas = {}; CS.forEach(c=>paradas[c.parada]=(paradas[c.parada]||0)+1);
+  let h = `<h2>Progresso</h2><div class="grid">
+   ${card('Conversas concluídas', `${CS.length} <span class="small">/ ${E.total_planejado||D.n_objetivos}</span>`, `estimativa até o prazo: ~${estim}`)}
+   ${card('Tempo decorrido', hms(decorrido), `início ${esc((E.inicio||'').replace('T',' '))}`)}
+   ${card('Tempo restante', E.finalizado?'—':hms(restante), `prazo ${esc((E.prazo||'').replace('T',' '))}`, restante<1800&&!E.finalizado?'warn':'')}
+   ${card('Em andamento', E.em_andamento? esc(E.em_andamento.id) : '—', E.em_andamento? esc(E.em_andamento.fase||''):'')}
+   ${card('Modelo do cliente / juiz', `<span style="font-size:14px">${esc((um.cliente||'—').split('/').pop())}<br>${esc((um.juiz||'—').split('/').pop())}</span>`, `fallbacks opencode: ${fb.n_fallbacks||0}${fb.em_janela_fallback?' · EM JANELA DE FALLBACK':''}`, fb.n_fallbacks?'warn':'')}
+   ${card('Duração média / conversa', durMed? hms(durMed):'—', `paradas: ${Object.entries(paradas).map(([k,v])=>k+' '+v).join(', ')||'—'}`)}
+  </div>
+  <h2>Qualidade (juiz)</h2><div class="grid">
+   ${card('Cliente satisfeito', pct(sat.sim,JV.length), `sim ${sat.sim} · parcial ${sat.parcial} · não ${sat.nao}`+barra([[sat.sim,'bok','sim'],[sat.parcial,'bwarn','parcial'],[sat.nao,'bbad','não']]), cor(JV.length?sat.sim/JV.length:null,.7,.4))}
+   ${card('Objetivo cumprido', pct(cumpr,JV.length), `${cumpr} de ${JV.length} julgadas`, cor(JV.length?cumpr/JV.length:null,.75,.5))}
+   ${card('Nota geral média', f1(ng), '0–10', cor(ng,7.5,5))}
+   ${card('Nota de qualidade média', f1(nq), '0–10', cor(nq,7.5,5))}
+   ${card('Escalonamento', `${escA.adequado} <span class="small">adequado</span>`, `desnecessário ${escA.desnecessario} · faltou ${escA.faltou} · n/a ${escA.nao_se_aplica}`+barra([[escA.adequado,'bok','adequado'],[escA.nao_se_aplica,'bmut','n/a'],[escA.desnecessario,'bwarn','desnecessário'],[escA.faltou,'bbad','faltou']]))}
+   ${card('Alucinação', pct(alu,JV.length), `${alu} conversas com trecho inventado`, cor(JV.length?alu/JV.length:null,.05,.15,false))}
+  </div>
+  <h2>Bot</h2><div class="grid">
+   ${card('Latência do turno p50', f1(q(lat,.5))+'s', `${lat.length} turnos (sem gates)`, cor(q(lat,.5),15,40,false))}
+   ${card('Latência do turno p95', f1(q(lat,.95))+'s', `máx ${f1(lat.length?Math.max(...lat):null)}s`, cor(q(lat,.95),30,60,false))}
+   ${card('Turnos por conversa', f1(mean(tpc)), `máx ${tpc.length?Math.max(...tpc):'—'}`)}
+   ${card('Fonte das respostas', TURNOS.length, Object.entries(fontes).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} ${pct(v,TURNOS.length)}`).join(' · '))}
+  </div>
+  <h2>Latência por etapa (LLM)</h2><div class="wrap"><table><tr><th>Etapa</th><th class="n">chamadas</th><th class="n">p50 (s)</th><th class="n">p95 (s)</th><th class="n">tokens in (méd.)</th><th class="n">tokens out (méd.)</th></tr>
+  ${Object.entries(etapas).sort((a,b)=>b[1].l.length-a[1].l.length).map(([k,e])=>`<tr><td>${esc(k)}</td><td class="n">${e.l.length}</td><td class="n">${f1(q(e.l,.5))}</td><td class="n">${f1(q(e.l,.95))}</td><td class="n">${Math.round(e.ti/e.l.length)}</td><td class="n">${Math.round(e.to/e.l.length)}</td></tr>`).join('') || '<tr><td colspan="6" class="vazio">sem dados ainda</td></tr>'}
+  </table></div>`;
+  return h;
+}
+
+function turnoHtml(t){
+  const meta = [t.latencia_s!=null?`${f1(t.latencia_s)}s`:null, t.gate?`gate: ${t.gate}`:null, t.fonte?`fonte: ${t.fonte}`:null,
+    t.confianca!=null?`conf ${(+t.confianca).toFixed(2)}`:null, t.entrada_id?`entrada ${t.entrada_id}`:null,
+    t.escalou?`ESCALOU (${t.motivo_escalonamento})`:null, t.guard?`guard: ${t.guard}`:null, t.erro?`ERRO: ${t.erro}`:null,
+    (t.etapas||[]).length? (t.etapas.map(s=>`${s.stage} ${f1(s.latency_s)}`).join(' · ')):null,
+    t.cliente_modelo?`cliente: ${t.cliente_modelo.split('/').pop()}`:null].filter(Boolean).join(' · ');
+  return `<div class="msg cli">${esc(t.texto_cliente)}</div><div class="msg bot">${esc(t.texto_bot||'(sem resposta)')}</div><div class="meta">turno ${t.n} · ${esc(meta)}</div>`;
+}
+
+function vivo(){
+  const a = E.em_andamento;
+  if(!a) return `<div class="vazio">${E.finalizado?'Rodada finalizada.':'Nenhuma conversa em andamento neste instante.'}</div>` + (CS.length? '<h2>Última concluída</h2>'+convHtml(CS[CS.length-1], true):'');
+  return `<div class="card"><b>${esc(a.id)}</b> <span class="pill">${esc(a.trilha)}</span> <span class="small">tentativa ${a.tentativa} · desde ${esc((a.inicio||'').replace('T',' '))}</span>
+   <div class="small" style="margin-top:4px">${esc(a.objetivo)}</div><div style="margin-top:6px"><span class="pill warn">${esc(a.fase||'')}</span></div></div>
+   <div style="margin-top:10px">${(a.turnos||[]).map(turnoHtml).join('')}${a.cliente_pendente?`<div class="msg cli">${esc(a.cliente_pendente)}</div><div class="meta">aguardando o bot…</div>`:''}</div>`;
+}
+
+function trilhas(){
+  const g = {}; CS.forEach(c=>(g[c.trilha]=g[c.trilha]||[]).push(c));
+  const rows = Object.entries(g).sort().map(([k,cs])=>{const j=cs.filter(V); const ng=mean(j.map(c=>V(c).nota_geral)); const cu=j.filter(c=>V(c).objetivo_cumprido).length; const sa=j.filter(c=>V(c).cliente_satisfeito.valor==='sim').length; const al=j.filter(c=>V(c).alucinacao.houve).length; const es=cs.filter(c=>c.parada==='escalou').length; const lat=cs.flatMap(c=>c.transcricao).filter(t=>!t.gate&&t.latencia_s!=null).map(t=>t.latencia_s);
+    return `<tr><td>${esc(k)}</td><td class="n">${cs.length}</td><td class="n ${cor(j.length?cu/j.length:null,.75,.5)}">${pct(cu,j.length)}</td><td class="n ${cor(j.length?sa/j.length:null,.7,.4)}">${pct(sa,j.length)}</td><td class="n ${cor(ng,7.5,5)}">${f1(ng)}</td><td class="n ${cor(j.length?al/j.length:null,.05,.15,false)}">${pct(al,j.length)}</td><td class="n">${pct(es,cs.length)}</td><td class="n">${f1(mean(cs.map(c=>c.n_turnos)))}</td><td class="n">${f1(q(lat,.5))}</td></tr>`}).join('');
+  return `<div class="wrap"><table><tr><th>Trilha</th><th class="n">n</th><th class="n">cumprido</th><th class="n">satisf. sim</th><th class="n">nota geral</th><th class="n">alucinação</th><th class="n">escalou</th><th class="n">turnos</th><th class="n">lat. p50 (s)</th></tr>${rows||'<tr><td colspan="9" class="vazio">sem dados ainda</td></tr>'}</table></div>`;
+}
+
+function convHtml(c, aberto){
+  const v = V(c);
+  const nota = v? v.nota_geral : null;
+  const sat = v? v.cliente_satisfeito.valor : null;
+  const scls = sat==='sim'?'ok':sat==='parcial'?'warn':sat==='nao'?'bad':'';
+  const ver = v? `<div class="veredito"><b>Juiz</b> <span class="small">(${esc((c.juiz.modelo||'').split('/').pop())}, ${f1(c.juiz.dur_s)}s)</span> — cumprido: <b>${v.objetivo_cumprido?'sim':'não'}</b> · satisfeito: <b>${esc(sat)}</b> (${esc(v.cliente_satisfeito.justificativa)}) · escalonamento: <b>${esc(v.escalonamento.avaliacao)}</b> (${esc(v.escalonamento.justificativa)}) · qualidade ${f1(v.nota_qualidade)} · geral ${f1(v.nota_geral)}
+     ${v.alucinacao.houve?`<div class="bad">Alucinação: ${v.alucinacao.trechos.map(esc).join(' | ')}</div>`:''}
+     ${(v.problemas||[]).length?`<div>Problemas:<ul>${v.problemas.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`:''}
+     ${(v.destaques||[]).length?`<div>Destaques:<ul>${v.destaques.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`:''}
+     <div class="small">Por turno: ${(v.qualidade_por_turno||[]).map(x=>`t${x.turno} ${x.nota} — ${esc(x.comentario)}`).join(' · ')}</div></div>`
+     : `<div class="veredito small">${c.juiz&&c.juiz.erro?'Juiz falhou: '+esc(c.juiz.erro):'sem veredito'}</div>`;
+  return `<details class="conv" id="${esc(c.id)}" data-id="${esc(c.id)}" ${aberto?'open':''}><summary><b>${esc(c.id)}</b><span class="pill">${esc(c.trilha)}</span>
+     <span class="pill ${cor(nota,7.5,5)}">nota ${f1(nota)}</span><span class="pill ${scls}">${esc(sat||'—')}</span><span class="pill">${esc(c.parada)}</span>
+     <span class="small">${c.n_turnos} turnos · ${hms(c.duracao_s)} · esperado: ${esc(c.comportamento_esperado)}</span></summary>
+     <div class="corpo"><div class="small">${esc(c.objetivo)}<br>Persona: ${esc((c.persona||{}).nome)} — ${esc((c.persona||{}).estilo_escrita)}, ${esc((c.persona||{}).tom)}</div>
+     ${(c.transcricao||[]).map(turnoHtml).join('')}${c.reacao_final?`<div class="msg cli">${esc(c.reacao_final)}</div><div class="meta">reação final do cliente</div>`:''}${ver}</div></details>`;
+}
+
+function conversas(){
+  const fl = ls.get('filtros',{trilha:'',sat:'',nota:'',busca:''});
+  const trs = [...new Set(CS.map(c=>c.trilha))].sort();
+  const lista = CS.filter(c=>{const v=V(c); if(fl.trilha&&c.trilha!==fl.trilha) return false; if(fl.sat&&(!v||v.cliente_satisfeito.valor!==fl.sat)) return false;
+     if(fl.nota==='ruim'&&!(v&&v.nota_geral<5)) return false; if(fl.nota==='media'&&!(v&&v.nota_geral>=5&&v.nota_geral<7.5)) return false; if(fl.nota==='boa'&&!(v&&v.nota_geral>=7.5)) return false;
+     if(fl.busca&&!JSON.stringify(c).toLowerCase().includes(fl.busca.toLowerCase())) return false; return true}).reverse();
+  const abertos = ls.get('abertos',[]);
+  return `<div class="filtros">
+    <select id="f-trilha"><option value="">todas as trilhas</option>${trs.map(t=>`<option ${fl.trilha===t?'selected':''}>${esc(t)}</option>`).join('')}</select>
+    <select id="f-sat"><option value="">toda satisfação</option>${['sim','parcial','nao'].map(s=>`<option ${fl.sat===s?'selected':''}>${s}</option>`).join('')}</select>
+    <select id="f-nota"><option value="">toda nota</option><option value="ruim" ${fl.nota==='ruim'?'selected':''}>&lt; 5</option><option value="media" ${fl.nota==='media'?'selected':''}>5–7,5</option><option value="boa" ${fl.nota==='boa'?'selected':''}>≥ 7,5</option></select>
+    <input id="f-busca" placeholder="buscar texto" value="${esc(fl.busca)}">
+    <span class="small" style="align-self:center">${lista.length} conversas</span></div>
+    ${lista.map(c=>convHtml(c, abertos.includes(c.id) || location.hash==='#'+c.id)).join('') || '<div class="vazio">nenhuma conversa</div>'}`;
+}
+
+function render(){
+  [...nav.children].forEach(b=>b.classList.toggle('on', b.dataset.k===aba));
+  const m = document.getElementById('main');
+  m.innerHTML = aba==='vivo'?vivo(): aba==='trilhas'?trilhas(): aba==='conversas'?conversas(): geral();
+  if(aba==='conversas'){
+    const fl = ls.get('filtros',{trilha:'',sat:'',nota:'',busca:''});
+    [['f-trilha','trilha'],['f-sat','sat'],['f-nota','nota']].forEach(([id,k])=>document.getElementById(id).onchange=e=>{fl[k]=e.target.value; ls.set('filtros',fl); render()});
+    const b=document.getElementById('f-busca'); b.onchange=e=>{fl.busca=e.target.value; ls.set('filtros',fl); render()};
+    m.querySelectorAll('details.conv').forEach(d=>d.addEventListener('toggle',()=>{let a=ls.get('abertos',[]); a=a.filter(x=>x!==d.dataset.id); if(d.open) a.push(d.dataset.id); ls.set('abertos',a.slice(-40))}));
+  }
+}
+if(location.hash && location.hash.length>1){ aba='conversas'; }
+render();
+const sy = ls.get('scroll.'+aba, 0); if(sy) window.scrollTo(0, sy);
+if(location.hash){const el=document.getElementById(location.hash.slice(1)); if(el) el.scrollIntoView();}
+let tmo; window.addEventListener('scroll',()=>{clearTimeout(tmo); tmo=setTimeout(()=>ls.set('scroll.'+aba, window.scrollY),150)});
+</script>
+</body>
+</html>

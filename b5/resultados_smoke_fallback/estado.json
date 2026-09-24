@@ -1,0 +1,46 @@
+{
+  "inicio": "2026-09-24T16:07:50",
+  "prazo": "2026-09-24T21:07:50",
+  "tentativas": {
+    "follow-02": 1
+  },
+  "em_andamento": null,
+  "total_planejado": 1,
+  "config_bot": {
+    "org": "oncorretor-perfeita",
+    "threshold": 0.8,
+    "tickets": true,
+    "opening_question": true,
+    "auto_close_on_gratitude": true,
+    "system_prompt_chars": 0,
+    "prompts_override": [
+      "help_portal_directive"
+    ],
+    "qa_system": true,
+    "n_faq_dtq": 257,
+    "modelo": "qwen3.6:35b-a3b",
+    "chaves_llm": [
+      "OLLAMA_KEY_1",
+      "COHERE_KEY_1",
+      "GROQ_KEY_1",
+      "GROQ_KEY_2",
+      "COHERE_KEY_2",
+      "GROQ_KEY_3",
+      "GROQ_KEY_4",
+      "COHERE_KEY_3",
+      "GROQ_KEY_5"
+    ]
+  },
+  "fallback": {
+    "n_claude": 3,
+    "n_fallbacks": 6,
+    "em_janela_fallback": true,
+    "fallback_ate": "2026-09-24T16:28:48",
+    "ultimo_modelo": {
+      "cliente": "opencode:opencode/muse-spark-1.3-contributor-free",
+      "juiz": "opencode:opencode/muse-spark-1.3-contributor-free"
+    }
+  },
+  "atualizado": "2026-09-24T16:10:17",
+  "finalizado": "2026-09-24T16:10:17"
+}
