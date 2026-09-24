@@ -1,0 +1,4 @@
+.tmp/
+.gerar.log
+resultados*/memory/
+__pycache__/
