@@ -1,0 +1,67 @@
+{
+  "inicio": "2026-09-25T17:12:44",
+  "prazo": "2026-09-25T19:12:44",
+  "tentativas": {
+    "conf-04": 1,
+    "faq-12": 1,
+    "rag-10": 1,
+    "multi-06": 1,
+    "follow-04": 1,
+    "follow-16": 1,
+    "conf-07": 1,
+    "follow-17": 1,
+    "rag-08": 1,
+    "recl-01": 1,
+    "fora-10": 1,
+    "faq-03": 1,
+    "conf-03": 1,
+    "faq-23": 1,
+    "rag-02": 1,
+    "multi-09": 1,
+    "follow-01": 1,
+    "rag-22": 1,
+    "faq-22": 1,
+    "faq-04": 1,
+    "faq-09": 1,
+    "faq-15": 1
+  },
+  "em_andamento": null,
+  "total_planejado": 22,
+  "config_bot": {
+    "org": "oncorretor-perfeita",
+    "threshold": 0.8,
+    "tickets": true,
+    "opening_question": true,
+    "auto_close_on_gratitude": true,
+    "system_prompt_chars": 0,
+    "prompts_override": [
+      "help_portal_directive"
+    ],
+    "qa_system": true,
+    "n_faq_dtq": 257,
+    "modelo": "qwen3.6:35b-a3b",
+    "chaves_llm": [
+      "OLLAMA_KEY_1",
+      "COHERE_KEY_1",
+      "GROQ_KEY_1",
+      "GROQ_KEY_2",
+      "COHERE_KEY_2",
+      "GROQ_KEY_3",
+      "GROQ_KEY_4",
+      "COHERE_KEY_3",
+      "GROQ_KEY_5"
+    ]
+  },
+  "fallback": {
+    "n_claude": 104,
+    "n_fallbacks": 0,
+    "em_janela_fallback": false,
+    "fallback_ate": null,
+    "ultimo_modelo": {
+      "cliente": "claude:sonnet",
+      "juiz": "claude:opus"
+    }
+  },
+  "atualizado": "2026-09-25T17:32:13",
+  "finalizado": "2026-09-25T17:32:13"
+}
