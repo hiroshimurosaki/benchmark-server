@@ -37,6 +37,8 @@ ENV_PRODUCAO = {
     # B5_OLLAMA_MODEL_ANSWER troca só o gerador do RAG (A/B de modelo).
     "OLLAMA_MODEL_ANSWER": os.environ.get("B5_OLLAMA_MODEL_ANSWER", "qwen3.6:35b-a3b"),
     "OLLAMA_MODEL_AUX": "qwen3.6:35b-a3b",
+    # B5_RAG_EMBEDDING_MODEL troca o embedder do FAISS (índice próprio por modelo).
+    "RAG_EMBEDDING_MODEL": os.environ.get("B5_RAG_EMBEDDING_MODEL", "all-MiniLM-L6-v2"),
     "OLLAMA_NUM_CTX": "8192",
     "OLLAMA_THINK": "false",
     "OLLAMA_TIMEOUT": "600",
@@ -231,6 +233,7 @@ class Bot:
             "n_faq_dtq": len(self.faq_dtq),
             "modelo": os.environ["OLLAMA_MODEL"],
             "modelo_answer": os.environ["OLLAMA_MODEL_ANSWER"],
+            "embedder_faiss": os.environ["RAG_EMBEDDING_MODEL"],
             "chaves_llm": self.chaves_llm,
         }
 

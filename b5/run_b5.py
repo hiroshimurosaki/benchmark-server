@@ -144,6 +144,10 @@ class Material:
     def __init__(self, bot_repo: str, faq_dtq_firestore: dict):
         base = os.path.join(bot_repo, "scripts", "org_perfeita")
         doc = open(os.path.join(base, "OnCorretor.txt"), encoding="utf-8").read()
+        # Documento inteiro vai ao juiz: o RAG usa trechos de tópicos fora do
+        # gabarito, e com só os "tópicos citados" o juiz marcava como alucinação
+        # fatos que estão no documento (r6: "Não há multa", "Ctrl + F5").
+        self.doc = doc
         self.topicos = {}
         partes = list(re.finditer(r"^(\d+)\. – (.+)$", doc, re.M))
         for i, m in enumerate(partes):
@@ -203,6 +207,9 @@ TRECHOS DO DOCUMENTO OFICIAL (tópicos citados):
 
 ENTRADAS FAQ/DTQ (gabarito + usadas pelo bot; resposta "call_attendant" = o bot deve transferir):
 {faq_txt}
+
+DOCUMENTO OFICIAL COMPLETO (antes de marcar alucinação, confira se o fato está em QUALQUER tópico daqui):
+{mat.doc}
 
 COMO A CONVERSA PAROU: {conv.get('parada')}  (o cliente se declarou satisfeito: {conv.get('satisfeito_cliente')})
 
