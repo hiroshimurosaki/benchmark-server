@@ -280,16 +280,28 @@ class Bot:
                         from_number=from_number, opening_question=f.ai.opening_question,
                         send_message_fn=coletor)
                     if not ok:
-                        return "opening_question"
+                        return "opening_question", body
+                    # Mesmo passo do ai_subscriber (correção de 2026-09-25): a
+                    # pergunta mandada antes da SUSEP vira o body. Em código do bot
+                    # anterior à correção a função não existe — segue como antes.
+                    try:
+                        from Answer_service.src.services.opening_question_gate import \
+                            consume_pending_question
+                    except ImportError:
+                        consume_pending_question = None
+                    corpo = body
+                    if consume_pending_question:
+                        corpo = consume_pending_question(from_number, self.org_id) or body
+                    r["pendente_usada"] = corpo != body
                     ok = await run_closure_gate(
-                        body=body, chat_id=chat_id, org_id=self.org_id, session_id=session_id,
+                        body=corpo, chat_id=chat_id, org_id=self.org_id, session_id=session_id,
                         from_number=from_number, auto_close=f.ai.auto_close_on_gratitude,
                         send_message_fn=coletor)
                     if not ok:
-                        return "closure"
-                    return None
+                        return "closure", corpo
+                    return None, corpo
 
-            quem = self.loop.run_until_complete(gates())
+            quem, body = self.loop.run_until_complete(gates())
             if quem:
                 r["gate"] = quem
                 r["texto_bot"] = "\n".join(enviados)
