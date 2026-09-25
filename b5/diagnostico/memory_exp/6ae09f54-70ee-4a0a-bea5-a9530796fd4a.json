@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:20:07+00:00",
+      "expires_at": "2026-09-25T19:20:07+00:00",
+      "sender": "user",
+      "message": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do meu site, sabe, e salvei certinho mas não mudou nada lá no site não, continua do jeito antigo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:20:07+00:00",
+      "expires_at": "2026-09-25T19:20:07+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:20:11+00:00",
+      "expires_at": "2026-09-25T19:20:11+00:00",
+      "sender": "user",
+      "message": "é 62849371",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:20:11+00:00",
+      "expires_at": "2026-09-25T19:20:11+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:53+00:00",
+      "expires_at": "2026-09-25T21:05:53+00:00",
+      "sender": "user",
+      "message": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do meu site, sabe, e salvei certinho mas não mudou nada lá no site não, continua do jeito antigo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:54+00:00",
+      "expires_at": "2026-09-25T21:05:54+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nIsso geralmente é cache do navegador. Atualize a página com Ctrl + F5 (Cmd + Shift + R no Mac), abra o site em uma aba anônima ou teste em outro navegador. Se ainda não aparecer, envie o domínio e um print para atendimento@oncorretor.com.br.",
+      "intent": "site_editing",
+      "intent_confidence": 0.8456500768661499
+    }
+  ]
+}

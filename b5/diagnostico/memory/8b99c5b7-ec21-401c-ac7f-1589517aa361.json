@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Preciso do telefone do suporte do OnCorretor, rápido.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "user",
+      "message": "783452. Agora me passa o telefone.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "user",
+      "message": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7026593089103699
+    }
+  ]
+}

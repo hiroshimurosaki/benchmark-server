@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:30:33+00:00",
+      "expires_at": "2026-09-25T19:30:33+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! posso colocar logo de outras seguradoras no meu site, tipo além da porto? tem custo pra isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:30:33+00:00",
+      "expires_at": "2026-09-25T19:30:33+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:30:39+00:00",
+      "expires_at": "2026-09-25T19:30:39+00:00",
+      "sender": "user",
+      "message": "ahh não sei de cabeça não, nunca decorei esse número kkkj",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:30:39+00:00",
+      "expires_at": "2026-09-25T19:30:39+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:25+00:00",
+      "expires_at": "2026-09-25T21:07:25+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! posso colocar logo de outras seguradoras no meu site, tipo além da porto? tem custo pra isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:25+00:00",
+      "expires_at": "2026-09-25T21:07:25+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nSim, sem custo adicional. Você mesmo insere os logotipos de outras seguradoras pela área administrativa, em Configurações Avançadas > Gerenciador de Página, na página desejada.",
+      "intent": "site_editing",
+      "intent_confidence": 0.8731673359870911
+    }
+  ]
+}

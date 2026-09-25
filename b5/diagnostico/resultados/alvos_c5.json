@@ -1,0 +1,1463 @@
+[
+ {
+  "conversa_id": "conf-04",
+  "n": 2,
+  "pergunta": "oi boa tarde, eskeci a senha do meu email e n consigo entra no webmail, como eu faço pra troca?",
+  "gabarito": {
+   "fatos": [
+    "No webmail o usuário é só o nome antes do '@' (exemplo: para contato@suaempresa.com.br digitar apenas contato)",
+    "A troca de senha pelo webmail exige saber a senha atual, na opção 'Modificar senha'",
+    "Depois de alterar, a senha precisa ser atualizada em todos os dispositivos (celular, Outlook etc.)"
+   ],
+   "faq_ids": [
+    "E2ncTrONs2keWOZPQnqJ"
+   ],
+   "topicos": [
+    41
+   ]
+  },
+  "trilha": "confuso_digitacao",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:12:33+00:00",
+      "expires_at": "2026-09-25T19:12:33+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, eskeci a senha do meu email e n consigo entra no webmail, como eu faço pra troca?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:12:33+00:00",
+      "expires_at": "2026-09-25T19:12:33+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:12:38+00:00",
+      "expires_at": "2026-09-25T19:12:38+00:00",
+      "sender": "user",
+      "message": "e 3029185",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:12:38+00:00",
+      "expires_at": "2026-09-25T19:12:38+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-12",
+  "n": 2,
+  "pergunta": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso e acho que não vou usar não, dá pra cancelar ainda hoje?",
+  "gabarito": {
+   "fatos": [
+    "É possível cancelar no mesmo dia",
+    "Enviar e-mail para atendimento@oncorretor.com.br com SUSEP, domínio, CPF/CNPJ e motivo do cancelamento",
+    "Não há multa de cancelamento",
+    "O site e os e-mails são desativados ao efetivar o cancelamento",
+    "Se o domínio foi comprado/registrado pelo OnCorretor, o custo do domínio pode ser cobrado mesmo com o serviço ativo por pouco tempo"
+   ],
+   "topicos": [
+    30,
+    2
+   ],
+   "faq_ids": [
+    "i71TfLxM8nitZqyw0CuG"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:13:54+00:00",
+      "expires_at": "2026-09-25T19:13:54+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso e acho que não vou usar não, dá pra cancelar ainda hoje?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:13:54+00:00",
+      "expires_at": "2026-09-25T19:13:54+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:14:01+00:00",
+      "expires_at": "2026-09-25T19:14:01+00:00",
+      "sender": "user",
+      "message": "3307715",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:14:01+00:00",
+      "expires_at": "2026-09-25T19:14:01+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "rag-10",
+  "n": 2,
+  "pergunta": "oi boa tarde, olha eu recebi um email aqui meio estranho pedindo pra confirmar a senha do meu email da corretora, sei lá parece phishing né mas queria saber se é coisa de voces mesmo ou se é golpe",
+  "gabarito": {
+   "fatos": [
+    "Confirmar a veracidade: verificar remetente real e domínio do remetente e desconfiar de anexos/links inesperados",
+    "Ativar autenticação em dois fatores quando disponível",
+    "Trocar senhas periodicamente (por exemplo, a cada seis meses) e usar senhas fortes",
+    "Manter antivírus atualizado e evitar abrir anexos suspeitos",
+    "Se o e-mail suspeito envolver acesso às contas do OnCorretor, avisar o suporte imediatamente"
+   ],
+   "topicos": [
+    28
+   ],
+   "faq_ids": []
+  },
+  "trilha": "rag_documento",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:14:44+00:00",
+      "expires_at": "2026-09-25T19:14:44+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, olha eu recebi um email aqui meio estranho pedindo pra confirmar a senha do meu email da corretora, sei lá parece phishing né mas queria saber se é coisa de voces mesmo ou se é golpe",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:14:44+00:00",
+      "expires_at": "2026-09-25T19:14:44+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:14:51+00:00",
+      "expires_at": "2026-09-25T19:14:51+00:00",
+      "sender": "user",
+      "message": "ah nao sei de cabeça nao, essa susep eu nunca decorei nao, mas olha isso é mais importante saber se esse email é golpe mesmo, pode me ajudar com isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:14:51+00:00",
+      "expires_at": "2026-09-25T19:14:51+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "multi-06",
+  "n": 2,
+  "pergunta": "Boa tarde. Gostaria de saber qual é a regra para criar a senha do e-mail que vem com o site, e também se a autenticação em duas etapas do painel é obrigatória.",
+  "gabarito": {
+   "fatos": [
+    "A senha deve ter no mínimo 6 caracteres",
+    "Deve atender pelo menos 3 de 4 requisitos: maiúscula, minúscula, número e caractere especial",
+    "A autenticação em duas etapas é obrigatória para acesso ao painel (após 20/02/2024)",
+    "Acessar painel.seudominio.com.br, instalar Google Authenticator ou Microsoft Authenticator e ler o QR Code",
+    "Informar o token, clicar em Validar Token e Ativar, e guardar os códigos de recuperação, que não podem ser consultados depois"
+   ],
+   "topicos": [
+    42,
+    43
+   ],
+   "faq_ids": [
+    "1jv2YqFF6yygExNU15kv",
+    "26ihMlTJ2hZMKOBDPrx3"
+   ]
+  },
+  "trilha": "multi_pergunta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "faq",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:15:47+00:00",
+      "expires_at": "2026-09-25T19:15:47+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Gostaria de saber qual é a regra para criar a senha do e-mail que vem com o site, e também se a autenticação em duas etapas do painel é obrigatória.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:15:47+00:00",
+      "expires_at": "2026-09-25T19:15:47+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:15:53+00:00",
+      "expires_at": "2026-09-25T19:15:53+00:00",
+      "sender": "user",
+      "message": "É 12045678.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:15:53+00:00",
+      "expires_at": "2026-09-25T19:15:53+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "follow-04",
+  "n": 2,
+  "pergunta": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e mesmo assim caiu uma cobrança agora. Gostaria de entender o que houve.",
+  "gabarito": {
+   "fatos": [
+    "Para pedir estorno, enviar e-mail para atendimento@oncorretor.com.br anexando extrato e comprovante/detalhe do desconto",
+    "Se o cancelamento foi feito após o dia 20 e o valor cobrado no mês seguinte estiver correto pelo modelo 'usa e depois paga', não há estorno"
+   ],
+   "faq_ids": [
+    "urA4SyRaqEuPI13YVgz9",
+    "rfezUCuUZTu31wjmCga8"
+   ],
+   "topicos": [
+    12
+   ]
+  },
+  "trilha": "follow_up_contextual",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:16:57+00:00",
+      "expires_at": "2026-09-25T19:16:57+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e mesmo assim caiu uma cobrança agora. Gostaria de entender o que houve.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:16:57+00:00",
+      "expires_at": "2026-09-25T19:16:57+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:17:01+00:00",
+      "expires_at": "2026-09-25T19:17:01+00:00",
+      "sender": "user",
+      "message": "Não sei de cabeça essa numeração, não. Já estou aposentando e encerrando a corretora, não tenho isso em mãos agora.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:17:02+00:00",
+      "expires_at": "2026-09-25T19:17:02+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "follow-16",
+  "n": 2,
+  "pergunta": "oi, boa tarde! queria entender uma coisa do meu site, os contatos que caem pelo formulário ficam salvos onde?",
+  "gabarito": {
+   "fatos": [
+    "Todos os contatos captados pelo site ficam centralizados na área de Contatos do painel administrativo",
+    "Os contatos não são enviados automaticamente para a Porto Seguro nem para outros sistemas",
+    "Não há exportação automática: você os consulta e copia a partir da área de Contatos"
+   ],
+   "topicos": [
+    60
+   ],
+   "faq_ids": [
+    "Unpnr2WHAF3BT5I5qLCG"
+   ]
+  },
+  "trilha": "follow_up_contextual",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:17:43+00:00",
+      "expires_at": "2026-09-25T19:17:43+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! queria entender uma coisa do meu site, os contatos que caem pelo formulário ficam salvos onde?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:17:43+00:00",
+      "expires_at": "2026-09-25T19:17:43+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:17:47+00:00",
+      "expires_at": "2026-09-25T19:17:47+00:00",
+      "sender": "user",
+      "message": "é 739201",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:17:47+00:00",
+      "expires_at": "2026-09-25T19:17:47+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "conf-07",
+  "n": 2,
+  "pergunta": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+  "gabarito": {
+   "fatos": [
+    "O e-mail de contato exibido no site é alterado em Configurações Básicas > Informações Úteis",
+    "Nesse mesmo lugar ficam endereço, telefones, WhatsApp e redes sociais",
+    "Após alterar, clicar em salvar",
+    "Se a alteração não aparecer, atualizar com Ctrl + F5, testar aba anônima ou outro navegador"
+   ],
+   "topicos": [
+    52,
+    64
+   ],
+   "faq_ids": [
+    "6OSq22GeoWVqAB97H2Uf"
+   ]
+  },
+  "trilha": "confuso_digitacao",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:19:03+00:00",
+      "expires_at": "2026-09-25T19:19:03+00:00",
+      "sender": "user",
+      "message": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:19:03+00:00",
+      "expires_at": "2026-09-25T19:19:03+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:19:08+00:00",
+      "expires_at": "2026-09-25T19:19:08+00:00",
+      "sender": "user",
+      "message": "66781230",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:19:08+00:00",
+      "expires_at": "2026-09-25T19:19:08+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "follow-17",
+  "n": 2,
+  "pergunta": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do meu site, sabe, e salvei certinho mas não mudou nada lá no site não, continua do jeito antigo",
+  "gabarito": {
+   "fatos": [
+    "Isso geralmente é causado pelo cache do navegador",
+    "Atualize a página com Ctrl + F5, tente aba anônima e teste em outro navegador",
+    "Se ainda não aparecer envie o domínio e um print para atendimento@oncorretor.com.br"
+   ],
+   "topicos": [
+    64
+   ],
+   "faq_ids": [
+    "perfeita-alteracao-nao-aparece"
+   ]
+  },
+  "trilha": "follow_up_contextual",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:20:07+00:00",
+      "expires_at": "2026-09-25T19:20:07+00:00",
+      "sender": "user",
+      "message": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do meu site, sabe, e salvei certinho mas não mudou nada lá no site não, continua do jeito antigo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:20:07+00:00",
+      "expires_at": "2026-09-25T19:20:07+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:20:11+00:00",
+      "expires_at": "2026-09-25T19:20:11+00:00",
+      "sender": "user",
+      "message": "é 62849371",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:20:11+00:00",
+      "expires_at": "2026-09-25T19:20:11+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "rag-08",
+  "n": 2,
+  "pergunta": "oi, o wizard do site travou na configuração inicial e não sai do lugar. como resolvo isso?",
+  "gabarito": {
+   "fatos": [
+    "Travamento do Wizard geralmente está ligado a cache, cookies ou extensão bloqueando scripts",
+    "Tentar abrir em aba anônima/privativa e testar em outro navegador",
+    "Se persistir, enviar print do erro para informar o time técnico, abrindo chamado para o Nível três (desenvolvimento)"
+   ],
+   "faq_ids": [],
+   "topicos": [
+    18
+   ]
+  },
+  "trilha": "rag_documento",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:21:22+00:00",
+      "expires_at": "2026-09-25T19:21:22+00:00",
+      "sender": "user",
+      "message": "oi, o wizard do site travou na configuração inicial e não sai do lugar. como resolvo isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:21:22+00:00",
+      "expires_at": "2026-09-25T19:21:22+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:21:27+00:00",
+      "expires_at": "2026-09-25T19:21:27+00:00",
+      "sender": "user",
+      "message": "não sei de cabeça não, não lembro o número agora",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:21:27+00:00",
+      "expires_at": "2026-09-25T19:21:27+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "recl-01",
+  "n": 2,
+  "pergunta": "Cancelei meu plano mês passado e mesmo assim caiu cobrança na minha fatura. Quero explicação AGORA",
+  "gabarito": {
+   "fatos": [
+    "Se cancelamento solicitado após dia 20 ainda pode haver última cobrança referente ao mês pelo modelo usa e depois paga",
+    "Estorno precisa enviar e-mail para atendimento@oncorretor.com.br anexando extrato e comprovante/detalhe do desconto",
+    "Estorno só quando houve erro real na cobrança ou cancelamento solicitado e não realizado; não utilização por si só não gera estorno"
+   ],
+   "topicos": [
+    2,
+    12
+   ],
+   "faq_ids": [
+    "urA4SyRaqEuPI13YVgz9",
+    "rfezUCuUZTu31wjmCga8"
+   ]
+  },
+  "trilha": "reclamacao_irritado",
+  "comportamento_esperado": "escalar",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:22:08+00:00",
+      "expires_at": "2026-09-25T19:22:08+00:00",
+      "sender": "user",
+      "message": "Cancelei meu plano mês passado e mesmo assim caiu cobrança na minha fatura. Quero explicação AGORA",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:22:08+00:00",
+      "expires_at": "2026-09-25T19:22:08+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:22:12+00:00",
+      "expires_at": "2026-09-25T19:22:12+00:00",
+      "sender": "user",
+      "message": "1122334",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:22:12+00:00",
+      "expires_at": "2026-09-25T19:22:12+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "fora-10",
+  "n": 2,
+  "pergunta": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô tentando fazer a declaração do imposto de renda da minha corretora e não tô conseguindo entender direito como preenche, vocês me ajudam com isso",
+  "gabarito": {
+   "fatos": [
+    "Assunto fora do escopo do OnCorretor (consultoria de negócio não faz parte)",
+    "O bot pode ajudar com site, landing pages, e-mails, domínio, adesão e cobrança"
+   ],
+   "topicos": [
+    68
+   ],
+   "faq_ids": [
+    "KEVVgQHDt6lOB2KjzHof"
+   ]
+  },
+  "trilha": "fora_do_escopo",
+  "comportamento_esperado": "recusar_educadamente",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:23:29+00:00",
+      "expires_at": "2026-09-25T19:23:29+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô tentando fazer a declaração do imposto de renda da minha corretora e não tô conseguindo entender direito como preenche, vocês me ajudam com isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:23:29+00:00",
+      "expires_at": "2026-09-25T19:23:29+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:23:35+00:00",
+      "expires_at": "2026-09-25T19:23:35+00:00",
+      "sender": "user",
+      "message": "ai que vergonha mas eu não sei de cabeça não, nem lembro esse número agora rsrs",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:23:35+00:00",
+      "expires_at": "2026-09-25T19:23:35+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-03",
+  "n": 2,
+  "pergunta": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplencia né e fiquei meio preocupado nao sei o que que é isso nao sei pq aconteceu queria entender oq que houve",
+  "gabarito": {
+   "fatos": [
+    "Aviso significa que não houve comissão suficiente para descontar a mensalidade então a ordem de pagamento não foi gerada",
+    "Se inadimplência durar três meses ou mais a adesão é cancelada",
+    "Com outra SUSEP com produção ativa pode pedir troca da SUSEP de cobrança; sem outra deve procurar gerente comercial"
+   ],
+   "topicos": [
+    6
+   ],
+   "faq_ids": [
+    "oLM2w5c1u7t9qQ7ITWa6"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:24:15+00:00",
+      "expires_at": "2026-09-25T19:24:15+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplencia né e fiquei meio preocupado nao sei o que que é isso nao sei pq aconteceu queria entender oq que houve",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:24:15+00:00",
+      "expires_at": "2026-09-25T19:24:15+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:24:20+00:00",
+      "expires_at": "2026-09-25T19:24:20+00:00",
+      "sender": "user",
+      "message": "ah rapaz essa susep eu nao sei de cabeça nao viu, nao lembro esse numero nao",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:24:20+00:00",
+      "expires_at": "2026-09-25T19:24:20+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "conf-03",
+  "n": 2,
+  "pergunta": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas o valor ta mt alto naum sei se pago isso eh certo mesmo",
+  "gabarito": {
+   "fatos": [
+    "A renovação do domínio é anual",
+    "Domínio nacional renovado direto no Registro.br custa R$ 40,00 por ano; renovado pelo OnCorretor custa R$ 44,23 (nacional) ou R$ 54,77 (internacional)",
+    "Em caso de dúvida sobre boleto, enviar o boleto para atendimento@oncorretor.com.br antes de pagar, pois há boletos falsos de empresas com nomes parecidos com Registro.br"
+   ],
+   "faq_ids": [
+    "LmYLF4vqoQ8APzsM3cce",
+    "iAOvcNATN0sxvfBwmucH"
+   ],
+   "topicos": [
+    11
+   ]
+  },
+  "trilha": "confuso_digitacao",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:25:12+00:00",
+      "expires_at": "2026-09-25T19:25:12+00:00",
+      "sender": "user",
+      "message": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas o valor ta mt alto naum sei se pago isso eh certo mesmo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:25:12+00:00",
+      "expires_at": "2026-09-25T19:25:12+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:25:19+00:00",
+      "expires_at": "2026-09-25T19:25:19+00:00",
+      "sender": "user",
+      "message": "naum sei essa susep nao lembro de cor, tem q ser ela pra vc me ajuda",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:25:19+00:00",
+      "expires_at": "2026-09-25T19:25:19+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-23",
+  "n": 2,
+  "pergunta": "Boa tarde. Preciso do telefone do suporte do OnCorretor, rápido.",
+  "gabarito": {
+   "fatos": [
+    "Telefone: 0800-771-5505",
+    "WhatsApp: (11) 99714-9631",
+    "E-mail: atendimento@oncorretor.com.br",
+    "Chat no site do OnCorretor",
+    "Atendimento de segunda a sexta, das oito às dezenove horas, e todo atendimento gera um chamado"
+   ],
+   "topicos": [
+    65
+   ],
+   "faq_ids": [
+    "CxUHtZSOrvAew9RK2abf"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:26:03+00:00",
+      "expires_at": "2026-09-25T19:26:03+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Preciso do telefone do suporte do OnCorretor, rápido.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:03+00:00",
+      "expires_at": "2026-09-25T19:26:03+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:08+00:00",
+      "expires_at": "2026-09-25T19:26:08+00:00",
+      "sender": "user",
+      "message": "783452. Agora me passa o telefone.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:08+00:00",
+      "expires_at": "2026-09-25T19:26:08+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "rag-02",
+  "n": 2,
+  "pergunta": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrados na nossa adesão, pode me orientar como faço?",
+  "gabarito": {
+   "fatos": [
+    "Enviar informações corretas por e-mail preferencialmente usando o mesmo e-mail cadastrado na adesão",
+    "Se enviar de e-mail diferente validar titularidade com contrato social se PJ ou documento/CPF se PF",
+    "Recomendado que e-mail de cadastro seja externo como Gmail ou Hotmail para continuar recebendo comunicações se domínio suspender",
+    "Para trocar e-mail de cadastro enviar para atendimento@oncorretor.com.br a SUSEP, domínio, CPF/CNPJ e novo e-mail"
+   ],
+   "topicos": [
+    5
+   ],
+   "faq_ids": []
+  },
+  "trilha": "rag_documento",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:26:48+00:00",
+      "expires_at": "2026-09-25T19:26:48+00:00",
+      "sender": "user",
+      "message": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrados na nossa adesão, pode me orientar como faço?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:48+00:00",
+      "expires_at": "2026-09-25T19:26:48+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:52+00:00",
+      "expires_at": "2026-09-25T19:26:52+00:00",
+      "sender": "user",
+      "message": "É 9081234.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:26:52+00:00",
+      "expires_at": "2026-09-25T19:26:52+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "multi-09",
+  "n": 2,
+  "pergunta": "oi! td bem? to mexendo no meu site aqui e travei em umas coisas kkk, onde eu troco o iconzinho que aparece na aba do navegador (o favicon)? e de quebra, onde configuro o botão de \"Simule e Contrate\" e onde coloco os links do meu insta e face?",
+  "gabarito": {
+   "fatos": [
+    "Favicon (ícone) e botão 'Simule e Contrate' ficam em Configurações Básicas > Configurações do Site",
+    "Em Configurações do Site também ficam nome da corretora, logotipo, descrição, consulta de apólice e pop-ups",
+    "Redes sociais ficam em Configurações Básicas > Informações Úteis, com endereço, telefones, WhatsApp, e-mail e link do Google Meu Negócio",
+    "Após alterar, clicar em salvar"
+   ],
+   "topicos": [
+    51,
+    52
+   ],
+   "faq_ids": [
+    "8uJDhCIEZYoKVyH36UZb",
+    "6OSq22GeoWVqAB97H2Uf"
+   ]
+  },
+  "trilha": "multi_pergunta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:27:38+00:00",
+      "expires_at": "2026-09-25T19:27:38+00:00",
+      "sender": "user",
+      "message": "oi! td bem? to mexendo no meu site aqui e travei em umas coisas kkk, onde eu troco o iconzinho que aparece na aba do navegador (o favicon)? e de quebra, onde configuro o botão de \"Simule e Contrate\" e onde coloco os links do meu insta e face?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:27:38+00:00",
+      "expires_at": "2026-09-25T19:27:38+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:27:42+00:00",
+      "expires_at": "2026-09-25T19:27:42+00:00",
+      "sender": "user",
+      "message": "é 23459871",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:27:42+00:00",
+      "expires_at": "2026-09-25T19:27:42+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "follow-01",
+  "n": 2,
+  "pergunta": "oi, boa tarde! vi o oncorretor aqui, queria entender como funciona pra aderir",
+  "gabarito": {
+   "fatos": [
+    "Adesão em www.oncorretor.com.br com dados cadastrais e SUSEP, mensalidade básica R$ 52,50 por mês sem taxa de adesão",
+    "Não há multa de cancelamento",
+    "Cancelamento por e-mail para atendimento@oncorretor.com.br com SUSEP domínio CPF/CNPJ e motivo"
+   ],
+   "topicos": [
+    1,
+    2,
+    30
+   ],
+   "faq_ids": [
+    "cCII9x4dTWESE9SSp9Oa"
+   ]
+  },
+  "trilha": "follow_up_contextual",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:28:34+00:00",
+      "expires_at": "2026-09-25T19:28:34+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! vi o oncorretor aqui, queria entender como funciona pra aderir",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:28:34+00:00",
+      "expires_at": "2026-09-25T19:28:34+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:28:41+00:00",
+      "expires_at": "2026-09-25T19:28:41+00:00",
+      "sender": "user",
+      "message": "ah não sei de cabeça não, nunca decorei esse número kkk. dá pra ver isso depois? queria entender primeiro como funciona a adesão",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:28:41+00:00",
+      "expires_at": "2026-09-25T19:28:41+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "rag-22",
+  "n": 2,
+  "pergunta": "oi boa tarde, tudo bem? então tô tentando editar o meu site aqui, né, e toda vez que eu clico pra salvar dá um erro, tipo não deixa nem eu ver o que é o erro só fica travado ali, queria saber o que que eu preciso mandar pra vocês pra analisar isso",
+  "gabarito": {
+   "fatos": [
+    "Para analisar erro na edição do site envie para atendimento@oncorretor.com.br",
+    "Informe seu domínio",
+    "Envie um print da mensagem de erro",
+    "Informe o navegador que está usando e em qual etapa o erro ocorreu"
+   ],
+   "topicos": [
+    63
+   ],
+   "faq_ids": []
+  },
+  "trilha": "rag_documento",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:29:37+00:00",
+      "expires_at": "2026-09-25T19:29:37+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, tudo bem? então tô tentando editar o meu site aqui, né, e toda vez que eu clico pra salvar dá um erro, tipo não deixa nem eu ver o que é o erro só fica travado ali, queria saber o que que eu preciso mandar pra vocês pra analisar isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:29:37+00:00",
+      "expires_at": "2026-09-25T19:29:37+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:29:42+00:00",
+      "expires_at": "2026-09-25T19:29:42+00:00",
+      "sender": "user",
+      "message": "é 2748195, mas o que eu queria mesmo era saber o que eu mando pra vocês analisarem esse erro, tipo print, ou tem que ser outra coisa",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:29:42+00:00",
+      "expires_at": "2026-09-25T19:29:42+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-22",
+  "n": 2,
+  "pergunta": "oi, boa tarde! posso colocar logo de outras seguradoras no meu site, tipo além da porto? tem custo pra isso?",
+  "gabarito": {
+   "fatos": [
+    "É possível divulgar produtos e logotipos de outras seguradoras sem custo adicional",
+    "Você mesmo insere os logotipos em Configurações Avançadas > Gerenciador de Página, na página desejada",
+    "A produção mínima para adesão e a cobrança continuam vinculadas à Porto Seguro e os links de venda online do COL são exclusivos de produtos Porto Seguro"
+   ],
+   "topicos": [
+    67
+   ],
+   "faq_ids": [
+    "Jr7gH61uJTnSTZXiJWa4"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:30:33+00:00",
+      "expires_at": "2026-09-25T19:30:33+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! posso colocar logo de outras seguradoras no meu site, tipo além da porto? tem custo pra isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:30:33+00:00",
+      "expires_at": "2026-09-25T19:30:33+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:30:39+00:00",
+      "expires_at": "2026-09-25T19:30:39+00:00",
+      "sender": "user",
+      "message": "ahh não sei de cabeça não, nunca decorei esse número kkkj",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:30:39+00:00",
+      "expires_at": "2026-09-25T19:30:39+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-04",
+  "n": 2,
+  "pergunta": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe me dizer o que aconteceu?",
+  "gabarito": {
+   "fatos": [
+    "Verificar se há outra SUSEP com produção ativa para transferência/troca da SUSEP de cobrança",
+    "Caso contrário procurar gerente comercial para resolver pendência com a companhia"
+   ],
+   "topicos": [
+    7
+   ],
+   "faq_ids": [
+    "3FitBkuFrSRaouivImlc"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "rag",
+   "t3_escalou": false
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {},
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:31:07+00:00",
+      "expires_at": "2026-09-25T19:31:07+00:00",
+      "sender": "user",
+      "message": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe me dizer o que aconteceu?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:31:07+00:00",
+      "expires_at": "2026-09-25T19:31:07+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:31:12+00:00",
+      "expires_at": "2026-09-25T19:31:12+00:00",
+      "sender": "user",
+      "message": "3398712",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:31:13+00:00",
+      "expires_at": "2026-09-25T19:31:13+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ },
+ {
+  "conversa_id": "faq-15",
+  "n": 2,
+  "pergunta": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar tal autenticação em duas etapas no painel, é isso mesmo que é obrigatório?",
+  "gabarito": {
+   "fatos": [
+    "A autenticação em duas etapas é obrigatória para acesso ao painel (desde 20/02/2024)",
+    "Acessar o painel do domínio em painel.seudominio.com.br",
+    "Instalar Google Authenticator ou Microsoft Authenticator no celular e ler o QR Code",
+    "Informar o token, clicar em Validar Token e depois em Ativar",
+    "Guardar os códigos de recuperação, pois depois não é possível consultá-los novamente"
+   ],
+   "topicos": [
+    43
+   ],
+   "faq_ids": [
+    "26ihMlTJ2hZMKOBDPrx3"
+   ]
+  },
+  "trilha": "faq_direta",
+  "comportamento_esperado": "resolver",
+  "orig": {
+   "t3_fonte": "escalonamento",
+   "t3_escalou": true
+  },
+  "falhou": true,
+  "snapshot": {
+   "hist": {
+    "schema_version": 2,
+    "context": {
+     "susep": "desconhecida"
+    },
+    "messages": [
+     {
+      "timestamp": "2026-09-24T19:32:36+00:00",
+      "expires_at": "2026-09-25T19:32:36+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar tal autenticação em duas etapas no painel, é isso mesmo que é obrigatório?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:32:36+00:00",
+      "expires_at": "2026-09-25T19:32:36+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:32:42+00:00",
+      "expires_at": "2026-09-25T19:32:42+00:00",
+      "sender": "user",
+      "message": "Olha, minha SUSEP eu não sei de cabeça agora não, não tenho aqui comigo. Mas essa autenticação em duas etapas, é obrigatória mesmo ou é só sugestão?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     },
+     {
+      "timestamp": "2026-09-24T19:32:42+00:00",
+      "expires_at": "2026-09-25T19:32:42+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+     }
+    ]
+   },
+   "awaiting": null,
+   "greeted": false,
+   "negfb": null
+  }
+ }
+]

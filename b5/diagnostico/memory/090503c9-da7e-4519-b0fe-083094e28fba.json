@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "user",
+      "message": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrados na nossa adesão, pode me orientar como faço?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "user",
+      "message": "É 9081234.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:04+00:00",
+      "expires_at": "2026-09-25T19:48:04+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "user",
+      "message": "Eu já tinha explicado: preciso atualizar o telefone e o e-mail cadastrados na nossa adesão. Como faço isso, para qual e-mail eu envio a solicitação?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual endereço de e-mail deve ser utilizado como cadastro no sistema Oncorretor?\n2. Se o e-mail do Oncorretor deixa de funcionar ao alterar o plano da apólice?\n3. O e-mail do Oncorretor continua funcionando caso eu transfira minha SUSEP para outra corretora?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "user",
+      "message": "Nenhuma dessas opções é o que eu preciso. Não é sobre painel, plano ou contas extras. É só atualizar telefone e e-mail de contato do cadastro. Tem como falar com um atendente humano?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

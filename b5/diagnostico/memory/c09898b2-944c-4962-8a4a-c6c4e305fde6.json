@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:49:29+00:00",
+      "expires_at": "2026-09-25T19:49:29+00:00",
+      "sender": "user",
+      "message": "Oi, boa tarde! Ouvi falar do tal Clube VIP numa reunião com o gerente comercial, mas fiquei sem entender direito do que se trata. Poderia me explicar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:29+00:00",
+      "expires_at": "2026-09-25T19:49:29+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:42+00:00",
+      "expires_at": "2026-09-25T19:49:42+00:00",
+      "sender": "user",
+      "message": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à parte ou já vem incluso no meu plano?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:42+00:00",
+      "expires_at": "2026-09-25T19:49:42+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "dominio_site",
+      "intent_confidence": 0.7536042928695679
+    },
+    {
+      "timestamp": "2026-09-24T19:49:54+00:00",
+      "expires_at": "2026-09-25T19:49:54+00:00",
+      "sender": "user",
+      "message": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:54+00:00",
+      "expires_at": "2026-09-25T19:49:54+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "site_editing",
+      "intent_confidence": 0.7137757539749146
+    },
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "user",
+      "message": "É a opção 2, por favor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "bot",
+      "message": "Pra te ajudar melhor, você quer saber sobre:\n\n1. O que é o ClubeVip?\n2. As consequências de não efetuar o pagamento?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

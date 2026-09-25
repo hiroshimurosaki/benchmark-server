@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "user",
+      "message": "oi! td bem? to mexendo no meu site aqui e travei em umas coisas kkk, onde eu troco o iconzinho que aparece na aba do navegador (o favicon)? e de quebra, onde configuro o botão de \"Simule e Contrate\" e onde coloco os links do meu insta e face?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "user",
+      "message": "é 23459871",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:09+00:00",
+      "expires_at": "2026-09-25T19:48:09+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "user",
+      "message": "poxa eu já tinha falado kk, é sobre trocar o favicon do site, configurar o botão \"simule e contrate\" e colocar os links do insta e face. consegue me passar onde acho cada um?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! posso colocar logo de outras seguradoras no meu site, tipo além da porto? tem custo pra isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "user",
+      "message": "ahh não sei de cabeça não, nunca decorei esse número kkkj",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "user",
+      "message": "era isso mesmo, minha dúvida é se posso add logo de outras seguradoras (além da porto) no meu site e se tem algum custo pra isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se é permitido exibir logos de outras seguradoras no seu site e se há algum custo associado a isso?\n2. Como alterar o logotipo principal do seu site utilizando a plataforma OnCorretor?\n3. O que fazer caso as imagens do seu site não estejam carregando corretamente?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

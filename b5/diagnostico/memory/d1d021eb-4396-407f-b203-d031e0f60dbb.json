@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Gostaria de saber qual é a regra para criar a senha do e-mail que vem com o site, e também se a autenticação em duas etapas do painel é obrigatória.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "user",
+      "message": "É 12045678.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:16+00:00",
+      "expires_at": "2026-09-25T19:44:16+00:00",
+      "sender": "user",
+      "message": "Eu já tinha perguntado, mas repito: quais são as regras para criar a senha do e-mail que acompanha o site? E preciso saber também se a autenticação em duas etapas do painel é obrigatória.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:16+00:00",
+      "expires_at": "2026-09-25T19:44:16+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7309571504592896
+    },
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "user",
+      "message": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7413938045501709
+    }
+  ]
+}

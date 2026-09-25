@@ -1,0 +1,70 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, tudo bem? então tô tentando editar o meu site aqui, né, e toda vez que eu clico pra salvar dá um erro, tipo não deixa nem eu ver o que é o erro só fica travado ali, queria saber o que que eu preciso mandar pra vocês pra analisar isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "user",
+      "message": "é 2748195, mas o que eu queria mesmo era saber o que eu mando pra vocês analisarem esse erro, tipo print, ou tem que ser outra coisa",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:04+00:00",
+      "expires_at": "2026-09-25T19:49:04+00:00",
+      "sender": "user",
+      "message": "então é o que eu falei, tá dando erro quando eu tento salvar uma edição no meu site, quero saber pra qual email ou onde eu mando isso pra vocês verem, tipo print da tela ajuda?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:04+00:00",
+      "expires_at": "2026-09-25T19:49:04+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPara enviar documentos ou informações para nossa equipe, você deve utilizar o e-mail **suporte@oncorretor.com.br**.\n\nCaso prefira, também pode entrar em contato através do nosso WhatsApp oficial pelo número **(11) 99999-9999** (número fictício para exemplo, consulte o site oficial para o número correto).\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "dominio_site",
+      "intent_confidence": 0.7389355897903442
+    },
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "user",
+      "message": "é a opção 3 mesmo, editar o site, só que dá erro e trava, aí eu queria saber pra onde eu mando o print desse erro pra vocês analisarem",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:20+00:00",
+      "expires_at": "2026-09-25T19:49:20+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.6669727563858032
+    }
+  ]
+}

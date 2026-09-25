@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "user",
+      "message": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "user",
+      "message": "66781230",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:06+00:00",
+      "expires_at": "2026-09-25T19:45:06+00:00",
+      "sender": "user",
+      "message": "eh isso mesmo que eu falei kkk troquei meu email e preciso trocar no site tb, onde eu mexo nisso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:06+00:00",
+      "expires_at": "2026-09-25T19:45:06+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como configurar e utilizar uma conta de e-mail externa no seu site?\n2. O que fazer para recuperar o acesso ao painel do seu e-mail caso tenha perdido a senha?\n3. Se alterar o plano da sua apólice impacta na funcionalidade do e-mail Oncorretor?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:45:19+00:00",
+      "expires_at": "2026-09-25T19:45:19+00:00",
+      "sender": "user",
+      "message": "nao eh isso nao, eh o email de contato q aparece pro cliente ver no meu site, quero trocar esse ai pelo novo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:19+00:00",
+      "expires_at": "2026-09-25T19:45:19+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7238603830337524
+    },
+    {
+      "timestamp": "2026-09-24T19:45:32+00:00",
+      "expires_at": "2026-09-25T19:45:32+00:00",
+      "sender": "user",
+      "message": "mas onde no painel? nao acho essa opçao, é em configuraçoes ou tem outro nome",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:32+00:00",
+      "expires_at": "2026-09-25T19:45:32+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7499639987945557
+    }
+  ]
+}

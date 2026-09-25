@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, olha eu recebi um email aqui meio estranho pedindo pra confirmar a senha do meu email da corretora, sei lá parece phishing né mas queria saber se é coisa de voces mesmo ou se é golpe",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "user",
+      "message": "ah nao sei de cabeça nao, essa susep eu nunca decorei nao, mas olha isso é mais importante saber se esse email é golpe mesmo, pode me ajudar com isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:46+00:00",
+      "expires_at": "2026-09-25T19:43:46+00:00",
+      "sender": "user",
+      "message": "é o que eu falei, recebi um email pedindo pra confirmar a senha do meu email da corretora, achei estranho e queria saber se isso e phishing ou se e coisa legitima de voces mesmo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:46+00:00",
+      "expires_at": "2026-09-25T19:43:46+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que fazer se não recebeu o e-mail de confirmação após a adesão?\n2. Como recuperar o acesso ao painel de e-mail caso tenha perdido as credenciais?\n3. Soluções para quando o painel de e-mail não abre ou apresenta erros?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "user",
+      "message": "não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo senha é golpe mesmo, tipo phishing, e o que eu faço agora",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:02+00:00",
+      "expires_at": "2026-09-25T19:44:02+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.7135938405990601
+    }
+  ]
+}

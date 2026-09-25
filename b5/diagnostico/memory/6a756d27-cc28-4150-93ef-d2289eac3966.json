@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! vi o oncorretor aqui, queria entender como funciona pra aderir",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "user",
+      "message": "ah não sei de cabeça não, nunca decorei esse número kkk. dá pra ver isso depois? queria entender primeiro como funciona a adesão",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:37+00:00",
+      "expires_at": "2026-09-25T19:48:37+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:41+00:00",
+      "expires_at": "2026-09-25T19:48:41+00:00",
+      "sender": "user",
+      "message": "isso mesmo, queria saber como funciona pra aderir ao oncorretor, quais os passos",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:41+00:00",
+      "expires_at": "2026-09-25T19:48:41+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Qual é o processo e os passos necessários para se tornar um corretor na plataforma OnCorretor?\n2. Como funciona a questão de pagamentos dentro do programa OnCorretor?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:48:43+00:00",
+      "expires_at": "2026-09-25T19:48:43+00:00",
+      "sender": "user",
+      "message": "isso, opção 1 mesmo, quero saber os passos pra aderir",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:43+00:00",
+      "expires_at": "2026-09-25T19:48:43+00:00",
+      "sender": "bot",
+      "message": "A adesão é feita online: acesse www.oncorretor.com.br, clique na opção para contratar/aderir e preencha seus dados cadastrais, de contato e a SUSEP. Você recebe um e-mail confirmando a solicitação, e a adesão é confirmada depois que validamos a produção na sua SUSEP. Requisito: produção mínima de R$ 100,00 em produtos Porto Seguro (em geral, produtos com venda online, como auto, moto e vida); em caso de dúvida sobre sua produção, confirme com seu gestor comercial. A mensalidade do plano básico é de R$ 52,50, cobrada por desconto na conta comissão da SUSEP principal.",
+      "intent": "adesao_oncorretor",
+      "intent_confidence": 0.8067182302474976
+    },
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "user",
+      "message": "entendi, valeu! e se eu quiser cancelar depois, tem multa ou fidelidade?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:48:55+00:00",
+      "expires_at": "2026-09-25T19:48:55+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.48836153745651245
+    }
+  ]
+}

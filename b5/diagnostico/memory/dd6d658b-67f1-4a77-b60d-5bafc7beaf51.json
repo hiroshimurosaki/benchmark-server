@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! queria entender uma coisa do meu site, os contatos que caem pelo formulário ficam salvos onde?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "user",
+      "message": "é 739201",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:46+00:00",
+      "expires_at": "2026-09-25T19:44:46+00:00",
+      "sender": "user",
+      "message": "é isso mesmo, os contatos que preenchem o formulário lá do meu site, onde que eu consigo ver eles depois? tem algum lugar pra consultar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:46+00:00",
+      "expires_at": "2026-09-25T19:44:46+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O que fazer quando os dados do formulário não estão chegando por e-mail?\n2. Como realizar edições básicas no conteúdo do seu site?\n3. Se é possível utilizar dois domínios diferentes apontando para o mesmo site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:44:58+00:00",
+      "expires_at": "2026-09-25T19:44:58+00:00",
+      "sender": "user",
+      "message": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:58+00:00",
+      "expires_at": "2026-09-25T19:44:58+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.5879591107368469
+    },
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "user",
+      "message": "isso, opção 1! quero saber onde fica salvo esse contato e se eu consigo consultar depois",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:45:02+00:00",
+      "expires_at": "2026-09-25T19:45:02+00:00",
+      "sender": "bot",
+      "message": "Pra te ajudar melhor, você quer saber sobre:\n\n1. Onde são armazenados os dados coletados pelos formulários do seu site e como acessá-los posteriormente?\n2. Por que as mensagens enviadas através dos formulários não estão chegando ao seu e-mail?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

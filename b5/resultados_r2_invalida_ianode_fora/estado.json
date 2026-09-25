@@ -1,0 +1,85 @@
+{
+  "inicio": "2026-09-25T13:36:50",
+  "prazo": "2026-09-25T15:36:50",
+  "tentativas": {
+    "conf-04": 1,
+    "faq-12": 1,
+    "rag-10": 1,
+    "multi-06": 1
+  },
+  "em_andamento": {
+    "id": "multi-06",
+    "tentativa": 1,
+    "trilha": "multi_pergunta",
+    "objetivo": "Pergunta qual é a regra para criar a senha do e-mail e se a autenticação em duas etapas no painel é obrigatória e como ativar. Fica resolvido quando tem as regras de senha e o passo a passo básico da autenticação em duas etapas.",
+    "inicio": "2026-09-25T13:38:57",
+    "turnos": [
+      {
+        "conversa_id": "multi-06",
+        "tentativa": 1,
+        "n": 1,
+        "chat_id": "bench5-multi-06-1@c.us",
+        "ts": "2026-09-25T13:39:02",
+        "texto_cliente": "Boa tarde. Meu nome é Walter Siqueira, voltei a atuar como corretor e quero configurar meu e-mail com segurança. Qual é a regra para criar a senha do e-mail?",
+        "texto_bot": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+        "latencia_s": 0.017,
+        "etapas": [],
+        "fonte": "gate:opening_question",
+        "confianca": null,
+        "entrada_id": null,
+        "topico": null,
+        "gate": "opening_question",
+        "escalou": false,
+        "motivo_escalonamento": null,
+        "guard": null,
+        "reaberto": false,
+        "erro": null,
+        "cliente_modelo": "claude:sonnet",
+        "cliente_dur_s": 5.35,
+        "cliente_custo_usd": 0.011007999999999999,
+        "cliente_satisfeito": "parcial",
+        "cliente_motivo": "Acabei de iniciar o contato e ainda não recebi resposta sobre a regra de senha.",
+        "cliente_encerrar": false
+      }
+    ],
+    "fase": "bot respondendo (turno 2)",
+    "cliente_pendente": "Minha SUSEP é 12045678."
+  },
+  "total_planejado": 22,
+  "config_bot": {
+    "org": "oncorretor-perfeita",
+    "threshold": 0.8,
+    "tickets": true,
+    "opening_question": true,
+    "auto_close_on_gratitude": true,
+    "system_prompt_chars": 0,
+    "prompts_override": [
+      "help_portal_directive"
+    ],
+    "qa_system": true,
+    "n_faq_dtq": 257,
+    "modelo": "qwen3.6:35b-a3b",
+    "chaves_llm": [
+      "OLLAMA_KEY_1",
+      "COHERE_KEY_1",
+      "GROQ_KEY_1",
+      "GROQ_KEY_2",
+      "COHERE_KEY_2",
+      "GROQ_KEY_3",
+      "GROQ_KEY_4",
+      "COHERE_KEY_3",
+      "GROQ_KEY_5"
+    ]
+  },
+  "fallback": {
+    "n_claude": 14,
+    "n_fallbacks": 0,
+    "em_janela_fallback": false,
+    "fallback_ate": null,
+    "ultimo_modelo": {
+      "cliente": "claude:sonnet",
+      "juiz": "claude:opus"
+    }
+  },
+  "atualizado": "2026-09-25T13:39:08"
+}

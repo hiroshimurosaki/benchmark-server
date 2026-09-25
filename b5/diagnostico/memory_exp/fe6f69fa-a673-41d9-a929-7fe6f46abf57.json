@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:31:07+00:00",
+      "expires_at": "2026-09-25T19:31:07+00:00",
+      "sender": "user",
+      "message": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe me dizer o que aconteceu?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:31:07+00:00",
+      "expires_at": "2026-09-25T19:31:07+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:31:12+00:00",
+      "expires_at": "2026-09-25T19:31:12+00:00",
+      "sender": "user",
+      "message": "3398712",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:31:13+00:00",
+      "expires_at": "2026-09-25T19:31:13+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:26+00:00",
+      "expires_at": "2026-09-25T21:07:26+00:00",
+      "sender": "user",
+      "message": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe me dizer o que aconteceu?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:26+00:00",
+      "expires_at": "2026-09-25T21:07:26+00:00",
+      "sender": "bot",
+      "message": "Bom dia! 😊\n\nSua SUSEP pode aparecer como bloqueada devido a dois motivos principais:\n\n1. **Problemas cadastrais**: Verifique se há alguma inconsistência ou pendência em seus dados cadastrais.\n2. **Dívidas ativas**: Se houver débitos em aberto, sua SUSEP pode ser bloqueada até a regularização da situação.\n\nSe você tiver outra SUSEP com produção ativa, é possível transferir a cobrança. Caso contrário, entre em contato com seu gerente comercial para resolver a situação.",
+      "intent": "dominio_site",
+      "intent_confidence": 0.8274681568145752
+    }
+  ]
+}

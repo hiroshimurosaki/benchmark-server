@@ -1,0 +1,152 @@
+[
+ {
+  "rep": 0,
+  "aux_marcador": "BANANA",
+  "aux_saida": "BANANA",
+  "gen": "IRRELEVANTE",
+  "gen_s": 4.25,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3456
+ },
+ {
+  "rep": 0,
+  "aux_marcador": "IRRELEVANTE",
+  "aux_saida": "IRRELEVANTE",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 1.5,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3452
+ },
+ {
+  "rep": 0,
+  "aux_marcador": "RELEVANTE",
+  "aux_saida": "RELEVANTE",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.77,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "call_attendant",
+  "gen_nonce_prompt_eval": 3457
+ },
+ {
+  "rep": 0,
+  "aux_marcador": "AMBIGUO",
+  "aux_saida": "AMBIGUO",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.81,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3457
+ },
+ {
+  "rep": 0,
+  "aux_marcador": null,
+  "aux_saida": "(sem aux)",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.85,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3458
+ },
+ {
+  "rep": 1,
+  "aux_marcador": "BANANA",
+  "aux_saida": "BANANA",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 1.5,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "AMBIGUO",
+  "gen_nonce_prompt_eval": 3460
+ },
+ {
+  "rep": 1,
+  "aux_marcador": "IRRELEVANTE",
+  "aux_saida": "IRRELEVANTE",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.77,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3455
+ },
+ {
+  "rep": 1,
+  "aux_marcador": "RELEVANTE",
+  "aux_saida": "RELEVANTE",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.88,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3459
+ },
+ {
+  "rep": 1,
+  "aux_marcador": "AMBIGUO",
+  "aux_saida": "AMBIGUO",
+  "gen": "RELEVANTE",
+  "gen_s": 0.5,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3453
+ },
+ {
+  "rep": 1,
+  "aux_marcador": null,
+  "aux_saida": "(sem aux)",
+  "gen": "RELEVANTE",
+  "gen_s": 0.5,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3459
+ },
+ {
+  "rep": 2,
+  "aux_marcador": "BANANA",
+  "aux_saida": "BANANA",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 1.59,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3460
+ },
+ {
+  "rep": 2,
+  "aux_marcador": "IRRELEVANTE",
+  "aux_saida": "IRRELEVANTE",
+  "gen": "RELEVANTE",
+  "gen_s": 0.53,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3459
+ },
+ {
+  "rep": 2,
+  "aux_marcador": "RELEVANTE",
+  "aux_saida": "RELEVANTE",
+  "gen": "IRRELEVANTE",
+  "gen_s": 6.49,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3456
+ },
+ {
+  "rep": 2,
+  "aux_marcador": "AMBIGUO",
+  "aux_saida": "AMBIGUO",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 0.73,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3453
+ },
+ {
+  "rep": 2,
+  "aux_marcador": null,
+  "aux_saida": "(sem aux)",
+  "gen": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_s": 1.31,
+  "gen_prompt_eval": 3423,
+  "gen_nonce": "Desculpe, não tenho essa informação nos meus documentos. 😕",
+  "gen_nonce_prompt_eval": 3455
+ }
+]

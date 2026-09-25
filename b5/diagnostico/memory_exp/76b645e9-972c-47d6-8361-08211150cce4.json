@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:25:12+00:00",
+      "expires_at": "2026-09-25T19:25:12+00:00",
+      "sender": "user",
+      "message": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas o valor ta mt alto naum sei se pago isso eh certo mesmo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:25:12+00:00",
+      "expires_at": "2026-09-25T19:25:12+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:25:19+00:00",
+      "expires_at": "2026-09-25T19:25:19+00:00",
+      "sender": "user",
+      "message": "naum sei essa susep nao lembro de cor, tem q ser ela pra vc me ajuda",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:25:19+00:00",
+      "expires_at": "2026-09-25T19:25:19+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:33+00:00",
+      "expires_at": "2026-09-25T21:06:33+00:00",
+      "sender": "user",
+      "message": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas o valor ta mt alto naum sei se pago isso eh certo mesmo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:33+00:00",
+      "expires_at": "2026-09-25T21:06:33+00:00",
+      "sender": "bot",
+      "message": "Bom dia! 😊\n\nCuidado! É muito provável que esse boleto seja falso.\n\nConforme nossas diretrizes, existem boletos de empresas com nomes parecidos (como \"BR.Registro\") que cobram valores acima do padrão. O valor correto direto no Registro.br é R$ 40,00. Se a renovação for feita pelo OnCorretor, os valores são R$ 44,23 (nacional) ou R$ 54,77 (internacional).\n\n**O que fazer:**\nNão pague ainda. Envie o boleto recebido para `atendimento@oncorretor.com.br` antes de realizar qualquer pagamento para validação.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "dominio_site",
+      "intent_confidence": 0.6742736101150513
+    }
+  ]
+}

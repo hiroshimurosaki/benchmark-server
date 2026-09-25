@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:15:47+00:00",
+      "expires_at": "2026-09-25T19:15:47+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Gostaria de saber qual é a regra para criar a senha do e-mail que vem com o site, e também se a autenticação em duas etapas do painel é obrigatória.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:15:47+00:00",
+      "expires_at": "2026-09-25T19:15:47+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:15:53+00:00",
+      "expires_at": "2026-09-25T19:15:53+00:00",
+      "sender": "user",
+      "message": "É 12045678.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:15:53+00:00",
+      "expires_at": "2026-09-25T19:15:53+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:29+00:00",
+      "expires_at": "2026-09-25T21:05:29+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Gostaria de saber qual é a regra para criar a senha do e-mail que vem com o site, e também se a autenticação em duas etapas do painel é obrigatória.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:29+00:00",
+      "expires_at": "2026-09-25T21:05:29+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nOlá! O documento base não especifica os critérios técnicos exatos da política de complexidade (como número mínimo de caracteres, uso de maiúsculas ou símbolos) exigidos pelo sistema para criar a senha.\n\nNo entanto, é importante destacar que:\n1. A redefinição ou criação inicial deve ser feita pelo **administrador do domínio** via painel ou webmail.\n2. Ao definir uma nova senha no Webmail (opção \"Modificar senha\"), se ela não atender à política de segurança do sistema, o software exibirá um aviso em vermelho e recusará a alteração. Por isso, é necessário acompanhar as mensagens de erro para garantir que a senha foi salva com sucesso.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.6999408602714539
+    }
+  ]
+}

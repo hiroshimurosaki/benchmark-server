@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:19:03+00:00",
+      "expires_at": "2026-09-25T19:19:03+00:00",
+      "sender": "user",
+      "message": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:19:03+00:00",
+      "expires_at": "2026-09-25T19:19:03+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:19:08+00:00",
+      "expires_at": "2026-09-25T19:19:08+00:00",
+      "sender": "user",
+      "message": "66781230",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:19:08+00:00",
+      "expires_at": "2026-09-25T19:19:08+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:52+00:00",
+      "expires_at": "2026-09-25T21:05:52+00:00",
+      "sender": "user",
+      "message": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:52+00:00",
+      "expires_at": "2026-09-25T21:05:52+00:00",
+      "sender": "bot",
+      "message": "Bom dia! 😊\n\nOlá! Para alterar o e-mail que aparece no seu site, você deve acessar a **Área Administrativa** do OnCorretor.\n\nSiga estes passos:\n\n1.  Acesse `www.seudominio.com.br/adm` com seu usuário e senha.\n2.  Vá em **Configurações Básicas**.\n3.  Procure pelas opções de contato ou identidade da corretora para atualizar o endereço de e-mail exibido publicamente.\n\n**Atenção importante:** A senha da área administrativa é diferente da senha do seu e-mail. Se você precisa redefinir a senha do *e-mail* (para acessar sua caixa postal), isso deve ser feito no painel do provedor de e-mail ou webmail, não no site do OnCorretor.\n\nSe tiver dificuldade em encontrar o local exato dentro das configurações básicas, envie um print da tela para `atendimento@oncorretor.com.br` com seu domínio.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "dominio_site",
+      "intent_confidence": 0.6601536870002747
+    }
+  ]
+}

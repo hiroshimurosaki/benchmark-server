@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:26:48+00:00",
+      "expires_at": "2026-09-25T19:26:48+00:00",
+      "sender": "user",
+      "message": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrados na nossa adesão, pode me orientar como faço?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:26:48+00:00",
+      "expires_at": "2026-09-25T19:26:48+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:26:52+00:00",
+      "expires_at": "2026-09-25T19:26:52+00:00",
+      "sender": "user",
+      "message": "É 9081234.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:26:52+00:00",
+      "expires_at": "2026-09-25T19:26:52+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:47+00:00",
+      "expires_at": "2026-09-25T21:06:47+00:00",
+      "sender": "user",
+      "message": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrados na nossa adesão, pode me orientar como faço?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:47+00:00",
+      "expires_at": "2026-09-25T21:06:47+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPara atualizar seus dados cadastrais (como telefone e e-mail de contato), é necessário formalizar a solicitação por e-mail. Siga os passos abaixo:\n\n1. Envie um e-mail para `atendimento@oncorretor.com.br` com as informações corretas.\n2. **Importante:** Prefira enviar do mesmo e-mail cadastrado no momento da adesão. Se estiver enviando de um endereço diferente, você precisará validar a titularidade anexando:\n   * Contrato social (se for pessoa jurídica); ou\n   * Documento/CPF (se for pessoa física).\n\nApós a validação, nossa equipe atualizará os dados nos sistemas necessários para manter tudo alinhado.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "susep_dados",
+      "intent_confidence": 0.7181976437568665
+    }
+  ]
+}

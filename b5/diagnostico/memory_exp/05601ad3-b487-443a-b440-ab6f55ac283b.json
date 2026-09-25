@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:13:54+00:00",
+      "expires_at": "2026-09-25T19:13:54+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso e acho que não vou usar não, dá pra cancelar ainda hoje?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:13:54+00:00",
+      "expires_at": "2026-09-25T19:13:54+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:14:01+00:00",
+      "expires_at": "2026-09-25T19:14:01+00:00",
+      "sender": "user",
+      "message": "3307715",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:14:01+00:00",
+      "expires_at": "2026-09-25T19:14:01+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:06+00:00",
+      "expires_at": "2026-09-25T21:05:06+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso e acho que não vou usar não, dá pra cancelar ainda hoje?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:06+00:00",
+      "expires_at": "2026-09-25T21:05:06+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nOlá! Compreendo sua situação. Sim, é possível solicitar o cancelamento do OnCorretor.\n\nPara formalizar, você precisa enviar um e-mail para **atendimento@oncorretor.com.br** informando:\n*   SUSEP\n*   Domínio (endereço do site)\n*   CPF/CNPJ\n*   Motivo do cancelamento\n\n**Pontos importantes:**\n1.  **Sem multa:** Não há cobrança de multa por cancelar o serviço.\n2.  **Data de corte:** Como a adesão foi hoje, verifique se já passou ou não do dia 20 do mês. Se for até o dia 20 (inclusive), não haverá nova cobrança de mensalidade. Se passar desse dia, poderá haver uma última cobrança referente ao mês vigente (\"usa e depois paga\").\n3.  **Atenção:** Ao efetivar o cancelamento, seu site e e-mails serão desativados imediatamente.\n\nRecomendo enviar o e-mail o quanto antes para garantir que o processo seja iniciado dentro do período desejado.",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6997509002685547
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô tentando fazer a declaração do imposto de renda da minha corretora e não tô conseguindo entender direito como preenche, vocês me ajudam com isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "user",
+      "message": "ai que vergonha mas eu não sei de cabeça não, nem lembro esse número agora rsrs",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "user",
+      "message": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da corretora ali",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPreciso entender melhor a que você se refere 😄\n\n1. Você gostaria de dicas gerais sobre como preencher a declaração do imposto de renda para corretoras (baseado na informação inicial)?\n\n2. Como você não tem o número da SUSEP, prefere orientação sobre como localizar esse dado ou prosseguir sem ele?\n\nQuer tratar da ideia 1, 2,... só me dizer que eu te explico.",
+      "intent": "susep_dados",
+      "intent_confidence": 0.6521642208099365
+    }
+  ]
+}

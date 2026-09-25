@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e mesmo assim caiu uma cobrança agora. Gostaria de entender o que houve.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "user",
+      "message": "Não sei de cabeça essa numeração, não. Já estou aposentando e encerrando a corretora, não tenho isso em mãos agora.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:29+00:00",
+      "expires_at": "2026-09-25T19:44:29+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "user",
+      "message": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:44:42+00:00",
+      "expires_at": "2026-09-25T19:44:42+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6521425247192383
+    }
+  ]
+}

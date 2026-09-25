@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso e acho que não vou usar não, dá pra cancelar ainda hoje?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "user",
+      "message": "3307715",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "user",
+      "message": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:42+00:00",
+      "expires_at": "2026-09-25T19:43:42+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6402784585952759
+    }
+  ]
+}

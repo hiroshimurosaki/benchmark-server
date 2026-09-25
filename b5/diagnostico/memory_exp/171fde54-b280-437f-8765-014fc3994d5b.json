@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:24:15+00:00",
+      "expires_at": "2026-09-25T19:24:15+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplencia né e fiquei meio preocupado nao sei o que que é isso nao sei pq aconteceu queria entender oq que houve",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:24:15+00:00",
+      "expires_at": "2026-09-25T19:24:15+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:24:20+00:00",
+      "expires_at": "2026-09-25T19:24:20+00:00",
+      "sender": "user",
+      "message": "ah rapaz essa susep eu nao sei de cabeça nao viu, nao lembro esse numero nao",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:24:20+00:00",
+      "expires_at": "2026-09-25T19:24:20+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:25+00:00",
+      "expires_at": "2026-09-25T21:06:25+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplencia né e fiquei meio preocupado nao sei o que que é isso nao sei pq aconteceu queria entender oq que houve",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:25+00:00",
+      "expires_at": "2026-09-25T21:06:25+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nSignifica que não houve comissão suficiente para descontar a mensalidade do OnCorretor. Se a inadimplência durar três meses ou mais, a adesão é cancelada. Para regularizar, peça a troca da SUSEP de cobrança se tiver outra SUSEP com produção ativa; se não tiver, procure seu gerente comercial.",
+      "intent": "financeiro",
+      "intent_confidence": 0.8463391065597534
+    }
+  ]
+}

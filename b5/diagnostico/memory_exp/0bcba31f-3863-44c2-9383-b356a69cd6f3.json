@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:28:34+00:00",
+      "expires_at": "2026-09-25T19:28:34+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! vi o oncorretor aqui, queria entender como funciona pra aderir",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:28:34+00:00",
+      "expires_at": "2026-09-25T19:28:34+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:28:41+00:00",
+      "expires_at": "2026-09-25T19:28:41+00:00",
+      "sender": "user",
+      "message": "ah não sei de cabeça não, nunca decorei esse número kkk. dá pra ver isso depois? queria entender primeiro como funciona a adesão",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:28:41+00:00",
+      "expires_at": "2026-09-25T19:28:41+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:14+00:00",
+      "expires_at": "2026-09-25T21:07:14+00:00",
+      "sender": "user",
+      "message": "oi, boa tarde! vi o oncorretor aqui, queria entender como funciona pra aderir",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:14+00:00",
+      "expires_at": "2026-09-25T21:07:14+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nOlá! A adesão ao OnCorretor é simples e pode ser feita online. Você precisará apenas dos seus dados cadastrais e da sua SUSEP.\n\nSiga estes passos:\n\n1. Acesse o site `www.oncorretor.com.br` e clique na opção para contratar/aderir.\n2. Preencha as informações solicitadas (dados pessoais/da corretora, dados de contato e SUSEP). Após finalizar, você receberá um e-mail confirmando que a adesão foi solicitada.\n\nA adesão é confirmada após validarmos a produção na sua SUSEP. Não há prazo fixo para essa validação; quando ela termina, você recebe um segundo e-mail confirmando a adesão. Se o e-mail não chegar, verifique a caixa de spam e confirme se o endereço cadastrado está correto. Caso não encontre a mensagem, envie um e-mail para `atendimento@oncorretor.com.br`.",
+      "intent": "forma_cobranca",
+      "intent_confidence": 0.0
+    }
+  ]
+}

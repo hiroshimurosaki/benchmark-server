@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "user",
+      "message": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplencia né e fiquei meio preocupado nao sei o que que é isso nao sei pq aconteceu queria entender oq que houve",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "user",
+      "message": "ah rapaz essa susep eu nao sei de cabeça nao viu, nao lembro esse numero nao",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:24+00:00",
+      "expires_at": "2026-09-25T19:47:24+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:28+00:00",
+      "expires_at": "2026-09-25T19:47:28+00:00",
+      "sender": "user",
+      "message": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplencia aqui e nao entendi pq, queria saber o que aconteceu e como que eu resolvo isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:28+00:00",
+      "expires_at": "2026-09-25T19:47:28+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. O significado do aviso de inadimplência recebido e as razões por trás dele?\n2. Os procedimentos gerais para lidar com um aviso de inadimplência?\n3. As consequências caso o pagamento não seja realizado?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "user",
+      "message": "ah pode ser a 1 e a 2 mesmo, quero saber pq recebi isso e o que eu faço pra regularizar",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "bot",
+      "message": "Significa que não houve comissão suficiente para descontar a mensalidade do OnCorretor. Se a inadimplência durar três meses ou mais, a adesão é cancelada. Para regularizar, peça a troca da SUSEP de cobrança se tiver outra SUSEP com produção ativa; se não tiver, procure seu gerente comercial.\n\nPara regularizar a situação após receber um aviso de inadimplência, é importante verificar as informações do documento que gerou o débito e realizar o pagamento conforme as instruções fornecidas. Caso haja dúvidas sobre o valor ou a forma de pagamento, entre em contato com o suporte para esclarecimentos.",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

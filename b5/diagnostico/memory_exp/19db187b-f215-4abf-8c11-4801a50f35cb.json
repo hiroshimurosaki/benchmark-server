@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:29:37+00:00",
+      "expires_at": "2026-09-25T19:29:37+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, tudo bem? então tô tentando editar o meu site aqui, né, e toda vez que eu clico pra salvar dá um erro, tipo não deixa nem eu ver o que é o erro só fica travado ali, queria saber o que que eu preciso mandar pra vocês pra analisar isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:29:37+00:00",
+      "expires_at": "2026-09-25T19:29:37+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:29:42+00:00",
+      "expires_at": "2026-09-25T19:29:42+00:00",
+      "sender": "user",
+      "message": "é 2748195, mas o que eu queria mesmo era saber o que eu mando pra vocês analisarem esse erro, tipo print, ou tem que ser outra coisa",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:29:42+00:00",
+      "expires_at": "2026-09-25T19:29:42+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:23+00:00",
+      "expires_at": "2026-09-25T21:07:23+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, tudo bem? então tô tentando editar o meu site aqui, né, e toda vez que eu clico pra salvar dá um erro, tipo não deixa nem eu ver o que é o erro só fica travado ali, queria saber o que que eu preciso mandar pra vocês pra analisar isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:07:23+00:00",
+      "expires_at": "2026-09-25T21:07:23+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPara que nossa equipe possa analisar o erro que está impedindo a edição do seu site, por favor, envie os seguintes itens para **atendimento@oncorretor.com.br**:\n\n*   Seu domínio;\n*   Um print da mensagem de erro (ou da tela travada);\n*   O navegador que você está usando e em qual etapa o erro ocorreu.\n\nEssas informações são essenciais para identificarmos a causa do problema e te orientarmos corretamente.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "dominio_site",
+      "intent_confidence": 0.6678125858306885
+    }
+  ]
+}

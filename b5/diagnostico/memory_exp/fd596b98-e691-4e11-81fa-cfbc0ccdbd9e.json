@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:31:51+00:00",
+      "expires_at": "2026-09-25T19:31:51+00:00",
+      "sender": "user",
+      "message": "Oi, boa tarde! Ouvi falar do tal Clube VIP numa reunião com o gerente comercial, mas fiquei sem entender direito do que se trata. Poderia me explicar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:31:51+00:00",
+      "expires_at": "2026-09-25T19:31:51+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:32:02+00:00",
+      "expires_at": "2026-09-25T19:32:02+00:00",
+      "sender": "user",
+      "message": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à parte ou já vem incluso no meu plano?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:32:02+00:00",
+      "expires_at": "2026-09-25T19:32:02+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPara alterar seu logo, acesse o painel administrativo da plataforma, vá até a seção de personalização ou configurações visuais e procure pela opção para fazer upload de uma nova imagem.",
+      "intent": "site_editing",
+      "intent_confidence": 0.7308578491210938
+    },
+    {
+      "timestamp": "2026-09-24T21:01:31+00:00",
+      "expires_at": "2026-09-25T21:01:31+00:00",
+      "sender": "user",
+      "message": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:01:31+00:00",
+      "expires_at": "2026-09-25T21:01:31+00:00",
+      "sender": "bot",
+      "message": "O Clube VIP é um benefício gratuito e exclusivo para corretores com adesão ativa ao OnCorretor: uma consultoria para deixar o site mais moderno, estratégico e pronto para captar clientes. A equipe revisa e melhora o site, com:\n\n* remoção de páginas desnecessárias\n* correção de dados de contato\n* atualização visual do site\n* verificação dos links de venda online\n* ajustes de textos institucionais\n* ativação de ferramentas como a barra multicanal e o QR Code\n\nPara participar, solicite o contato do Clube VIP pelo site do OnCorretor; a equipe entra em contato com você.",
+      "intent": "dominio_site",
+      "intent_confidence": 0.8274814486503601
+    }
+  ]
+}

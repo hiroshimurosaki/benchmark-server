@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:14:44+00:00",
+      "expires_at": "2026-09-25T19:14:44+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, olha eu recebi um email aqui meio estranho pedindo pra confirmar a senha do meu email da corretora, sei lá parece phishing né mas queria saber se é coisa de voces mesmo ou se é golpe",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:14:44+00:00",
+      "expires_at": "2026-09-25T19:14:44+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:14:51+00:00",
+      "expires_at": "2026-09-25T19:14:51+00:00",
+      "sender": "user",
+      "message": "ah nao sei de cabeça nao, essa susep eu nunca decorei nao, mas olha isso é mais importante saber se esse email é golpe mesmo, pode me ajudar com isso",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:14:51+00:00",
+      "expires_at": "2026-09-25T19:14:51+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:15+00:00",
+      "expires_at": "2026-09-25T21:05:15+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, olha eu recebi um email aqui meio estranho pedindo pra confirmar a senha do meu email da corretora, sei lá parece phishing né mas queria saber se é coisa de voces mesmo ou se é golpe",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:15+00:00",
+      "expires_at": "2026-09-25T21:05:15+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nOlá! É excelente que você tenha adotado uma postura cautelosa. Tentativas de golpe por e-mail são comuns, e o comportamento descrito (pedir confirmação de senha) é um sinal clássico de phishing.\n\nPara sua segurança, siga estas recomendações:\n\n1.  **Não clique em links nem abra anexos** desse e-mail.\n2.  **Verifique o remetente:** Confira se o domínio do e-mail que enviou a mensagem corresponde realmente ao nosso (oncorretor.com.br). Golpistas costumam usar domínios muito parecidos, mas não idênticos.\n3.  **Nunca informe sua senha por e-mail:** Nós nunca solicitamos senhas dessa forma.\n\nSe houver qualquer dúvida sobre a autenticidade da mensagem ou se ela parecer envolver acesso às suas contas do OnCorretor, entre em contato conosco imediatamente enviando um e-mail para `atendimento@oncorretor.com.br`. Nossa equipe irá analisar o caso e orientar os próximos passos com segurança.\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "adesao_oncorretor",
+      "intent_confidence": 0.6969602704048157
+    }
+  ]
+}

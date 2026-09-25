@@ -1,0 +1,118 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "user",
+      "message": "Cancelei meu plano mês passado e mesmo assim caiu cobrança na minha fatura. Quero explicação AGORA",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "user",
+      "message": "1122334",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "user",
+      "message": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança na fatura. Quero saber por que e quero meu dinheiro de volta.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Por que meu site foi cancelado por inatividade e quais são as regras associadas a isso?\n2. Qual é a política de reembolso se eu cancelar minha adesão no mesmo dia em que contratei?\n3. Como proceder com o processo formal de cancelamento da minha conta?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "user",
+      "message": "1",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "bot",
+      "message": "O OnCorretor cancela a adesão por inatividade quando o site e os e-mails ficam três meses sem uso. O motivo é registrado como “INATIVIDADE”, o que evita cobrança por um serviço sem uso e pedidos de estorno. Se quiser voltar a usar, fale com o suporte para saber se o caminho é nova adesão ou regularização do cadastro.",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6564763188362122
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "user",
+      "message": "Não é isso. EU pedi cancelamento, não foi inatividade nenhuma. Quero saber por que cobraram mesmo assim e como faço o estorno.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:27+00:00",
+      "expires_at": "2026-09-25T19:46:27+00:00",
+      "sender": "bot",
+      "message": "Pode me detalhar melhor o que você precisa? Vou tentar ajudar de outro jeito. 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:46:44+00:00",
+      "expires_at": "2026-09-25T19:46:44+00:00",
+      "sender": "user",
+      "message": "Olha, PEDI CANCELAMENTO no site mês passado, tenho o protocolo. Explica a regra do dia 20 pra cobrança e me fala como pedir o estorno, é só isso que eu quero.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:44+00:00",
+      "expires_at": "2026-09-25T19:46:44+00:00",
+      "sender": "bot",
+      "message": "Pra te ajudar melhor, você quer saber sobre:\n\n1. O passo a passo para solicitar um estorno?\n2. Como fazer login na sua conta?\n\nMe diga o número da opção (1 ou 2) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "user",
+      "message": "1. ESTORNO. Só isso. Para de ficar repetindo menu e me explica a regra do dia 20 e como pedir o estorno.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:09+00:00",
+      "expires_at": "2026-09-25T19:47:09+00:00",
+      "sender": "bot",
+      "message": "A regra do dia 20 para cobrança está relacionada ao processo de **inadimplência** e à forma como os pagamentos são tratados quando há atraso. Aqui estão as informações disponíveis:\n\n1. **Dia 20**: É o prazo final para que o pagamento seja realizado sem incidência de juros ou multas. Caso o pagamento não seja feito até essa data, o cliente entra em processo de inadimplência.\n   \n2. **Inadimplência**: Se o pagamento não for efetuado até o dia 20, o cliente será considerado inadimplente e poderá enfrentar consequências, como:\n   - Bloqueio temporário do acesso ao sistema (dependendo das políticas da empresa).\n   - Aplicação de juros e multas sobre o valor devido.\n\n3. **Forma de Cobrança**: O pagamento é feito por meio de desconto na conta comissão da SUSEP principal, conforme mencionado anteriormente. Isso significa que a cobrança está diretamente ligada às comissões geradas pelo corretor ou empresa associada.\n\n### Observações importantes:\n- Caso haja dúvidas específicas sobre o funcionamento dessa regra ou situações particulares (como atrasos recorrentes), recomenda-se entrar em contato com o suporte para esclarecimentos adicionais.\n\nSe precisar de mais detalhes ou tiver outras perguntas, estou à disposição! 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

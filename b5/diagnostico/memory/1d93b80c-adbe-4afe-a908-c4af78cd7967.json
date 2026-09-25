@@ -1,0 +1,86 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:43:15+00:00",
+      "expires_at": "2026-09-25T19:43:15+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, eskeci a senha do meu email e n consigo entra no webmail, como eu faço pra troca?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:15+00:00",
+      "expires_at": "2026-09-25T19:43:15+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:15+00:00",
+      "expires_at": "2026-09-25T19:43:15+00:00",
+      "sender": "user",
+      "message": "e 3029185",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:15+00:00",
+      "expires_at": "2026-09-25T19:43:15+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:22+00:00",
+      "expires_at": "2026-09-25T19:43:22+00:00",
+      "sender": "user",
+      "message": "olha eu ja tinha falado, eskeci a senha do meu email e naum consigo entra no webmail, precisava troca a senha",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:22+00:00",
+      "expires_at": "2026-09-25T19:43:22+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Como redefinir a senha do seu painel de acesso aos e-mails?\n2. O que fazer quando o painel de e-mail não abre ou dá erro ao entrar?\n3. Como solicitar a criação de novas contas de e-mail adicionais?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:43:31+00:00",
+      "expires_at": "2026-09-25T19:43:31+00:00",
+      "sender": "user",
+      "message": "isso, a opção 1 mesmo, quero redefini a senha",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:31+00:00",
+      "expires_at": "2026-09-25T19:43:31+00:00",
+      "sender": "bot",
+      "message": "Para redefinir a senha do seu email, você pode seguir os passos abaixo:\n\n1. Acesse o painel de administração da sua conta.\n2. Vá até a seção de configurações de e-mail.\n3. Clique em \"Alterar Senha\" ou \"Redefinir Senha\".\n4. S",
+      "intent": "suporte_tecnico",
+      "intent_confidence": 0.795622706413269
+    },
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "user",
+      "message": "aai eu naum sei quem é o administrador aqui naum, sou soh auxiliar... tem como voces me ajuda a descobri ou faz esse processo pra mim?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:43:35+00:00",
+      "expires_at": "2026-09-25T19:43:35+00:00",
+      "sender": "bot",
+      "message": "Pra te ajudar melhor, você quer saber sobre:\n\n1. Como recuperar ou redefinir sua senha de e-mail?\n2. O que fazer para recuperar o acesso ao painel de e-mail se ele foi perdido?\n3. Quais são os procedimentos caso tenha esquecido a senha do painel de e-mails?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

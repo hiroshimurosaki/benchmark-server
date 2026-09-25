@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:46:11+00:00",
+      "expires_at": "2026-09-25T19:46:11+00:00",
+      "sender": "user",
+      "message": "oi, o wizard do site travou na configuração inicial e não sai do lugar. como resolvo isso?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:11+00:00",
+      "expires_at": "2026-09-25T19:46:11+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:11+00:00",
+      "expires_at": "2026-09-25T19:46:11+00:00",
+      "sender": "user",
+      "message": "não sei de cabeça não, não lembro o número agora",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:11+00:00",
+      "expires_at": "2026-09-25T19:46:11+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "user",
+      "message": "já falei, o WIZARD do site travou na configuração inicial e não sai do lugar. como eu destravo isso??",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:46:23+00:00",
+      "expires_at": "2026-09-25T19:46:23+00:00",
+      "sender": "bot",
+      "message": "call_attendant",
+      "intent": "dominio_site",
+      "intent_confidence": 0.6783133745193481
+    }
+  ]
+}

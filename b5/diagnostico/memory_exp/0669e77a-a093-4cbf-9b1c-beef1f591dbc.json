@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:16:57+00:00",
+      "expires_at": "2026-09-25T19:16:57+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e mesmo assim caiu uma cobrança agora. Gostaria de entender o que houve.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:16:57+00:00",
+      "expires_at": "2026-09-25T19:16:57+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:17:01+00:00",
+      "expires_at": "2026-09-25T19:17:01+00:00",
+      "sender": "user",
+      "message": "Não sei de cabeça essa numeração, não. Já estou aposentando e encerrando a corretora, não tenho isso em mãos agora.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:17:02+00:00",
+      "expires_at": "2026-09-25T19:17:02+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:37+00:00",
+      "expires_at": "2026-09-25T21:05:37+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e mesmo assim caiu uma cobrança agora. Gostaria de entender o que houve.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:05:37+00:00",
+      "expires_at": "2026-09-25T21:05:37+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nEntendo sua preocupação. Para analisar essa situação, é importante verificar se o cancelamento foi formalizado corretamente antes da data de corte.\n\nO processo exige envio de e-mail para `atendimento@oncorretor.com.br` com seus dados (SUSEP, Domínio, CPF/CNPJ e motivo). Além disso, existe uma regra específica sobre a **data de corte (dia 20)**: se o cancelamento foi solicitado após esse dia, ou se o valor cobrado no mês seguinte está correto pelo modelo \"usa e depois paga\", não há estorno automático.\n\nPara que possamos investigar, por favor, envie um e-mail para `atendimento@oncorretor.com.br` anexando:\n1. O extrato onde aparece a cobrança;\n2. Comprovante ou detalhe do desconto/cobrança.\n\nO estorno só é analisado se houver erro real na cobrança ou se o cancelamento não tiver sido realizado conforme as regras. Aguardamos seu contato para orientarmos melhor.",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6566927433013916
+    }
+  ]
+}

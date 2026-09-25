@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "user",
+      "message": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe me dizer o que aconteceu?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "user",
+      "message": "3398712",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:24+00:00",
+      "expires_at": "2026-09-25T19:49:24+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:29+00:00",
+      "expires_at": "2026-09-25T19:49:29+00:00",
+      "sender": "user",
+      "message": "pois é, falaram que ela ta bloqueada e não expliquei o motivo, dá pra ver aí o que houve e o que eu faço pra desbloquear?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:29+00:00",
+      "expires_at": "2026-09-25T19:49:29+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Quais são os motivos comuns para uma SUSEP ficar bloqueada e quais procedimentos adotar para resolver essa situação?\n2. O que significa quando o status da sua SUSEP aparece como inativa e como interpretar essa informação?\n3. Se o wizard não está abrindo, isso indica que a SUSEP foi bloqueada ou há outra causa para esse erro?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

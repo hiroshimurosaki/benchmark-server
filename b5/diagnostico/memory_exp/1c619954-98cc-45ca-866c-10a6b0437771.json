@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:22:08+00:00",
+      "expires_at": "2026-09-25T19:22:08+00:00",
+      "sender": "user",
+      "message": "Cancelei meu plano mês passado e mesmo assim caiu cobrança na minha fatura. Quero explicação AGORA",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:22:08+00:00",
+      "expires_at": "2026-09-25T19:22:08+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:22:12+00:00",
+      "expires_at": "2026-09-25T19:22:12+00:00",
+      "sender": "user",
+      "message": "1122334",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:22:12+00:00",
+      "expires_at": "2026-09-25T19:22:12+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:10+00:00",
+      "expires_at": "2026-09-25T21:06:10+00:00",
+      "sender": "user",
+      "message": "Cancelei meu plano mês passado e mesmo assim caiu cobrança na minha fatura. Quero explicação AGORA",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:06:10+00:00",
+      "expires_at": "2026-09-25T21:06:10+00:00",
+      "sender": "bot",
+      "message": "Boa noite! 😊\n\nEntendo sua preocupação. Para analisar o caso de estorno, precisamos verificar se houve erro real na cobrança ou se o cancelamento não foi processado a tempo.\n\nSiga os passos abaixo para solicitar a análise:\n\n1. Envie um e-mail para `atendimento@oncorretor.com.br` anexando:\n   * O extrato onde aparece a cobrança;\n   * Comprovante ou detalhe do desconto/cobrança.\n\n**Atenção à data de corte (dia 20):**\nSe o seu cancelamento foi realizado após o dia 20, e a cobrança referente ao mês seguinte está correta pelo modelo \"usa e depois paga\", não há direito a estorno. Nesse caso, o valor cobrado refere-se ao período já utilizado antes do término efetivo do serviço no ciclo seguinte.\n\nCaso tenha havido erro real ou falha no cancelamento, nossa equipe analisará suas evidências.",
+      "intent": "cancelamento",
+      "intent_confidence": 0.6729596853256226
+    }
+  ]
+}

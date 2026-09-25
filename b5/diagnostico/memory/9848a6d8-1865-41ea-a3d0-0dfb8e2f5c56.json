@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "user",
+      "message": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar tal autenticação em duas etapas no painel, é isso mesmo que é obrigatório?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "user",
+      "message": "Olha, minha SUSEP eu não sei de cabeça agora não, não tenho aqui comigo. Mas essa autenticação em duas etapas, é obrigatória mesmo ou é só sugestão?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:49:57+00:00",
+      "expires_at": "2026-09-25T19:49:57+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:50:00+00:00",
+      "expires_at": "2026-09-25T19:50:00+00:00",
+      "sender": "user",
+      "message": "O senhor não me respondeu ainda, essa tal autenticação em duas etapas é obrigatória ou não? Só isso que eu quero saber.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:50:00+00:00",
+      "expires_at": "2026-09-25T19:50:00+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se a autenticação em duas etapas é obrigatória para acessar o painel?\n2. Como resolver problemas de acesso ou login ao painel?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

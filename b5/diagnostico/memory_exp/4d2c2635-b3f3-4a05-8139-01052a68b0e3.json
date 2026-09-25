@@ -1,0 +1,54 @@
+{
+  "schema_version": 2,
+  "context": {},
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:12:33+00:00",
+      "expires_at": "2026-09-25T19:12:33+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, eskeci a senha do meu email e n consigo entra no webmail, como eu faço pra troca?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:12:33+00:00",
+      "expires_at": "2026-09-25T19:12:33+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:12:38+00:00",
+      "expires_at": "2026-09-25T19:12:38+00:00",
+      "sender": "user",
+      "message": "e 3029185",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:12:38+00:00",
+      "expires_at": "2026-09-25T19:12:38+00:00",
+      "sender": "bot",
+      "message": "Perfeito, obrigado! Em que posso ajudá-lo?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:04:57+00:00",
+      "expires_at": "2026-09-25T21:04:57+00:00",
+      "sender": "user",
+      "message": "oi boa tarde, eskeci a senha do meu email e n consigo entra no webmail, como eu faço pra troca?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T21:04:57+00:00",
+      "expires_at": "2026-09-25T21:04:57+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPara esclarecer qual \"troca\" você deseja realizar, preciso de mais detalhes, pois existem vários procedimentos no nosso sistema:\n\n*   **Trocar senha do e-mail:** Acesse o webmail ou redefina pelo painel administrativo. O suporte não faz essa alteração por segurança.\n*   **Trocar titularidade do domínio (.br):** Envie um e-mail para `atendimento@oncorretor.com.br` com seu ID da conta no Registro.br.\n*   **Trocar domínio principal:** Geralmente envolve adquirir um novo domínio, pois a troca não é automática.\n\nPor favor, especifique qual serviço ou configuração você precisa alterar para que eu possa orientar corretamente. 😊\n\nPara tutoriais visuais detalhados, você também pode consultar:\n https://ajuda.oncorretor.com.br 📚",
+      "intent": "dominio_site",
+      "intent_confidence": 0.6491972804069519
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "context": {
+    "susep": "desconhecida"
+  },
+  "messages": [
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "user",
+      "message": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas o valor ta mt alto naum sei se pago isso eh certo mesmo",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "bot",
+      "message": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "user",
+      "message": "naum sei essa susep nao lembro de cor, tem q ser ela pra vc me ajuda",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:43+00:00",
+      "expires_at": "2026-09-25T19:47:43+00:00",
+      "sender": "bot",
+      "message": "Em que posso te ajudar?",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:47+00:00",
+      "expires_at": "2026-09-25T19:47:47+00:00",
+      "sender": "user",
+      "message": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu do site, o valor ta mt caro, quero saber se eh isso mesmo q eu tenho q pagar",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:47+00:00",
+      "expires_at": "2026-09-25T19:47:47+00:00",
+      "sender": "bot",
+      "message": "Boa tarde! 😊\n\nPra te ajudar melhor, você quer saber sobre:\n\n1. Se um boleto de renovação de domínio recebido é confiável e legítimo?\n2. Como trocar o endereço (domínio) do seu site?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    },
+    {
+      "timestamp": "2026-09-24T19:47:49+00:00",
+      "expires_at": "2026-09-25T19:47:49+00:00",
+      "sender": "user",
+      "message": "isso a opçao 1, quero saber se esse boleto eh de confiança msm pq o valor ta mt alto",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:49+00:00",
+      "expires_at": "2026-09-25T19:47:49+00:00",
+      "sender": "bot",
+      "message": "Desconfie. Existem empresas com nomes parecidos com o Registro.br (por exemplo, “BR.Registro”) que enviam boletos com valores muito acima do padrão. Os valores corretos de renovação anual são: R$ 40,00 para domínio nacional renovado direto no Registro.br; quando a renovação é feita pelo OnCorretor, R$ 44,23 (nacional) ou R$ 54,77 (internacional), e o valor vem na cobrança seguinte, descontado da conta comissão — o OnCorretor não envia boleto. Na dúvida, envie o boleto para atendimento@oncorretor.com.br antes de pagar; o suporte confere quem renova o seu domínio e quando ele vence.",
+      "intent": "dominio_site",
+      "intent_confidence": 0.8561550378799438
+    },
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "user",
+      "message": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, vou mandar pro email ai pra vcs confirmarem, obrigado viu",
+      "intent": "desconhecida",
+      "intent_confidence": "desconhecida"
+    },
+    {
+      "timestamp": "2026-09-24T19:47:52+00:00",
+      "expires_at": "2026-09-25T19:47:52+00:00",
+      "sender": "bot",
+      "message": "Pra te ajudar melhor, você quer saber sobre:\n\n1. O que fazer se não recebeu o e-mail de confirmação após a adesão?\n2. Como resolver problemas quando o seu painel de e-mail não abre?\n3. Como recuperar o acesso ao painel de e-mail caso tenha perdido as credenciais?\n\nMe diga o número da opção (1, 2 ou 3) ou explique melhor o que você precisa 😊",
+      "intent": "unknown",
+      "intent_confidence": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1790 @@
+{
+ "MiniLM (prod)": [
+  {
+   "q": "olha eu ja tinha falado, eskeci a senha do meu email e naum ",
+   "tem_gab": true,
+   "gab": 0.5869807600975037,
+   "rank": 15,
+   "top_eh_gab": false,
+   "top": 0.6554047465324402,
+   "melhor_nao_gab": 0.6554047465324402
+  },
+  {
+   "q": "isso, a opção 1 mesmo, quero redefini a senha",
+   "tem_gab": true,
+   "gab": 0.5212805271148682,
+   "rank": 57,
+   "top_eh_gab": false,
+   "top": 0.6944915056228638,
+   "melhor_nao_gab": 0.6944915056228638
+  },
+  {
+   "q": "aai eu naum sei quem é o administrador aqui naum, sou soh au",
+   "tem_gab": true,
+   "gab": 0.4620543122291565,
+   "rank": 67,
+   "top_eh_gab": false,
+   "top": 0.6360704898834229,
+   "melhor_nao_gab": 0.6360704898834229
+  },
+  {
+   "q": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje ",
+   "tem_gab": true,
+   "gab": 0.7536468505859375,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7536468505859375,
+   "melhor_nao_gab": 0.6715244054794312
+  },
+  {
+   "q": "é o que eu falei, recebi um email pedindo pra confirmar a se",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.7293025255203247,
+   "melhor_nao_gab": 0.7293025255203247
+  },
+  {
+   "q": "não é nada disso não, nenhuma dessas opções, o que eu quero ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.7085074186325073,
+   "melhor_nao_gab": 0.7085074186325073
+  },
+  {
+   "q": "Eu já tinha perguntado, mas repito: quais são as regras para",
+   "tem_gab": true,
+   "gab": 0.5503149628639221,
+   "rank": 40,
+   "top_eh_gab": false,
+   "top": 0.7242357730865479,
+   "melhor_nao_gab": 0.7242357730865479
+  },
+  {
+   "q": "Entendi sobre a autenticação, obrigado. Mas e as regras da s",
+   "tem_gab": true,
+   "gab": 0.5051445960998535,
+   "rank": 39,
+   "top_eh_gab": false,
+   "top": 0.7413939237594604,
+   "melhor_nao_gab": 0.7413939237594604
+  },
+  {
+   "q": "Já expliquei, veio uma cobrança do plano mesmo depois que pe",
+   "tem_gab": true,
+   "gab": 0.5936136841773987,
+   "rank": 6,
+   "top_eh_gab": false,
+   "top": 0.6521426439285278,
+   "melhor_nao_gab": 0.6521426439285278
+  },
+  {
+   "q": "é isso mesmo, os contatos que preenchem o formulário lá do m",
+   "tem_gab": true,
+   "gab": 0.5476031303405762,
+   "rank": 41,
+   "top_eh_gab": false,
+   "top": 0.6899006366729736,
+   "melhor_nao_gab": 0.6899006366729736
+  },
+  {
+   "q": "nenhuma dessas opções, é diferente. eu quero saber onde que ",
+   "tem_gab": true,
+   "gab": 0.41390520334243774,
+   "rank": 105,
+   "top_eh_gab": false,
+   "top": 0.5879590511322021,
+   "melhor_nao_gab": 0.5879590511322021
+  },
+  {
+   "q": "isso, opção 1! quero saber onde fica salvo esse contato e se",
+   "tem_gab": true,
+   "gab": 0.4540403485298157,
+   "rank": 101,
+   "top_eh_gab": false,
+   "top": 0.5983096361160278,
+   "melhor_nao_gab": 0.5983096361160278
+  },
+  {
+   "q": "eh isso mesmo que eu falei kkk troquei meu email e preciso t",
+   "tem_gab": true,
+   "gab": 0.4488435387611389,
+   "rank": 83,
+   "top_eh_gab": false,
+   "top": 0.7044150829315186,
+   "melhor_nao_gab": 0.7044150829315186
+  },
+  {
+   "q": "nao eh isso nao, eh o email de contato q aparece pro cliente",
+   "tem_gab": true,
+   "gab": 0.462124764919281,
+   "rank": 78,
+   "top_eh_gab": false,
+   "top": 0.7043911218643188,
+   "melhor_nao_gab": 0.7043911218643188
+  },
+  {
+   "q": "mas onde no painel? nao acho essa opçao, é em configuraçoes ",
+   "tem_gab": true,
+   "gab": 0.4906551241874695,
+   "rank": 56,
+   "top_eh_gab": false,
+   "top": 0.6751354932785034,
+   "melhor_nao_gab": 0.6751354932785034
+  },
+  {
+   "q": "então é isso mesmo que eu falei, eu mexi lá no painel, salve",
+   "tem_gab": true,
+   "gab": 0.7344361543655396,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7344361543655396,
+   "melhor_nao_gab": 0.7090528011322021
+  },
+  {
+   "q": "é a opção 1 mesmo, é isso que eu quero saber",
+   "tem_gab": true,
+   "gab": 0.5276837944984436,
+   "rank": 52,
+   "top_eh_gab": false,
+   "top": 0.6680939197540283,
+   "melhor_nao_gab": 0.6680939197540283
+  },
+  {
+   "q": "ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não d",
+   "tem_gab": true,
+   "gab": 0.5312503576278687,
+   "rank": 16,
+   "top_eh_gab": false,
+   "top": 0.5855005979537964,
+   "melhor_nao_gab": 0.5855005979537964
+  },
+  {
+   "q": "é a 1 de novo, só quero saber o que eu mando pro email viu, ",
+   "tem_gab": true,
+   "gab": 0.5678497552871704,
+   "rank": 29,
+   "top_eh_gab": false,
+   "top": 0.6907364130020142,
+   "melhor_nao_gab": 0.6907364130020142
+  },
+  {
+   "q": "já falei, o WIZARD do site travou na configuração inicial e ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6638399362564087,
+   "melhor_nao_gab": 0.6638399362564087
+  },
+  {
+   "q": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança n",
+   "tem_gab": true,
+   "gab": 0.5651990175247192,
+   "rank": 7,
+   "top_eh_gab": false,
+   "top": 0.6564762592315674,
+   "melhor_nao_gab": 0.6564762592315674
+  },
+  {
+   "q": "Não é isso. EU pedi cancelamento, não foi inatividade nenhum",
+   "tem_gab": true,
+   "gab": 0.6069706678390503,
+   "rank": 11,
+   "top_eh_gab": false,
+   "top": 0.7051764130592346,
+   "melhor_nao_gab": 0.7051764130592346
+  },
+  {
+   "q": "Olha, PEDI CANCELAMENTO no site mês passado, tenho o protoco",
+   "tem_gab": true,
+   "gab": 0.4920433759689331,
+   "rank": 66,
+   "top_eh_gab": false,
+   "top": 0.6589595079421997,
+   "melhor_nao_gab": 0.6589595079421997
+  },
+  {
+   "q": "1. ESTORNO. Só isso. Para de ficar repetindo menu e me expli",
+   "tem_gab": true,
+   "gab": 0.6417324542999268,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6417324542999268,
+   "melhor_nao_gab": 0.5613626837730408
+  },
+  {
+   "q": "é isso mesmo que eu tava falando, é sobre a declaração do im",
+   "tem_gab": true,
+   "gab": 0.5144391059875488,
+   "rank": 46,
+   "top_eh_gab": false,
+   "top": 0.6525044441223145,
+   "melhor_nao_gab": 0.6525044441223145
+  },
+  {
+   "q": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplenci",
+   "tem_gab": true,
+   "gab": 0.8007135391235352,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8007135391235352,
+   "melhor_nao_gab": 0.7811434268951416
+  },
+  {
+   "q": "ah pode ser a 1 e a 2 mesmo, quero saber pq recebi isso e o ",
+   "tem_gab": true,
+   "gab": 0.47996219992637634,
+   "rank": 57,
+   "top_eh_gab": false,
+   "top": 0.6326816082000732,
+   "melhor_nao_gab": 0.6326816082000732
+  },
+  {
+   "q": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu ",
+   "tem_gab": true,
+   "gab": 0.7266799211502075,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7266799211502075,
+   "melhor_nao_gab": 0.6921905279159546
+  },
+  {
+   "q": "isso a opçao 1, quero saber se esse boleto eh de confiança m",
+   "tem_gab": true,
+   "gab": 0.6787599325180054,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6787599325180054,
+   "melhor_nao_gab": 0.6236135959625244
+  },
+  {
+   "q": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, ",
+   "tem_gab": true,
+   "gab": 0.49095678329467773,
+   "rank": 13,
+   "top_eh_gab": false,
+   "top": 0.5870773792266846,
+   "melhor_nao_gab": 0.5870773792266846
+  },
+  {
+   "q": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido ",
+   "tem_gab": true,
+   "gab": 0.6436474323272705,
+   "rank": 16,
+   "top_eh_gab": false,
+   "top": 0.7026593089103699,
+   "melhor_nao_gab": 0.7026593089103699
+  },
+  {
+   "q": "Eu já tinha explicado: preciso atualizar o telefone e o e-ma",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.7574315071105957,
+   "melhor_nao_gab": 0.7574315071105957
+  },
+  {
+   "q": "Nenhuma dessas opções é o que eu preciso. Não é sobre painel",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6848039627075195,
+   "melhor_nao_gab": 0.6848039627075195
+  },
+  {
+   "q": "poxa eu já tinha falado kk, é sobre trocar o favicon do site",
+   "tem_gab": true,
+   "gab": 0.6093187928199768,
+   "rank": 10,
+   "top_eh_gab": false,
+   "top": 0.6812318563461304,
+   "melhor_nao_gab": 0.6812318563461304
+  },
+  {
+   "q": "isso mesmo, queria saber como funciona pra aderir ao oncorre",
+   "tem_gab": true,
+   "gab": 0.7461813688278198,
+   "rank": 4,
+   "top_eh_gab": false,
+   "top": 0.7995452880859375,
+   "melhor_nao_gab": 0.7995452880859375
+  },
+  {
+   "q": "isso, opção 1 mesmo, quero saber os passos pra aderir",
+   "tem_gab": true,
+   "gab": 0.568672776222229,
+   "rank": 27,
+   "top_eh_gab": false,
+   "top": 0.6529721021652222,
+   "melhor_nao_gab": 0.6529721021652222
+  },
+  {
+   "q": "entendi, valeu! e se eu quiser cancelar depois, tem multa ou",
+   "tem_gab": true,
+   "gab": 0.5560992956161499,
+   "rank": 3,
+   "top_eh_gab": false,
+   "top": 0.5885316133499146,
+   "melhor_nao_gab": 0.5885316133499146
+  },
+  {
+   "q": "então é o que eu falei, tá dando erro quando eu tento salvar",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.7071667313575745,
+   "melhor_nao_gab": 0.7071667313575745
+  },
+  {
+   "q": "é a opção 3 mesmo, editar o site, só que dá erro e trava, aí",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6858384013175964,
+   "melhor_nao_gab": 0.6858384013175964
+  },
+  {
+   "q": "era isso mesmo, minha dúvida é se posso add logo de outras s",
+   "tem_gab": true,
+   "gab": 0.808552622795105,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.808552622795105,
+   "melhor_nao_gab": 0.765313982963562
+  },
+  {
+   "q": "pois é, falaram que ela ta bloqueada e não expliquei o motiv",
+   "tem_gab": true,
+   "gab": 0.629218578338623,
+   "rank": 6,
+   "top_eh_gab": false,
+   "top": 0.6516895294189453,
+   "melhor_nao_gab": 0.6516895294189453
+  },
+  {
+   "q": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à pa",
+   "tem_gab": true,
+   "gab": 0.7042455673217773,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7042455673217773,
+   "melhor_nao_gab": 0.6918941736221313
+  },
+  {
+   "q": "Acho que houve algum engano, não perguntei sobre logo. Eu qu",
+   "tem_gab": true,
+   "gab": 0.7093420624732971,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.713775634765625,
+   "melhor_nao_gab": 0.713775634765625
+  },
+  {
+   "q": "É a opção 2, por favor.",
+   "tem_gab": true,
+   "gab": 0.5900291204452515,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.5900291204452515,
+   "melhor_nao_gab": 0.5611627101898193
+  },
+  {
+   "q": "O senhor não me respondeu ainda, essa tal autenticação em du",
+   "tem_gab": true,
+   "gab": 0.5912421345710754,
+   "rank": 5,
+   "top_eh_gab": false,
+   "top": 0.647490382194519,
+   "melhor_nao_gab": 0.647490382194519
+  },
+  {
+   "q": "oi boa tarde, eskeci a senha do meu email e n consigo entra ",
+   "tem_gab": true,
+   "gab": 0.6252144575119019,
+   "rank": 14,
+   "top_eh_gab": false,
+   "top": 0.6982257962226868,
+   "melhor_nao_gab": 0.6982257962226868
+  },
+  {
+   "q": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso",
+   "tem_gab": true,
+   "gab": 0.6770795583724976,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6770795583724976,
+   "melhor_nao_gab": 0.6078022718429565
+  },
+  {
+   "q": "oi boa tarde, olha eu recebi um email aqui meio estranho ped",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6860335469245911,
+   "melhor_nao_gab": 0.6860335469245911
+  },
+  {
+   "q": "Boa tarde. Gostaria de saber qual é a regra para criar a sen",
+   "tem_gab": true,
+   "gab": 0.5628952980041504,
+   "rank": 22,
+   "top_eh_gab": false,
+   "top": 0.712582528591156,
+   "melhor_nao_gab": 0.712582528591156
+  },
+  {
+   "q": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e",
+   "tem_gab": true,
+   "gab": 0.5046199560165405,
+   "rank": 47,
+   "top_eh_gab": false,
+   "top": 0.6370406746864319,
+   "melhor_nao_gab": 0.6370406746864319
+  },
+  {
+   "q": "oi, boa tarde! queria entender uma coisa do meu site, os con",
+   "tem_gab": true,
+   "gab": 0.5243492722511292,
+   "rank": 67,
+   "top_eh_gab": false,
+   "top": 0.6666742563247681,
+   "melhor_nao_gab": 0.6666742563247681
+  },
+  {
+   "q": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+   "tem_gab": true,
+   "gab": 0.4335147738456726,
+   "rank": 75,
+   "top_eh_gab": false,
+   "top": 0.6539099216461182,
+   "melhor_nao_gab": 0.6539099216461182
+  },
+  {
+   "q": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do me",
+   "tem_gab": true,
+   "gab": 0.8280901908874512,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8280901908874512,
+   "melhor_nao_gab": 0.6771347522735596
+  },
+  {
+   "q": "oi, o wizard do site travou na configuração inicial e não sa",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6703882217407227,
+   "melhor_nao_gab": 0.6703882217407227
+  },
+  {
+   "q": "Cancelei meu plano mês passado e mesmo assim caiu cobrança n",
+   "tem_gab": true,
+   "gab": 0.5515213012695312,
+   "rank": 8,
+   "top_eh_gab": false,
+   "top": 0.6729596257209778,
+   "melhor_nao_gab": 0.6729596257209778
+  },
+  {
+   "q": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô ten",
+   "tem_gab": true,
+   "gab": 0.46819543838500977,
+   "rank": 77,
+   "top_eh_gab": false,
+   "top": 0.6326429843902588,
+   "melhor_nao_gab": 0.6326429843902588
+  },
+  {
+   "q": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplenc",
+   "tem_gab": true,
+   "gab": 0.820763885974884,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.820763885974884,
+   "melhor_nao_gab": 0.7935763597488403
+  },
+  {
+   "q": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas",
+   "tem_gab": true,
+   "gab": 0.6819604635238647,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6819604635238647,
+   "melhor_nao_gab": 0.5578222274780273
+  },
+  {
+   "q": "Boa tarde. Preciso do telefone do suporte do OnCorretor, ráp",
+   "tem_gab": true,
+   "gab": 0.6386181116104126,
+   "rank": 8,
+   "top_eh_gab": false,
+   "top": 0.6833100318908691,
+   "melhor_nao_gab": 0.6833100318908691
+  },
+  {
+   "q": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrad",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.7042495012283325,
+   "melhor_nao_gab": 0.7042495012283325
+  },
+  {
+   "q": "oi! td bem? to mexendo no meu site aqui e travei em umas coi",
+   "tem_gab": true,
+   "gab": 0.6078838109970093,
+   "rank": 10,
+   "top_eh_gab": false,
+   "top": 0.6411688327789307,
+   "melhor_nao_gab": 0.6411688327789307
+  },
+  {
+   "q": "oi, boa tarde! vi o oncorretor aqui, queria entender como fu",
+   "tem_gab": true,
+   "gab": 0.6835300326347351,
+   "rank": 21,
+   "top_eh_gab": false,
+   "top": 0.7590941786766052,
+   "melhor_nao_gab": 0.7590941786766052
+  },
+  {
+   "q": "oi boa tarde, tudo bem? então tô tentando editar o meu site ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6576908826828003,
+   "melhor_nao_gab": 0.6576908826828003
+  },
+  {
+   "q": "oi, boa tarde! posso colocar logo de outras seguradoras no m",
+   "tem_gab": true,
+   "gab": 0.8607097864151001,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8607097864151001,
+   "melhor_nao_gab": 0.7856448888778687
+  },
+  {
+   "q": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe",
+   "tem_gab": true,
+   "gab": 0.7801462411880493,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7801462411880493,
+   "melhor_nao_gab": 0.7657673954963684
+  },
+  {
+   "q": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar t",
+   "tem_gab": true,
+   "gab": 0.7792555689811707,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7792555689811707,
+   "melhor_nao_gab": 0.7254784107208252
+  }
+ ],
+ "multi-MiniLM-L12": [
+  {
+   "q": "olha eu ja tinha falado, eskeci a senha do meu email e naum ",
+   "tem_gab": true,
+   "gab": 0.7466015815734863,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.8446959257125854,
+   "melhor_nao_gab": 0.8446959257125854
+  },
+  {
+   "q": "isso, a opção 1 mesmo, quero redefini a senha",
+   "tem_gab": true,
+   "gab": 0.5936489701271057,
+   "rank": 3,
+   "top_eh_gab": false,
+   "top": 0.6649484038352966,
+   "melhor_nao_gab": 0.6649484038352966
+  },
+  {
+   "q": "aai eu naum sei quem é o administrador aqui naum, sou soh au",
+   "tem_gab": true,
+   "gab": 0.20550735294818878,
+   "rank": 117,
+   "top_eh_gab": false,
+   "top": 0.4870504140853882,
+   "melhor_nao_gab": 0.4870504140853882
+  },
+  {
+   "q": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje ",
+   "tem_gab": true,
+   "gab": 0.7503560185432434,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.7622731924057007,
+   "melhor_nao_gab": 0.7622731924057007
+  },
+  {
+   "q": "é o que eu falei, recebi um email pedindo pra confirmar a se",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6949102282524109,
+   "melhor_nao_gab": 0.6949102282524109
+  },
+  {
+   "q": "não é nada disso não, nenhuma dessas opções, o que eu quero ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6887922286987305,
+   "melhor_nao_gab": 0.6887922286987305
+  },
+  {
+   "q": "Eu já tinha perguntado, mas repito: quais são as regras para",
+   "tem_gab": true,
+   "gab": 0.7080093622207642,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7080093622207642,
+   "melhor_nao_gab": 0.6597316265106201
+  },
+  {
+   "q": "Entendi sobre a autenticação, obrigado. Mas e as regras da s",
+   "tem_gab": true,
+   "gab": 0.5266851186752319,
+   "rank": 12,
+   "top_eh_gab": false,
+   "top": 0.6811959743499756,
+   "melhor_nao_gab": 0.6811959743499756
+  },
+  {
+   "q": "Já expliquei, veio uma cobrança do plano mesmo depois que pe",
+   "tem_gab": true,
+   "gab": 0.6746684312820435,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6746684312820435,
+   "melhor_nao_gab": 0.6274776458740234
+  },
+  {
+   "q": "é isso mesmo, os contatos que preenchem o formulário lá do m",
+   "tem_gab": true,
+   "gab": 0.42223185300827026,
+   "rank": 43,
+   "top_eh_gab": false,
+   "top": 0.6973804235458374,
+   "melhor_nao_gab": 0.6973804235458374
+  },
+  {
+   "q": "nenhuma dessas opções, é diferente. eu quero saber onde que ",
+   "tem_gab": true,
+   "gab": 0.311909556388855,
+   "rank": 37,
+   "top_eh_gab": false,
+   "top": 0.4513816833496094,
+   "melhor_nao_gab": 0.4513816833496094
+  },
+  {
+   "q": "isso, opção 1! quero saber onde fica salvo esse contato e se",
+   "tem_gab": true,
+   "gab": 0.36716508865356445,
+   "rank": 34,
+   "top_eh_gab": false,
+   "top": 0.5004582405090332,
+   "melhor_nao_gab": 0.5004582405090332
+  },
+  {
+   "q": "eh isso mesmo que eu falei kkk troquei meu email e preciso t",
+   "tem_gab": true,
+   "gab": 0.4072250425815582,
+   "rank": 56,
+   "top_eh_gab": false,
+   "top": 0.6552628874778748,
+   "melhor_nao_gab": 0.6552628874778748
+  },
+  {
+   "q": "nao eh isso nao, eh o email de contato q aparece pro cliente",
+   "tem_gab": true,
+   "gab": 0.3915077745914459,
+   "rank": 53,
+   "top_eh_gab": false,
+   "top": 0.6380374431610107,
+   "melhor_nao_gab": 0.6380374431610107
+  },
+  {
+   "q": "mas onde no painel? nao acho essa opçao, é em configuraçoes ",
+   "tem_gab": true,
+   "gab": 0.11954622715711594,
+   "rank": 121,
+   "top_eh_gab": false,
+   "top": 0.47353655099868774,
+   "melhor_nao_gab": 0.47353655099868774
+  },
+  {
+   "q": "então é isso mesmo que eu falei, eu mexi lá no painel, salve",
+   "tem_gab": true,
+   "gab": 0.7742462158203125,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7742462158203125,
+   "melhor_nao_gab": 0.6158992648124695
+  },
+  {
+   "q": "é a opção 1 mesmo, é isso que eu quero saber",
+   "tem_gab": true,
+   "gab": 0.07845950126647949,
+   "rank": 126,
+   "top_eh_gab": false,
+   "top": 0.5266531705856323,
+   "melhor_nao_gab": 0.5266531705856323
+  },
+  {
+   "q": "ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não d",
+   "tem_gab": true,
+   "gab": 0.4517381191253662,
+   "rank": 20,
+   "top_eh_gab": false,
+   "top": 0.6606035232543945,
+   "melhor_nao_gab": 0.6606035232543945
+  },
+  {
+   "q": "é a 1 de novo, só quero saber o que eu mando pro email viu, ",
+   "tem_gab": true,
+   "gab": 0.5096139907836914,
+   "rank": 21,
+   "top_eh_gab": false,
+   "top": 0.6615194082260132,
+   "melhor_nao_gab": 0.6615194082260132
+  },
+  {
+   "q": "já falei, o WIZARD do site travou na configuração inicial e ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6045225858688354,
+   "melhor_nao_gab": 0.6045225858688354
+  },
+  {
+   "q": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança n",
+   "tem_gab": true,
+   "gab": 0.7054945230484009,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7054945230484009,
+   "melhor_nao_gab": 0.557111382484436
+  },
+  {
+   "q": "Não é isso. EU pedi cancelamento, não foi inatividade nenhum",
+   "tem_gab": true,
+   "gab": 0.7325239181518555,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7325239181518555,
+   "melhor_nao_gab": 0.5707452893257141
+  },
+  {
+   "q": "Olha, PEDI CANCELAMENTO no site mês passado, tenho o protoco",
+   "tem_gab": true,
+   "gab": 0.6031973361968994,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.6374489665031433,
+   "melhor_nao_gab": 0.6374489665031433
+  },
+  {
+   "q": "1. ESTORNO. Só isso. Para de ficar repetindo menu e me expli",
+   "tem_gab": true,
+   "gab": 0.6997237205505371,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6997237205505371,
+   "melhor_nao_gab": 0.6431318521499634
+  },
+  {
+   "q": "é isso mesmo que eu tava falando, é sobre a declaração do im",
+   "tem_gab": true,
+   "gab": 0.3608829081058502,
+   "rank": 13,
+   "top_eh_gab": false,
+   "top": 0.476687490940094,
+   "melhor_nao_gab": 0.476687490940094
+  },
+  {
+   "q": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplenci",
+   "tem_gab": true,
+   "gab": 0.6369144916534424,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.6661955714225769,
+   "melhor_nao_gab": 0.6661955714225769
+  },
+  {
+   "q": "ah pode ser a 1 e a 2 mesmo, quero saber pq recebi isso e o ",
+   "tem_gab": true,
+   "gab": 0.3001450002193451,
+   "rank": 64,
+   "top_eh_gab": false,
+   "top": 0.6045686602592468,
+   "melhor_nao_gab": 0.6045686602592468
+  },
+  {
+   "q": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu ",
+   "tem_gab": true,
+   "gab": 0.6922436952590942,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6922436952590942,
+   "melhor_nao_gab": 0.5977869033813477
+  },
+  {
+   "q": "isso a opçao 1, quero saber se esse boleto eh de confiança m",
+   "tem_gab": true,
+   "gab": 0.5231705904006958,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.5231705904006958,
+   "melhor_nao_gab": 0.5065922737121582
+  },
+  {
+   "q": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, ",
+   "tem_gab": true,
+   "gab": 0.5461379289627075,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.5749643445014954,
+   "melhor_nao_gab": 0.5749643445014954
+  },
+  {
+   "q": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido ",
+   "tem_gab": true,
+   "gab": 0.2677499055862427,
+   "rank": 59,
+   "top_eh_gab": false,
+   "top": 0.5343043804168701,
+   "melhor_nao_gab": 0.5343043804168701
+  },
+  {
+   "q": "Eu já tinha explicado: preciso atualizar o telefone e o e-ma",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.744958221912384,
+   "melhor_nao_gab": 0.744958221912384
+  },
+  {
+   "q": "Nenhuma dessas opções é o que eu preciso. Não é sobre painel",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.629515528678894,
+   "melhor_nao_gab": 0.629515528678894
+  },
+  {
+   "q": "poxa eu já tinha falado kk, é sobre trocar o favicon do site",
+   "tem_gab": true,
+   "gab": 0.3485548794269562,
+   "rank": 54,
+   "top_eh_gab": false,
+   "top": 0.6361039280891418,
+   "melhor_nao_gab": 0.6361039280891418
+  },
+  {
+   "q": "isso mesmo, queria saber como funciona pra aderir ao oncorre",
+   "tem_gab": true,
+   "gab": 0.2871999144554138,
+   "rank": 75,
+   "top_eh_gab": false,
+   "top": 0.642875075340271,
+   "melhor_nao_gab": 0.642875075340271
+  },
+  {
+   "q": "isso, opção 1 mesmo, quero saber os passos pra aderir",
+   "tem_gab": true,
+   "gab": 0.37129998207092285,
+   "rank": 16,
+   "top_eh_gab": false,
+   "top": 0.6330963373184204,
+   "melhor_nao_gab": 0.6330963373184204
+  },
+  {
+   "q": "entendi, valeu! e se eu quiser cancelar depois, tem multa ou",
+   "tem_gab": true,
+   "gab": 0.647749662399292,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.6486320495605469,
+   "melhor_nao_gab": 0.6486320495605469
+  },
+  {
+   "q": "então é o que eu falei, tá dando erro quando eu tento salvar",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6886654496192932,
+   "melhor_nao_gab": 0.6886654496192932
+  },
+  {
+   "q": "é a opção 3 mesmo, editar o site, só que dá erro e trava, aí",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6512548923492432,
+   "melhor_nao_gab": 0.6512548923492432
+  },
+  {
+   "q": "era isso mesmo, minha dúvida é se posso add logo de outras s",
+   "tem_gab": true,
+   "gab": 0.6031444072723389,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.7767876386642456,
+   "melhor_nao_gab": 0.7767876386642456
+  },
+  {
+   "q": "pois é, falaram que ela ta bloqueada e não expliquei o motiv",
+   "tem_gab": true,
+   "gab": 0.7637224197387695,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7637224197387695,
+   "melhor_nao_gab": 0.7174859046936035
+  },
+  {
+   "q": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à pa",
+   "tem_gab": true,
+   "gab": 0.7298558950424194,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7298558950424194,
+   "melhor_nao_gab": 0.7261953353881836
+  },
+  {
+   "q": "Acho que houve algum engano, não perguntei sobre logo. Eu qu",
+   "tem_gab": true,
+   "gab": 0.765129804611206,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.765129804611206,
+   "melhor_nao_gab": 0.7319318652153015
+  },
+  {
+   "q": "É a opção 2, por favor.",
+   "tem_gab": true,
+   "gab": 0.19190436601638794,
+   "rank": 77,
+   "top_eh_gab": false,
+   "top": 0.5802077054977417,
+   "melhor_nao_gab": 0.5802077054977417
+  },
+  {
+   "q": "O senhor não me respondeu ainda, essa tal autenticação em du",
+   "tem_gab": true,
+   "gab": 0.6911048293113708,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.6911048293113708,
+   "melhor_nao_gab": 0.540011465549469
+  },
+  {
+   "q": "oi boa tarde, eskeci a senha do meu email e n consigo entra ",
+   "tem_gab": true,
+   "gab": 0.7123883962631226,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.8148391842842102,
+   "melhor_nao_gab": 0.8148391842842102
+  },
+  {
+   "q": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso",
+   "tem_gab": true,
+   "gab": 0.6118119955062866,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.6122332215309143,
+   "melhor_nao_gab": 0.6122332215309143
+  },
+  {
+   "q": "oi boa tarde, olha eu recebi um email aqui meio estranho ped",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6911264657974243,
+   "melhor_nao_gab": 0.6911264657974243
+  },
+  {
+   "q": "Boa tarde. Gostaria de saber qual é a regra para criar a sen",
+   "tem_gab": true,
+   "gab": 0.643621027469635,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.643621027469635,
+   "melhor_nao_gab": 0.6421934366226196
+  },
+  {
+   "q": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e",
+   "tem_gab": true,
+   "gab": 0.7268331050872803,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7268331050872803,
+   "melhor_nao_gab": 0.5876074433326721
+  },
+  {
+   "q": "oi, boa tarde! queria entender uma coisa do meu site, os con",
+   "tem_gab": true,
+   "gab": 0.4924599230289459,
+   "rank": 15,
+   "top_eh_gab": false,
+   "top": 0.612301230430603,
+   "melhor_nao_gab": 0.612301230430603
+  },
+  {
+   "q": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+   "tem_gab": true,
+   "gab": 0.3157883882522583,
+   "rank": 62,
+   "top_eh_gab": false,
+   "top": 0.5576514601707458,
+   "melhor_nao_gab": 0.5576514601707458
+  },
+  {
+   "q": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do me",
+   "tem_gab": true,
+   "gab": 0.8062254190444946,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8062254190444946,
+   "melhor_nao_gab": 0.6760419011116028
+  },
+  {
+   "q": "oi, o wizard do site travou na configuração inicial e não sa",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6402128338813782,
+   "melhor_nao_gab": 0.6402128338813782
+  },
+  {
+   "q": "Cancelei meu plano mês passado e mesmo assim caiu cobrança n",
+   "tem_gab": true,
+   "gab": 0.7241779565811157,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7241779565811157,
+   "melhor_nao_gab": 0.6494638919830322
+  },
+  {
+   "q": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô ten",
+   "tem_gab": true,
+   "gab": 0.34394019842147827,
+   "rank": 19,
+   "top_eh_gab": false,
+   "top": 0.47514989972114563,
+   "melhor_nao_gab": 0.47514989972114563
+  },
+  {
+   "q": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplenc",
+   "tem_gab": true,
+   "gab": 0.6767431497573853,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.6905020475387573,
+   "melhor_nao_gab": 0.6905020475387573
+  },
+  {
+   "q": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas",
+   "tem_gab": true,
+   "gab": 0.5137016177177429,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.5739862322807312,
+   "melhor_nao_gab": 0.5739862322807312
+  },
+  {
+   "q": "Boa tarde. Preciso do telefone do suporte do OnCorretor, ráp",
+   "tem_gab": true,
+   "gab": 0.19177359342575073,
+   "rank": 75,
+   "top_eh_gab": false,
+   "top": 0.48209452629089355,
+   "melhor_nao_gab": 0.48209452629089355
+  },
+  {
+   "q": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrad",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.6592148542404175,
+   "melhor_nao_gab": 0.6592148542404175
+  },
+  {
+   "q": "oi! td bem? to mexendo no meu site aqui e travei em umas coi",
+   "tem_gab": true,
+   "gab": 0.3785583972930908,
+   "rank": 34,
+   "top_eh_gab": false,
+   "top": 0.6862813234329224,
+   "melhor_nao_gab": 0.6862813234329224
+  },
+  {
+   "q": "oi, boa tarde! vi o oncorretor aqui, queria entender como fu",
+   "tem_gab": true,
+   "gab": 0.2912404537200928,
+   "rank": 62,
+   "top_eh_gab": false,
+   "top": 0.615067720413208,
+   "melhor_nao_gab": 0.615067720413208
+  },
+  {
+   "q": "oi boa tarde, tudo bem? então tô tentando editar o meu site ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.634446382522583,
+   "melhor_nao_gab": 0.634446382522583
+  },
+  {
+   "q": "oi, boa tarde! posso colocar logo de outras seguradoras no m",
+   "tem_gab": true,
+   "gab": 0.6292988061904907,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.7460523843765259,
+   "melhor_nao_gab": 0.7460523843765259
+  },
+  {
+   "q": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe",
+   "tem_gab": true,
+   "gab": 0.7389942407608032,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.7389942407608032,
+   "melhor_nao_gab": 0.701251208782196
+  },
+  {
+   "q": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar t",
+   "tem_gab": true,
+   "gab": 0.8189153671264648,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8189153671264648,
+   "melhor_nao_gab": 0.5744785070419312
+  }
+ ],
+ "e5-small": [
+  {
+   "q": "olha eu ja tinha falado, eskeci a senha do meu email e naum ",
+   "tem_gab": true,
+   "gab": 0.8824392557144165,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.8843871355056763,
+   "melhor_nao_gab": 0.8843871355056763
+  },
+  {
+   "q": "isso, a opção 1 mesmo, quero redefini a senha",
+   "tem_gab": true,
+   "gab": 0.9112809896469116,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9112809896469116,
+   "melhor_nao_gab": 0.8965955972671509
+  },
+  {
+   "q": "aai eu naum sei quem é o administrador aqui naum, sou soh au",
+   "tem_gab": true,
+   "gab": 0.8279401063919067,
+   "rank": 63,
+   "top_eh_gab": false,
+   "top": 0.8990798592567444,
+   "melhor_nao_gab": 0.8990798592567444
+  },
+  {
+   "q": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje ",
+   "tem_gab": true,
+   "gab": 0.8864437937736511,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8864437937736511,
+   "melhor_nao_gab": 0.8848679065704346
+  },
+  {
+   "q": "é o que eu falei, recebi um email pedindo pra confirmar a se",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.9032135009765625,
+   "melhor_nao_gab": 0.9032135009765625
+  },
+  {
+   "q": "não é nada disso não, nenhuma dessas opções, o que eu quero ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.887250542640686,
+   "melhor_nao_gab": 0.887250542640686
+  },
+  {
+   "q": "Eu já tinha perguntado, mas repito: quais são as regras para",
+   "tem_gab": true,
+   "gab": 0.9055485725402832,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9055485725402832,
+   "melhor_nao_gab": 0.8864974975585938
+  },
+  {
+   "q": "Entendi sobre a autenticação, obrigado. Mas e as regras da s",
+   "tem_gab": true,
+   "gab": 0.8765308856964111,
+   "rank": 4,
+   "top_eh_gab": false,
+   "top": 0.8865622282028198,
+   "melhor_nao_gab": 0.8865622282028198
+  },
+  {
+   "q": "Já expliquei, veio uma cobrança do plano mesmo depois que pe",
+   "tem_gab": true,
+   "gab": 0.8916531801223755,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8916531801223755,
+   "melhor_nao_gab": 0.8837864398956299
+  },
+  {
+   "q": "é isso mesmo, os contatos que preenchem o formulário lá do m",
+   "tem_gab": true,
+   "gab": 0.8558911085128784,
+   "rank": 15,
+   "top_eh_gab": false,
+   "top": 0.8815679550170898,
+   "melhor_nao_gab": 0.8815679550170898
+  },
+  {
+   "q": "nenhuma dessas opções, é diferente. eu quero saber onde que ",
+   "tem_gab": true,
+   "gab": 0.8510780334472656,
+   "rank": 22,
+   "top_eh_gab": false,
+   "top": 0.8710920214653015,
+   "melhor_nao_gab": 0.8710920214653015
+  },
+  {
+   "q": "isso, opção 1! quero saber onde fica salvo esse contato e se",
+   "tem_gab": true,
+   "gab": 0.8632122278213501,
+   "rank": 28,
+   "top_eh_gab": false,
+   "top": 0.8880865573883057,
+   "melhor_nao_gab": 0.8880865573883057
+  },
+  {
+   "q": "eh isso mesmo que eu falei kkk troquei meu email e preciso t",
+   "tem_gab": true,
+   "gab": 0.8323830366134644,
+   "rank": 105,
+   "top_eh_gab": false,
+   "top": 0.8881922960281372,
+   "melhor_nao_gab": 0.8881922960281372
+  },
+  {
+   "q": "nao eh isso nao, eh o email de contato q aparece pro cliente",
+   "tem_gab": true,
+   "gab": 0.8292742967605591,
+   "rank": 129,
+   "top_eh_gab": false,
+   "top": 0.9039492607116699,
+   "melhor_nao_gab": 0.9039492607116699
+  },
+  {
+   "q": "mas onde no painel? nao acho essa opçao, é em configuraçoes ",
+   "tem_gab": true,
+   "gab": 0.8314887881278992,
+   "rank": 48,
+   "top_eh_gab": false,
+   "top": 0.8846968412399292,
+   "melhor_nao_gab": 0.8846968412399292
+  },
+  {
+   "q": "então é isso mesmo que eu falei, eu mexi lá no painel, salve",
+   "tem_gab": true,
+   "gab": 0.905646800994873,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.905646800994873,
+   "melhor_nao_gab": 0.8835286498069763
+  },
+  {
+   "q": "é a opção 1 mesmo, é isso que eu quero saber",
+   "tem_gab": true,
+   "gab": 0.8455765843391418,
+   "rank": 44,
+   "top_eh_gab": false,
+   "top": 0.8854415416717529,
+   "melhor_nao_gab": 0.8854415416717529
+  },
+  {
+   "q": "ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não d",
+   "tem_gab": true,
+   "gab": 0.8655794262886047,
+   "rank": 14,
+   "top_eh_gab": false,
+   "top": 0.8844935894012451,
+   "melhor_nao_gab": 0.8844935894012451
+  },
+  {
+   "q": "é a 1 de novo, só quero saber o que eu mando pro email viu, ",
+   "tem_gab": true,
+   "gab": 0.8595941066741943,
+   "rank": 15,
+   "top_eh_gab": false,
+   "top": 0.8851308822631836,
+   "melhor_nao_gab": 0.8851308822631836
+  },
+  {
+   "q": "já falei, o WIZARD do site travou na configuração inicial e ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.9001832008361816,
+   "melhor_nao_gab": 0.9001832008361816
+  },
+  {
+   "q": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança n",
+   "tem_gab": true,
+   "gab": 0.9015399217605591,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9015399217605591,
+   "melhor_nao_gab": 0.8887468576431274
+  },
+  {
+   "q": "Não é isso. EU pedi cancelamento, não foi inatividade nenhum",
+   "tem_gab": true,
+   "gab": 0.8860260844230652,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.8887976408004761,
+   "melhor_nao_gab": 0.8887976408004761
+  },
+  {
+   "q": "Olha, PEDI CANCELAMENTO no site mês passado, tenho o protoco",
+   "tem_gab": true,
+   "gab": 0.8902909755706787,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8902909755706787,
+   "melhor_nao_gab": 0.8774135112762451
+  },
+  {
+   "q": "1. ESTORNO. Só isso. Para de ficar repetindo menu e me expli",
+   "tem_gab": true,
+   "gab": 0.8913860321044922,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8913860321044922,
+   "melhor_nao_gab": 0.8835904598236084
+  },
+  {
+   "q": "é isso mesmo que eu tava falando, é sobre a declaração do im",
+   "tem_gab": true,
+   "gab": 0.8476858735084534,
+   "rank": 35,
+   "top_eh_gab": false,
+   "top": 0.9052332639694214,
+   "melhor_nao_gab": 0.9052332639694214
+  },
+  {
+   "q": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplenci",
+   "tem_gab": true,
+   "gab": 0.8856282234191895,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.9009040594100952,
+   "melhor_nao_gab": 0.9009040594100952
+  },
+  {
+   "q": "ah pode ser a 1 e a 2 mesmo, quero saber pq recebi isso e o ",
+   "tem_gab": true,
+   "gab": 0.8289684057235718,
+   "rank": 99,
+   "top_eh_gab": false,
+   "top": 0.9042795896530151,
+   "melhor_nao_gab": 0.9042795896530151
+  },
+  {
+   "q": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu ",
+   "tem_gab": true,
+   "gab": 0.9189375638961792,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9189375638961792,
+   "melhor_nao_gab": 0.8775025606155396
+  },
+  {
+   "q": "isso a opçao 1, quero saber se esse boleto eh de confiança m",
+   "tem_gab": true,
+   "gab": 0.8841196298599243,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8841196298599243,
+   "melhor_nao_gab": 0.8745266199111938
+  },
+  {
+   "q": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, ",
+   "tem_gab": true,
+   "gab": 0.8705824017524719,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8705824017524719,
+   "melhor_nao_gab": 0.852394700050354
+  },
+  {
+   "q": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido ",
+   "tem_gab": true,
+   "gab": 0.9095124006271362,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.9164953827857971,
+   "melhor_nao_gab": 0.9164953827857971
+  },
+  {
+   "q": "Eu já tinha explicado: preciso atualizar o telefone e o e-ma",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.8978160619735718,
+   "melhor_nao_gab": 0.8978160619735718
+  },
+  {
+   "q": "Nenhuma dessas opções é o que eu preciso. Não é sobre painel",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.8770018219947815,
+   "melhor_nao_gab": 0.8770018219947815
+  },
+  {
+   "q": "poxa eu já tinha falado kk, é sobre trocar o favicon do site",
+   "tem_gab": true,
+   "gab": 0.850899875164032,
+   "rank": 39,
+   "top_eh_gab": false,
+   "top": 0.8778656721115112,
+   "melhor_nao_gab": 0.8778656721115112
+  },
+  {
+   "q": "isso mesmo, queria saber como funciona pra aderir ao oncorre",
+   "tem_gab": true,
+   "gab": 0.8966147899627686,
+   "rank": 13,
+   "top_eh_gab": false,
+   "top": 0.9368363618850708,
+   "melhor_nao_gab": 0.9368363618850708
+  },
+  {
+   "q": "isso, opção 1 mesmo, quero saber os passos pra aderir",
+   "tem_gab": true,
+   "gab": 0.8659899830818176,
+   "rank": 17,
+   "top_eh_gab": false,
+   "top": 0.8982871174812317,
+   "melhor_nao_gab": 0.8982871174812317
+  },
+  {
+   "q": "entendi, valeu! e se eu quiser cancelar depois, tem multa ou",
+   "tem_gab": true,
+   "gab": 0.8809950351715088,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8809950351715088,
+   "melhor_nao_gab": 0.879287600517273
+  },
+  {
+   "q": "então é o que eu falei, tá dando erro quando eu tento salvar",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.8792014122009277,
+   "melhor_nao_gab": 0.8792014122009277
+  },
+  {
+   "q": "é a opção 3 mesmo, editar o site, só que dá erro e trava, aí",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.8900009989738464,
+   "melhor_nao_gab": 0.8900009989738464
+  },
+  {
+   "q": "era isso mesmo, minha dúvida é se posso add logo de outras s",
+   "tem_gab": true,
+   "gab": 0.9010275602340698,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9010275602340698,
+   "melhor_nao_gab": 0.8910199999809265
+  },
+  {
+   "q": "pois é, falaram que ela ta bloqueada e não expliquei o motiv",
+   "tem_gab": true,
+   "gab": 0.8621419072151184,
+   "rank": 5,
+   "top_eh_gab": false,
+   "top": 0.8743342161178589,
+   "melhor_nao_gab": 0.8743342161178589
+  },
+  {
+   "q": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à pa",
+   "tem_gab": true,
+   "gab": 0.9024909734725952,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9024909734725952,
+   "melhor_nao_gab": 0.8942708373069763
+  },
+  {
+   "q": "Acho que houve algum engano, não perguntei sobre logo. Eu qu",
+   "tem_gab": true,
+   "gab": 0.9116047024726868,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.9129223823547363,
+   "melhor_nao_gab": 0.9129223823547363
+  },
+  {
+   "q": "É a opção 2, por favor.",
+   "tem_gab": true,
+   "gab": 0.8289488554000854,
+   "rank": 54,
+   "top_eh_gab": false,
+   "top": 0.867427408695221,
+   "melhor_nao_gab": 0.867427408695221
+  },
+  {
+   "q": "O senhor não me respondeu ainda, essa tal autenticação em du",
+   "tem_gab": true,
+   "gab": 0.893717348575592,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.893717348575592,
+   "melhor_nao_gab": 0.883696436882019
+  },
+  {
+   "q": "oi boa tarde, eskeci a senha do meu email e n consigo entra ",
+   "tem_gab": true,
+   "gab": 0.8954110741615295,
+   "rank": 3,
+   "top_eh_gab": false,
+   "top": 0.8963662385940552,
+   "melhor_nao_gab": 0.8963662385940552
+  },
+  {
+   "q": "oi, boa tarde. fiz a adesão aqui hj de manhã meio no impulso",
+   "tem_gab": true,
+   "gab": 0.8615801334381104,
+   "rank": 6,
+   "top_eh_gab": false,
+   "top": 0.87646484375,
+   "melhor_nao_gab": 0.87646484375
+  },
+  {
+   "q": "oi boa tarde, olha eu recebi um email aqui meio estranho ped",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.8926551342010498,
+   "melhor_nao_gab": 0.8926551342010498
+  },
+  {
+   "q": "Boa tarde. Gostaria de saber qual é a regra para criar a sen",
+   "tem_gab": true,
+   "gab": 0.911725640296936,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.911725640296936,
+   "melhor_nao_gab": 0.8912200927734375
+  },
+  {
+   "q": "Boa tarde. Pedi o cancelamento do meu plano há algum tempo e",
+   "tem_gab": true,
+   "gab": 0.8869324326515198,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8869324326515198,
+   "melhor_nao_gab": 0.8752313852310181
+  },
+  {
+   "q": "oi, boa tarde! queria entender uma coisa do meu site, os con",
+   "tem_gab": true,
+   "gab": 0.8895457983016968,
+   "rank": 6,
+   "top_eh_gab": false,
+   "top": 0.8954967260360718,
+   "melhor_nao_gab": 0.8954967260360718
+  },
+  {
+   "q": "Oi bom dia, mudei meu imeil q aparece no site cm troca la",
+   "tem_gab": true,
+   "gab": 0.8145321607589722,
+   "rank": 117,
+   "top_eh_gab": false,
+   "top": 0.8911834359169006,
+   "melhor_nao_gab": 0.8911834359169006
+  },
+  {
+   "q": "Boa tarde, tudo bem? Eu fiz uma alteração lá no painel do me",
+   "tem_gab": true,
+   "gab": 0.910434365272522,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.910434365272522,
+   "melhor_nao_gab": 0.876021683216095
+  },
+  {
+   "q": "oi, o wizard do site travou na configuração inicial e não sa",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.9123347997665405,
+   "melhor_nao_gab": 0.9123347997665405
+  },
+  {
+   "q": "Cancelei meu plano mês passado e mesmo assim caiu cobrança n",
+   "tem_gab": true,
+   "gab": 0.9084780216217041,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9084780216217041,
+   "melhor_nao_gab": 0.901339590549469
+  },
+  {
+   "q": "oi boa tarde tudo bem, eu queria uma ajudinha viu, eu tô ten",
+   "tem_gab": true,
+   "gab": 0.8416171669960022,
+   "rank": 37,
+   "top_eh_gab": false,
+   "top": 0.8975355625152588,
+   "melhor_nao_gab": 0.8975355625152588
+  },
+  {
+   "q": "oi boa tarde tudo bem eu recebi aqui um aviso de inadimplenc",
+   "tem_gab": true,
+   "gab": 0.8950560688972473,
+   "rank": 2,
+   "top_eh_gab": false,
+   "top": 0.9062007665634155,
+   "melhor_nao_gab": 0.9062007665634155
+  },
+  {
+   "q": "bom dia rcebi um boleti dizenu q eh renovacao do dominiu mas",
+   "tem_gab": true,
+   "gab": 0.8903601765632629,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.8903601765632629,
+   "melhor_nao_gab": 0.8593671321868896
+  },
+  {
+   "q": "Boa tarde. Preciso do telefone do suporte do OnCorretor, ráp",
+   "tem_gab": true,
+   "gab": 0.891541600227356,
+   "rank": 6,
+   "top_eh_gab": false,
+   "top": 0.9024269580841064,
+   "melhor_nao_gab": 0.9024269580841064
+  },
+  {
+   "q": "Boa tarde! Preciso atualizar o telefone e o e-mail cadastrad",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.910250186920166,
+   "melhor_nao_gab": 0.910250186920166
+  },
+  {
+   "q": "oi! td bem? to mexendo no meu site aqui e travei em umas coi",
+   "tem_gab": true,
+   "gab": 0.857814371585846,
+   "rank": 39,
+   "top_eh_gab": false,
+   "top": 0.8834705948829651,
+   "melhor_nao_gab": 0.8834705948829651
+  },
+  {
+   "q": "oi, boa tarde! vi o oncorretor aqui, queria entender como fu",
+   "tem_gab": true,
+   "gab": 0.888371467590332,
+   "rank": 21,
+   "top_eh_gab": false,
+   "top": 0.9273972511291504,
+   "melhor_nao_gab": 0.9273972511291504
+  },
+  {
+   "q": "oi boa tarde, tudo bem? então tô tentando editar o meu site ",
+   "tem_gab": false,
+   "gab": null,
+   "rank": null,
+   "top_eh_gab": false,
+   "top": 0.882247805595398,
+   "melhor_nao_gab": 0.882247805595398
+  },
+  {
+   "q": "oi, boa tarde! posso colocar logo de outras seguradoras no m",
+   "tem_gab": true,
+   "gab": 0.919074296951294,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.919074296951294,
+   "melhor_nao_gab": 0.9112080335617065
+  },
+  {
+   "q": "oi, bom dia! falaram aqui que minha susep tá bloqueada, sabe",
+   "tem_gab": true,
+   "gab": 0.9315990209579468,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9315990209579468,
+   "melhor_nao_gab": 0.9172986745834351
+  },
+  {
+   "q": "Boa tarde. Recebi um aviso aqui dizendo que preciso ativar t",
+   "tem_gab": true,
+   "gab": 0.9421181082725525,
+   "rank": 1,
+   "top_eh_gab": true,
+   "top": 0.9421181082725525,
+   "melhor_nao_gab": 0.8738059401512146
+  }
+ ]
+}

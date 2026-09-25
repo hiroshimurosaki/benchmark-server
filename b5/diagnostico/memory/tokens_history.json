@@ -1,0 +1,2250 @@
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1115,
+  "output_tokens": 32,
+  "question": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:22"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1331,
+  "output_tokens": 4,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3497,
+  "output_tokens": 4,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 381,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3500,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 430,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 471,
+  "output_tokens": 59,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:45"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 540,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:40:48"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3497,
+  "output_tokens": 4,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:42:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3423,
+  "output_tokens": 15,
+  "question": "queria cancelar a adesão que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:42:38"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1330,
+  "output_tokens": 5,
+  "question": "olha eu ja tinha falado, eskeci a senha do meu email e naum consigo entra no webmail, precisava troca a senha",
+  "time": "2026-09-24 16:43:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 696,
+  "output_tokens": 89,
+  "question": "olha eu ja tinha falado, eskeci a senha do meu email e naum consigo entra no webmail, precisava troca a senha",
+  "time": "2026-09-24 16:43:19"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1176,
+  "output_tokens": 10,
+  "question": "isso, a opção 1 mesmo, quero redefini a senha",
+  "time": "2026-09-24 16:43:22"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1309,
+  "output_tokens": 4,
+  "question": "Como redefinir a senha do meu email",
+  "time": "2026-09-24 16:43:23"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3532,
+  "output_tokens": 70,
+  "question": "Como redefinir a senha do meu email",
+  "time": "2026-09-24 16:43:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 426,
+  "output_tokens": 4,
+  "question": "Como redefinir a senha do meu email",
+  "time": "2026-09-24 16:43:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1257,
+  "output_tokens": 32,
+  "question": "aai eu naum sei quem é o administrador aqui naum, sou soh auxiliar... tem como voces me ajuda a descobri ou faz esse processo pra mim?",
+  "time": "2026-09-24 16:43:31"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1331,
+  "output_tokens": 5,
+  "question": "Tem como voces me ajudar a descobrir quem é o administrador do painel de acesso aos e-mails ou fazer o processo de redefinir a senha para mim?",
+  "time": "2026-09-24 16:43:32"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 691,
+  "output_tokens": 90,
+  "question": "Tem como voces me ajudar a descobrir quem é o administrador do painel de acesso aos e-mails ou fazer o processo de redefinir a senha para mim?",
+  "time": "2026-09-24 16:43:33"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1115,
+  "output_tokens": 32,
+  "question": "pois é, é isso mesmo. queria cancelar a adesão que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:35"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1331,
+  "output_tokens": 4,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:36"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3497,
+  "output_tokens": 15,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:37"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 392,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:37"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3500,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 430,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 471,
+  "output_tokens": 87,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:40"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 568,
+  "output_tokens": 5,
+  "question": "Queria cancelar a adesão da SUSEP 3307715 que fiz hoje de manhã, vai ter multa ou alguma cobrança?",
+  "time": "2026-09-24 16:43:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1175,
+  "output_tokens": 26,
+  "question": "é o que eu falei, recebi um email pedindo pra confirmar a senha do meu email da corretora, achei estranho e queria saber se isso e phishing ou se e coisa legitima de voces mesmo",
+  "time": "2026-09-24 16:43:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1325,
+  "output_tokens": 5,
+  "question": "É phishing ou coisa legítima de vocês receber um email pedindo pra confirmar a senha do meu email da corretora?",
+  "time": "2026-09-24 16:43:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 691,
+  "output_tokens": 95,
+  "question": "É phishing ou coisa legítima de vocês receber um email pedindo pra confirmar a senha do meu email da corretora?",
+  "time": "2026-09-24 16:43:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1240,
+  "output_tokens": 43,
+  "question": "não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo senha é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:46"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1342,
+  "output_tokens": 5,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:48"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3557,
+  "output_tokens": 15,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 404,
+  "output_tokens": 5,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3877,
+  "output_tokens": 15,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:59"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 579,
+  "output_tokens": 5,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:43:59"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 659,
+  "output_tokens": 4,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:44:00"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 687,
+  "output_tokens": 5,
+  "question": "Não é nada disso não, nenhuma dessas opções, o que eu quero saber é se esse email pedindo a senha do meu email da corretora é golpe mesmo, tipo phishing, e o que eu faço agora",
+  "time": "2026-09-24 16:44:01"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1345,
+  "output_tokens": 39,
+  "question": "Eu já tinha perguntado, mas repito: quais são as regras para criar a senha do e-mail que acompanha o site? E preciso saber também se a autenticação em duas etapas do painel é obrigatória.",
+  "time": "2026-09-24 16:44:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3586,
+  "output_tokens": 15,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 387,
+  "output_tokens": 5,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3649,
+  "output_tokens": 15,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:12"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 439,
+  "output_tokens": 5,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:12"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 485,
+  "output_tokens": 71,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:13"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 562,
+  "output_tokens": 5,
+  "question": "QUAIS SÃO AS REGRAS PARA CRIAR A SENHA DO E-MAIL QUE ACOMPANHA O SITE?",
+  "time": "2026-09-24 16:44:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1341,
+  "output_tokens": 5,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:16"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 712,
+  "output_tokens": 4,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:16"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3544,
+  "output_tokens": 4,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 391,
+  "output_tokens": 5,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3585,
+  "output_tokens": 5,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 420,
+  "output_tokens": 5,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 485,
+  "output_tokens": 95,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 601,
+  "output_tokens": 5,
+  "question": "Entendi sobre a autenticação, obrigado. Mas e as regras da senha do e-mail, o senhor pode me passar? Precisa ter número, letra maiúscula, algum caractere especial?",
+  "time": "2026-09-24 16:44:29"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1134,
+  "output_tokens": 29,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:29"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1328,
+  "output_tokens": 4,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3602,
+  "output_tokens": 15,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:35"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 389,
+  "output_tokens": 5,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:35"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3532,
+  "output_tokens": 5,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:40"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 443,
+  "output_tokens": 5,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:40"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 487,
+  "output_tokens": 4,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 500,
+  "output_tokens": 5,
+  "question": "Já expliquei, veio uma cobrança do plano mesmo depois que pedi cancelamento. Quero saber se tenho direito a estorno desse valor.",
+  "time": "2026-09-24 16:44:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1118,
+  "output_tokens": 26,
+  "question": "é isso mesmo, os contatos que preenchem o formulário lá do meu site, onde que eu consigo ver eles depois? tem algum lugar pra consultar?",
+  "time": "2026-09-24 16:44:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1325,
+  "output_tokens": 5,
+  "question": "onde que eu consigo ver os contatos que preenchem o formulário lá do meu site depois? tem algum lugar pra consultar?",
+  "time": "2026-09-24 16:44:43"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 690,
+  "output_tokens": 87,
+  "question": "onde que eu consigo ver os contatos que preenchem o formulário lá do meu site depois? tem algum lugar pra consultar?",
+  "time": "2026-09-24 16:44:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1335,
+  "output_tokens": 4,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:46"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3573,
+  "output_tokens": 15,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:51"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 397,
+  "output_tokens": 5,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:51"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3854,
+  "output_tokens": 5,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:56"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 541,
+  "output_tokens": 5,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:56"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 594,
+  "output_tokens": 4,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 615,
+  "output_tokens": 5,
+  "question": "nenhuma dessas opções, é diferente. eu quero saber onde que fica um histórico ou uma lista desses contatos que vem do formulário, tipo um painel pra eu consultar depois",
+  "time": "2026-09-24 16:44:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1157,
+  "output_tokens": 18,
+  "question": "isso, opção 1! quero saber onde fica salvo esse contato e se eu consigo consultar depois",
+  "time": "2026-09-24 16:44:58"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1317,
+  "output_tokens": 5,
+  "question": "Onde fica salvo o contato do formulário do site e se eu consigo consultar depois?",
+  "time": "2026-09-24 16:44:59"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 681,
+  "output_tokens": 82,
+  "question": "Onde fica salvo o contato do formulário do site e se eu consigo consultar depois?",
+  "time": "2026-09-24 16:45:00"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1105,
+  "output_tokens": 17,
+  "question": "eh isso mesmo que eu falei kkk troquei meu email e preciso trocar no site tb, onde eu mexo nisso?",
+  "time": "2026-09-24 16:45:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1316,
+  "output_tokens": 5,
+  "question": "onde eu mexo para trocar o email q aparece no site cm troca la?",
+  "time": "2026-09-24 16:45:03"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 684,
+  "output_tokens": 100,
+  "question": "onde eu mexo para trocar o email q aparece no site cm troca la?",
+  "time": "2026-09-24 16:45:03"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1194,
+  "output_tokens": 21,
+  "question": "nao eh isso nao, eh o email de contato q aparece pro cliente ver no meu site, quero trocar esse ai pelo novo",
+  "time": "2026-09-24 16:45:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1320,
+  "output_tokens": 4,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3482,
+  "output_tokens": 15,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:12"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 381,
+  "output_tokens": 5,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:12"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3849,
+  "output_tokens": 4,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:17"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 533,
+  "output_tokens": 5,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:17"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 594,
+  "output_tokens": 4,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:18"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 599,
+  "output_tokens": 5,
+  "question": "Onde eu mexo para trocar o email de contato que aparece pro cliente ver no meu site?",
+  "time": "2026-09-24 16:45:18"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1168,
+  "output_tokens": 33,
+  "question": "mas onde no painel? nao acho essa opçao, é em configuraçoes ou tem outro nome",
+  "time": "2026-09-24 16:45:19"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1332,
+  "output_tokens": 32,
+  "question": "mas onde no painel eu troco meu email e preciso trocar no site tb, nao acho essa opçao, é em configuraçoes ou tem outro nome",
+  "time": "2026-09-24 16:45:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3422,
+  "output_tokens": 5,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:25"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 365,
+  "output_tokens": 5,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:25"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3650,
+  "output_tokens": 5,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 393,
+  "output_tokens": 5,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 594,
+  "output_tokens": 4,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:31"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 593,
+  "output_tokens": 5,
+  "question": "ONDE NO PAINEL EU TROCO MEU EMAIL?",
+  "time": "2026-09-24 16:45:31"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1145,
+  "output_tokens": 63,
+  "question": "então é isso mesmo que eu falei, eu mexi lá no painel, salvei a alteração, mas no site continua tudo igual, do jeito antigo, sabe. queria saber o que eu faço pra isso atualizar",
+  "time": "2026-09-24 16:45:32"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1362,
+  "output_tokens": 4,
+  "question": "Então é isso mesmo que eu falei, eu mexi lá no painel do meu site para a SUSEP 62849371, salvei a alteração, mas no site continua tudo igual, do jeito antigo, sabe. queria saber o que eu faço pra isso atualizar",
+  "time": "2026-09-24 16:45:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3580,
+  "output_tokens": 96,
+  "question": "Então é isso mesmo que eu falei, eu mexi lá no painel do meu site para a SUSEP 62849371, salvei a alteração, mas no site continua tudo igual, do jeito antigo, sabe. queria saber o que eu faço pra isso atualizar",
+  "time": "2026-09-24 16:45:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 505,
+  "output_tokens": 4,
+  "question": "Então é isso mesmo que eu falei, eu mexi lá no painel do meu site para a SUSEP 62849371, salvei a alteração, mas no site continua tudo igual, do jeito antigo, sabe. queria saber o que eu faço pra isso atualizar",
+  "time": "2026-09-24 16:45:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1198,
+  "output_tokens": 16,
+  "question": "é a opção 1 mesmo, é isso que eu quero saber",
+  "time": "2026-09-24 16:45:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1315,
+  "output_tokens": 4,
+  "question": "O que eu faço pra as alterações no painel atualizarem no site?",
+  "time": "2026-09-24 16:45:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3502,
+  "output_tokens": 91,
+  "question": "O que eu faço pra as alterações no painel atualizarem no site?",
+  "time": "2026-09-24 16:45:49"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 452,
+  "output_tokens": 4,
+  "question": "O que eu faço pra as alterações no painel atualizarem no site?",
+  "time": "2026-09-24 16:45:49"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1303,
+  "output_tokens": 56,
+  "question": "ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não der certo eu mando pro email o quê mesmo, só o print da tela e o nome do site?",
+  "time": "2026-09-24 16:45:49"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1355,
+  "output_tokens": 5,
+  "question": "Ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não der certo eu mando pro email o quê mesmo, só o print da tela e o nome do site para resolver a atualização das alterações realizadas no painel que continuam iguais do jeito antigo no site?",
+  "time": "2026-09-24 16:45:51"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 724,
+  "output_tokens": 93,
+  "question": "Ah tá, deixa eu tentar aqui esse Ctrl F5 então... e se não der certo eu mando pro email o quê mesmo, só o print da tela e o nome do site para resolver a atualização das alterações realizadas no painel que continuam iguais do jeito antigo no site?",
+  "time": "2026-09-24 16:45:52"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1284,
+  "output_tokens": 40,
+  "question": "é a 1 de novo, só quero saber o que eu mando pro email viu, o domínio do site e o print, é só isso mesmo ou precisa de mais alguma coisa",
+  "time": "2026-09-24 16:45:54"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1339,
+  "output_tokens": 4,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:45:56"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3434,
+  "output_tokens": 15,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:01"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 400,
+  "output_tokens": 5,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:01"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3735,
+  "output_tokens": 5,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 549,
+  "output_tokens": 5,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 866,
+  "output_tokens": 119,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 1005,
+  "output_tokens": 5,
+  "question": "O que eu mando pro email para resolver problemas de indexação ou visibilidade do seu site no Google? É só o print da tela e o nome do site ou precisa de mais alguma coisa?",
+  "time": "2026-09-24 16:46:10"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1107,
+  "output_tokens": 16,
+  "question": "já falei, o WIZARD do site travou na configuração inicial e não sai do lugar. como eu destravo isso??",
+  "time": "2026-09-24 16:46:11"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1315,
+  "output_tokens": 4,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:12"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3504,
+  "output_tokens": 15,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:17"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 376,
+  "output_tokens": 5,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:17"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3648,
+  "output_tokens": 4,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:22"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 411,
+  "output_tokens": 5,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:22"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 461,
+  "output_tokens": 4,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:22"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 460,
+  "output_tokens": 5,
+  "question": "Como eu destravo o wizard do site que travou na configuração inicial?",
+  "time": "2026-09-24 16:46:23"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1331,
+  "output_tokens": 5,
+  "question": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança na fatura. Quero saber por que e quero meu dinheiro de volta.",
+  "time": "2026-09-24 16:46:24"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 691,
+  "output_tokens": 99,
+  "question": "Já falei. CANCELEI mês passado e mesmo assim veio cobrança na fatura. Quero saber por que e quero meu dinheiro de volta.",
+  "time": "2026-09-24 16:46:24"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1188,
+  "output_tokens": 50,
+  "question": "Olha, PEDI CANCELAMENTO no site mês passado, tenho o protocolo. Explica a regra do dia 20 pra cobrança e me fala como pedir o estorno, é só isso que eu quero.",
+  "time": "2026-09-24 16:46:27"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1349,
+  "output_tokens": 29,
+  "question": "Olha, PEDI CANCELAMENTO no OnCorretor no site mês passado, tenho o protocolo. Explica a regra do dia 20 pra cobrança e me fala como pedir o estorno, é só isso que eu quero.",
+  "time": "2026-09-24 16:46:28"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1316,
+  "output_tokens": 5,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:29"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3668,
+  "output_tokens": 5,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 368,
+  "output_tokens": 5,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3664,
+  "output_tokens": 15,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 459,
+  "output_tokens": 5,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 733,
+  "output_tokens": 4,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:40"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 735,
+  "output_tokens": 5,
+  "question": "EXPLICA A REGRA DO DIA 20 PRA COBRANÇA",
+  "time": "2026-09-24 16:46:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1310,
+  "output_tokens": 4,
+  "question": " ME FALA COMO PEDIR O ESTORNO",
+  "time": "2026-09-24 16:46:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 661,
+  "output_tokens": 56,
+  "question": " ME FALA COMO PEDIR O ESTORNO",
+  "time": "2026-09-24 16:46:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1199,
+  "output_tokens": 29,
+  "question": "1. ESTORNO. Só isso. Para de ficar repetindo menu e me explica a regra do dia 20 e como pedir o estorno.",
+  "time": "2026-09-24 16:46:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1328,
+  "output_tokens": 29,
+  "question": "Explique a regra do dia 20 para cobrança e como pedir o estorno do cancelamento solicitado no site mês passado com protocolo.",
+  "time": "2026-09-24 16:46:45"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1317,
+  "output_tokens": 4,
+  "question": "COMO FUNCIONA A REGRA DO DIA 20 PARA COBRANÇA",
+  "time": "2026-09-24 16:46:46"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3373,
+  "output_tokens": 273,
+  "question": "COMO FUNCIONA A REGRA DO DIA 20 PARA COBRANÇA",
+  "time": "2026-09-24 16:46:56"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 637,
+  "output_tokens": 4,
+  "question": "COMO FUNCIONA A REGRA DO DIA 20 PARA COBRANÇA",
+  "time": "2026-09-24 16:46:56"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1327,
+  "output_tokens": 4,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:46:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3466,
+  "output_tokens": 15,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 389,
+  "output_tokens": 5,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3761,
+  "output_tokens": 5,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 508,
+  "output_tokens": 5,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 834,
+  "output_tokens": 4,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:07"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 847,
+  "output_tokens": 5,
+  "question": " COMO PEDIR O ESTORNO DO CANCELAMENTO SOLICITADO NO SITE MÊS PASSADO COM PROTOCOLO",
+  "time": "2026-09-24 16:47:08"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1138,
+  "output_tokens": 31,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da corretora ali",
+  "time": "2026-09-24 16:47:09"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1330,
+  "output_tokens": 4,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:10"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3565,
+  "output_tokens": 15,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 392,
+  "output_tokens": 5,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3639,
+  "output_tokens": 4,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 435,
+  "output_tokens": 5,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 490,
+  "output_tokens": 91,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 591,
+  "output_tokens": 4,
+  "question": "é isso mesmo que eu tava falando, é sobre a declaração do imposto de renda, queria entender como preenche os dados da minha corretora ali",
+  "time": "2026-09-24 16:47:24"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1139,
+  "output_tokens": 37,
+  "question": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplencia aqui e nao entendi pq, queria saber o que aconteceu e como que eu resolvo isso",
+  "time": "2026-09-24 16:47:24"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1336,
+  "output_tokens": 5,
+  "question": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplencia aqui e nao entendi pq, queria saber o que aconteceu e como que eu resolvo isso",
+  "time": "2026-09-24 16:47:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 690,
+  "output_tokens": 83,
+  "question": "rapaz eu ja tinha falado oh, recebi um aviso de inadimplencia aqui e nao entendi pq, queria saber o que aconteceu e como que eu resolvo isso",
+  "time": "2026-09-24 16:47:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1192,
+  "output_tokens": 23,
+  "question": "ah pode ser a 1 e a 2 mesmo, quero saber pq recebi isso e o que eu faço pra regularizar",
+  "time": "2026-09-24 16:47:28"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1322,
+  "output_tokens": 23,
+  "question": "Qual é o significado do aviso de inadimplência recebido e quais são os procedimentos gerais para lidar com ele?",
+  "time": "2026-09-24 16:47:29"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1318,
+  "output_tokens": 4,
+  "question": "QUAL É O SIGNIFICADO DO AVISO DE INADIMPLÊNCIA RECEBIDO",
+  "time": "2026-09-24 16:47:30"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 435,
+  "output_tokens": 4,
+  "question": "QUAL É O SIGNIFICADO DO AVISO DE INADIMPLÊNCIA RECEBIDO",
+  "time": "2026-09-24 16:47:31"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1317,
+  "output_tokens": 5,
+  "question": " QUAIS SÃO OS PROCEDIMENTOS GERAIS PARA LIDAR COM ELE",
+  "time": "2026-09-24 16:47:31"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3256,
+  "output_tokens": 15,
+  "question": " QUAIS SÃO OS PROCEDIMENTOS GERAIS PARA LIDAR COM ELE",
+  "time": "2026-09-24 16:47:36"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 379,
+  "output_tokens": 5,
+  "question": " QUAIS SÃO OS PROCEDIMENTOS GERAIS PARA LIDAR COM ELE",
+  "time": "2026-09-24 16:47:36"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3791,
+  "output_tokens": 61,
+  "question": " QUAIS SÃO OS PROCEDIMENTOS GERAIS PARA LIDAR COM ELE",
+  "time": "2026-09-24 16:47:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 579,
+  "output_tokens": 4,
+  "question": " QUAIS SÃO OS PROCEDIMENTOS GERAIS PARA LIDAR COM ELE",
+  "time": "2026-09-24 16:47:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1136,
+  "output_tokens": 37,
+  "question": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu do site, o valor ta mt caro, quero saber se eh isso mesmo q eu tenho q pagar",
+  "time": "2026-09-24 16:47:43"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1336,
+  "output_tokens": 5,
+  "question": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu do site, o valor ta mt caro, quero saber se eh isso mesmo q eu tenho q pagar",
+  "time": "2026-09-24 16:47:44"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 699,
+  "output_tokens": 71,
+  "question": "eh sobre um boleto q chegou pra mim de renovaçao de dominiu do site, o valor ta mt caro, quero saber se eh isso mesmo q eu tenho q pagar",
+  "time": "2026-09-24 16:47:45"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1178,
+  "output_tokens": 26,
+  "question": "isso a opçao 1, quero saber se esse boleto eh de confiança msm pq o valor ta mt alto",
+  "time": "2026-09-24 16:47:47"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1325,
+  "output_tokens": 4,
+  "question": "Quero saber se esse boleto de renovação de domínio recebido é confiável e legítimo porque o valor está muito alto",
+  "time": "2026-09-24 16:47:48"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 533,
+  "output_tokens": 4,
+  "question": "Quero saber se esse boleto de renovação de domínio recebido é confiável e legítimo porque o valor está muito alto",
+  "time": "2026-09-24 16:47:49"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1332,
+  "output_tokens": 5,
+  "question": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, vou mandar pro email ai pra vcs confirmarem, obrigado viu",
+  "time": "2026-09-24 16:47:49"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 698,
+  "output_tokens": 92,
+  "question": "ah entendi entao eh boleto falso pq o meu ta uns 200 reais, vou mandar pro email ai pra vcs confirmarem, obrigado viu",
+  "time": "2026-09-24 16:47:50"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1325,
+  "output_tokens": 4,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:47:52"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3420,
+  "output_tokens": 15,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:47:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 386,
+  "output_tokens": 5,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:47:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3521,
+  "output_tokens": 15,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:48:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 434,
+  "output_tokens": 5,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:48:02"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 458,
+  "output_tokens": 4,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:48:03"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 468,
+  "output_tokens": 5,
+  "question": "JÁ FALEI. Quero o TELEFONE do suporte do OnCorretor. Rápido por favor.",
+  "time": "2026-09-24 16:48:04"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1126,
+  "output_tokens": 41,
+  "question": "Eu já tinha explicado: preciso atualizar o telefone e o e-mail cadastrados na nossa adesão. Como faço isso, para qual e-mail eu envio a solicitação?",
+  "time": "2026-09-24 16:48:04"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1340,
+  "output_tokens": 5,
+  "question": "Como faço para atualizar o telefone e o e-mail cadastrados na nossa adesão da SUSEP 9081234, para qual e-mail eu envio a solicitação?",
+  "time": "2026-09-24 16:48:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 720,
+  "output_tokens": 106,
+  "question": "Como faço para atualizar o telefone e o e-mail cadastrados na nossa adesão da SUSEP 9081234, para qual e-mail eu envio a solicitação?",
+  "time": "2026-09-24 16:48:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1345,
+  "output_tokens": 31,
+  "question": "poxa eu já tinha falado kk, é sobre trocar o favicon do site, configurar o botão \"simule e contrate\" e colocar os links do insta e face. consegue me passar onde acho cada um?",
+  "time": "2026-09-24 16:48:09"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1314,
+  "output_tokens": 5,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:10"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 676,
+  "output_tokens": 4,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:11"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3363,
+  "output_tokens": 4,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 365,
+  "output_tokens": 5,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:15"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3530,
+  "output_tokens": 5,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 417,
+  "output_tokens": 5,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 513,
+  "output_tokens": 69,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 577,
+  "output_tokens": 5,
+  "question": "ONDE ACHO ONDE ALTERAR O FAVICON DO SITE",
+  "time": "2026-09-24 16:48:23"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1327,
+  "output_tokens": 27,
+  "question": " ONDE CONFIGURO O BOTÃO SIMULE E CONTRATE?  ONDE COLOCO OS LINKS DO INSTA E FACE",
+  "time": "2026-09-24 16:48:23"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3353,
+  "output_tokens": 5,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:28"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 364,
+  "output_tokens": 5,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:28"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3516,
+  "output_tokens": 5,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:33"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 415,
+  "output_tokens": 5,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:33"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 513,
+  "output_tokens": 92,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 597,
+  "output_tokens": 5,
+  "question": "ONDE CONFIGURO O BOTAO SIMULE E CONTRATE?",
+  "time": "2026-09-24 16:48:36"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1116,
+  "output_tokens": 19,
+  "question": "isso mesmo, queria saber como funciona pra aderir ao oncorretor, quais os passos",
+  "time": "2026-09-24 16:48:37"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1318,
+  "output_tokens": 5,
+  "question": "Quero saber como funciona para aderir ao oncorretor e quais são os passos",
+  "time": "2026-09-24 16:48:38"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 675,
+  "output_tokens": 74,
+  "question": "Quero saber como funciona para aderir ao oncorretor e quais são os passos",
+  "time": "2026-09-24 16:48:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1165,
+  "output_tokens": 15,
+  "question": "isso, opção 1 mesmo, quero saber os passos pra aderir",
+  "time": "2026-09-24 16:48:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1314,
+  "output_tokens": 4,
+  "question": "Quais são os passos para aderir ao oncorretor?",
+  "time": "2026-09-24 16:48:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 511,
+  "output_tokens": 4,
+  "question": "Quais são os passos para aderir ao oncorretor?",
+  "time": "2026-09-24 16:48:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1319,
+  "output_tokens": 7,
+  "question": "entendi, valeu! e se eu quiser cancelar depois, tem multa ou fidelidade?",
+  "time": "2026-09-24 16:48:43"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3140,
+  "output_tokens": 5,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:47"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 360,
+  "output_tokens": 5,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:47"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3736,
+  "output_tokens": 15,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:52"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 564,
+  "output_tokens": 5,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:52"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 746,
+  "output_tokens": 4,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 739,
+  "output_tokens": 5,
+  "question": "TEM MULTA OU FIDELIDADE?",
+  "time": "2026-09-24 16:48:54"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1188,
+  "output_tokens": 57,
+  "question": "então é o que eu falei, tá dando erro quando eu tento salvar uma edição no meu site, quero saber pra qual email ou onde eu mando isso pra vocês verem, tipo print da tela ajuda?",
+  "time": "2026-09-24 16:48:55"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1356,
+  "output_tokens": 14,
+  "question": "Então é o que eu falei, tá dando erro quando eu tento salvar uma edição no meu site com a SUSEP 2748195, quero saber pra qual email ou onde eu mando isso pra vocês verem, tipo print da tela ajuda?",
+  "time": "2026-09-24 16:48:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3312,
+  "output_tokens": 108,
+  "question": "PRA QUAL EMAIL OU ONDE EU MANDO ISSO PRA VOCES VEREM?",
+  "time": "2026-09-24 16:49:04"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 473,
+  "output_tokens": 4,
+  "question": "PRA QUAL EMAIL OU ONDE EU MANDO ISSO PRA VOCES VEREM?",
+  "time": "2026-09-24 16:49:04"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1251,
+  "output_tokens": 24,
+  "question": "é a opção 3 mesmo, editar o site, só que dá erro e trava, aí eu queria saber pra onde eu mando o print desse erro pra vocês analisarem",
+  "time": "2026-09-24 16:49:05"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1323,
+  "output_tokens": 4,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:06"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3485,
+  "output_tokens": 15,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:10"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 384,
+  "output_tokens": 5,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:11"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3928,
+  "output_tokens": 4,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:16"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 560,
+  "output_tokens": 5,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:16"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 686,
+  "output_tokens": 74,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:17"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 763,
+  "output_tokens": 5,
+  "question": "Para onde eu mando o print do erro que dá ao tentar editar o site no OnCorretor para análise?",
+  "time": "2026-09-24 16:49:19"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1121,
+  "output_tokens": 25,
+  "question": "era isso mesmo, minha dúvida é se posso add logo de outras seguradoras (além da porto) no meu site e se tem algum custo pra isso",
+  "time": "2026-09-24 16:49:20"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1324,
+  "output_tokens": 5,
+  "question": "Posso colocar logo de outras seguradoras (além da porto) no meu site e tem algum custo pra isso?",
+  "time": "2026-09-24 16:49:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 694,
+  "output_tokens": 101,
+  "question": "Posso colocar logo de outras seguradoras (além da porto) no meu site e tem algum custo pra isso?",
+  "time": "2026-09-24 16:49:21"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1118,
+  "output_tokens": 31,
+  "question": "pois é, falaram que ela ta bloqueada e não expliquei o motivo, dá pra ver aí o que houve e o que eu faço pra desbloquear?",
+  "time": "2026-09-24 16:49:24"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1330,
+  "output_tokens": 5,
+  "question": "Qual é o motivo da minha SUSEP 3398712 estar bloqueada e o que eu faço pra desbloquear?",
+  "time": "2026-09-24 16:49:25"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 702,
+  "output_tokens": 115,
+  "question": "Qual é o motivo da minha SUSEP 3398712 estar bloqueada e o que eu faço pra desbloquear?",
+  "time": "2026-09-24 16:49:26"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1332,
+  "output_tokens": 19,
+  "question": "É 4518203. Mas me conta, o Clube VIP é algo que eu pago à parte ou já vem incluso no meu plano?",
+  "time": "2026-09-24 16:49:29"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3380,
+  "output_tokens": 5,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 378,
+  "output_tokens": 5,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:34"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3523,
+  "output_tokens": 4,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 465,
+  "output_tokens": 5,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 454,
+  "output_tokens": 71,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:39"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 531,
+  "output_tokens": 5,
+  "question": "O CLUBE VIP É ALGO QUE EU PAGO À PARTE OU JÁ VEM INCLUSO NO MEU PLANO?",
+  "time": "2026-09-24 16:49:41"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1105,
+  "output_tokens": 34,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:42"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1333,
+  "output_tokens": 4,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:43"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3489,
+  "output_tokens": 4,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:48"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 383,
+  "output_tokens": 5,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:48"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "Answer_generator",
+  "input_tokens": 3549,
+  "output_tokens": 5,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 412,
+  "output_tokens": 5,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "historical_answer",
+  "input_tokens": 454,
+  "output_tokens": 12,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:53"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "answer_verifier",
+  "input_tokens": 479,
+  "output_tokens": 5,
+  "question": "Acho que houve algum engano, não perguntei sobre logo. Eu queria mesmo entender o que é esse Clube VIP e como faço pra solicitar o contato.",
+  "time": "2026-09-24 16:49:54"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1309,
+  "output_tokens": 4,
+  "question": "É a opção 2, por favor.",
+  "time": "2026-09-24 16:49:55"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 658,
+  "output_tokens": 56,
+  "question": "É a opção 2, por favor.",
+  "time": "2026-09-24 16:49:55"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "contextualizer",
+  "input_tokens": 1143,
+  "output_tokens": 23,
+  "question": "O senhor não me respondeu ainda, essa tal autenticação em duas etapas é obrigatória ou não? Só isso que eu quero saber.",
+  "time": "2026-09-24 16:49:57"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "question_verifier",
+  "input_tokens": 1322,
+  "output_tokens": 5,
+  "question": "O senhor não me respondeu ainda, essa tal autenticação em duas etapas no painel é obrigatória ou não?",
+  "time": "2026-09-24 16:49:58"
+},
+{
+  "api": "ollama",
+  "key": "ollama",
+  "from_who": "disambiguation",
+  "input_tokens": 688,
+  "output_tokens": 67,
+  "question": "O senhor não me respondeu ainda, essa tal autenticação em duas etapas no painel é obrigatória ou não?",
+  "time": "2026-09-24 16:49:58"
+},
