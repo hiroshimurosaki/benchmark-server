@@ -34,7 +34,8 @@ ENV_PRODUCAO = {
     "LLM_PROVIDER": "ollama",
     "OLLAMA_BASE_URL": "http://127.0.0.1:11434",
     "OLLAMA_MODEL": "qwen3.6:35b-a3b",
-    "OLLAMA_MODEL_ANSWER": "qwen3.6:35b-a3b",
+    # B5_OLLAMA_MODEL_ANSWER troca só o gerador do RAG (A/B de modelo).
+    "OLLAMA_MODEL_ANSWER": os.environ.get("B5_OLLAMA_MODEL_ANSWER", "qwen3.6:35b-a3b"),
     "OLLAMA_MODEL_AUX": "qwen3.6:35b-a3b",
     "OLLAMA_NUM_CTX": "8192",
     "OLLAMA_THINK": "false",
@@ -229,6 +230,7 @@ class Bot:
             "qa_system": self.qa_system is not None,
             "n_faq_dtq": len(self.faq_dtq),
             "modelo": os.environ["OLLAMA_MODEL"],
+            "modelo_answer": os.environ["OLLAMA_MODEL_ANSWER"],
             "chaves_llm": self.chaves_llm,
         }
 
