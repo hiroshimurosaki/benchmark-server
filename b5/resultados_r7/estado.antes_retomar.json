@@ -1,0 +1,240 @@
+{
+  "inicio": "2026-09-25T18:34:03",
+  "prazo": "2026-09-25T20:34:03",
+  "tentativas": {
+    "conf-04": 1,
+    "faq-12": 1,
+    "rag-10": 1,
+    "multi-06": 1,
+    "follow-04": 1,
+    "follow-16": 1,
+    "conf-07": 1,
+    "follow-17": 1,
+    "rag-08": 1,
+    "recl-01": 1
+  },
+  "em_andamento": {
+    "id": "recl-01",
+    "tentativa": 1,
+    "trilha": "reclamacao_irritado",
+    "objetivo": "Cancelei e mesmo assim veio cobrança, quero meu dinheiro de volta. Resolvido se explicarem a regra do dia 20 e como pedir estorno.",
+    "inicio": "2026-09-25T18:44:15",
+    "turnos": [
+      {
+        "conversa_id": "recl-01",
+        "tentativa": 1,
+        "n": 1,
+        "chat_id": "bench5-recl-01-1@c.us",
+        "ts": "2026-09-25T18:44:20",
+        "texto_cliente": "CANCELEI o serviço e mesmo assim caiu cobrança na minha fatura. Quero isso resolvido AGORA.",
+        "texto_bot": "Olá! 😊 Antes de começar, qual é a sua SUSEP? Isso me ajuda a te atender melhor.",
+        "latencia_s": 0.005,
+        "etapas": [],
+        "fonte": "gate:opening_question",
+        "confianca": null,
+        "entrada_id": null,
+        "topico": null,
+        "gate": "opening_question",
+        "escalou": false,
+        "motivo_escalonamento": null,
+        "guard": null,
+        "reaberto": false,
+        "erro": null,
+        "cliente_modelo": "claude:sonnet",
+        "cliente_dur_s": 5.02,
+        "cliente_custo_usd": 0.002384,
+        "cliente_satisfeito": "nao",
+        "cliente_motivo": "Ainda não expliquei a situação nem obtive resposta do atendimento.",
+        "cliente_encerrar": false
+      },
+      {
+        "conversa_id": "recl-01",
+        "tentativa": 1,
+        "n": 2,
+        "chat_id": "bench5-recl-01-1@c.us",
+        "ts": "2026-09-25T18:44:32",
+        "texto_cliente": "1122334",
+        "texto_bot": "Boa noite! 😊\n\nEntendo sua frustração. Para orientar você corretamente sobre estornos, preciso esclarecer dois pontos baseados nas nossas políticas:\n\n1. *Data de corte:* Se o cancelamento foi realizado após o dia 20 e a cobrança no mês seguinte está correta pelo modelo “usa e depois paga”, não há estorno.\n2. *Uso do serviço:* A alegação de “não utilizei” não é, por si só, critério para estorno, pois o serviço permaneceu disponível e ativo durante o período.\n\nSe a sua situação se encaixa nesses critérios (cancelamento após dia 20 ou serviço ativo), a cobrança segue conforme o contrato. Caso tenha dúvidas sobre datas específicas ou valores, verifique se há alguma pendência ou se o cancelamento foi efetivamente registrado antes da data de corte.\n\nSobre detalhes específicos do seu caso financeiro ou histórico exato de faturas, não tenho acesso a esses dados pessoais aqui. Recomendo entrar em contato diretamente com nosso suporte para análise individualizada.",
+        "latencia_s": 7.616,
+        "etapas": [
+          {
+            "stage": "question_verifier",
+            "latency_s": 0.479,
+            "ttft_s": 0.406,
+            "tok_in": 1385,
+            "tok_out": 4,
+            "model": "qwen3.6:35b-a3b"
+          },
+          {
+            "stage": "Answer_generator",
+            "latency_s": 6.252,
+            "ttft_s": null,
+            "tok_in": 1547,
+            "tok_out": 214,
+            "model": "qwen3.6:35b-a3b"
+          },
+          {
+            "stage": "answer_verifier",
+            "latency_s": 0.723,
+            "ttft_s": 0.653,
+            "tok_in": 582,
+            "tok_out": 4,
+            "model": "qwen3.6:35b-a3b"
+          }
+        ],
+        "fonte": "rag",
+        "confianca": null,
+        "entrada_id": null,
+        "topico": null,
+        "gate": null,
+        "escalou": false,
+        "motivo_escalonamento": null,
+        "guard": null,
+        "reaberto": false,
+        "erro": null,
+        "cliente_modelo": "claude:sonnet",
+        "cliente_dur_s": 4.58,
+        "cliente_custo_usd": 0.005726800000000001,
+        "cliente_satisfeito": "nao",
+        "cliente_motivo": "Ainda não resolveram a cobrança indevida, só pediram meu cadastro.",
+        "cliente_encerrar": false
+      },
+      {
+        "conversa_id": "recl-01",
+        "tentativa": 1,
+        "n": 3,
+        "chat_id": "bench5-recl-01-1@c.us",
+        "ts": "2026-09-25T18:44:49",
+        "texto_cliente": "Cancelei antes do dia 20 sim. Então isso é erro de vocês, quero o estorno processado AGORA.",
+        "texto_bot": "Entendo sua frustração, mas preciso esclarecer os critérios para análise de estorno com base nas nossas diretrizes.\n\nO estorno só é possível se houver:\n1. Erro real na cobrança; ou\n2. Solicitação de cancelamento que *não* foi realizada.\n\nSe o seu cancelamento foi efetivado antes do dia 20, mas a cobrança ocorreu conforme o modelo \"usa e depois paga\" (onde o serviço permanece ativo até a data de corte), isso não configura erro técnico nem falha no processamento do pedido. A regra estabelece que, se o cancelamento foi feito após o dia 20 (ou dentro do ciclo vigente), não há estorno automático apenas pelo fato da cobrança ter ocorrido.\n\nPara que possamos analisar seu caso especificamente, você precisa enviar um e-mail para `atendimento@oncorretor.com.br` anexando:\n- Extrato onde aparece a cobrança;\n- Comprovante ou detalhe do desconto/cobrança.\n\nSomente com essas evidências nossa equipe poderá verificar se houve algum erro real no sistema. Sobre detalhes específicos de como o sistema processa datas exatas além do que está nas regras, não tenho essa informação nos meus documentos.",
+        "latencia_s": 9.811,
+        "etapas": [
+          {
+            "stage": "contextualizer",
+            "latency_s": 1.183,
+            "ttft_s": 0.616,
+            "tok_in": 1284,
+            "tok_out": 28,
+            "model": "qwen3.6:35b-a3b"
+          },
+          {
+            "stage": "question_verifier",
+            "latency_s": 0.47,
+            "ttft_s": 0.402,
+            "tok_in": 1389,
+            "tok_out": 4,
+            "model": "qwen3.6:35b-a3b"
+          },
+          {
+            "stage": "Answer_generator",
+            "latency_s": 7.292,
+            "ttft_s": null,
+            "tok_in": 1658,
+            "tok_out": 256,
+            "model": "qwen3.6:35b-a3b"
+          },
+          {
+            "stage": "answer_verifier",
+            "latency_s": 0.697,
+            "ttft_s": 0.627,
+            "tok_in": 628,
+            "tok_out": 4,
+            "model": "qwen3.6:35b-a3b"
+          }
+        ],
+        "fonte": "rag",
+        "confianca": null,
+        "entrada_id": null,
+        "topico": null,
+        "gate": null,
+        "escalou": false,
+        "motivo_escalonamento": null,
+        "guard": null,
+        "reaberto": false,
+        "erro": null,
+        "cliente_modelo": "claude:sonnet",
+        "cliente_dur_s": 7.63,
+        "cliente_custo_usd": 0.0085388,
+        "cliente_satisfeito": "parcial",
+        "cliente_motivo": "Explicaram a regra do dia 20 mas ainda não resolveram o estorno do meu caso específico.",
+        "cliente_encerrar": false
+      },
+      {
+        "conversa_id": "recl-01",
+        "tentativa": 1,
+        "n": 4,
+        "chat_id": "bench5-recl-01-1@c.us",
+        "ts": "2026-09-25T18:45:50",
+        "texto_cliente": "Tá bom, vou mandar o email com o extrato. Espero que resolvam logo.",
+        "texto_bot": "Boa noite! 😊 Como posso ajudá-lo?",
+        "latencia_s": 0.485,
+        "etapas": [
+          {
+            "stage": "question_verifier",
+            "latency_s": 0.459,
+            "ttft_s": 0.353,
+            "tok_in": 1381,
+            "tok_out": 5,
+            "model": "qwen3.6:35b-a3b"
+          }
+        ],
+        "fonte": "saudacao",
+        "confianca": null,
+        "entrada_id": null,
+        "topico": null,
+        "gate": null,
+        "escalou": false,
+        "motivo_escalonamento": null,
+        "guard": null,
+        "reaberto": false,
+        "erro": null,
+        "cliente_modelo": "opencode:opencode/muse-spark-1.3-contributor-free",
+        "cliente_dur_s": 25.43,
+        "cliente_custo_usd": 0.0,
+        "cliente_satisfeito": "sim",
+        "cliente_motivo": "Explicaram a regra do dia 20 e como pedir o estorno.",
+        "cliente_encerrar": true
+      }
+    ],
+    "fase": "juiz avaliando"
+  },
+  "total_planejado": 22,
+  "config_bot": {
+    "org": "oncorretor-perfeita",
+    "threshold": 0.8,
+    "tickets": true,
+    "opening_question": true,
+    "auto_close_on_gratitude": true,
+    "system_prompt_chars": 0,
+    "prompts_override": [
+      "help_portal_directive"
+    ],
+    "qa_system": true,
+    "n_faq_dtq": 257,
+    "modelo": "qwen3.6:35b-a3b",
+    "modelo_answer": "qwen3.6:35b-a3b",
+    "embedder_faiss": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "chaves_llm": [
+      "OLLAMA_KEY_1",
+      "COHERE_KEY_1",
+      "GROQ_KEY_1",
+      "GROQ_KEY_2",
+      "COHERE_KEY_2",
+      "GROQ_KEY_3",
+      "GROQ_KEY_4",
+      "COHERE_KEY_3",
+      "GROQ_KEY_5"
+    ]
+  },
+  "fallback": {
+    "n_claude": 51,
+    "n_fallbacks": 1,
+    "em_janela_fallback": false,
+    "fallback_ate": null,
+    "ultimo_modelo": {
+      "cliente": "opencode:opencode/muse-spark-1.3-contributor-free",
+      "juiz": "claude:opus"
+    }
+  },
+  "atualizado": "2026-09-25T18:45:50"
+}
