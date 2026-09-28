@@ -1,64 +1,64 @@
 # B5 — conversa dinâmica: resultados
 
-- Rodada: início 2026-09-28T08:27:21 · prazo 2026-09-28T10:27:21 · fim 2026-09-28T08:51:24
+- Rodada: início 2026-09-28T08:56:34 · prazo 2026-09-28T10:56:34 · fim 2026-09-28T09:21:05
 - Org `oncorretor-perfeita` · modelo `qwen3.6:35b-a3b` · threshold 0.8
 - Conversas concluídas: **22** de 120 objetivos · julgadas: 22 · fallbacks opencode: 0
-- Painel: `C:\Users\fernando.murusaki\benchmark-server\b5\painel_r8.html`
+- Painel: `C:\Users\fernando.murusaki\benchmark-server\b5\painel_r9.html`
 
 ## Números
 
 | Métrica | Valor |
 |---|---|
-| Cliente satisfeito (juiz) sim / parcial / não | 7 / 12 / 3 (32% sim) |
-| Objetivo cumprido | 16/22 (73%) |
-| Nota geral média | 5.79 |
-| Nota de qualidade média | 5.36 |
-| Escalonamento | adequado: 3, desnecessario: 5, nao_se_aplica: 14 |
-| Conversas com alucinação | 2/22 (9%) |
-| Latência do turno do bot p50 / p95 / máx | 10.3s / 27.1s / 46.2s |
-| Turnos por conversa (média) | 3.4 |
-| Fonte das respostas (turnos) | rag: 29, gate:opening_question: 22, saudacao: 10, escalou: 8, faq: 4, gate:closure: 1 |
+| Cliente satisfeito (juiz) sim / parcial / não | 9 / 9 / 4 (41% sim) |
+| Objetivo cumprido | 17/22 (77%) |
+| Nota geral média | 6.05 |
+| Nota de qualidade média | 5.62 |
+| Escalonamento | adequado: 1, desnecessario: 2, faltou: 1, nao_se_aplica: 18 |
+| Conversas com alucinação | 5/22 (23%) |
+| Latência do turno do bot p50 / p95 / máx | 8.9s / 16.5s / 20.5s |
+| Turnos por conversa (média) | 3.7 |
+| Fonte das respostas (turnos) | rag: 43, gate:opening_question: 22, saudacao: 10, escalou: 3, faq: 3, gate:closure: 1 |
 
 ## Por trilha
 
 | Trilha | n | cumprido | sat. sim | nota geral | alucinação |
 |---|---|---|---|---|---|
-| confuso_digitacao | 3 | 33% | 0% | 3.2 | 0% |
-| faq_direta | 7 | 71% | 57% | 6.4 | 14% |
-| follow_up_contextual | 4 | 100% | 25% | 6.1 | 0% |
-| fora_do_escopo | 1 | 100% | 0% | 6.0 | 0% |
-| multi_pergunta | 2 | 50% | 0% | 5.0 | 0% |
-| rag_documento | 4 | 75% | 50% | 6.8 | 0% |
-| reclamacao_irritado | 1 | 100% | 0% | 5.0 | 100% |
+| confuso_digitacao | 3 | 67% | 33% | 5.0 | 33% |
+| faq_direta | 7 | 86% | 57% | 7.0 | 14% |
+| follow_up_contextual | 4 | 75% | 75% | 6.8 | 25% |
+| fora_do_escopo | 1 | 100% | 0% | 5.5 | 0% |
+| multi_pergunta | 2 | 0% | 0% | 3.8 | 50% |
+| rag_documento | 4 | 100% | 25% | 5.5 | 25% |
+| reclamacao_irritado | 1 | 100% | 0% | 7.0 | 0% |
 
 ## 10 piores
 
 | id | trilha | nota | satisf. | parada | problemas |
 |---|---|---|---|---|---|
-| [`conf-07`](painel.html#conf-07) | confuso_digitacao | 1.5 | nao | escalou | Não entendeu a mensagem com erros de digitação ('imeil', 'cm troca la') e escalou por low_confidence; Não pediu esclarecimento antes de transferir; Não informou o caminho Configurações Básicas > Informações Úteis, que es |
-| [`faq-03`](painel.html#faq-03) | faq_direta | 2 | nao | escalou | Escalou sem necessidade um caso respondido diretamente pela FAQ; Tratou a resposta ao gate da SUSEP ('não sei') como se fosse a pergunta e não retomou a dúvida original sobre inadimplência; Não explicou a causa do aviso  |
-| [`conf-03`](painel.html#conf-03) | confuso_digitacao | 2 | nao | escalou | Escalou por low_confidence mesmo com FAQ específica para boleto suspeito de renovação de domínio; Não retomou a pergunta original depois do gate da SUSEP; Não orientou o cliente a não pagar nem a enviar o boleto para ate |
-| [`multi-09`](painel.html#multi-09) | multi_pergunta | 3.5 | parcial | escalou | Não informou que as redes sociais ficam em Configurações Básicas > Informações Úteis, apesar de estar no documento e no FAQ; Tratou a pergunta múltipla de forma incompleta: das três dúvidas, respondeu duas; Turno 3 com c |
-| [`recl-01`](painel.html#recl-01) | reclamacao_irritado | 5 | parcial | escalou | Não explicou a regra do dia 20: cancelamento pedido depois do dia 20 pode gerar uma última cobrança; Não informou os critérios de estorno (erro real na cobrança ou cancelamento pedido e não realizado); Pediu os dados err |
-| [`faq-23`](painel.html#faq-23) | faq_direta | 5 | parcial | max_turnos | Turno 2 com desambiguação sem relação a um pedido claro de telefone; Gastou um turno extra com um cliente que disse ser urgente; Omitiu o e-mail atendimento@oncorretor.com.br e o chat, que estão na FAQ; Repetiu a saudaçã |
-| [`follow-17`](painel.html#follow-17) | follow_up_contextual | 5.5 | parcial | escalou | Turno 3 com saudação genérica fora de contexto; Turno 4 usou o tópico errado (63 em vez do 64) e pediu print de uma 'mensagem de erro' que não existe; Não reforçou os testes de aba anônima e outro navegador antes de mand |
-| [`follow-04`](painel.html#follow-04) | follow_up_contextual | 5.5 | parcial | cliente_encerrou | Não aplicou a regra do dia 20 ao caso concreto: com pedido feito até o dia 20, não deve haver nova mensalidade e o estorno é cabível; Repetiu a regra de após o dia 20 e o 'não utilizei', que não se aplicam ao que o clien |
-| [`rag-10`](painel.html#rag-10) | rag_documento | 5.5 | parcial | cliente_encerrou | Passou só 1 das 4 recomendações de segurança do tópico 28; Faltaram autenticação em dois fatores, troca periódica de senha/senha forte e antivírus; Não respondeu diretamente se o e-mail tinha vindo do OnCorretor; Não lig |
-| [`fora-10`](painel.html#fora-10) | fora_do_escopo | 6 | parcial | cliente_encerrou | Recusa genérica, sem listar os serviços do OnCorretor (site, landing pages, e-mails, domínio, adesão, cobrança); Não usou a resposta de FAQ disponível para consultoria fora do escopo; Saudação 'Bom dia' incoerente: a cli |
+| [`conf-07`](painel.html#conf-07) | confuso_digitacao | 2 | nao | escalou | Transferiu para humano sem necessidade, por baixa confiança; Não entendeu a mensagem com erros de digitação ('imeil', 'cm troca la'); Não pediu para o cliente esclarecer antes de transferir; Não informou o caminho Config |
+| [`follow-04`](painel.html#follow-04) | follow_up_contextual | 2.5 | nao | cliente_encerrou | Aplicou errado a regra do dia 20: disse que o cancelamento até o dia 20 só evita cobranças futuras e mantém a cobrança atual; Desencorajou um pedido de estorno que, pelo documento, tinha fundamento; O cliente desistiu de |
+| [`multi-09`](painel.html#multi-09) | multi_pergunta | 3 | nao | escalou | Não respondeu onde ficam os links de redes sociais (Configurações Básicas > Informações Úteis); Turno 3 respondeu sobre logotipo, um assunto que não foi perguntado; Transferiu para humano sem necessidade, por baixa confi |
+| [`rag-08`](painel.html#rag-08) | rag_documento | 4 | nao | max_turnos | Repetiu os passos de aba anônima e outro navegador depois de a cliente dizer que já tinha testado; Não respondeu à pergunta direta sobre abrir o chamado pelo chat; Não transferiu para humano apesar da urgência e da persi |
+| [`multi-06`](painel.html#multi-06) | multi_pergunta | 4.5 | parcial | cliente_encerrou | Afirmou não ter as regras de senha, que estão documentadas no tópico 42 e na FAQ; Não informou o mínimo de 6 caracteres nem a regra de 3 dos 4 requisitos; Omitiu a etapa de validar o token e ativar na autenticação em dua |
+| [`faq-12`](painel.html#faq-12) | faq_direta | 5 | parcial | cliente_encerrou | Não avisou que o custo do domínio registrado pelo OnCorretor pode ser cobrado mesmo com o serviço ativo por pouco tempo; Quando o cliente perguntou 'não vai ter cobrança nenhuma?', a resposta deixou entender que o custo  |
+| [`fora-10`](painel.html#fora-10) | fora_do_escopo | 5.5 | parcial | cliente_encerrou | A recusa não disse que o assunto não é do OnCorretor nem listou os serviços com que o bot pode ajudar, ao contrário do que a FAQ indica; Respondeu 'Bom dia' quando a cliente disse 'boa tarde'; Respondeu à despedida com u |
+| [`conf-04`](painel.html#conf-04) | confuso_digitacao | 5.5 | parcial | cliente_encerrou | Não citou a redefinição pelo painel de e-mails (painel.seudominio.com.br) para quem tem acesso de administrador; Não explicou que no webmail o usuário é só o nome antes do '@', possível causa do erro de login; Turno 3 ig |
+| [`rag-22`](painel.html#rag-22) | rag_documento | 6 | parcial | cliente_encerrou | Turno 2 sem o e-mail de destino e sem introdução, o que obrigou a cliente a perguntar de novo; Turno 3 com o conteúdo duplicado e um 'Olá!' no meio da mensagem; Saudação errada: 'Bom dia' quando a cliente disse 'boa tard |
+| [`rag-10`](painel.html#rag-10) | rag_documento | 6 | parcial | cliente_encerrou | Deixou de fora 3 das 4 recomendações do tópico 28: autenticação em dois fatores, troca periódica de senhas fortes e antivírus atualizado; Não respondeu de forma direta se o e-mail pedindo senha vinha do OnCorretor; Disse |
 
 ## 10 melhores
 
 | id | trilha | nota | satisf. | parada | destaques/obs. |
 |---|---|---|---|---|---|
-| [`rag-22`](painel.html#rag-22) | rag_documento | 8.3 | sim | cliente_encerrou | Cumprimentou com 'Bom dia!' quando a cliente tinha dito 'boa tarde'; No turno 3, repetiu as instruções em vez de só se despedir; No turno 3, omitiu a informação 'em qual etapa o erro ocorreu'; Repetiu o link do portal de |
-| [`faq-12`](painel.html#faq-12) | faq_direta | 8 | sim | cliente_encerrou | Cumprimentou com 'Bom dia' quando o cliente disse 'boa tarde'; Turno 3 repetiu informação sem necessidade no encerramento; Turno 3 atribuiu o custo do domínio ao Registro.br sem base no documento; Chamou de 'renovação an |
-| [`faq-15`](painel.html#faq-15) | faq_direta | 8 | sim | cliente_encerrou | Diz 'Bom dia' duas vezes, quando o cliente cumprimentou com 'Boa tarde'; Responde ao agradecimento final com uma saudação genérica fora de contexto; A primeira resposta usa jargão técnico com um cliente leigo; Não explic |
-| [`faq-04`](painel.html#faq-04) | faq_direta | 7.5 | parcial | escalou | Saudação 'Bom dia' quando a cliente disse 'boa tarde'; Resposta do turno 2 quase copiada do documento, pouco adaptada ao WhatsApp; Mensagem de transferência genérica, sem aproveitar a informação de que a regularização é  |
-| [`rag-02`](painel.html#rag-02) | rag_documento | 7.5 | sim | cliente_encerrou | Cumprimenta com 'Bom dia' quando a cliente disse 'Boa tarde'; No turno 2 não informou o e-mail de destino, exigindo uma pergunta a mais; Omitiu a recomendação de usar e-mail externo (Gmail/Hotmail) no cadastro; No turno  |
-| [`follow-16`](painel.html#follow-16) | follow_up_contextual | 7.5 | sim | cliente_encerrou | O bot respondeu a despedida do cliente com uma nova saudação, sem encerrar a conversa; Disse 'Bom dia' quando o cliente tinha dito 'boa tarde'; Texto do turno 2 copiado do documento, pouco adaptado ao tom informal do Wha |
-| [`faq-09`](painel.html#faq-09) | faq_direta | 7.5 | sim | cliente_encerrou | Saudação 'Bom dia!' fora de contexto: a cliente disse 'boa tarde'; O agradecimento final foi classificado como saudação, e o bot respondeu com uma abertura genérica em vez de se despedir; Usou 'ajudá-lo' no masculino com |
-| [`faq-22`](painel.html#faq-22) | faq_direta | 7 | sim | cliente_encerrou | Saudação 'Bom dia!' repetida fora de contexto nos turnos 2 e 3; O bot não reconheceu o agradecimento/encerramento e respondeu como se fosse uma conversa nova; Usou 'ajudá-lo' no masculino com uma cliente mulher; Não escl |
-| [`multi-06`](painel.html#multi-06) | multi_pergunta | 6.5 | parcial | cliente_encerrou | Turno 3 respondeu só se a autenticação é obrigatória, sem explicar como ativar; Não mencionou os códigos de recuperação, que o painel gera uma única vez; Respondeu à despedida com saudação genérica ('Bom dia! Como posso  |
-| [`rag-08`](painel.html#rag-08) | rag_documento | 6 | parcial | escalou | No turno 3, disse que o assunto estava fora do escopo quando o chamado era o passo seguinte que ele mesmo tinha orientado; Não orientou como enviar o print nem pediu domínio ou dados para o chamado; Só transferiu porque  |
+| [`follow-16`](painel.html#follow-16) | follow_up_contextual | 9 | sim | cliente_encerrou | Disse 'Bom dia!' quando o cliente tinha cumprimentado com 'boa tarde'.; Cumprimentou de novo no turno 2 sem necessidade.; Tom um pouco formal ('É importante saber...') para um cliente informal. |
+| [`faq-09`](painel.html#faq-09) | faq_direta | 8.5 | sim | cliente_encerrou | Cumprimentou com 'Bom dia!' quando a cliente tinha dito 'boa tarde', e cumprimentou de novo depois do gate da SUSEP; A resposta do turno 3 repete informações já dadas, sem acrescentar nada; Não ofereceu mais ajuda nem en |
+| [`faq-22`](painel.html#faq-22) | faq_direta | 8 | sim | cliente_encerrou | Cumprimento repetido ('Bom dia!' no turno 2 e 'Olá!' no turno 3); Não reconheceu que a cliente estava agradecendo e encerrando: repetiu a resposta inteira em vez de se despedir; Informações repetidas deixaram o fim da co |
+| [`follow-17`](painel.html#follow-17) | follow_up_contextual | 8 | sim | cliente_encerrou | No último turno o bot respondeu à despedida com uma saudação genérica, 'Como posso ajudá-lo?'; Saudação no horário errado ('Bom dia' quando a cliente disse 'boa tarde'); Tratou a cliente no masculino ('ajudá-lo'); No tur |
+| [`faq-04`](painel.html#faq-04) | faq_direta | 8 | sim | cliente_encerrou | No turno 3, o agradecimento foi tratado como saudação e o bot respondeu com uma mensagem genérica, fora de contexto; Não houve fechamento adequado depois do agradecimento; Usou 'ajudá-lo' (masculino) com uma cliente mulh |
+| [`conf-03`](painel.html#conf-03) | confuso_digitacao | 7.5 | sim | cliente_encerrou | No turno 2 o bot não tratou a suspeita de boleto com valor alto, que era a dúvida central do cliente; No turno 2 o bot recomendou 'fazer o pagamento antes do vencimento', o que é arriscado diante de um boleto possivelmen |
+| [`follow-01`](painel.html#follow-01) | follow_up_contextual | 7.5 | sim | cliente_encerrou | Não informou que não há taxa de adesão; Saudação 'Bom dia' respondendo a um 'boa tarde'; No turno 4, respondeu à despedida com uma saudação genérica e no masculino ('ajudá-lo'); Não mencionou como pedir o cancelamento (e |
+| [`recl-01`](painel.html#recl-01) | reclamacao_irritado | 7 | parcial | escalou | Nenhuma empatia com um cliente visivelmente irritado; Saudação repetida ('Bom dia!') depois de já ter cumprimentado; Não reconheceu que cancelar até o dia 20 impede novas cobranças, o que favorece o estorno; Turno 3 repe |
+| [`faq-15`](painel.html#faq-15) | faq_direta | 7 | sim | cliente_encerrou | Não alertou sobre guardar os códigos de recuperação, que não podem ser consultados depois; Não citou os botões 'Validar Token' e 'Ativar'; Deu 'Bom dia' quando o cliente disse 'Boa tarde'; No encerramento, respondeu com  |
+| [`faq-23`](painel.html#faq-23) | faq_direta | 6.5 | parcial | max_turnos | No turno 2, o menu de desambiguação não tinha relação com o pedido explícito de telefone do suporte; Disse 'Bom dia' quando o cliente tinha dito 'Boa tarde'; Levou um turno a mais para responder uma pergunta direta de FA |
 
 Transcrição completa de cada conversa: `painel.html` (abrir por file://) ou `resultados/conversas.jsonl`; veredito: `resultados/julgamentos.jsonl`.
