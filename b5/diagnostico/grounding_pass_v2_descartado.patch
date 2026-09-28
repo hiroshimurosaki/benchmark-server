@@ -1,0 +1,184 @@
+diff --git a/Answer_service/src/services/API/qa_system.py b/Answer_service/src/services/API/qa_system.py
+index ef84ac7..94cc437 100644
+--- a/Answer_service/src/services/API/qa_system.py
++++ b/Answer_service/src/services/API/qa_system.py
+@@ -1,4 +1,5 @@
+ import os
++import re
+ import logging
+ import threading
+ import time
+@@ -17,7 +18,10 @@ from Answer_service.src.controllers.api_key_manager import ChangeApiKey
+ from Answer_service.src.firebase_service import firebase_service
+ 
+ from Answer_service.src.utils.config import get_org_docs_path
+-from Answer_service.src.utils.prompt import ANSWER_PROMPT_SYSTEM, ANSWER_PROMPT_USER, DEFAULT_WHO_AM_I
++from Answer_service.src.utils.prompt import (
++    ANSWER_PROMPT_SYSTEM, ANSWER_PROMPT_USER, DEFAULT_WHO_AM_I,
++    GROUNDING_PROMPT_SYSTEM, GROUNDING_PROMPT_USER,
++)
+ 
+ from Document_service.src.services.text_formatter import format_retriever
+ from Document_service.src.services.vectorstore import acess_vector_store
+@@ -212,9 +216,10 @@ class QaSystem:
+             return "IRRELEVANTE: No relevant context found."
+ 
+         system_template = answer_system_override or ANSWER_PROMPT_SYSTEM
++        full_context    = (final_infos["context"] + extra_context).strip()
+         system_content  = system_template.format(
+             who_am_I=final_infos["who_am_I"],
+-            context=(final_infos["context"] + extra_context).strip(),
++            context=full_context,
+             help_portal_directive=help_portal_directive or "",
+         )
+         user_content = ANSWER_PROMPT_USER.format(question=final_infos["question"])
+@@ -269,6 +274,10 @@ class QaSystem:
+                     "total_s": gen_s,
+                     "truncated": False,
+                 })
++                if _grounding_enabled():
++                    answer = _ground_answer(
++                        answer, full_context, help_portal_directive, pure_question,
++                    )
+                 return answer
+ 
+             except Exception as e:
+@@ -285,6 +294,97 @@ class QaSystem:
+         raise last_err
+ 
+ 
++def _grounding_enabled() -> bool:
++    return os.environ.get("RAG_GROUNDING_PASS", "").strip().lower() in ("1", "true", "on")
++
++
++_GROUNDING_NO_INFO = "Desculpe, não tenho essa informação nos meus documentos. 😕"
++_SENTENCE_BREAK = re.compile(r"(?<=[.!?])\s+(?=\S)")
++_LIST_MARKER = re.compile(r"^\s*(?:[-*•]\s*)?\d+[.)]?$")
++_HAS_LETTER = re.compile(r"[^\W\d_]")
++
++
++def _split_units(answer: str) -> list:
++    """Quebra a resposta em [(linha, texto)] por frase, preservando a linha de
++    origem. Um marcador de lista solto ("1.") volta a se juntar à frase seguinte,
++    e um fragmento sem letra (emoji) se junta à anterior."""
++    units = []
++    for li, line in enumerate(answer.split("\n")):
++        parts = [p for p in _SENTENCE_BREAK.split(line) if p.strip()]
++        merged = []
++        for p in parts:
++            if merged and (_LIST_MARKER.match(merged[-1]) or not _HAS_LETTER.search(p)):
++                merged[-1] = f"{merged[-1]} {p}"
++            else:
++                merged.append(p)
++        units.extend((li, p) for p in merged)
++    return units
++
++
++def _ground_answer(answer: str, context: str,
++                   help_portal_directive: str, pure_question: str) -> str:
++    """Revisão de fidelidade (RAG_GROUNDING_PASS=1): o LLM aponta, por número,
++    as frases sem base no contexto e o código as remove — nada é reescrito.
++    Desligada por padrão. Em erro ou saída ilegível, devolve a resposta original:
++    o passo nunca derruba o atendimento."""
++    units = _split_units(answer)
++    if not units:
++        return answer
++    numbered = "\n".join(f"[{i}] {text.strip()}" for i, (_, text) in enumerate(units, 1))
++    system_content = GROUNDING_PROMPT_SYSTEM.format(
++        context=context,
++        help_portal_directive=help_portal_directive or "(vazia)",
++    )
++    user_content = GROUNDING_PROMPT_USER.format(numbered=numbered)
++    try:
++        chain = llm_provider.build_chat_model(role="answer") | StrOutputParser()
++        t0 = time.time()
++        with get_openai_callback() as cb:
++            verdict = chain.invoke([
++                SystemMessage(content=system_content),
++                HumanMessage(content=user_content),
++            ]).strip()
++        save_token_history(
++            llm_provider.service_label(), os.environ.get("API_KEY", ""), "Answer_grounding",
++            cb.prompt_tokens, cb.completion_tokens, pure_question, datetime.now(),
++        )
++        llm_provider.observe("Answer_grounding", {
++            "service": llm_provider.service_label(),
++            "model": llm_provider.active_model("answer"),
++            "prompt_tokens": cb.prompt_tokens,
++            "completion_tokens": cb.completion_tokens,
++            "ttft_s": None,
++            "total_s": round(time.time() - t0, 3),
++            "truncated": False,
++        })
++    except Exception as e:
++        logger.warning("[RAG] revisão de fidelidade falhou — mantendo a resposta original | err=%s", e)
++        return answer
++
++    drop = {int(n) for n in re.findall(r"\d+", verdict) if 1 <= int(n) <= len(units)}
++    if not drop:
++        return answer
++
++    kept_by_line: dict = {}
++    for i, (li, text) in enumerate(units, 1):
++        if i not in drop:
++            kept_by_line.setdefault(li, []).append(text.strip())
++    if not kept_by_line:
++        logger.info("[RAG] revisão de fidelidade: nenhuma frase com base — resposta vira 'não tenho'")
++        return _GROUNDING_NO_INFO
++
++    content_lines = {li for li, _ in units}
++    out = []
++    for li, line in enumerate(answer.split("\n")):
++        if li in kept_by_line:
++            out.append(" ".join(kept_by_line[li]))
++        elif li not in content_lines and out and out[-1] != "":
++            out.append("")  # linha em branco original (separador de parágrafo)
++    revised = "\n".join(out).strip()
++    logger.info("[RAG] revisão de fidelidade cortou %d de %d frases", len(drop), len(units))
++    return revised or answer
++
++
+ def get_qa_system(org_id: str, features) -> Any:
+     if not features.ai.enabled:
+         raise RuntimeError("Org has features.ai disabled")
+diff --git a/Answer_service/src/utils/prompt.py b/Answer_service/src/utils/prompt.py
+index c7611ef..f329e88 100644
+--- a/Answer_service/src/utils/prompt.py
++++ b/Answer_service/src/utils/prompt.py
+@@ -123,6 +123,36 @@ cancelamento, saudação, agradecimento ou à frase de "não tenho essa informa
+ ANSWER_PROMPT_USER = """{question}"""
+ 
+ 
++# ---------------------------------------------------------------------------
++# GROUNDING — revisão de fidelidade da resposta RAG (RAG_GROUNDING_PASS=1)
++# O verificador de resposta só julga relevância; este passo corta o que o
++# contexto não sustenta (passo, promessa, consequência, canal inventados).
++# ---------------------------------------------------------------------------
++
++# Sem a pergunta de propósito: o passo só julga se cada frase tem base no
++# contexto, nunca se a resposta atende à pergunta (isso é do answer_verifier).
++# Com a pergunta, uma resposta ao "não sei minha SUSEP" era zerada por inteiro.
++# A saída é só a lista de números — o corte é feito no código, sem reescrita.
++GROUNDING_PROMPT_SYSTEM = """Você confere frases de um atendente virtual contra o CONTEXTO, que é a única fonte de verdade.
++
++CONTEXTO:
++{context}
++
++DIRETIVA DA EMPRESA (também vale como fonte):
++{help_portal_directive}
++
++Liste as frases que afirmam algo que o CONTEXTO e a DIRETIVA não dizem: passo, menu, campo, tela,
++caminho, link, e-mail, canal, prazo, valor, regra, consequência, promessa ("nossa equipe vai..."),
++garantia ou recomendação que não esteja escrita lá. Uma frase que parafraseia o CONTEXTO tem base.
++Nunca liste cumprimentos, "De nada" nem frases "Sobre [parte], não tenho essa informação nos meus documentos."
++
++Cada frase vem com um número entre colchetes. Responda só com esses números separados por
++vírgula (ex.: 2,5) ou NENHUMA."""
++
++GROUNDING_PROMPT_USER = """FRASES:
++{numbered}"""
++
++
+ # ---------------------------------------------------------------------------
+ # ANSWER VERIFICATION — WITHOUT HISTORY
+ # System: evaluation rules
