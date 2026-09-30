@@ -23,6 +23,7 @@ def main() -> None:
     ap.add_argument("--de", required=True)
     ap.add_argument("--para", required=True)
     ap.add_argument("--bot-repo", required=True, help="repo com scripts/org_perfeita (doc + FAQ/DTQ)")
+    ap.add_argument("--ids", default="", help="só estes ids (vírgula)")
     ap.add_argument("--objetivos", default=os.path.join(B5_DIR, "objetivos_b5.jsonl"))
     a = ap.parse_args()
 
@@ -38,6 +39,8 @@ def main() -> None:
     feitos = {j["id"] for j in load_jsonl(p_juiz)}
     for conv in load_jsonl(os.path.join(a.de, "conversas.jsonl")):
         if conv["id"] in feitos:
+            continue
+        if a.ids and conv["id"] not in a.ids.split(","):
             continue
         j = chamar_juiz(objs[conv["id"]], conv, mat)
         v = j["obj"] if j["ok"] else None

@@ -139,6 +139,13 @@ Avalie SÓ o BOT (o cliente é simulado). Critérios:
 - problemas / destaques: frases curtas e concretas.
 Seja rigoroso e consistente. Responda no JSON pedido, em português."""
 
+# Rubrica com as faixas de nota calibradas no juiz anterior (Opus). Vai junto
+# do system para qualquer juiz — é o que torna o Muse comparável ao Opus.
+try:
+    SYSTEM_JUIZ += "\n\n" + open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "rubrica_juiz.md"), encoding="utf-8").read()
+except FileNotFoundError:
+    pass
+
 
 class Material:
     def __init__(self, bot_repo: str, faq_dtq_firestore: dict):

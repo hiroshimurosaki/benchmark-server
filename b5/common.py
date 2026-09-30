@@ -248,7 +248,10 @@ def chamar_llm(papel: str, modelo_claude: str, system: str, user: str, schema: d
     """
     est = ESTADO_FALLBACK
     tentativas = []
-    if not est.em_janela_fallback():
+    # B5_SO_OPENCODE=juiz[,cliente]: esses papéis vão direto ao opencode (Muse),
+    # sem gastar Claude. Decisão de 2026-09-30: o juiz passou a ser o Muse.
+    so_opencode = papel in {x.strip() for x in os.environ.get("B5_SO_OPENCODE", "").split(",") if x.strip()}
+    if not so_opencode and not est.em_janela_fallback():
         for i in range(2):
             r = _chamar_claude(modelo_claude, system, user, schema, timeout)
             est.n_claude += 1
